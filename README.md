@@ -3,11 +3,23 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
 
 # Table of Contents
 1. Overview
+2. Roadmap Files
+   ⋅ Understanding Data Engineering
+
 
 
 
 # Overview
 This repository is structured to reflect my learning path in data engineering. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
+
+
+
+
+# Roadmap Files
+
+# Understanding Data Engineering
+The `Understanding Data Engineering.md` file compiles key theoretical concepts and definitions that I learned from the DataCamp "Understanding Data Engineering" course. This file serves as a reference guide for important topics and terminologies in data engineering.
+
 
 
 
