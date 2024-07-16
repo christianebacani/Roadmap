@@ -48,11 +48,13 @@ The `Understanding Data Engineering.md` file compiles key theoretical concepts a
 - **View**: Output of a stored, frequent query on the data.
 
 ## Contact
+
 Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
 
-Email: [your-email@example.com]
-LinkedIn: [https://www.linkedin.com/in/christianebacani/]
-Portfolio: [https://www.datacamp.com/portfolio/bioy7bp5]
+- **Email**: [christianbacani581@gmail.com](mailto:christianbacani581@gmail.com)
+- **LinkedIn**: [Christian Bacani](https://www.linkedin.com/in/christianebacani/)
+- **Portfolio**: [Christian Bacani on DataCamp](https://www.datacamp.com/portfolio/bioy7bp5)
+
 
 
 ## Conclusion
