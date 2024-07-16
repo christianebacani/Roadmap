@@ -1,1 +1,9 @@
+USE practiceDB;
 
+
+SELECT
+	country,
+    SUM(gross) AS total_gross
+FROM films
+GROUP BY country
+HAVING SUM(gross) > (SELECT AVG(f.gross) FROM films AS f WHERE f.country = films.country)
