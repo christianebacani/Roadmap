@@ -47,7 +47,17 @@ The `Understanding Data Engineering.md` file compiles key theoretical concepts a
 - **Semi-Structured Data**: A mix of both structured and unstructured data, often stored in JSON, XML, or YAML formats.
 - **View**: Output of a stored, frequent query on the data.
 
-This file is a cornerstone for my learning and provides the foundational knowledge necessary for building and understanding data engineering projects.
+## Contact
+Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
+
+Email: [your-email@example.com]
+LinkedIn: [https://www.linkedin.com/in/christianebacani/]
+Portfolio: [https://www.datacamp.com/portfolio/bioy7bp5]
+
+
+## Conclusion
+
+This repository not only tracks my progress but also serves as a portfolio to demonstrate my skills and knowledge in data engineering. Each file and project is a step towards mastering data engineering and achieving my career goals.
 
 
 
