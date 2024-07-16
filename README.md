@@ -17,6 +17,14 @@ This repository is structured to reflect my learning path in data engineering. T
 
 The `Understanding Data Engineering.md` file compiles key theoretical concepts and definitions that I learned from the DataCamp "Understanding Data Engineering" course. This file serves as a reference guide for important topics and terminologies in data engineering.
 
+### Introduction to SQL
+
+The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain projects I created while learning Introduction to SQL. These are simple mini-projects that demonstrate concepts learned during the course, focusing on:
+
+- **Stored Procedures**: Demonstrated in the `Stored Procedure.sql` file.
+- **Creating Views in SQL**: Showcased in the `Student Tables and Views.sql` file.
+
+
 ### Key Concepts Covered:
 
 - **Airflow**: An open-source workflow management platform used to schedule data engineering tasks.
