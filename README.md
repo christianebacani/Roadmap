@@ -6,7 +6,8 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
 1. [Overview](#overview)
 2. [Roadmap Files](#roadmap-files)
    - [Understanding Data Engineering](#understanding-data-engineering)
-
+   - [Introduction to SQL](#introduction-to-sql)
+   
 ## Overview
 
 This repository is structured to reflect my learning path in data engineering. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
@@ -24,8 +25,7 @@ The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain proj
 - **Stored Procedures**: Demonstrated in the `Stored Procedure.sql` file.
 - **Creating Views in SQL**: Showcased in the `Student Tables and Views.sql` file.
 
-
-### Key Concepts Covered:
+### Key Concepts Covered
 
 - **Airflow**: An open-source workflow management platform used to schedule data engineering tasks.
 - **AWS (Amazon Web Services)**: Amazon's cloud computing services.
@@ -62,8 +62,6 @@ Feel free to reach out to me if you have any questions or would like to collabor
 - **Email**: [christianbacani581@gmail.com](mailto:christianbacani581@gmail.com)
 - **LinkedIn**: [Christian Bacani](https://www.linkedin.com/in/christianebacani/)
 - **Portfolio**: [Christian Bacani on DataCamp](https://www.datacamp.com/portfolio/bioy7bp5)
-
-
 
 ## Conclusion
 
