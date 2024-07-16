@@ -7,7 +7,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
 
 
 # Overview
-This repository is structured to reflect my learning path in data engineering and data analysis. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
+This repository is structured to reflect my learning path in data engineering. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
 
 
 
