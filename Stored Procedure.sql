@@ -1,12 +1,20 @@
 USE practiceDB;
 
+USE practicedb;
 
-SELECT
-	country,
-    SUM(gross) AS total_gross
-FROM films
-GROUP BY country
-HAVING SUM(gross) > (SELECT AVG(f.gross) FROM films AS f WHERE f.country = films.country)
+DELIMITER //
+CREATE PROCEDURE film_budget(IN id INT, IN film_title VARCHAR(255), IN year YEAR, IN film_country VARCHAR(255), IN film_gross INT, IN film_budget INT)
+BEGIN
+	SELECT
+		film_id,
+        title,
+        release_year,
+        country,
+        (gross - budget) AS profit
+	FROM films
+    WHERE (film_id = id) AND (title = film_title) AND (release_year = year) AND (country = film_country) AND (gross = film_gross) AND (budget = film_budget);
+END //
+
 
 
 
