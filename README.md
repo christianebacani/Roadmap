@@ -7,6 +7,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
 2. [Roadmap Files](#roadmap-files)
    - [Understanding Data Engineering](#understanding-data-engineering)
    - [Introduction to SQL](#introduction-to-sql)
+   - [Intermediate SQL](#intermediate-sql)
    
 ## Overview
 
@@ -18,7 +19,7 @@ This repository is structured to reflect my learning path in data engineering. T
 
 The `Understanding Data Engineering.md` file compiles key theoretical concepts and definitions that I learned from the DataCamp "Understanding Data Engineering" course. This file serves as a reference guide for important topics and terminologies in data engineering.
 
-### Key Concepts Covered
+#### Key Concepts Covered
 
 - **Airflow**: An open-source workflow management platform used to schedule data engineering tasks.
 - **AWS (Amazon Web Services)**: Amazon's cloud computing services.
@@ -48,7 +49,6 @@ The `Understanding Data Engineering.md` file compiles key theoretical concepts a
 - **Semi-Structured Data**: A mix of both structured and unstructured data, often stored in JSON, XML, or YAML formats.
 - **View**: Output of a stored, frequent query on the data.
 
-
 ### Introduction to SQL
 
 The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain projects I created while learning Introduction to SQL. These are simple mini-projects that demonstrate concepts learned during the course, focusing on:
@@ -56,6 +56,24 @@ The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain proj
 - **Stored Procedures**: Demonstrated in the `Stored Procedure.sql` file.
 - **Creating Views in SQL**: Showcased in the `Student Tables and Views.sql` file.
 
+### Intermediate SQL
+
+The Intermediate SQL section includes five mini-projects, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
+
+1. **Aggregation Functions, Order by, Group by, Round.sql**  
+   This project demonstrates the use of aggregation functions such as `SUM`, `AVG`, and `COUNT`, along with the `GROUP BY` clause to organize data into summary rows. It also demonstrates how to use `ORDER BY` to sort query results and the `ROUND` function to format numerical outputs.
+
+2. **Comparison Operators, Arithmetic Operations, Having.sql**  
+   This project illustrates the application of comparison operators (e.g., `=`, `!=`, `>`, `<`), arithmetic operations (e.g., `+`, `-`, `*`, `/`), and the `HAVING` clause to filter grouped data based on aggregate conditions.
+
+3. **Count with Order By and Limit.sql**  
+   This project shows how to use the `COUNT` function to count records and combine it with `ORDER BY` to sort the results, and `LIMIT` to restrict the number of rows returned.
+
+4. **Distinct, Like, Not like, Is not null.sql**  
+   This project covers the use of `DISTINCT` to remove duplicate rows, pattern matching with `LIKE` and `NOT LIKE`, and checking for non-null values using `IS NOT NULL`.
+
+5. **Where Clause with Between, And, Or.sql**  
+   This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
 
 ## Contact
 
@@ -68,7 +86,3 @@ Feel free to reach out to me if you have any questions or would like to collabor
 ## Conclusion
 
 This repository not only tracks my progress but also serves as a portfolio to demonstrate my skills and knowledge in data engineering. Each file and project is a step towards mastering data engineering and achieving my career goals.
-
-
-
-
