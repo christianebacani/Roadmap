@@ -62,7 +62,7 @@ The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain proj
 
 The Intermediate SQL section includes five mini-projects and one guided project, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
 
-1. **Analyzing Student's Mental Health.sql**  
+1. **Analyzing Student's Mental Health (Guided Project in DataCamp).sql**  
    This guided project is my first guided project in DataCamp (excluding the Introduction to Notebook Projects). This guided project taught me how to use notebooks properly and implement practical SQL skills. It includes concepts like `GROUP BY`, `WHERE`, `AVG`, `ROUND`, `ORDER BY`, `COUNT`, and `LIMIT`. These skills are essential for complex queries of SQL tables that I can use in my future projects. I have also committed the necessary dataset `students.csv` used in this guided project to the repository.
 
 2. **Aggregation Functions, Order by, Group by, Round.sql**  
