@@ -8,7 +8,9 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Understanding Data Engineering](#understanding-data-engineering)
    - [Introduction to SQL](#introduction-to-sql)
    - [Intermediate SQL](#intermediate-sql)
-   
+3. [Contact](#contact)
+4. [Conclusion](#conclusion)
+
 ## Overview
 
 This repository is structured to reflect my learning path in data engineering. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
@@ -58,21 +60,24 @@ The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain proj
 
 ### Intermediate SQL
 
-The Intermediate SQL section includes five mini-projects, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
+The Intermediate SQL section includes five mini-projects and one guided project, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
 
-1. **Aggregation Functions, Order by, Group by, Round.sql**  
+1. **Analyzing Student's Mental Health.sql**  
+   This guided project is my first guided project in DataCamp (excluding the Introduction to Notebook Projects). This guided project taught me how to use notebooks properly and implement practical SQL skills. It includes concepts like `GROUP BY`, `WHERE`, `AVG`, `ROUND`, `ORDER BY`, `COUNT`, and `LIMIT`. These skills are essential for complex queries of SQL tables that I can use in my future projects. I have also committed the necessary dataset `students.csv` used in this guided project to the repository.
+
+2. **Aggregation Functions, Order by, Group by, Round.sql**  
    This project demonstrates the use of aggregation functions such as `SUM`, `AVG`, and `COUNT`, along with the `GROUP BY` clause to organize data into summary rows. It also demonstrates how to use `ORDER BY` to sort query results and the `ROUND` function to format numerical outputs.
 
-2. **Comparison Operators, Arithmetic Operations, Having.sql**  
+3. **Comparison Operators, Arithmetic Operations, Having.sql**  
    This project illustrates the application of comparison operators (e.g., `=`, `!=`, `>`, `<`), arithmetic operations (e.g., `+`, `-`, `*`, `/`), and the `HAVING` clause to filter grouped data based on aggregate conditions.
 
-3. **Count with Order By and Limit.sql**  
+4. **Count with Order By and Limit.sql**  
    This project shows how to use the `COUNT` function to count records and combine it with `ORDER BY` to sort the results, and `LIMIT` to restrict the number of rows returned.
 
-4. **Distinct, Like, Not like, Is not null.sql**  
+5. **Distinct, Like, Not like, Is not null.sql**  
    This project covers the use of `DISTINCT` to remove duplicate rows, pattern matching with `LIKE` and `NOT LIKE`, and checking for non-null values using `IS NOT NULL`.
 
-5. **Where Clause with Between, And, Or.sql**  
+6. **Where Clause with Between, And, Or.sql**  
    This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
 
 ## Contact
