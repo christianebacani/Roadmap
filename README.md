@@ -66,6 +66,7 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    This guided project is my first guided project in DataCamp (excluding the Introduction to Notebook Projects). This guided project taught me how to use notebooks properly and implement practical SQL skills. It includes concepts like `GROUP BY`, `WHERE`, `AVG`, `ROUND`, `ORDER BY`, `COUNT`, and `LIMIT`. These skills are essential for complex queries of SQL tables that I can use in my future projects. I have also committed the necessary dataset `students.csv` used in this guided project to the repository.
 
 2. **Analyze International Debt's Statistics (Guided Project in DataCamp).sql**
+   
    This guided project is my second project on DataCamp, where I used DataCamp Notebook and PostgreSQL. This project gradually built my confidence in creating projects related to my dream job. I learned to use various practical SQL skills such as `COUNT`, `DISTINCT`, `GROUP BY`, `SUM`, `ORDER BY`, `LIMIT`, `MIN`, and `WHERE`. This project ensures that I am continuously and steadily building a strong foundation to hopefully become a great Data Engineer someday!
 
 3. **Aggregation Functions, Order by, Group by, Round.sql**  
