@@ -84,6 +84,18 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 7. **Where Clause with Between, And, Or.sql**  
    This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
 
+### Joining Data in SQL
+
+1. **Inner Joins**
+   I created projects in this topics like Inner join `Inner Join, USING.sql` and multiple Inner Joins `Multiple Inner Joins with AND keyword.sql` and implementing schema of One-to-One Relationship `One-to one relationships in SQL.sql`, One-to-Many Relationship `One-to-Many Relationships in SQL`, Many-to-Many Relationship `Many-to-Many Relationships in SQL.sql`. I provided comments also you can run it in your IDE by installing the script and export it into your IDE.
+
+2. **Outer Joins, Cross Joins and Self Joins**
+   I built also projects here demonstrating the used of Outer Joins like Left Join `Left Join in SQL.sql`, Right Join `Right Join in SQL.sql`, Full Join `Full Join (Alternative using Union) in MySQL.sql`, Cross Join with Enum Data Type `Cross Join using Enum in MySQL.sql`, and Self Join `Self Join in MySQL using AND.sql`.
+
+3. **Set Theory for SQL Joins**
+   I created projects here that demonstrate that I learned all of this concepts so I created it, that is the best way to learn by building/doing it. Created project in Union, Union All `Set Theory using Union ALL.sql`, Intersect, Multiple Intersect `Multiple Intersect in Set Theory.sql`.
+   
+
 ## Contact
 
 Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
