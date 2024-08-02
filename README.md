@@ -69,30 +69,38 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    
    This guided project is my second project on DataCamp, where I used DataCamp Notebook and PostgreSQL. This project gradually built my confidence in creating projects related to my dream job. I learned to use various practical SQL skills such as `COUNT`, `DISTINCT`, `GROUP BY`, `SUM`, `ORDER BY`, `LIMIT`, `MIN`, and `WHERE`. This project ensures that I am continuously and steadily building a strong foundation to hopefully become a great Data Engineer someday!
 
-3. **Aggregation Functions, Order by, Group by, Round.sql**  
+3. **Aggregation Functions, Order by, Group by, Round.sql**
+   
    This project demonstrates the use of aggregation functions such as `SUM`, `AVG`, and `COUNT`, along with the `GROUP BY` clause to organize data into summary rows. It also demonstrates how to use `ORDER BY` to sort query results and the `ROUND` function to format numerical outputs.
 
-4. **Comparison Operators, Arithmetic Operations, Having.sql**  
+4. **Comparison Operators, Arithmetic Operations, Having.sql**
+   
    This project illustrates the application of comparison operators (e.g., `=`, `!=`, `>`, `<`), arithmetic operations (e.g., `+`, `-`, `*`, `/`), and the `HAVING` clause to filter grouped data based on aggregate conditions.
 
-5. **Count with Order By and Limit.sql**  
+5. **Count with Order By and Limit.sql**
+   
    This project shows how to use the `COUNT` function to count records and combine it with `ORDER BY` to sort the results, and `LIMIT` to restrict the number of rows returned.
 
-6. **Distinct, Like, Not like, Is not null.sql**  
+6. **Distinct, Like, Not like, Is not null.sql**
+   
    This project covers the use of `DISTINCT` to remove duplicate rows, pattern matching with `LIKE` and `NOT LIKE`, and checking for non-null values using `IS NOT NULL`.
 
-7. **Where Clause with Between, And, Or.sql**  
+7. **Where Clause with Between, And, Or.sql**
+    
    This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
 
 ### Joining Data in SQL
 
 1. **Inner Joins**
+   
    I created projects in this topics like Inner join `Inner Join, USING.sql` and multiple Inner Joins `Multiple Inner Joins with AND keyword.sql` and implementing schema of One-to-One Relationship `One-to one relationships in SQL.sql`, One-to-Many Relationship `One-to-Many Relationships in SQL`, Many-to-Many Relationship `Many-to-Many Relationships in SQL.sql`. I provided comments also you can run it in your IDE by installing the script and export it into your IDE.
 
-2. **Outer Joins, Cross Joins and Self Joins**
+3. **Outer Joins, Cross Joins and Self Joins**
+   
    I built also projects here demonstrating the used of Outer Joins like Left Join `Left Join in SQL.sql`, Right Join `Right Join in SQL.sql`, Full Join `Full Join (Alternative using Union) in MySQL.sql`, Cross Join with Enum Data Type `Cross Join using Enum in MySQL.sql`, and Self Join `Self Join in MySQL using AND.sql`.
 
-3. **Set Theory for SQL Joins**
+5. **Set Theory for SQL Joins**
+   
    I created projects here that demonstrate that I learned all of this concepts so I created it, that is the best way to learn by building/doing it. Created project in Union, Union All `Set Theory using Union ALL.sql`, Intersect, Multiple Intersect `Multiple Intersect in Set Theory.sql`.
    
 
