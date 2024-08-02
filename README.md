@@ -62,7 +62,8 @@ The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain proj
 
 The Intermediate SQL section includes five mini-projects and one guided project, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
 
-1. **Analyzing Student's Mental Health (Guided Project in DataCamp).sql**  
+1. **Analyzing Student's Mental Health (Guided Project in DataCamp).sql**
+   
    This guided project is my first guided project in DataCamp (excluding the Introduction to Notebook Projects). This guided project taught me how to use notebooks properly and implement practical SQL skills. It includes concepts like `GROUP BY`, `WHERE`, `AVG`, `ROUND`, `ORDER BY`, `COUNT`, and `LIMIT`. These skills are essential for complex queries of SQL tables that I can use in my future projects. I have also committed the necessary dataset `students.csv` used in this guided project to the repository.
 
 2. **Analyze International Debt's Statistics (Guided Project in DataCamp).sql**
@@ -91,17 +92,17 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
 ### Joining Data in SQL
 
-1. **Inner Joins**
+1. **Inner Join, Using.sql**, **Multiple Inner Joins with AND keyword.sql**, **One-to-one relationships in SQL.sql**, **One-to-Many Relationships in SQL.sql**, **Many-to-Many Relationships in SQL.sql**
    
-   I created projects in this topics like Inner join `Inner Join, USING.sql` and multiple Inner Joins `Multiple Inner Joins with AND keyword.sql` and implementing schema of One-to-One Relationship `One-to one relationships in SQL.sql`, One-to-Many Relationship `One-to-Many Relationships in SQL`, Many-to-Many Relationship `Many-to-Many Relationships in SQL.sql`. I provided comments also you can run it in your IDE by installing the script and export it into your IDE.
+   I created projects here demonstrating the practical concepts of `Inner Joins / Multiple Inner Joins / Relationship Schemas`. You can just download and export the script to your local environment to run the query.
 
-3. **Outer Joins, Cross Joins and Self Joins**
+3. **Left Join in SQL.sql**, **Right Join in SQL.sql**, **Full Join (Alternative using UNION) in MySQL.sql**, **Cross Join using Enum in MySQL.sql**, **Self Join in MySQL using AND.sql**
    
-   I built also projects here demonstrating the used of Outer Joins like Left Join `Left Join in SQL.sql`, Right Join `Right Join in SQL.sql`, Full Join `Full Join (Alternative using Union) in MySQL.sql`, Cross Join with Enum Data Type `Cross Join using Enum in MySQL.sql`, and Self Join `Self Join in MySQL using AND.sql`.
+   Built multiple projects so that I can improved my skills in the concept of `Outer Joins, Cross Joins and Self Joins`
 
-5. **Set Theory for SQL Joins**
+5. **Set Theory using Union ALL.sql**, **Multiple Intersect in Set Theory.sql**
    
-   I created projects here that demonstrate that I learned all of this concepts so I created it, that is the best way to learn by building/doing it. Created project in Union, Union All `Set Theory using Union ALL.sql`, Intersect, Multiple Intersect `Multiple Intersect in Set Theory.sql`.
+   Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`.
    
 
 ## Contact
