@@ -106,7 +106,7 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
 6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**
 
-   I build a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment.
+   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment.
    
 
 ## Contact
