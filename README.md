@@ -100,9 +100,9 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    
    Built multiple projects so that I can improved my skills in the concept of `Outer Joins, Cross Joins and Self Joins`
 
-5. **Set Theory using Union ALL.sql**, **Multiple Intersect in Set Theory.sql**
+5. **Set Theory using Union ALL.sql**, **Multiple Intersect in Set Theory.sql**, **Except in Set Theory.sql**
    
-   Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`.
+   Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` in `Set Theory`.
 
 6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**
 
