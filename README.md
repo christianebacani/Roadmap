@@ -103,6 +103,10 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 5. **Set Theory using Union ALL.sql**, **Multiple Intersect in Set Theory.sql**
    
    Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`.
+
+6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**
+
+   I build a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment.
    
 
 ## Contact
