@@ -104,9 +104,9 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    
    Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` in `Set Theory`.
 
-6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**, **Subquery using Select Keyword.sql**, **Subquery using Where Keyword.sql**
+6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**, **Subquery using Select Keyword.sql**, **Subquery using Where Keyword.sql**, **Subquery using Multiple From Clause and Where Keyword**
 
-   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword and `SELECT` keyword and compare it to a traditional joins.   
+   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword, `SELECT` keyword, `FROM` keyword and compare it to a traditional joins.   
 
 ## Contact
 
