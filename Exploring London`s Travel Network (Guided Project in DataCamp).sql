@@ -23,6 +23,7 @@ ORDER BY journeys_millions DESC
 LIMIT 5;
 
 
+-- Lowest total journeys per year of 'Underground & DLR' journey type
 SELECT
 	year,
     journey_type,
