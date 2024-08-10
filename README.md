@@ -70,23 +70,27 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    
    This guided project is my second project on DataCamp, where I used DataCamp Notebook and PostgreSQL. This project gradually built my confidence in creating projects related to my dream job. I learned to use various practical SQL skills such as `COUNT`, `DISTINCT`, `GROUP BY`, `SUM`, `ORDER BY`, `LIMIT`, `MIN`, and `WHERE`. This project ensures that I am continuously and steadily building a strong foundation to hopefully become a great Data Engineer someday!
 
-3. **Aggregation Functions, Order by, Group by, Round.sql**
+3. **Exploring London`s Travel Network (Guided Project in DataCamp).sql**
+
+   This guided project is my second project on DataCamp focusing on aggregate functions like `SUM` in `GROUP BY` keyword, sorted it `ORDER BY` into `DESC` or `ASC`. I also used filter keywords for a specific data fields `WHERE` and I used also `LIMIT` to limit the specific queries into 5 rows.
+
+4. **Aggregation Functions, Order by, Group by, Round.sql**
    
    This project demonstrates the use of aggregation functions such as `SUM`, `AVG`, and `COUNT`, along with the `GROUP BY` clause to organize data into summary rows. It also demonstrates how to use `ORDER BY` to sort query results and the `ROUND` function to format numerical outputs.
 
-4. **Comparison Operators, Arithmetic Operations, Having.sql**
+5. **Comparison Operators, Arithmetic Operations, Having.sql**
    
    This project illustrates the application of comparison operators (e.g., `=`, `!=`, `>`, `<`), arithmetic operations (e.g., `+`, `-`, `*`, `/`), and the `HAVING` clause to filter grouped data based on aggregate conditions.
 
-5. **Count with Order By and Limit.sql**
+6. **Count with Order By and Limit.sql**
    
    This project shows how to use the `COUNT` function to count records and combine it with `ORDER BY` to sort the results, and `LIMIT` to restrict the number of rows returned.
 
-6. **Distinct, Like, Not like, Is not null.sql**
+7. **Distinct, Like, Not like, Is not null.sql**
    
    This project covers the use of `DISTINCT` to remove duplicate rows, pattern matching with `LIKE` and `NOT LIKE`, and checking for non-null values using `IS NOT NULL`.
 
-7. **Where Clause with Between, And, Or.sql**
+8. **Where Clause with Between, And, Or.sql**
     
    This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
 
