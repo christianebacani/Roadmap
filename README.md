@@ -8,6 +8,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Understanding Data Engineering](#understanding-data-engineering)
    - [Introduction to SQL](#introduction-to-sql)
    - [Intermediate SQL](#intermediate-sql)
+   - [Joining Data in SQL](#joining-data-in-sql)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
