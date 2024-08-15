@@ -9,6 +9,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Introduction to SQL](#introduction-to-sql)
    - [Intermediate SQL](#intermediate-sql)
    - [Joining Data in SQL](#joining-data-in-sql)
+   - [Relational Databases in SQL](#relational-databases-in-sql)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
@@ -111,7 +112,17 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
 6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**, **Subquery using Select Keyword.sql**, **Subquery using Where Keyword.sql**, **Subquery using Multiple From Clause and Where Keyword**
 
-   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword, `SELECT` keyword, `FROM` keyword and compare it to a traditional joins.   
+   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword, `SELECT` keyword, `FROM` keyword and compare it to a traditional joins.
+
+### Relational Databases in SQL
+   1. **Data Migration.sql**
+
+      Simple manual data migration scrape from the Indeed Website for Data Engineering Job Post. Using `INSERT INTO` and some `CREATE TABLE` DDL for defining the object structure of the target and original source.
+
+   2. **Attribute Constraints.sql**
+      
+      I built a simple project using `Fine Granularity with Time Based Features` Relational Data Structure. For employee tracking. Using `Serial` Datatype for Incrementing `record_id` and Convert `serial_number` to `serial_code` with `BINARY` Data Type using `CONVERT` function 
+      
 
 ## Contact
 
