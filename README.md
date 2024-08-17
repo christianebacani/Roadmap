@@ -127,11 +127,9 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
       Altering / Changing, Truncating Data Type for Data Storage Optimizations or for further use cases like a suitable Data Type for Analysis. I used `ALTER TABLE`, and `Modify` the column to change it's Data Type and `Truncate` it to reduce the storage of that Data Type for further processing.
       
-       [!NOTE]  
-       Truncating Data Type is not advisable in common scenarios. So better use it with cautions!.
-      
-      
+      > **Note:** Truncating Data Type is not advisable in common scenarios. So better use it with caution!
 
+      
 ## Contact
 
 Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
