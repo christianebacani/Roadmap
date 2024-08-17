@@ -121,7 +121,15 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
    2. **Attribute Constraints.sql**
       
-      I built a simple project using `Fine Granularity with Time Based Features` Relational Data Structure. For employee tracking. Using `Serial` Datatype for Incrementing `record_id` and Convert `serial_number` to `serial_code` with `BINARY` Data Type using `CONVERT` function 
+      I built a simple project using `Fine Granularity with Time Based Features` Relational Data Structure. For employee tracking. Using `Serial` Datatype for Incrementing `record_id` and Convert `serial_number` to `serial_code` with `BINARY` Data Type using `CONVERT` function
+
+   3. **Altering or Truncating Data Type.sql**
+
+      Altering / Changing, Truncating Data Type for Data Storage Optimizations or for further use cases like a suitable Data Type for Analysis. I used `ALTER TABLE`, and `Modify` the column to change it's Data Type and `Truncate` it to reduce the storage of that Data Type for further processing.
+      
+      > [!NOTE]  
+      > Truncating Data Type is not advisable in common scenarios. So better use it with cautions!.
+      
       
 
 ## Contact
