@@ -129,6 +129,10 @@ The Intermediate SQL section includes five mini-projects and one guided project,
       
       > **Note:** Truncating Data Type is not advisable in common scenarios. So better use it with caution!
 
+   4. **Not Null and Unique Constraints.sql**
+
+      Using `NOT NULL` and `UNIQUE` Constraints to manage `Attribute Constraints` in my `Relational Database` for Data Consistency and Integrity.
+
       
 ## Contact
 
