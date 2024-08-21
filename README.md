@@ -134,7 +134,7 @@ The Intermediate SQL section includes five mini-projects and one guided project,
       Using `NOT NULL` and `UNIQUE` Constraints to manage `Attribute Constraints` in my `Relational Database` for Data Consistency and Integrity.
 
       
-## Contact
+## Contacts
 
 Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
 
