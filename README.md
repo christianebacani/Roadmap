@@ -137,6 +137,9 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
       Built Project using `Student`, `Gender`, `Department` entities. Identifying the `Super Key` and `Minimal Super Key` / `Cnadidate Key` to choose the `Chosen Key` which is the `Primary Key`. This Data can help to ensure the unique identifier of student`s entities for school/universities data.
 
+   6. **Creating and Adding Surrogate Key.sql**
+
+      Creating and Adding `Surrogate Keys` to create a uniquely identifiable records. Using also `CONCAT` to add a `Surrogate Key` to a existing table.
       
 ## Contacts
 
