@@ -114,6 +114,10 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
    I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword, `SELECT` keyword, `FROM` keyword and compare it to a traditional joins.
 
+7. **When was the Golden Era of Video Games.sql**
+
+   Built and Solved a Video Game Data by Analyzing the Data Sets of Video Games in different years and games. Using `ORDER BY` to query game data of which games has a highest solds in the market, joining data of different table for analyzing `critic_score` per `year` and analyzing the difference of `avg_critic_score` and `avg_user_score` by subtracting the average. You can find the datasets in DataCamp Real World Projects.
+
 ### Relational Databases in SQL
    1. **Data Migration.sql**
 
