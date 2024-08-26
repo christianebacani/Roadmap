@@ -144,6 +144,10 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    6. **Creating and Adding Surrogate Key.sql**
 
       Creating and Adding `Surrogate Keys` to create a uniquely identifiable records. Using also `CONCAT` to add a `Surrogate Key` to a existing table.
+   
+   7. **Referential Integrity Constraint or Foreign Key Constraint.sql**
+
+      Creating a `Referential Integriy Constraint` or `Foreign Key Constraint` by Creating a FK Constraint in a table or adding a FK Constraint in a existing table used for establish connections between different tables.
       
 ## Contacts
 
