@@ -149,7 +149,7 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
       Creating a `Referential Integriy Constraint` or `Foreign Key Constraint` by Creating a FK Constraint in a table or adding a FK Constraint in a existing table used for establish connections between different tables.
 
-   8. **Many to Many Relationships Schema with Surrogate Key**
+   8. **Many to Many Relationships Schema with Surrogate Key.sql**
 
       Establish a `N:M Relationship Schema` or `Many-to-Many Relationships` in `MySQL` Database. I used the entity `Associations`, `Courses`, `Online Students` and form a `N:M Relationship` between `Courses` and `Online Students` using a `Junction Table` or `Intermediary Table` of `Enrollments` Table. This is particularly useful when establishing a `N:M Relationship` between two entities of structured data that may be used for further analysis of data in business/organizations. 
       
