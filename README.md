@@ -151,7 +151,11 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
    8. **Many to Many Relationships Schema with Surrogate Key.sql**
 
-      Establish a `N:M Relationship Schema` or `Many-to-Many Relationships` in `MySQL` Database. I used the entity `Associations`, `Courses`, `Online Students` and form a `N:M Relationship` between `Courses` and `Online Students` using a `Junction Table` or `Intermediary Table` of `Enrollments` Table. This is particularly useful when establishing a `N:M Relationship` between two entities of structured data that may be used for further analysis of data in business/organizations. 
+      Establish a `N:M Relationship Schema` or `Many-to-Many Relationships` in `MySQL` Database. I used the entity `Associations`, `Courses`, `Online Students` and form a `N:M Relationship` between `Courses` and `Online Students` using a `Junction Table` or `Intermediary Table` of `Enrollments` Table. This is particularly useful when establishing a `N:M Relationship` between two entities of structured data that may be used for further analysis of data in business/organizations.
+
+   9. **Referential Integrity using ON UPDATE or DELETE Behaviors.sql**
+
+       Using `ON DELETE/UPDATE Behaviors` to utilize and used `Referential Integrity Constraints` with different `Foreign Keys` that established relationships with different tables. Using `ON DELETE/UPDATE Behavior` to create actions that will forced when `Parent Table` is deleted or updated.
       
 ## Contacts
 
