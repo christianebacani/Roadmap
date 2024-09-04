@@ -156,6 +156,10 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    9. **Referential Integrity using ON UPDATE or DELETE Behaviors.sql**
 
        Using `ON DELETE/UPDATE Behaviors` to utilize and used `Referential Integrity Constraints` with different `Foreign Keys` that established relationships with different tables. Using `ON DELETE/UPDATE Behavior` to create actions that will forced when `Parent Table` is deleted or updated.
+
+   10. **Metadata Database.sql**
+
+       I built a major project based on what I learned in `Relational Databases in SQL` in `DataCamp`. This `Metadata Database` is based upon the previous SQL Script which is `Referential Integrity using ON UPDATE or DELETE Behaviors.sql`, by building metadata about the structure of that SQL Script. You can run it on your own `RDBMS` environment and contribute also by submitting `Pull Request`.
       
 ## Contacts
 
