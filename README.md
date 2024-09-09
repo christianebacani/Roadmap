@@ -161,6 +161,11 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    10. **Metadata Database.sql**
 
        I built a major project based on what I learned in `Relational Databases in SQL` in `DataCamp`. This `Metadata Database` is based upon the previous SQL Script which is `Referential Integrity using ON UPDATE or DELETE Behaviors.sql`, by building metadata about the structure of that SQL Script. You can run it on your own `RDBMS` environment and contribute also by submitting `Pull Request`.
+
+### 8 Week SQL Challenge
+   1. **Case Study #1 Danny's Diner.sql**
+
+      This Challange is one of my favorites since I will get to know how to solve a `SQL` or a `Business` Problems using `Data` from a specific website that I saw in `Linkedin`. The most common keywords that I used here is `UNION`, `UNION ALL`, Window Functions like `ROW_NUMBER() OVER` and of course aggregations like `SUM` or `COUNT`. I also used some conditional statements like `CASE` statements inside a `Arithmetic Operations`. This SQL really challengegs me to think logically and based on what I learned.
       
 ## Contacts
 
