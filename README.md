@@ -10,6 +10,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Intermediate SQL](#intermediate-sql)
    - [Joining Data in SQL](#joining-data-in-sql)
    - [Relational Databases in SQL](#relational-databases-in-sql)
+   - [8 Week SQL Challenge](#8-weel-sql-challenge)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
