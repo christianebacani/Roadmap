@@ -10,6 +10,7 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Intermediate SQL](#intermediate-sql)
    - [Joining Data in SQL](#joining-data-in-sql)
    - [Relational Databases in SQL](#relational-databases-in-sql)
+   - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-weel-sql-challenge)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
@@ -161,6 +162,12 @@ The Intermediate SQL section includes five mini-projects and one guided project,
    10. **Metadata Database.sql**
 
        I built a major project based on what I learned in `Relational Databases in SQL` in `DataCamp`. This `Metadata Database` is based upon the previous SQL Script which is `Referential Integrity using ON UPDATE or DELETE Behaviors.sql`, by building metadata about the structure of that SQL Script. You can run it on your own `RDBMS` environment and contribute also by submitting `Pull Request`.
+
+### Database Design
+
+   1. **Star Schema in Database Design.sql**
+
+      Implementing Star Schema in a `MySQL` Relational Database. Using the Entities `Libraries`, `Book Shelves`, `Dates`, and `Members` that is a `Dimension Table` that is centralized in the `Borrows` instance for `OLAP` Purposes. This is just a improvisation since `OLAP` is more common in `Data Warehouse` Environment.
 
 ### 8 Week SQL Challenge
    1. **Case Study #1 Danny's Diner.sql**
