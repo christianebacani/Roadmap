@@ -1,6 +1,6 @@
 # Roadmap
 
-Welcome to my Roadmap repository! This repository contains a comprehensive collection of my projects as I progress through my learning journey in data engineering. Each folder represents a specific area of study and includes various types of projects, such as mini-projects, guided projects, hobby projects, and industry projects. This roadmap showcases my development and serves as a portfolio to demonstrate my skills and growth.
+Welcome to my Roadmap repository! This repository showcases a comprehensive collection of projects that document my learning journey in data engineering. Each folder represents a specific area of study, featuring a variety of project types, including mini-projects, guided projects, hobby projects, and industry projects. This roadmap serves as both a learning tracker and a portfolio to highlight my growing skills and expertise.
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -11,181 +11,91 @@ Welcome to my Roadmap repository! This repository contains a comprehensive colle
    - [Joining Data in SQL](#joining-data-in-sql)
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
-   - [8 Week SQL Challenge](#8-weel-sql-challenge)
+   - [8 Week SQL Challenge](#8-week-sql-challenge)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
 ## Overview
 
-This repository is structured to reflect my learning path in data engineering. The projects within each file showcase practical applications of the concepts I have learned. By organizing my projects in this manner, I aim to provide a clear and structured overview of my skills and capabilities.
+This repository is structured to reflect my learning path in data engineering. Each project demonstrates practical applications of the concepts I have learned, organized into dedicated files for easy navigation. By showcasing these projects, I aim to provide a clear and structured overview of my technical skills and development.
 
 ## Roadmap Files
 
 ### Understanding Data Engineering
 
-The `Understanding Data Engineering.md` file compiles key theoretical concepts and definitions that I learned from the DataCamp "Understanding Data Engineering" course. This file serves as a reference guide for important topics and terminologies in data engineering.
+The `Understanding Data Engineering.md` file contains key theoretical concepts and definitions from the DataCamp "Understanding Data Engineering" course. It serves as a reference guide for important topics and terminologies in the field of data engineering.
 
 #### Key Concepts Covered
 
-- **Airflow**: An open-source workflow management platform used to schedule data engineering tasks.
+- **Airflow**: Open-source workflow management for scheduling data engineering tasks.
 - **AWS (Amazon Web Services)**: Amazon's cloud computing services.
 - **Azure**: Microsoft's cloud services.
-- **Big Data**: The systematic storage, management, and analysis of datasets that are too large or complex for traditional data-processing applications. Key characteristics include volume, variety, velocity, veracity, and value.
-- **Cloud Computing**: The use of a network of remote servers hosted on the internet to store, manage, and process data.
-- **Database Schema**: The structure that represents the logical view of the entire database, including how data is organized and the relations among them.
-- **Data Catalog**: A metadata management tool used to inventory and organize data within a system.
-- **Data Engineering**: The process of transforming data into a format suited for analysis.
-- **Data Ingestion**: The process of obtaining and importing data for immediate use or storage in a database.
-- **Data Lake**: A repository of data stored in its natural/raw format.
-- **Data Pipelines**: A series of data processing steps used by data engineers to process and move data.
-- **Data Processing**: The collection and manipulation of data to produce meaningful information.
-- **Data Science**: The process of extracting knowledge from data.
-- **Data Warehouse**: A central repository of integrated data from one or more disparate sources.
-- **ETL (Extract, Transform, Load)**: The process of pulling data from one database to move it to another.
-- **Google Cloud**: Google's cloud services.
-- **Luigi**: An open-source workflow management platform used to schedule data engineering tasks.
-- **NoSQL**: A database mechanism for storing structured, semi-structured, and unstructured data that is modeled differently than in relational databases.
-- **Parallel Computing/Processing**: The simultaneous use of multiple compute resources to solve a computational problem.
-- **Query**: A request for information from a database.
-- **Redshift**: Amazon's data warehouse service.
-- **S3**: Amazon's object storage service.
-- **Scheduling**: Organizing how tasks work together by running jobs in a specific order and resolving dependencies.
-- **Structured Data**: Data organized into a formatted repository, typically a database.
-- **Unstructured Data**: Information that does not have a pre-defined data model or organization.
-- **Semi-Structured Data**: A mix of both structured and unstructured data, often stored in JSON, XML, or YAML formats.
-- **View**: Output of a stored, frequent query on the data.
+- **Big Data**: Management of large and complex datasets characterized by volume, variety, velocity, veracity, and value.
+- **Cloud Computing**: Utilizing remote servers hosted on the internet for data management and processing.
+- **Database Schema**: The logical structure of a database, including its data organization and relationships.
+- **Data Engineering**: The process of designing, constructing, and managing data systems to facilitate analysis.
+- **Data Ingestion**: The process of importing data into a system or database.
+- **Data Lake**: A storage repository that holds large amounts of raw data.
+- **Data Pipelines**: A set of processes for moving and transforming data.
+- **Data Warehousing**: Centralized storage of data from multiple sources for analysis.
+- **ETL (Extract, Transform, Load)**: A process that extracts data from one source, transforms it, and loads it into a target system.
+- **Google Cloud**: Cloud services provided by Google.
+- **NoSQL**: Non-relational databases for storing structured, semi-structured, and unstructured data.
+- **Parallel Processing**: The simultaneous use of multiple compute resources to process data.
+- **Redshift**: Amazon's cloud data warehouse service.
+- **S3**: Amazon’s cloud object storage service.
 
 ### Introduction to SQL
 
-The `Stored Procedure.sql` and `Student Tables and Views.sql` files contain projects I created while learning Introduction to SQL. These are simple mini-projects that demonstrate concepts learned during the course, focusing on:
+The files in this section (`Stored Procedure.sql`, `Student Tables and Views.sql`) include projects from my Introduction to SQL coursework, focusing on concepts like:
 
 - **Stored Procedures**: Demonstrated in the `Stored Procedure.sql` file.
-- **Creating Views in SQL**: Showcased in the `Student Tables and Views.sql` file.
+- **Creating Views**: Showcased in the `Student Tables and Views.sql` file.
 
 ### Intermediate SQL
 
-The Intermediate SQL section includes five mini-projects and one guided project, each demonstrating the application of different SQL concepts and techniques learned in the DataCamp "Intermediate SQL" course.
+This section contains five mini-projects and one guided project that apply various intermediate SQL concepts, including:
 
-1. **Analyzing Student's Mental Health (Guided Project in DataCamp).sql**
-   
-   This guided project is my first guided project in DataCamp (excluding the Introduction to Notebook Projects). This guided project taught me how to use notebooks properly and implement practical SQL skills. It includes concepts like `GROUP BY`, `WHERE`, `AVG`, `ROUND`, `ORDER BY`, `COUNT`, and `LIMIT`. These skills are essential for complex queries of SQL tables that I can use in my future projects. I have also committed the necessary dataset `students.csv` used in this guided project to the repository.
+- **Group By**, **Order By**, **Aggregation Functions**, **Joins**, and more.
 
-2. **Analyze International Debt's Statistics (Guided Project in DataCamp).sql**
-   
-   This guided project is my second project on DataCamp, where I used DataCamp Notebook and PostgreSQL. This project gradually built my confidence in creating projects related to my dream job. I learned to use various practical SQL skills such as `COUNT`, `DISTINCT`, `GROUP BY`, `SUM`, `ORDER BY`, `LIMIT`, `MIN`, and `WHERE`. This project ensures that I am continuously and steadily building a strong foundation to hopefully become a great Data Engineer someday!
-
-3. **Exploring London`s Travel Network (Guided Project in DataCamp).sql**
-
-   This guided project is my second project on DataCamp focusing on aggregate functions like `SUM` in `GROUP BY` keyword, sorted it `ORDER BY` into `DESC` or `ASC`. I also used filter keywords for a specific data fields `WHERE` and I used also `LIMIT` to limit the specific queries into 5 rows.
-
-4. **Aggregation Functions, Order by, Group by, Round.sql**
-   
-   This project demonstrates the use of aggregation functions such as `SUM`, `AVG`, and `COUNT`, along with the `GROUP BY` clause to organize data into summary rows. It also demonstrates how to use `ORDER BY` to sort query results and the `ROUND` function to format numerical outputs.
-
-5. **Comparison Operators, Arithmetic Operations, Having.sql**
-   
-   This project illustrates the application of comparison operators (e.g., `=`, `!=`, `>`, `<`), arithmetic operations (e.g., `+`, `-`, `*`, `/`), and the `HAVING` clause to filter grouped data based on aggregate conditions.
-
-6. **Count with Order By and Limit.sql**
-   
-   This project shows how to use the `COUNT` function to count records and combine it with `ORDER BY` to sort the results, and `LIMIT` to restrict the number of rows returned.
-
-7. **Distinct, Like, Not like, Is not null.sql**
-   
-   This project covers the use of `DISTINCT` to remove duplicate rows, pattern matching with `LIKE` and `NOT LIKE`, and checking for non-null values using `IS NOT NULL`.
-
-8. **Where Clause with Between, And, Or.sql**
-    
-   This project focuses on using the `WHERE` clause with the `BETWEEN`, `AND`, and `OR` operators to filter data based on complex conditions. It includes examples of querying data within a specific range and combining multiple conditions to refine results.
+#### Notable Projects
+- **Analyzing Student's Mental Health**: This guided project uses various SQL functions (`GROUP BY`, `AVG`, `COUNT`) to analyze student data.
+- **Analyze International Debt's Statistics**: Focuses on using SQL to summarize and analyze debt statistics using `GROUP BY`, `SUM`, and other essential SQL functions.
+- **Exploring London’s Travel Network**: A guided project that demonstrates the use of aggregation and filtering functions (`SUM`, `GROUP BY`, `LIMIT`).
 
 ### Joining Data in SQL
 
-1. **Inner Join, Using.sql**, **Multiple Inner Joins with AND keyword.sql**, **One-to-one relationships in SQL.sql**, **One-to-Many Relationships in SQL.sql**, **Many-to-Many Relationships in SQL.sql**
-   
-   I created projects here demonstrating the practical concepts of `Inner Joins / Multiple Inner Joins / Relationship Schemas`. You can just download and export the script to your local environment to run the query.
+Projects in this section demonstrate practical applications of SQL joins, including:
 
-3. **Left Join in SQL.sql**, **Right Join in SQL.sql**, **Full Join (Alternative using UNION) in MySQL.sql**, **Cross Join using Enum in MySQL.sql**, **Self Join in MySQL using AND.sql**
-   
-   Built multiple projects so that I can improved my skills in the concept of `Outer Joins, Cross Joins and Self Joins`
+- **Inner Joins**, **Left Joins**, **Right Joins**, **Full Joins**, and **Cross Joins**.
 
-5. **Set Theory using Union ALL.sql**, **Multiple Intersect in Set Theory.sql**, **Except in Set Theory.sql**
-   
-   Learning and built projects from the concepts of `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` in `Set Theory`.
-
-6. **Subquery (Anti Joins).sql**, **Subquery (Semi Joins)**, **Subquery using Select Keyword.sql**, **Subquery using Where Keyword.sql**, **Subquery using Multiple From Clause and Where Keyword**
-
-   I built a project using `Semi Joins` and `Anti Joins` in `Subquery`. You can export this script and run it into your Integrated Development Environment. I also built projects related to `Subquery` using `WHERE` keyword, `SELECT` keyword, `FROM` keyword and compare it to a traditional joins.
-
-7. **When was the Golden Era of Video Games.sql**
-
-   Built and Solved a Video Game Data by Analyzing the Data Sets of Video Games in different years and games. Using `ORDER BY` to query game data of which games has a highest solds in the market, joining data of different table for analyzing `critic_score` per `year` and analyzing the difference of `avg_critic_score` and `avg_user_score` by subtracting the average. You can find the datasets in DataCamp Real World Projects.
+Additional projects cover **Set Theory** operations (`UNION`, `INTERSECT`, `EXCEPT`) and **Subqueries**.
 
 ### Relational Databases in SQL
-   1. **Data Migration.sql**
 
-      Simple manual data migration scrape from the Indeed Website for Data Engineering Job Post. Using `INSERT INTO` and some `CREATE TABLE` DDL for defining the object structure of the target and original source.
+These projects focus on relational database concepts, including:
 
-   2. **Attribute Constraints.sql**
-      
-      I built a simple project using `Fine Granularity with Time Based Features` Relational Data Structure. For employee tracking. Using `Serial` Datatype for Incrementing `record_id` and Convert `serial_number` to `serial_code` with `BINARY` Data Type using `CONVERT` function
-
-   3. **Altering or Truncating Data Type.sql**
-
-      Altering / Changing, Truncating Data Type for Data Storage Optimizations or for further use cases like a suitable Data Type for Analysis. I used `ALTER TABLE`, and `Modify` the column to change it's Data Type and `Truncate` it to reduce the storage of that Data Type for further processing.
-      
-      > **Note:** Truncating Data Type is not advisable in common scenarios. So better use it with caution!
-
-   4. **Not Null and Unique Constraints.sql**
-
-      Using `NOT NULL` and `UNIQUE` Constraints to manage `Attribute Constraints` in my `Relational Database` for Data Consistency and Integrity.
-
-   5. **SuperKey and Candidate Key.sql**
-
-      Built Project using `Student`, `Gender`, `Department` entities. Identifying the `Super Key` and `Minimal Super Key` / `Cnadidate Key` to choose the `Chosen Key` which is the `Primary Key`. This Data can help to ensure the unique identifier of student`s entities for school/universities data.
-
-   6. **Creating and Adding Surrogate Key.sql**
-
-      Creating and Adding `Surrogate Keys` to create a uniquely identifiable records. Using also `CONCAT` to add a `Surrogate Key` to a existing table.
-   
-   7. **Referential Integrity Constraint or Foreign Key Constraint.sql**
-
-      Creating a `Referential Integriy Constraint` or `Foreign Key Constraint` by Creating a FK Constraint in a table or adding a FK Constraint in a existing table used for establish connections between different tables.
-
-   8. **Many to Many Relationships Schema with Surrogate Key.sql**
-
-      Establish a `N:M Relationship Schema` or `Many-to-Many Relationships` in `MySQL` Database. I used the entity `Associations`, `Courses`, `Online Students` and form a `N:M Relationship` between `Courses` and `Online Students` using a `Junction Table` or `Intermediary Table` of `Enrollments` Table. This is particularly useful when establishing a `N:M Relationship` between two entities of structured data that may be used for further analysis of data in business/organizations.
-
-   9. **Referential Integrity using ON UPDATE or DELETE Behaviors.sql**
-
-       Using `ON DELETE/UPDATE Behaviors` to utilize and used `Referential Integrity Constraints` with different `Foreign Keys` that established relationships with different tables. Using `ON DELETE/UPDATE Behavior` to create actions that will forced when `Parent Table` is deleted or updated.
-
-   10. **Metadata Database.sql**
-
-       I built a major project based on what I learned in `Relational Databases in SQL` in `DataCamp`. This `Metadata Database` is based upon the previous SQL Script which is `Referential Integrity using ON UPDATE or DELETE Behaviors.sql`, by building metadata about the structure of that SQL Script. You can run it on your own `RDBMS` environment and contribute also by submitting `Pull Request`.
+- **Data Migration**: A project that demonstrates migrating data using `INSERT INTO` and `CREATE TABLE`.
+- **Attribute Constraints**: Managing data integrity through constraints like `NOT NULL`, `UNIQUE`, and foreign keys.
+- **Many-to-Many Relationships**: Demonstrating relational schema designs using surrogate keys and junction tables.
+- **Referential Integrity**: Managing referential integrity with `ON UPDATE` and `ON DELETE` behaviors.
 
 ### Database Design
 
-   1. **Star Schema in Database Design.sql**
-
-      Implementing `Star Schema` in a `MySQL` Relational Database. Using the Entities `Libraries`, `Book Shelves`, `Dates`, and `Members` that is a `Dimension Table` that is centralized in the `Borrows` instance for `OLAP` Purposes. This is just a improvisation since `OLAP` is more common in `Data Warehouse` Environment.
-
-   2. **Snowflake Schema in Database Design.sql**
-
-      Implementing `Snowflake Schema` in a `MySQL` Relational Database. Snowflake schema is an extended version of `Star Schema` so I utilized what I learned and build the schema and normalized the `Dimensions Table` : `Libraries`, `Book Shelves`, `Dates`, and `Members`. This is also an improvisation since `OLAP` is more common in `Data Warehouse` Environment.
+This section covers advanced database design principles, including normalization, schema design, and best practices for creating scalable data systems.
 
 ### 8 Week SQL Challenge
-   1. **Case Study #1 Danny's Diner.sql**
 
-      This Challange is one of my favorites since I will get to know how to solve a `SQL` or a `Business` Problems using `Data` from a specific website that I saw in `Linkedin`. The most common keywords that I used here is `UNION`, `UNION ALL`, Window Functions like `ROW_NUMBER() OVER` and of course aggregations like `SUM` or `COUNT`. I also used some conditional statements like `CASE` statements inside a `Arithmetic Operations`. This SQL really challengegs me to think logically and based on what I learned.
-      
-## Contacts
+This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
 
-Feel free to reach out to me if you have any questions or would like to collaborate on a project. You can contact me through:
+## Contact
 
-- **Email**: [christianbacani581@gmail.com](mailto:christianbacani581@gmail.com)
-- **LinkedIn**: [Christian Bacani](https://www.linkedin.com/in/christianebacani/)
-- **Portfolio**: [Christian Bacani on DataCamp](https://www.datacamp.com/portfolio/bioy7bp5)
+Feel free to reach out to me for any questions or opportunities:
+
+- **Email**: your.email@example.com
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
 
 ## Conclusion
 
-This repository not only tracks my progress but also serves as a portfolio to demonstrate my skills and knowledge in data engineering. Each file and project is a step towards mastering data engineering and achieving my career goals.
+This repository serves as a reflection of my learning journey in data engineering. As I continue to learn and grow, I will update this repository with new projects and insights. Thank you for visiting!
