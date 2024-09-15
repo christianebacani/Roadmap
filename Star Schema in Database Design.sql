@@ -14,20 +14,20 @@ DROP TABLE IF EXISTS libraries;
 
 
 CREATE TABLE libraries(library_id INT PRIMARY KEY,
-						library TEXT);
+			library TEXT);
                         
 CREATE TABLE book_shelves(shelf_id INT PRIMARY KEY,
-							shelf TEXT,
+			    shelf TEXT,
                             book_id INT,
                             book TEXT);
                     
 CREATE TABLE dates(date_id INT PRIMARY KEY,
-					month INT,
+		    month INT,
                     day MEDIUMINT, 
                     year MEDIUMINT);
 			
 CREATE TABLE members(member_id INT PRIMARY KEY,
-						member TEXT);
+		     member TEXT);
                         
 
 CREATE TABLE borrows(member_id INT,
