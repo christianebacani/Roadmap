@@ -167,7 +167,11 @@ The Intermediate SQL section includes five mini-projects and one guided project,
 
    1. **Star Schema in Database Design.sql**
 
-      Implementing Star Schema in a `MySQL` Relational Database. Using the Entities `Libraries`, `Book Shelves`, `Dates`, and `Members` that is a `Dimension Table` that is centralized in the `Borrows` instance for `OLAP` Purposes. This is just a improvisation since `OLAP` is more common in `Data Warehouse` Environment.
+      Implementing `Star Schema` in a `MySQL` Relational Database. Using the Entities `Libraries`, `Book Shelves`, `Dates`, and `Members` that is a `Dimension Table` that is centralized in the `Borrows` instance for `OLAP` Purposes. This is just a improvisation since `OLAP` is more common in `Data Warehouse` Environment.
+
+   2. **Snowflake Schema in Database Design.sql**
+
+      Implementing `Snowflake Schema` in a `MySQL` Relational Database. Snowflake schema is an extended version of `Star Schema` so I utilized what I learned and build the schema and normalized the `Dimensions Table` : `Libraries`, `Book Shelves`, `Dates`, and `Members`. This is also an improvisation since `OLAP` is more common in `Data Warehouse` Environment.
 
 ### 8 Week SQL Challenge
    1. **Case Study #1 Danny's Diner.sql**
