@@ -3,6 +3,9 @@ USE practicedb;
 
 -- Hello! My name is Christiane A. Bacani a Data/DevOps Engineer
 
+-- Warehouse Modeling
+-- Star Schema
+
 DROP TABLE IF EXISTS borrows;
 DROP TABLE IF EXISTS members;
 DROP TABLE IF EXISTS dates;
