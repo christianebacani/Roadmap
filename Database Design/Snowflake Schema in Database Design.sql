@@ -36,28 +36,28 @@ CREATE TABLE hospital_categories(category_id INT PRIMARY KEY);
 
 -- Dimension Table
 CREATE TABLE hospitals(hospital_id INT PRIMARY KEY,
-						hospital_name TEXT,
+			hospital_name TEXT,
                         hospital_type TEXT);
                         
 
 -- Normalize the Dimension table of 'employees'
 CREATE TABLE employee_genders(gender_id INT PRIMARY KEY,
-							gender CHAR(1));
+				gender CHAR(1));
 
 
 -- Normalize the Dimension table of `employees`
 CREATE TABLE departments(department_id INT PRIMARY KEY,
-						department TEXT);
+			department TEXT);
 
                             
 -- Normalize the Dimension table of `employees`
 CREATE TABLE contract_categories(contract_category_id INT PRIMARY KEY,
-									contract_type TEXT);
+				contract_type TEXT);
 
 				
 -- Dimension Table
 CREATE TABLE employees(employee_id INT PRIMARY KEY,
-						job VARCHAR(50),
+			job VARCHAR(50),
                         department TEXT,
                         contract_type VARCHAR(50),
                         employee_name VARCHAR(50),
@@ -67,50 +67,50 @@ CREATE TABLE employees(employee_id INT PRIMARY KEY,
 				
 -- Normlize the Dimension table of `medicines` 
 CREATE TABLE medicine_categories(medicine_category_id INT PRIMARY KEY,
-								category TEXT);
+				category TEXT);
                                     
 -- Dimension Table
  CREATE TABLE medicines(medicine_id INT PRIMARY KEY,
-						medicine TEXT);
+			medicine TEXT);
 
 
 -- Dimension Table
 CREATE TABLE diagnosis(diagnosis_id INT PRIMARY KEY,
-						disease TEXT,
+			disease TEXT,
                         disease_category TEXT); 
                         
 -- Normalize the Dimension Table `patients`
 CREATE TABLE patient_genders(gender_id INT PRIMARY KEY,
-								gender TEXT);
+			     gender TEXT);
 
 -- Normalize the Dimension Table `patients`
 CREATE TABLE occupation_categories(occupation_id INT PRIMARY KEY,
-									category TEXT);
+				    category TEXT);
                                             
                                             
 -- Dimension Table
 CREATE TABLE patients(patient_id INT PRIMARY KEY,
-						patient_name TEXT, 
+			patient_name TEXT, 
                         patient_gender CHAR(1) NOT NULL,
                         patient_occupation TEXT,
                         patient_address TEXT); 
 
 
 CREATE TABLE years(year_id INT PRIMARY KEY,
-					year BIGINT);
+		   year BIGINT);
 
 -- Normalize the Dimension Table `dates`
 CREATE TABLE quarters(quarter_id INT PRIMARY KEY,
-						quarter INT);
+			quarter INT);
 
 -- Normalize the Dimension Table `dates`
  CREATE TABLE months(month_id INT PRIMARY KEY,
-					month VARCHAR(40));
+		     month VARCHAR(40));
  
  
  -- Dimension Table
  CREATE TABLE dates(date_id INT PRIMARY KEY,
-					time TIMESTAMP,
+		    time TIMESTAMP,
                     day INT,
                     month INT,
                     quarter INT, 
@@ -119,21 +119,21 @@ CREATE TABLE quarters(quarter_id INT PRIMARY KEY,
                         
 -- Facts Table 
 CREATE TABLE billings(record_id SERIAL PRIMARY KEY,
-						date_id INT,
+			date_id INT,
                         FOREIGN KEY (date_id) REFERENCES dates (date_id),
-						patient_id INT,
-						FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
-						diagnosis_id INT,
-						FOREIGN KEY (diagnosis_id) REFERENCES diagnosis (diagnosis_id),
-						medicine_id INT,
-						FOREIGN KEY (medicine_id) REFERENCES medicines (medicine_id),
-						employee_id INT,
-						FOREIGN KEY (employee_id) REFERENCES employees (employee_id),
-						hospital_id INT,
-						FOREIGN KEY (hospital_id) REFERENCES hospitals (hospital_id),
-						initial_bill NUMERIC,
-						total_bill NUMERIC,
-						total_days_administered BIGINT); 
+			patient_id INT,
+			FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+			diagnosis_id INT,
+			FOREIGN KEY (diagnosis_id) REFERENCES diagnosis (diagnosis_id),
+			medicine_id INT,
+			FOREIGN KEY (medicine_id) REFERENCES medicines (medicine_id),
+			employee_id INT,
+			FOREIGN KEY (employee_id) REFERENCES employees (employee_id),
+			hospital_id INT,
+			FOREIGN KEY (hospital_id) REFERENCES hospitals (hospital_id),
+			initial_bill NUMERIC,
+			total_bill NUMERIC,
+			total_days_administered BIGINT); 
 
 
 -- Add a column
