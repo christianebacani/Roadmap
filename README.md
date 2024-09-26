@@ -12,6 +12,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-week-sql-challenge)
+   - [Data Scraping](#data-scraping)
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
@@ -87,6 +88,10 @@ This section covers advanced database design principles, including normalization
 ### 8 Week SQL Challenge
 
 This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
+
+### Data Scraping
+
+This folder contains all of my Python Scripts for Web Scraping for different resources such as `News`, `Articles`, `Wikis`, or even `Youtube Videos ` that is converted into a `Text File Format`. Some of my Python Script is being feed into an AI Agent for that I contributed for an Open Source Project in a Startup Company.
 
 ## Contact
 
