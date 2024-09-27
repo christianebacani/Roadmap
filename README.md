@@ -100,9 +100,9 @@ Additionally, some scripts not included in this repository but using the same we
 
 Feel free to reach out to me for any questions or opportunities:
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: @christianbacani581@gmail.com
+- **LinkedIn**: [Click Here](https://www.linkedin.com/in/christianebacani/)
+- **Portfolio**: [Click Here](https://www.datacamp.com/portfolio/christianebacani)
 
 ## Conclusion
 
