@@ -91,7 +91,7 @@ This section contains my solutions to the `8 Week SQL Challenge`, showcasing rea
 
 ### Data Scraping
 
-This directory contains Python scripts for web scraping various resources such as `News`, `Articles`, `Wikis`, and `YouTube Videos`, which are then converted into `Text File Format`. 
+This directory contains Python scripts for web scraping various resources such as `News`, `Articles`, `Wikis`, and `YouTube Videos`, which are then converted into `Text File Format` or `CSV File Format`. 
 
 Additionally, some scripts not included in this repository but using the same web scraping approaches have been integrated into an AI agent as part of my contributions to an open-source project for a startup company.
 
