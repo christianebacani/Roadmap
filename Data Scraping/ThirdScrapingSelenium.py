@@ -146,4 +146,4 @@ with open(text_file, 'w', encoding='utf-8', newline='\n') as text:
         text.write(f"{content}\t\t'{keyword}'\n")
 print("Successfully Integrated into our Local Working Directory!")
 
-# Automaticall Integrated into the Working Directory
+# Automatically Integrated into the Working Directory
