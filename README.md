@@ -13,6 +13,8 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-week-sql-challenge)
    - [Data Scraping](#data-scraping)
+   - [Bash Scripts](#bash-scripts)
+     
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
@@ -95,6 +97,9 @@ This directory contains Python scripts for web scraping various resources such a
 
 Additionally, some scripts not included in this repository but using the same web scraping approaches have been integrated into an AI agent as part of my contributions to an open-source project for a startup company.
 
+### Bash Scripts
+
+This directory contains both my mini and major projects in `Bash scripting (Bourne Again Shell)`. I am eager to deepen my knowledge of scripting, orchestration, automation, command-line interfaces (CLI), and Linux. This repository serves as both a guide and a compilation of the practical skills I have acquired in Bash scripting and how I have applied them.
 
 ## Contact
 
