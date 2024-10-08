@@ -14,6 +14,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [8 Week SQL Challenge](#8-week-sql-challenge)
    - [Data Scraping](#data-scraping)
    - [Bash Scripts](#bash-scripts)
+   - [Automates Boring Stuff using Python](#automates-boring-stuff-using-python)
      
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
@@ -100,6 +101,10 @@ Additionally, some scripts not included in this repository but using the same we
 ### Bash Scripts
 
 This directory contains both my mini and major projects in `Bash scripting (Bourne Again Shell)`. I am eager to deepen my knowledge of scripting, orchestration, automation, command-line interfaces (CLI), and Linux. This repository serves as both a guide and a compilation of the practical skills I have acquired in Bash scripting and how I have applied them.
+
+### Automates Boring Stuff using Python
+
+This directory contains all the Python scripts I've developed based on lessons from the book *Automate the Boring Stuff with Python*. I'm passionate about automation and scripting, and these projects reflect both my interests and career aspirations. I believe in building what I learn, and as part of that commitment, I consistently ship my work to GitHub to share and document my progress.
 
 ## Contact
 
