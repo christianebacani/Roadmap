@@ -15,4 +15,3 @@ if __name__ == '__main__':
 
     # Call the function
     list_comprehension(x, y, z, n)
-
