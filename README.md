@@ -15,6 +15,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Data Scraping](#data-scraping)
    - [Bash Scripts](#bash-scripts)
    - [Automates Boring Stuff using Python](#automates-boring-stuff-using-python)
+   - [HackerRank](#hackerrank)
      
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
@@ -105,6 +106,10 @@ This directory contains both my mini and major projects in `Bash scripting (Bour
 ### Automates Boring Stuff using Python
 
 This directory contains all the Python scripts I've developed based on lessons from the book *Automate the Boring Stuff with Python*. I'm passionate about automation and scripting, and these projects reflect both my interests and career aspirations. I believe in building what I learn, and as part of that commitment, I consistently ship my work to GitHub to share and document my progress.
+
+### HackerRank
+
+This directory includes various folders such as `Python (Basics)`, serving as a collection of Python exercises I've completed on the `HackerRank` platform. These exercises complement my learning approach by reinforcing key concepts in Software Engineering and Data Engineering. In addition to building projects, solving diverse Python problems helps strengthen my foundational skills, ensuring a lasting impact on my career development.
 
 ## Contact
 
