@@ -1,19 +1,15 @@
 # Function to get the second highest number
 def find_runner_up(nums):
-    # Non duplicate array
-    data = []
+    # Remove duplicates for easy fetching of second highest number
+    non_duplicate_nums = list(set(nums))
 
-    # Iterate through the loop
-    for i in nums:
-        # Check if the current iteration is not present to the non duplicate array
-        if i not in data:
-            # Store the current iteration to the non-duplicate array
-            data.append(i)
+    # Sort to ascending order
+    sorted_nums = sorted(non_duplicate_nums)
 
-    # Sorted to ascending and get the second highest value
-    print(sorted(data)[-2])
+    # Get the second highest value
+    print(sorted_nums[-2])
 
- 
+
 
 if __name__ == '__main__':
     # N score
