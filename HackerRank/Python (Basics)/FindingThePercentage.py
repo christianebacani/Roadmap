@@ -12,7 +12,7 @@ def get_average(marks, name):
     
     # Get the average
     average = total / 3
-    print(f"{average:.2f}") # Round the average value to 2 decimal places as a string
+    print(f"{average:.2f}") # Round the average value to 2 decimal places
 
 
 # Check if the script is running directly
