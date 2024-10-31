@@ -1,4 +1,5 @@
 # Import Libraries
+from keybert import KeyBERT
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,111 +7,143 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.edge.service import Service
 import pandas as pd
 import re 
-import os
 
-# Function to initialize the parameters
+# Data Extraction Phase
+
+# Functions for Customize Web Driver
 def web_driver():
-    # Initialize the Web Driver (Edge)
-    options = webdriver.EdgeOptions()
-
-    # Parameters
-    options.add_argument('--verbose')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--blink-settings-imagesEnabled=false')
+    options =  webdriver.EdgeOptions()
     
-    # Define the Web Driver Path
+    options.add_argument('--verbose') # No Logs
+    options.add_argument('--no-sandbox') # No Testing Env
+    options.add_argument('--disable-gpu') # Disable GPU 
+    options.add_argument('--window-settings=1920, 1200') # Window Setting
+    options.add_argument('--disable-dev-shm-usage') # Disable memory constrainst
+
+    # Define the path for the Web Driver
     service = Service(executable_path='D:\\Edge WebDriver Folder\\msedgedriver.exe')
 
-    # Define the path and the parameters
-    options = webdriver.Edge(service=service, options=options)
+    # Return the value of Customized Web Driver
+    driver = webdriver.Edge(service=service, options=options)
+    
+    return driver
 
-    # Return the configured web driver
-    return options
-
-# Execute the function
 driver = web_driver()
+# URL
+driver.get('https://newsletter.techworld-with-milan.com/p/how-to-become-an-expert-in-anything?utm_source=leadershipintech&utm_medium=referral&utm_campaign=how-to-become-an-expert-in-anything')
 
-# Go to URL using the configured Web Driver
-driver.get('https://dev.to/sheraz4194/good-commit-vs-bad-commit-best-practices-for-git-1plc?ref=dailydev')
-
-# Wait until the documents are fully loaded in the web page
+# Wait for the document to be fully loaded
 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
 
-
-# Wait until the specific div elements are located
+# Find the presence of the div element to be scraped
 WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.XPATH, '//div[@class="crayons-article__main"]'))
+    EC.presence_of_element_located((By.XPATH, '//div[@class="available-content"]'))
 )
 
-container = driver.find_elements(By.XPATH, '//div[@class="crayons-article__main"]')
+
+container = driver.find_elements(By.XPATH, '//div[@class="available-content"]')
 
 data = []
 
+# Scrape the data from the specified div element
 for element in container:
     try:
-        data.append(element.text)
+        data.append(element.text) # Parse as a text for compatibility
+    
     except Exception as e:
         print(f"Error Code : {e}")
 
-# Format data for parsing into DF
-combined_data = '\n'.join(data) 
-splitted_data = combined_data.split('\n')
+driver.close()
 
-df = pd.DataFrame(splitted_data, columns=['Good Vs. Bad Commit Article'])
+# Data Structuring
+
+# Combined the Data
+sentences = '\n\n'.join(data)
+
+# Separate into multiple rows
+rows = sentences.split('\n')
+
+# Define the DataFrame based on the rows
+df = pd.DataFrame(rows, columns=['Content'])
+
+# Remove empty rows
+df = df[df['Content'].str.strip() != '']
 print(df)
 
-df = df.iloc[:53].reset_index(drop=True)
+# Save as CSV File
+df.to_csv('expert_anything_article.csv', index=False)
+print("Converted into CSV Fie Format!")
 
-df.to_csv("D:\\Visual Studio Codes\\.venv\\Python Scripts\\Data Scraping\\Good Vs. Bad Commit Article.csv", index=False)
-print("Successfully Saved into CSV File!")
+# Data Cleaning Phase
 
-df = pd.read_csv("D:\\Visual Studio Codes\\.venv\\Python Scripts\\Data Scraping\\Good Vs. Bad Commit Article.csv")
+# CSV File
+csv_file = 'expert_anything_article.csv'
 
+df = pd.read_csv(csv_file)
 
-# Funtion to clean content of the text data
-def clean_content(text):
-    text = re.sub(r'\t+', ' ', text)
+print(df)
+
+# Include necessary rows
+df = df.iloc[:76]
+print(df)
+
+# Remove unnecessary rows
+index_exluded = [27, 28, 29, 32, 33, 34, 35, 36, 37]
+mask = ~df.index.isin(index_exluded)
+
+df = df[mask].reset_index(drop=True)
+
+# Function to cleant the data
+def cleaned_content(text):
+    text = re.sub(r'[👉➡️📌✅✨🚀]+', '', text)
+    text = re.sub(r'[,.!?]+$', '', text)
     text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'\t+', ' ', text)
     text = re.sub(r'\n+', ' ', text)
     text = text.strip()
 
     return text
 
-df['Good Vs. Bad Commit Article'] = df['Good Vs. Bad Commit Article'].apply(clean_content)
+df['Content'] = df['Content'].apply(cleaned_content)
+
 print(df)
 
-df.to_csv("D:\\Visual Studio Codes\\.venv\\Python Scripts\\Data Scraping\\Good Vs. Bad Commit Article.csv", index=False)
-print("Successfully Saved the Cleaned Data into CSV File!")
+# Data Enrichment Phase
 
-csvfile = "D:\\Visual Studio Codes\\.venv\\Python Scripts\\Data Scraping\\Good Vs. Bad Commit Article.csv"
+# Model for Generating Keywords
+model = KeyBERT('distilbert-base-nli-mean-tokens')
 
-textfile = csvfile.replace('.csv', '.txt')
+# Function to Generate Keywords
+def generate_keywords(text):
+    keywords = [keyword for keyword, score in model.extract_keywords(text)]
 
-# Arrays containing element to use for customizing/formatting the text data
-subheaders = ['What is a commit?', 'Characteristics of a Good Commit', 'Characteristics of a Bad Commit', 'Best Practices for Good Commits', 'Conclusion']
+    keywords_capitalize = [word.title() for word in keywords] # Capitalize every keywords
 
-mainParagraphs = ['Descriptive Commit Message: A descriptive commit message clearly explains what the commit does and why the change was made. It should provide enough context for others (and your future self) to understand the change without reading the code.',
-                  'Follow Conventional Commit Guidelines: You can use the standard commit guidelines to keep your git history clean, consistent and easy to read. Usually these guidelines interpret in the form of type (feat, fix, chore, refactor docs), and short summary plus occasionally a long explanation or REF to other relative issues.',
-                  'Properly Scoped:Scope your commits appropriately. For instance, if you’re working on a specific feature or fixing a bug, ensure that all changes related to that task are included in a single commit. Avoid partial changes that might leave the codebase in an inconsistent state.',
-                  'Vague or Misleading Messages: Commit messages that are vague or misleading do not provide useful information about the changes. This lack of detail can cause confusion and make it hard to track the history of changes.',
-                  'Unrelated Changes: Combining unrelated changes into a single commit makes it difficult to isolate specific changes, potentially introducing bugs and complicating the review process.']
+    return ', '.join(keywords_capitalize)
 
+df['Keyword'] = df['Content'].apply(generate_keywords)
 
-with open(textfile, 'w', encoding='utf-8', newline='\n') as text:
-    text.write(f"\t\t\t\t\t\t\t'Good Commit ✔ VS. Bad Commit ❌: Best Practices for Git'\n\n")
+# Save the Enriched Data in the existing CSV
+df.to_csv('expert_anything_article.csv', index=False)
+print("Successfully Enriching the Data!")
+
+# Data Integration Phase
+
+# CSV File
+csv_file = 'expert_anything_article.csv'
+
+# Replace into Text File
+text_file = csv_file.replace('.csv', '.txt')
+
+# Rewrite the Text File based on the CSV File
+with open(text_file, 'w', encoding='utf-8', newline='\n') as text:
+    text.write(f"Content\t\t'Keyword'\n")
 
     for i, row in df.iterrows():
-        textRow = row.get('Good Vs. Bad Commit Article', 'No Good Vs. Bad Commit Article')
-        
-        if textRow in subheaders:
-            text.write(f"\n{textRow.upper()}\n")
-        
-        elif textRow in mainParagraphs:
-            text.write(f"\n{textRow}\n")
+        content = row.get('Content', 'No Content')
+        keyword = row.get('Keyword', 'No Keyword')
 
-        else:
-            text.write(f"{textRow}\n")
+        text.write(f"{content}\t\t'{keyword}'\n")
+print("Successfully Integrated into our Local Working Directory!")
 
-text.close()
-os.remove("D:\\Visual Studio Codes\\.venv\\Python Scripts\\Data Scraping\\Good Vs. Bad Commit Article.csv") # Remove CSV File
-print("Converted into Text File!")
+# Automatically Integrated into the Working Directory
