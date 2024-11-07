@@ -7,14 +7,14 @@ DROP TABLE IF EXISTS local_suppliers;
 
 -- Create
 CREATE TABLE global_suppliers(supplier_id INT PRIMARY KEY,
-								continent VARCHAR(20),
-								supplier_name VARCHAR(50),
+				continent VARCHAR(20),
+				supplier_name VARCHAR(50),
                                 total_quantity INT,
                                 total_price DECIMAL(11, 2));
 
 CREATE TABLE local_suppliers(supplier_id INT PRIMARY KEY,
-								continent VARCHAR(20),
-								supplier_name VARCHAR(50),
+				continent VARCHAR(20),
+				supplier_name VARCHAR(50),
                                 total_quantity INT,
                                 total_price DECIMAL(11, 2));
 -- Insert
@@ -36,9 +36,8 @@ SELECT
 	global.continent,
     (local.total_quantity + global.total_quantity) AS total_quantity,
 	(local.total_price + global.total_price) AS total_price
-FROM local_suppliers AS local, (SELECT
-							*
-                        FROM global_suppliers) AS global
+FROM local_suppliers AS local, (SELECT *
+                        	FROM global_suppliers) AS global
 WHERE local.continent = global.continent AND local.supplier_name = global.supplier_name;
 
 
