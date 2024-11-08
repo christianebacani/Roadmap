@@ -111,6 +111,11 @@ This directory contains all the Python scripts I've developed based on lessons f
 
 This directory includes various folders such as `Python (Basics)`, serving as a collection of Python exercises I've completed on the `HackerRank` platform. These exercises complement my learning approach by reinforcing key concepts in Software Engineering and Data Engineering. In addition to building projects, solving diverse Python problems helps strengthen my foundational skills, ensuring a lasting impact on my career development.
 
+### Python for Data Engineering
+
+This directory contains a collection of `Data Pipeline` scripts developed in `Python`, as part of my learning journey in the `Python for Data Engineering` course on `Coursera`, which I completed through a financial aid opportunity. I plan to continue adding scripts here to build and refine my practical data engineering skills.
+
+
 ## Contact
 
 Feel free to reach out to me for any questions or opportunities:
