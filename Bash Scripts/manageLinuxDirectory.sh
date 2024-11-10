@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# CLI for Managing Directories in Linux
+# CLI for Managing File System in Linux
 
 
 # Main Function
