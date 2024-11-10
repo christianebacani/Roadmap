@@ -16,7 +16,8 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Bash Scripts](#bash-scripts)
    - [Automates Boring Stuff using Python](#automates-boring-stuff-using-python)
    - [HackerRank](#hackerrank)
-     
+   - [Python for Data Engineering](#python-for-data-engineering)
+
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
