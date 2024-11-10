@@ -19,7 +19,7 @@ USING(spotify_tracking_id)
 GROUP BY
 	spotify_most_streamed_songs.spotify_tracking_id WITH ROLLUP
 ORDER BY 
-	is_grand_total DESC, 
+    is_grand_total DESC, 
     total_streams ASC;
     
 
