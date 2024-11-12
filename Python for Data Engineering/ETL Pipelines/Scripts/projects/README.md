@@ -1,1 +1,1 @@
-## This folder consist of all the scripts I build in hands-on laboratory for IBM Python for Data Engineering Course
+## This folder consist of all the Python Scripts I wrote for hands-on laboratory in IBM Python for Data Engineering Course
