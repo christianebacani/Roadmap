@@ -33,7 +33,7 @@ ORDER BY
 -- Creating materialized views
 -- NOTE : MySQL doesn't support materialized views so I just improvised
 CREATE TABLE materialized_avg_country_gdp_growth_per_year (`Country` TEXT,
-															`Average GDP growth per year` FLOAT);
+							   `Average GDP growth per year` FLOAT);
 
 
 -- Storing query results into materialized view
@@ -54,7 +54,7 @@ CREATE VIEW
 		`Year`, 
     `Population, total`,
     ROW_NUMBER() OVER (PARTITION BY `Country`
-						ORDER BY Year DESC) AS year_sorted
+			ORDER BY Year DESC) AS year_sorted
 	FROM 
 		south_asian_dataset)
 
