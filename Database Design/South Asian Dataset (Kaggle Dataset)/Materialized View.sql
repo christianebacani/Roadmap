@@ -1,5 +1,4 @@
-USE
-	kaggle_db;
+USE kaggle_db;
     
     
 -- Build Materilized Views in MySQL (Improvised)
