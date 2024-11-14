@@ -20,7 +20,7 @@ def transform_data():
 
     # Remove empty rows
     df = df[df['Content'].str.strip() != '']
-    # Exclude unncessary rows
+    # Include necessary rows only
     df = df.iloc[14:298].reset_index(drop=True)
 
 
