@@ -8,7 +8,7 @@ import os
 def transform_data():
     source_filepath = 'D:\\Visual Studio Codes\\Data Engineering Projects in Python\\ETL Pipeline\\Source Data Files\\data_architecture_article.csv' 
     with open(source_filepath, 'r', encoding='utf-8', newline='\n') as f:
-        data = f.read() # Read CSV and Parse as a string\
+        data = f.read() # Read CSV and Parse as a string
 
     f.close() # Close the file
 
