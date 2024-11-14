@@ -22,8 +22,6 @@ function manage_dir(){
 
 	while true
 	do
-		# TODO : Debug this function
-
 	 	# Options to choose of different directory
 	        echo "Directories:"
 		echo "1.) parent"
@@ -44,16 +42,13 @@ function manage_dir(){
 			then
 				cd /
 
-
 			elif [[ "$OPTION" -eq 2 ]]
 			then
 				cd /root
 
-
 			elif [[ "$OPTION" -eq 3 ]]
 			then
 				cd /root/scripts
-
 
 			elif [[ "$OPTION" -eq 4 ]]
 			then
