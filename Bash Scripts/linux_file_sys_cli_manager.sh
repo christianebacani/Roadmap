@@ -44,16 +44,13 @@ function manage_dir(){
 			then
 				cd /
 
-
 			elif [[ "$OPTION" -eq 2 ]]
 			then
 				cd /root
 
-
 			elif [[ "$OPTION" -eq 3 ]]
 			then
 				cd /root/scripts
-
 
 			elif [[ "$OPTION" -eq 4 ]]
 			then
