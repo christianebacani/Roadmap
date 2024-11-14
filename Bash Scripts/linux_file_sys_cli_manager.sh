@@ -22,8 +22,6 @@ function manage_dir(){
 
 	while true
 	do
-		# TODO : Debug this function
-
 	 	# Options to choose of different directory
 	        echo "Directories:"
 		echo "1.) parent"
