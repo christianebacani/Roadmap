@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# CLI for Managing File System in Linux
+# CLI for Managing Directories in Linux
 
 
 # Main Function
@@ -22,19 +22,22 @@ function manage_dir(){
 
 	while true
 	do
+		# TODO : Debug this function
+
 	 	# Options to choose of different directory
 	        echo "Directories:"
 		echo "1.) parent"
         	echo "2.) root"
         	echo "3.) scripts"
-        	echo "4.) playground"
-		echo "5.) personal"
-        	echo "6.) exit"
+		echo "4.) python_scripts"
+        	echo "5.) playground"
+		echo "6.) personal"
+        	echo "7.) exit"
 
 		read -p "Enter your option here : " OPTION
 
 		# Check if user's choice is valid
-		if [[ "$OPTION" -ge 1 ]] && [[ "$OPTION" -le 6 ]]
+		if [[ "$OPTION" -ge 1 ]] && [[ "$OPTION" -le 7 ]]
 		then
 			# Change directory and list all the script inside the directory
 			if [[ "$OPTION" -eq 1 ]]
@@ -54,9 +57,13 @@ function manage_dir(){
 
 			elif [[ "$OPTION" -eq 4 ]]
 			then
-				cd /root/scripts/playground
+				cd /root/scripts/python_scripts
 
 			elif [[ "$OPTION" -eq 5 ]]
+			then
+				d /root/scripts/playground
+
+			elif [[ "$OPTION" -eq 6 ]]
 			then
 				cd /root/scripts/playground/personal
 
