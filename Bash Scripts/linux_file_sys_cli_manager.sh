@@ -1,21 +1,16 @@
 #!/bin/bash
 
+
 # Linux File System CLI Manager
 
-# TODO : Rename the variables to follow global naming conventions
 
-# Main Function
-function main(){
-	read -p "Press any key to start: " START
-
-	clear
-	manage_dir
-}
+# TODO : Refactor to make sure the directory/command option is in good format
 
 
-# Change Directory Function
-function manage_dir(){
+# Main Interface
+function mainInterface(){
 	function reload(){
+		read -p "Press any key to load the interface : "
 		clear
 		ls -l
 	}
@@ -33,62 +28,68 @@ function manage_dir(){
 			echo "5.) personal"
         	echo "6.) exit"
 
-		read -p "Enter your option here : " OPTION
+		read -p "Enter your option here : " dirOption
 
 		# Check if user's option is invalid
-		if [[ "$OPTION" -le 0 ]] && [[ "$OPTION" -ge 7 ]]; then 
+		if [[ "$dirOption" =~ [A-Z-az]+ ]]; then
 			reload
 			continue
 
-		elif [[ "$OPTION" =~ [A-Za-z]+ ]]; the 
-			reload 
+		elif [[ -z "$dirOption" ]]; then
+			reload
 			continue
-	
+
+		elif [[ "$dirOption" -le 0 ]]; then
+			reload
+			continue
+
+
+		elif [[ "$dirOption" -ge 7 ]]; then
+			reload
+			continue
+
 		fi
 
 
 		# Change directory and list all the script inside the directory
-		if [[ "$OPTION" -eq 1 ]]; then
+		if [[ "$dirOption" -eq 1 ]]; then
 			cd /
 
 
-		elif [[ "$OPTION" -eq 2 ]]; then
+		elif [[ "$dirOption" -eq 2 ]]; then
 			cd /root
 
 
-		elif [[ "$OPTION" -eq 3 ]]; then
+		elif [[ "$dirOption" -eq 3 ]]; then
 			cd /root/scripts
 
 
-		elif [[ "$OPTION" -eq 4 ]]; then
+		elif [[ "$dirOption" -eq 4 ]]; then
 			cd /root/scripts/playground
 
 
-		elif [[ "$OPTION" -eq 5 ]]; then
+		elif [[ "$dirOption" -eq 5 ]]; then
 			cd /root/scripts/playground/personal
 
 		else
 			# Exit message
-			printf "\n\t\tEXITING\n"
-
-			echo "-----------------------------------------------------------------"
 			cd /root
+
 			reload
-
 			break
-
 
 		fi
 
 		reload
-		manage_directory
+		commandInterface
 
 	done
 }
 
 
-# Modifying Directory Function
-function manage_directory(){
+
+# Command Interface
+function commandInterface(){
 	while true; do
 		printf "\n"
 		echo "-----------------------------------------------------------------"
@@ -102,10 +103,25 @@ function manage_directory(){
 		echo "6.) Change permission"
 		echo "7.) Exit"
 
-		read -p "Choose your commands here : " COMMAND
+		read -p "Choose your commands here : " command
+
 
 		# Check if the user's choice of commannd is valid
-		if [[ "$COMMAND" -le 0 ]] && [[ "$COMMAND" -ge 8 ]] || [[ "$COMMAND" =~ [A-Za-z]+ ]]; then
+		if [[ "$command" =~ [A-Za-z]+ ]]; then
+			reload
+			continue
+
+		elif [[ -z "$command" ]]; then
+			reload
+			continue
+
+
+		elif [[ "$command" -le 0 ]]; then
+			reload
+			continue
+
+
+		elif [[ "$command" -ge 8 ]]; then
 			reload
 			continue
 
@@ -113,57 +129,62 @@ function manage_directory(){
 
 
 		# Exit interface
-		if [[ "$COMMAND" -eq 7 ]]; then
+		if [[ "$command" -eq 7 ]]; then
+			cd /root
+			reload
 			break
 
 		fi
 
 
-		read -p "Enter the script name here : " SCRIPT
+		read -p "Enter the script name here : " script
 
-		manage_script "$SCRIPT" "$COMMAND"
+		manageScripts "$script" "$command"
+
 		reload
-
 	done
 }
 
 
+
 # Function to manage script
-function manage_script(){
-	local LOCAL_SCRIPT="$1"
-	local LOCAL_COMMAND="$2"
+function manageScripts(){
+	local script="$1"
+	local command="$2"
 
 
-	# Remove a script
-	if [[ -f "$LOCAL_SCRIPT" ]] && [[ "$LOCAL_COMMAND" -eq 1 ]]; then
-                rm "$LOCAL_SCRIPT"
+	# Remove a scripts
+	if [[ "$command" -eq 1 ]] && [[ -f "$script" ]]; then
+                rm "$script"
 
 
-	# Renaming script
-	elif [[ -f  "$LOCAL_SCRIPT" ]] && [[ "$LOCAL_COMMAND" -eq 2 ]]; then
-		renameScript "$1"
+	# Renaming scripts
+	elif [[ "$command" -eq 2 ]] && [[ -f "$script" ]]; then
+		renameScript "$script"
 
 
-	# Moving script to another directory
-	elif [[ -f "$LOCAL_SCRIPT" ]] && [[ "$LOCAL_COMMAND" -eq 3 ]]; then
-		moveScript "$LOCAL_SCRIPT"
-
-	# Execute script/s
-	elif [[ -f "$LOCAL_SCRIPT" ]] && [[ "$LOCAL_COMMAND" -eq 4 ]]; then
-		bash "$LOCAL_SCRIPT"
-		read -p "Press any key to load the Command Line Interface again: "
+	# Moving scripts to another directory
+	elif [[ "$command" -eq 3 ]] && [[ -f "$script" ]]; then
+		moveScript "$script"
 
 
-	# Create/Edit script/s
-	elif [[ "$LOCAL_COMMAND" -eq 5 ]]
-	then
-		createOrModifyScript "$LOCAL_SCRIPT"
+	# Execute scripts
+	elif [[ "$command" -eq 4 ]] && [[ -f "$script" ]]; then
+		bash "$script"
+
+
+	# Create/Edit scripts
+	elif [[ "$command" -eq 5 ]] && [[ -n "$script" ]]; then
+		createOrModifyScript "$script"
 
 
 	# Change permissions
-	else
+	elif [[ "$command" -eq 6 ]] && [[ -f "$script" ]]; then
+		changeScriptPermission "$script"
 
-		changeScriptPermission "$LOCAL_SCRIPT"
+
+	else
+		echo "Invalid script!"
 
 	fi
 }
@@ -172,12 +193,12 @@ function manage_script(){
 
 # Rename script
 function renameScript(){
-	local LOCAL_SCRIPT="$1"
+	local script="$1"
 
-	read -p "Enter the new script name : " NEW_SCRIPT
+	read -p "Enter the new script name : " newScript
 
-	if [[ -n "$NEW_SCRIPT" ]]; then
-		mv "$LOCAL_SCRIPT" "$NEW_SCRIPT"
+	if [[ -n "$newScript" ]]; then
+		mv "$script" "$newScript"
 
 	else
 		echo "Invalid file name!"
@@ -190,28 +211,28 @@ function renameScript(){
 
 # Move script
 function moveScript(){
-	local LOCAL_SCRIPT="$1"
+	local script="$1"
 
-	read -p "Enter a directory to store your script : " DIRECTORY
+	read -p "Enter a directory to store your script : " directory
 
 
-	if [[ -d "$DIRECTORY" ]]; then
-		mv "$LOCAL_SCRIPT" "$DIRECTORY"
+	if [[ -d "$directory" ]]; then
+		mv "$script" "$directory"
 
 	else
-		echo "The ${DIRECTORY} doesn't exist! Please try again."
+		echo "The ${directory} doesn't exist! Please try again."
 
 	fi
 }
 
 
 
-# Create/Modify script
+# Create/Modify scripts
 function createOrModifyScript(){
-	local LOCAL_SCRIPT="$1"
+	local script="$1"
 
-	if [[ -n "$LOCAL_SCRIPT" ]]; then
-		nano "$LOCAL_SCRIPT"
+	if [[ -n "$script" ]]; then
+		nano "$script"
 
 	else
 		echo "Invalid Input! Please try again."
@@ -226,11 +247,10 @@ function createOrModifyScript(){
 function changeScriptPermission(){
 	function invalidInput(){
 		echo "Invalid input! Please try again."
-		read -p "Press any key to load the interface again : "
-
 	}
 
-	local LOCAL_SCRIPT="$1"
+	local script="$1"
+
 
 	echo "-----------------------------------------------------------------"
 	printf "\t\tChange Permissions\n\n"
@@ -239,23 +259,23 @@ function changeScriptPermission(){
 	echo "Write (w)"
 	echo "Execute (x)"
 
-	read -p "Change file permission here based on the acronyms : " PERMISSION
+	read -p "Change file permission here based on the acronyms : " permission
 
-	PERMISSION=${PERMISSION,,}
+	permission=${permission,,}
 
-	if [[ "$PERMISSION" =~ [0-9]+ ]]; then
+	if [[ "$permission" =~ [0-9]+ ]]; then
 		invalidInput
 
-	elif [[ "$PERMISSION" == "r" ]]; then
-		chmod u+r "$LOCAL_SCRIPT"
+	elif [[ "$permission" == "r" ]]; then
+		chmod u+r "$script"
 
 
-	elif [[ "$PERMISSION" == "w" ]]; then
-		chmod u+w "$LOCAL_SCRIPT"
+	elif [[ "$permission" == "w" ]]; then
+		chmod u+w "$script"
 
 
-	elif [[ "$PERMISSION" == "x" ]]; then
-		chmod u+x "$LOCAL_SCRIPT"
+	elif [[ "$permission" == "x" ]]; then
+		chmod u+x "$script"
 
 	else
 		invalidInput
@@ -265,6 +285,10 @@ function changeScriptPermission(){
 }
 
 
-# Execute the function
-main
+# Execute the main function
+read -p "Press any key to start : "
+clear
+
+mainInterface
+
 
