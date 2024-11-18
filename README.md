@@ -94,12 +94,6 @@ This section covers advanced database design principles, including normalization
 
 This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
 
-### Data Scraping
-
-This directory contains Python scripts for web scraping various resources such as `News`, `Articles`, `Wikis`, and `YouTube Videos`, which are then converted into `Text File Format` or `CSV File Format`. 
-
-Additionally, some scripts not included in this repository but using the same web scraping approaches have been integrated into an AI agent as part of my contributions to an open-source project for a startup company.
-
 ### Bash Scripts
 
 This directory contains both my mini and major projects in `Bash scripting (Bourne Again Shell)`. I am eager to deepen my knowledge of scripting, orchestration, automation, command-line interfaces (CLI), and Linux. This repository serves as both a guide and a compilation of the practical skills I have acquired in Bash scripting and how I have applied them.
