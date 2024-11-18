@@ -11,8 +11,8 @@ def logs(message):
     now = datetime.now() # Datetime
     timestamp = now.strftime(timestamp_format)
 
-    # Store your logs inside your own dedicated logfile/s
-    with open('your_own_logfile.txt', 'a') as f:
+    # Store your logs inside your own dedicated logfile
+    with open('logfile.txt', 'a') as f:
         f.write(f"{timestamp} : {message}\n")
 
 

@@ -5,7 +5,7 @@ import os
 
 def load(df):
     # Loading to the target path
-    target_filepath = 'D:\\Visual Studio Codes\\Data Engineering Projects in Python\\ETL Pipeline\\Target Data Files\\data_architecture_medium_article.csv'
+    target_filepath = 'data_architecture_medium_article.csv'
     df.to_csv(target_filepath, index=False)
 
     # Prepare the data for conversion    

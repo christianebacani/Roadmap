@@ -24,7 +24,7 @@ async def get_text_content():
         await browser.close()   
 
         # Store the text content inside the csv file
-        with open('D:\\Visual Studio Codes\\Data Engineering Projects in Python\\ETL Pipeline\\Source Data Files\\data_architecture_article.csv', 'w', encoding='utf-8', newline='\n') as f:
+        with open('data_architecture_article.csv', 'w', encoding='utf-8', newline='\n') as f:
             f.write(content)
 
 
