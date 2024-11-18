@@ -4,31 +4,38 @@
 # Linux File System CLI Manager
 
 
-# TODO : Refactor to make sure the directory/command option is in good format
-
-
 # Main Interface
 function mainInterface(){
 	function reload(){
-		read -p "Press any key to load the interface : "
 		clear
 		ls -l
 	}
 
-	while true
-	do
-		printf "\n"
+	while true; do
 		echo "-----------------------------------------------------------------"
 		printf "\t\tDIRECTORIES\n\n"
 
+		printf "\t\t"
 		echo "1.) Parent root"
-        	echo "2.) child root"
-        	echo "3.) scripts"
-        	echo "4.) playground"
-			echo "5.) personal"
-        	echo "6.) exit"
 
+		printf "\t\t"
+        	echo "2.) child root"
+
+		printf "\t\t"
+        	echo "3.) scripts"
+
+		printf "\t\t"
+        	echo "4.) playground"
+
+		printf "\t\t"
+		echo "5.) personal"
+
+		printf "\t\t"
+		echo "6.) exit"
+
+		printf "\n\t\t"
 		read -p "Enter your option here : " dirOption
+
 
 		# Check if user's option is invalid
 		if [[ "$dirOption" =~ [A-Z-az]+ ]]; then
@@ -91,18 +98,31 @@ function mainInterface(){
 # Command Interface
 function commandInterface(){
 	while true; do
-		printf "\n"
 		echo "-----------------------------------------------------------------"
 		printf "\t\tCOMMANDS\n\n"
 
+		printf "\t\t"
 		echo "1.) Remove"
+
+		printf "\t\t"
 		echo "2.) Rename"
+
+		printf "\t\t"
 		echo "3.) Moving"
+
+		printf "\t\t"
 		echo "4.) Execute"
+
+		printf "\t\t"
 		echo "5.) Create/Modify"
+
+		printf "\t\t"
 		echo "6.) Change permission"
+
+		printf "\t\t"
 		echo "7.) Exit"
 
+		printf "\n\t\t"
 		read -p "Choose your commands here : " command
 
 
@@ -137,6 +157,7 @@ function commandInterface(){
 		fi
 
 
+		printf "\t\t"
 		read -p "Enter the script name here : " script
 
 		manageScripts "$script" "$command"
@@ -170,8 +191,11 @@ function manageScripts(){
 
 	# Execute scripts
 	elif [[ "$command" -eq 4 ]] && [[ -f "$script" ]]; then
+		clear
 		bash "$script"
 
+		read -p "Press any key to load the interface again : "
+		clear
 
 	# Create/Edit scripts
 	elif [[ "$command" -eq 5 ]] && [[ -n "$script" ]]; then
@@ -180,11 +204,12 @@ function manageScripts(){
 
 	# Change permissions
 	elif [[ "$command" -eq 6 ]] && [[ -f "$script" ]]; then
+		reload
 		changeScriptPermission "$script"
 
 
 	else
-		echo "Invalid script!"
+		printf "\n\t\tInvalid script!\n"
 
 	fi
 }
@@ -195,13 +220,14 @@ function manageScripts(){
 function renameScript(){
 	local script="$1"
 
+	printf "\t\t"
 	read -p "Enter the new script name : " newScript
 
 	if [[ -n "$newScript" ]]; then
 		mv "$script" "$newScript"
 
 	else
-		echo "Invalid file name!"
+		printf "\t\tInvalid file name!\n"
 
 	fi
 
@@ -213,6 +239,7 @@ function renameScript(){
 function moveScript(){
 	local script="$1"
 
+	printf "\t\t"
 	read -p "Enter a directory to store your script : " directory
 
 
@@ -220,6 +247,7 @@ function moveScript(){
 		mv "$script" "$directory"
 
 	else
+		printf "\t\t"
 		echo "The ${directory} doesn't exist! Please try again."
 
 	fi
@@ -235,7 +263,7 @@ function createOrModifyScript(){
 		nano "$script"
 
 	else
-		echo "Invalid Input! Please try again."
+		printf "\t\tInvalid Input! Please try again.\n\t\t"
 		read -p "Press enter to load the interface again : "
 
 	fi
@@ -246,19 +274,24 @@ function createOrModifyScript(){
 # Changing script permission
 function changeScriptPermission(){
 	function invalidInput(){
-		echo "Invalid input! Please try again."
+		printf "\n\t\tInvalid input! Please try again.\n"
 	}
 
 	local script="$1"
 
-
 	echo "-----------------------------------------------------------------"
 	printf "\t\tChange Permissions\n\n"
 
+	printf "\t\t"
 	echo "Read (r)"
+
+	printf "\t\t"
 	echo "Write (w)"
+
+	printf "\t\t"
 	echo "Execute (x)"
 
+	printf "\n\t\t"
 	read -p "Change file permission here based on the acronyms : " permission
 
 	permission=${permission,,}
@@ -286,9 +319,7 @@ function changeScriptPermission(){
 
 
 # Execute the main function
-read -p "Press any key to start : "
 clear
-
 mainInterface
 
 
