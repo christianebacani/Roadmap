@@ -24,7 +24,7 @@ def transform(df):
         car_model = ' '.join(car_model) # Converted into capitalize string records
 
         year_of_manufacture = int(row.get('year_of_manufacture')) 
-        price = round(float(row.get('price')), 2) # Round to 2 decimal places
+        price = round(float(row.get('price')), 2) # Rounding to 2 decimal places
         fuel = str(row.get('fuel').capitalize())
         
         transformed_df = pd.DataFrame({'car_model' : car_model, 'year_of_manufacture' : year_of_manufacture, 'price' : price, 'fuel' : fuel}, index=[0])
