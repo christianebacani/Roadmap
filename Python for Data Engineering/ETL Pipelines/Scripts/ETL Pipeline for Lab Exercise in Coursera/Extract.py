@@ -50,5 +50,8 @@ def extract():
         
         elif file[-4:] == '.xml':
             dataframe = pd.concat([dataframe, extract_from_xml(file)], ignore_index=True)
-    
+            
+        else:
+            pass
+            
     return dataframe

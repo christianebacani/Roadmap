@@ -129,7 +129,8 @@ VALUES
 -- Data Cleaning
 UPDATE customer_orders
 SET extras = 0
-WHERE extras = '' OR extras = 'null' OR extras IS NULL;
+WHERE 
+	extras = '' OR extras = 'null' OR extras IS NULL;
 
 UPDATE customer_orders
 SET exclusions = 0
@@ -140,25 +141,29 @@ WHERE exclusions = '' OR exclusions = 'null';
 SELECT *
 FROM pizza_names
 INNER JOIN pizza_recipes
-	USING(pizza_id); 
+USING(pizza_id); 
 
 
 -- 2.) What was the most commonly added extra?
 SELECT
-	extras,
+     extras,
     COUNT(extras) AS total_extras_per_orders
 FROM customer_orders
-WHERE extras <> 0
-GROUP BY extras;
+WHERE 
+	extras <> 0
+GROUP BY
+	extras;
 
 
 -- 3.) What was the most common exclusion?
 SELECT 
-	exclusions,
+    exclusions,
     COUNT(exclusions) AS total_exclusions_per_orders
 FROM customer_orders
-WHERE exclusions <> 0
-GROUP BY exclusions;
+WHERE 
+	exclusions <> 0
+GROUP BY 
+	exclusions;
 
 
 -- 4.) Generate an order item for each record in the customers_orders table in the format of one of the following:
@@ -169,39 +174,44 @@ GROUP BY exclusions;
 SELECT
 	order_id AS `Meat Lovers`
 FROM customer_orders
-WHERE pizza_id = 1;
+WHERE 
+	pizza_id = 1;
 
 SELECT 
 	order_id AS `Meat Lovers - Exclude Beef '3'`
 FROM customer_orders
-WHERE pizza_id = 1 AND exclusions LIKE '%3%'
+WHERE 
+	pizza_id = 1 AND exclusions LIKE '%3%'
 
 UNION ALL
 SELECT 
 	order_id AS `Meat Lovers - Exclude Beef '3'`
 FROM customer_orders
-WHERE pizza_id = 1 AND exclusions LIKE '%3%';
+WHERE 
+	pizza_id = 1 AND exclusions LIKE '%3%';
 
 SELECT 
 	order_id AS `Meat Lovers - Extra Bacon '1'`
 FROM customer_orders
-WHERE pizza_id = 1 AND extras LIKE '%1%';
+WHERE 
+	pizza_id = 1 AND extras LIKE '%1%';
 
 SELECT
 	order_id AS `Meat Lovers - Exclude Cheese '4', Bacon '1' - Extra Mushrooms '6', Peppers '9'`
 FROM customer_orders
-WHERE pizza_id = 1 AND (exclusions LIKE '%4%' OR exclusions LIKE '%1%') AND (extras LIKE '%6%' OR extras LIKE '%9%');
+WHERE 
+	pizza_id = 1 AND (exclusions LIKE '%4%' OR exclusions LIKE '%1%') AND (extras LIKE '%6%' OR extras LIKE '%9%');
  
  
  -- 5.) Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
 -- For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
  WITH cte AS(
 SELECT
-	order_id,
+    order_id,
     (CASE
-		WHEN extras LIKE '%1, 5%' THEN '2xBacon, BBQ Sauce, Beef, Cheese, 2xChicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
+	WHEN extras LIKE '%1, 5%' THEN '2xBacon, BBQ Sauce, Beef, Cheese, 2xChicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
         WHEN extras LIKE '%1, 4%' THEN '2xBacon, BBQ Sauce, Beef, 2xCheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
-		WHEN extras LIKE '%1%' THEN '2xBacon, BBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
+	WHEN extras LIKE '%1%' THEN '2xBacon, BBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
         WHEN extras LIKE '%2%' THEN 'Bacon, 2xBBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
         WHEN extras LIKE '%3%' THEN 'Bacon, BBQ Sauce, 2xBeef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
         WHEN extras LIKE '%4%' THEN 'Bacon, BBQ Sauce, Beef, 2xCheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, Tomato Sauce'
@@ -215,168 +225,169 @@ SELECT
         WHEN extras LIKE '%12%' THEN 'Bacon, BBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomatoes, 2xTomato Sauce'
 	END) AS ingredient_list
 FROM customer_orders
-WHERE pizza_id = 1 AND extras <> '0'
-ORDER BY ingredient_list
+WHERE 
+	 pizza_id = 1 AND extras <> '0'
+ORDER BY 
+	 ingredient_list
 )
 
 SELECT 
-	cte.order_id,
+    cte.order_id,
     customer_id,
     CONCAT('Meat Lovers: ', cte.ingredient_list) AS ingredient_list
 FROM customer_orders
 INNER JOIN cte
 	ON cte.order_id = customer_orders.order_id
-WHERE customer_orders.pizza_id = 1 AND customer_orders.extras <> '0'
-ORDER BY ingredient_list;
+WHERE 
+	 customer_orders.pizza_id = 1 AND customer_orders.extras <> '0'
+ORDER BY 
+	 ingredient_list;
 
 
 -- 6.) What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 WITH toppings_count AS (
 SELECT
-	'1' AS ingredient,
+    '1' AS ingredient,
     SUM(CASE WHEN extras LIKE '%1%' AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION ALL 
 
 SELECT
-	'4' AS ingredient,
+    '4' AS ingredient,
     SUM(CASE WHEN extras LIKE '%4%' AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION ALL 
 
 SELECT
-	'5' AS ingredient,
+    '5' AS ingredient,
     SUM(CASE WHEN extras LIKE '%5%' AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION ALL
 
 SELECT
-	'1' AS ingredient,
+    '1' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%1%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION 
 
 SELECT
-	'2' AS ingredient,
+    '2' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%2%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION 
 
 SELECT
-	'3' AS ingredient,
+    '3' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%3%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION 
 
 SELECT
-	'4' AS ingredient,
+    '4' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id IS NOT NULL AND exclusions NOT LIKE '%4%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION
 
 SELECT
-	'5' AS ingredient,
+    '5' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%5%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION
 
 SELECT
-	'6' AS ingredient,
+    '6' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id IS NOT NULL AND exclusions NOT LIKE '%6%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION
 
-SELECT 
-	'7' AS ingredient,
+SELECT  
+    '7' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 2 AND exclusions NOT LIKE '%7%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION
  
 SELECT 
-	'8' AS ingredient,
+    '8' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%8%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION 
  
 SELECT 
-	'9' AS ingredient,
+    '9' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 2 AND exclusions NOT LIKE '%9%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 
 UNION
 
 SELECT 
-	'10' AS ingredient,
+    '10' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 1 AND exclusions NOT LIKE '%10%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
     
 UNION
 
 SELECT 
-	'11' AS ingredient,
+    '11' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 2 AND exclusions NOT LIKE '%11%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)   
+USING(order_id)   
 
 UNION
 
 SELECT 
-	'12' AS ingredient,
+    '12' AS ingredient,
     SUM(CASE WHEN (customer_orders.pizza_id = 2 AND exclusions NOT LIKE '%12%') AND runner_orders.cancellation REGEXP '[null|NULL|'']' THEN 1 ELSE 0 END) AS ingredient_count
 FROM runner_orders
 INNER JOIN customer_orders
-	USING(order_id)
+USING(order_id)
 )
 
 SELECT
-	ingredient,
+    ingredient,
     SUM(ingredient_count) AS total_ingredient_count
 FROM toppings_count
-GROUP BY ingredient
-ORDER BY total_ingredient_count DESC;
-
-
-    
-
-
+GROUP BY 
+	ingredient
+ORDER BY
+	total_ingredient_count DESC;
 
 
 
