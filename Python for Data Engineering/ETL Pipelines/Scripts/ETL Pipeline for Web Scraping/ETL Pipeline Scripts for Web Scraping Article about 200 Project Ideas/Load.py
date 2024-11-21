@@ -5,7 +5,7 @@ import os
 # Load Job
 
 def load(df):
-    target_filepath = '200_project_ideas.csv'
+    target_filepath = 'Target Data Files\\Article about 200 Project Ideas\\200_project_ideas.csv'
     df.to_csv(target_filepath, index=False)
 
     textfile = target_filepath.replace('.csv', '.txt')

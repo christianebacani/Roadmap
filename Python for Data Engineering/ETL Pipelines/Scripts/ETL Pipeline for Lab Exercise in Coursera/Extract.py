@@ -39,7 +39,7 @@ def extract():
     dataframe = pd.DataFrame(columns=['car_model', 'year_of_manufacture', 'price', 'fuel'])
 
     # Filepath of source data
-    sourcefilepath = 'Roadmap\\Python for Data Engineering\\ETL Pipelines\\Source Data Files\\Car Prices Datasets\\*'
+    sourcefilepath = 'Source Data Files\\Car Prices Datasets\\*'
 
     for file in glob.glob(sourcefilepath):
         if file[-4:] == '.csv':

@@ -5,7 +5,7 @@ import os
 
 def load(df):
     # Loading to the target path
-    target_filepath = 'data_architecture_medium_article.csv'
+    target_filepath = 'Target Data Files\\Article about Data Architecture\\data_architecture_medium_article.txt'
     df.to_csv(target_filepath, index=False)
 
     # Prepare the data for conversion    
