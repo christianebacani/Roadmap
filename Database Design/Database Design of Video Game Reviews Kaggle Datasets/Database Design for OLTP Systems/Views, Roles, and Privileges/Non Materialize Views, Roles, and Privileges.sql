@@ -15,7 +15,7 @@ CREATE VIEW
 WITH	
 	cheapest_prices_per_platforms AS (
 SELECT
-	kaggle_db.platforms.`Platform`,
+    kaggle_db.platforms.`Platform`,
     MIN(kaggle_db.video_game_reviews.`Price`) AS price
 FROM 
 	kaggle_db.video_game_reviews
@@ -29,7 +29,7 @@ ORDER BY
 )
 
 SELECT
-	`Game Title`,
+    `Game Title`,
     cheapest_prices_per_platforms.`Platform`,
     cheapest_prices_per_platforms.price
 FROM 
@@ -46,12 +46,12 @@ ORDER BY
 CREATE VIEW
 	game_descriptions AS
 SELECT 
-	`Game Title`,
+    `Game Title`,
     `User Rating`, 
     `Price`, 
     `Platform`,
     `Release Year`,
-	`Genre`,
+    `Genre`,
     `User Review Text`,
     `Game Mode`
 FROM 
