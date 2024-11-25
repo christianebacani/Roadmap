@@ -18,7 +18,7 @@ CREATE TABLE
 WITH 
 	highest_ratings_per_release_years AS (
 SELECT 
-	`Release Year`,
+    `Release Year`,
     MAX(`User Rating`) AS `Highest Ratings`
 FROM 
 	kaggle_db.video_game_reviews
@@ -28,7 +28,7 @@ ORDER BY
 	`Highest Ratings` DESC
 )
 SELECT
-	highest_ratings_per_release_years.`Release Year`,
+    highest_ratings_per_release_years.`Release Year`,
     highest_ratings_per_release_years.`Highest Ratings`,
     kaggle_db.video_game_reviews.`Game Title`
 FROM
@@ -36,7 +36,7 @@ FROM
 INNER JOIN 
 	kaggle_db.video_game_reviews
 ON
-	kaggle_db.video_game_reviews.`Release Year` = highest_ratings_per_release_years.`Release Year` AND
+    kaggle_db.video_game_reviews.`Release Year` = highest_ratings_per_release_years.`Release Year` AND
     kaggle_db.video_game_reviews.`User Rating` = highest_ratings_per_release_years.`Highest Ratings`
 ORDER BY 
 	highest_ratings_per_release_years.`Highest Ratings` DESC;
@@ -49,10 +49,10 @@ CREATE TRIGGER kaggle_db.trigger_after_insert AFTER INSERT ON kaggle_db.video_ga
 FOR EACH ROW
 	BEGIN 
 		INSERT INTO kaggle_db.average_price_per_game_platforms (`Platform`, `Price`) 
-        VALUES (NEW.`Platform`, NEW.`Price`);
+     	 	VALUES (NEW.`Platform`, NEW.`Price`);
         
 		INSERT INTO kaggle_db.highest_rating_games_per_release_years (`Release Year`, `User Rating`, `Game Title`)
-        VALUES (NEW.`Release Year`, NEW.`User Rating`, NEW.`Game Title`);
+                VALUES (NEW.`Release Year`, NEW.`User Rating`, NEW.`Game Title`);
     END //
 	
 
@@ -62,18 +62,18 @@ CREATE TRIGGER kaggle_db.trigger_after_update AFTER UPDATE ON kaggle_db.video_ga
 FOR EACH ROW
 	BEGIN 
 		UPDATE kaggle_db.average_price_per_game_platforms
-        SET
+                SET
 			`Platform` = NEW.`Platform`,
-            `Price` = NEW.`Price`
+                        `Price` = NEW.`Price`
 		WHERE 
 			`Game Title` = OLD.`Game Title`;
             
 		UPDATE kaggle_db.highest_rating_games_per_release_years
 		SET 
 			`Release Year` = NEW.`Release Year`,
-            `User Rating` = NEW.`User Rating`,
-            `Game Title` = NEW.`Game Title`
-        WHERE 
+                        `User Rating` = NEW.`User Rating`,
+                        `Game Title` = NEW.`Game Title`
+                WHERE 
 			`Game Title` = OLD.`Game Title`;
 	END //
 
@@ -84,11 +84,11 @@ CREATE TRIGGER kaggle_db.trigger_after_delete AFTER DELETE ON kaggle_db.video_ga
 FOR EACH ROW
 	BEGIN
 		DELETE FROM kaggle_db.average_price_per_game_platforms 
-        WHERE 
+        	WHERE 
 			`Game Title` = OLD.`Game Title`;
             
 		DELETE FROM kaggle_db.highest_rating_games_per_release_years
-        WHERE
+        	WHERE
 			`Game Title` = OLD.`Game Title`;
 	END //
 
@@ -100,8 +100,8 @@ ON SCHEDULE EVERY 12 HOUR
 DO 
 	BEGIN
 		TRUNCATE TABLE kaggle_db.average_price_per_game_platforms;
-        INSERT INTO kaggle_db.average_price_per_game_platforms (`Platform`, `Average Price Per Game Platform`) 
-        SELECT 
+        	INSERT INTO kaggle_db.average_price_per_game_platforms (`Platform`, `Average Price Per Game Platform`) 
+        	SELECT 
 			`Platform`,
 			ROUND(AVG(`Price`), 2)
 		FROM 
