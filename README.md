@@ -14,10 +14,10 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [8 Week SQL Challenge](#8-week-sql-challenge)
    - [Data Scraping](#data-scraping)
    - [Bash Scripts](#bash-scripts)
-   - [Automates Boring Stuff using Python](#automates-boring-stuff-using-python)
    - [HackerRank](#hackerrank)
    - [Python for Data Engineering](#python-for-data-engineering)
-
+   - [Python CLI Projects](#python-cli-projects)
+     
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
@@ -98,10 +98,6 @@ This section contains my solutions to the `8 Week SQL Challenge`, showcasing rea
 
 This directory contains both my mini and major projects in `Bash scripting (Bourne Again Shell)`. I am eager to deepen my knowledge of scripting, orchestration, automation, command-line interfaces (CLI), and Linux. This repository serves as both a guide and a compilation of the practical skills I have acquired in Bash scripting and how I have applied them.
 
-### Automates Boring Stuff using Python
-
-This directory contains all the Python scripts I've developed based on lessons from the book *Automate the Boring Stuff with Python*. I'm passionate about automation and scripting, and these projects reflect both my interests and career aspirations. I believe in building what I learn, and as part of that commitment, I consistently ship my work to GitHub to share and document my progress.
-
 ### HackerRank
 
 This directory includes various folders such as `Python (Basics)`, serving as a collection of Python exercises I've completed on the `HackerRank` platform. These exercises complement my learning approach by reinforcing key concepts in Software Engineering and Data Engineering. In addition to building projects, solving diverse Python problems helps strengthen my foundational skills, ensuring a lasting impact on my career development.
@@ -110,6 +106,9 @@ This directory includes various folders such as `Python (Basics)`, serving as a 
 
 This directory contains a collection of `Data Pipeline` scripts developed in `Python`, as part of my learning journey in the `Python for Data Engineering` course on `Coursera`, which I completed through a financial aid opportunity. I plan to continue adding scripts here to build and refine my practical data engineering skills.
 
+### Python CLI Projects
+
+This directory contains Python CLI Scripts that I built during fun time and any ideas that I come up with. Featuring also what I have learned throughout my journey learning Python for Data Engineering
 
 ## Contact
 
