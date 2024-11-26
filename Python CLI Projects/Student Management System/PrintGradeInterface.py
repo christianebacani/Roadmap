@@ -24,7 +24,7 @@ def printGradeInterface(studentDict, studentID):
                                            'Mapeh' : studentDict[studentID][3]['Mapeh'],
                                            'GWA' : average}, index=[0])
             
-                target_fileath = f'StudentManagementSystem\\Students Data\\{studentDict[studentID][2]}GradesData.csv'
+                target_fileath = f'Student Management System\\Students Data\\{studentDict[studentID][2]}GradesData.csv'
                 
                 student_df.to_csv(target_fileath, index=False)                                                               
                 CustomMessagesScript.displayPrintMessage()
