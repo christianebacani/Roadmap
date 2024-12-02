@@ -1,1 +1,1 @@
-Input source data files here
+Input your source data files in this directory

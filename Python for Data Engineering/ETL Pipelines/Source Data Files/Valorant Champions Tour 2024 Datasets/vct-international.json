@@ -1,0 +1,4811 @@
+[
+    {
+        "playerName": "Cryocells",
+        "team": "100T",
+        "rating": "1.14",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "230.1",
+            "kill_deaths": "1.20",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "148.3",
+            "kills_per_round": "0.83",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "brimstone",
+            "astra",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "zekken",
+        "team": "SEN",
+        "rating": "1.13",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "255.3",
+            "kill_deaths": "1.19",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "163.9",
+            "kills_per_round": "0.88",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.22",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "s0m",
+        "team": "NRG",
+        "rating": "1.12",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "224.7",
+            "kill_deaths": "1.13",
+            "kill_assists_survived_traded": "78%",
+            "average_damage_per_round": "143.6",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.45",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "clove",
+            "omen",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "eeiu",
+        "team": "100T",
+        "rating": "1.11",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "189.4",
+            "kill_deaths": "1.10",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "128.6",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "fade",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "TenZ",
+        "team": "SEN",
+        "rating": "1.10",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "212.2",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "136.4",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.46",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "omen",
+            "gekko",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "bang",
+        "team": "SEN",
+        "rating": "1.07",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "203.4",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "129.7",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "32%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "viper",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Derrek",
+        "team": "EG",
+        "rating": "1.05",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "193.9",
+            "kill_deaths": "1.02",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "130.0",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "fade",
+            "gekko",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "OXY",
+        "team": "C9",
+        "rating": "1.05",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "249.8",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "162.3",
+            "kills_per_round": "0.87",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.22",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "yoru",
+            "raze",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "leaf",
+        "team": "G2",
+        "rating": "1.05",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "217.6",
+            "kill_deaths": "1.06",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "146.2",
+            "kills_per_round": "0.76",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.12",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "valyn",
+        "team": "G2",
+        "rating": "1.04",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "194.6",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "123.5",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "brimstone",
+            "omen",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "johnqt",
+        "team": "SEN",
+        "rating": "1.04",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "182.0",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "120.4",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "viper",
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "neT",
+        "team": "M80",
+        "rating": "1.04",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "206.4",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "135.7",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "39%",
+            "clutch_success_percentage": "6%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Ethan",
+        "team": "NRG",
+        "rating": "1.03",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "206.1",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "130.1",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.44",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "21%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "kayo",
+            "skye",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "trent",
+        "team": "G2",
+        "rating": "1.03",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "190.3",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "128.5",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "viper",
+            "sova",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Asuna",
+        "team": "100T",
+        "rating": "1.01",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "214.3",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "136.9",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "19%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "raze",
+            "gekko",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Zellsis",
+        "team": "SEN",
+        "rating": "1.01",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "184.9",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "120.1",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "19%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "killjoy",
+            "kayo",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "supamen",
+        "team": "EG",
+        "rating": "1.00",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "196.9",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "127.7",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "39%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "clove"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "wippie",
+        "team": "C9",
+        "rating": "0.99",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "179.0",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "119.7",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "21%",
+            "clutch_success_percentage": "7%"
+        },
+        "agent": [
+            "viper",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "JonahP",
+        "team": "G2",
+        "rating": "0.98",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "189.9",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "121.8",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "sova",
+            "kayo",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Sacy",
+        "team": "SEN",
+        "rating": "0.98",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "182.4",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "123.0",
+            "kills_per_round": "0.61",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "fade",
+            "gekko",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Victor",
+        "team": "NRG",
+        "rating": "0.97",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "213.1",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "139.7",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.18",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "10%"
+        },
+        "agent": [
+            "cypher",
+            "killjoy",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "jawgemo",
+        "team": "G2",
+        "rating": "0.97",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "225.7",
+            "kill_deaths": "0.96",
+            "kill_assists_survived_traded": "66%",
+            "average_damage_per_round": "150.1",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "raze",
+            "deadlock",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Demon1",
+        "team": "LEV",
+        "rating": "0.97",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "208.2",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "141.9",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.18",
+            "first_kills_per_round": "0.18",
+            "first_deaths_per_round": "0.17",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "10%"
+        },
+        "agent": [
+            "jett",
+            "omen",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "jakee",
+        "team": "YFP",
+        "rating": "0.96",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "170.7",
+            "kill_deaths": "0.88",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "113.4",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.39",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "brimstone",
+            "astra",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Xeppaa",
+        "team": "C9",
+        "rating": "0.96",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "187.8",
+            "kill_deaths": "0.87",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "125.2",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.45",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "22%"
+        },
+        "agent": [
+            "raze",
+            "skye",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "crashies",
+        "team": "NRG",
+        "rating": "0.96",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "175.3",
+            "kill_deaths": "0.99",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "114.9",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "sova",
+            "viper",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "moose",
+        "team": "C9",
+        "rating": "0.96",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "172.2",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "117.9",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.15",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "NaturE",
+        "team": "EG",
+        "rating": "0.95",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "178.4",
+            "kill_deaths": "0.87",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "116.9",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "32%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "breach",
+            "kayo",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "runi",
+        "team": "C9",
+        "rating": "0.94",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "174.8",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "120.7",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "sova",
+            "viper",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Marved",
+        "team": "NRG",
+        "rating": "0.93",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "190.8",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "124.4",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "22%"
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "icy",
+        "team": "G2",
+        "rating": "0.92",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "192.0",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "129.0",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "yoru",
+            "gekko",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "vanity",
+        "team": "C9",
+        "rating": "0.90",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "177.8",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "118.6",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "skye",
+            "viper",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Apoth",
+        "team": "EG",
+        "rating": "0.87",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "179.3",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "62%",
+            "average_damage_per_round": "122.8",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "cypher",
+            "killjoy",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Boostio",
+        "team": "100T",
+        "rating": "0.83",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "179.1",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "121.9",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "gekko",
+            "killjoy",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "FiNESSE",
+        "team": "NRG",
+        "rating": "0.76",
+        "region": "Americas",
+        "playerStatistics": {
+            "average_combat_score": "158.1",
+            "kill_deaths": "0.71",
+            "kill_assists_survived_traded": "64%",
+            "average_damage_per_round": "105.5",
+            "kills_per_round": "0.54",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "19%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "cypher",
+            "deadlock",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Leo",
+        "team": "FNC",
+        "rating": "1.19",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "204.6",
+            "kill_deaths": "1.26",
+            "kill_assists_survived_traded": "81%",
+            "average_damage_per_round": "135.6",
+            "kills_per_round": "0.73",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.03",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "9%"
+        },
+        "agent": [
+            "fade",
+            "sova",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "trexx",
+        "team": "VIT",
+        "rating": "1.16",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "219.6",
+            "kill_deaths": "1.12",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "146.1",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.43",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "19%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "viper",
+            "fade",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "N4RRATE",
+        "team": "SEN",
+        "rating": "1.16",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "233.2",
+            "kill_deaths": "1.17",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "153.9",
+            "kills_per_round": "0.81",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.12",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "gekko",
+            "fade",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Chronicle",
+        "team": "FNC",
+        "rating": "1.15",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "210.5",
+            "kill_deaths": "1.14",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "142.0",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "viper",
+            "kayo",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Sayf",
+        "team": "VIT",
+        "rating": "1.14",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "227.5",
+            "kill_deaths": "1.20",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "147.6",
+            "kills_per_round": "0.82",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Alfajer",
+        "team": "FNC",
+        "rating": "1.10",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "218.3",
+            "kill_deaths": "1.17",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "146.1",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.11",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "K4DAVRA",
+        "team": "M8",
+        "rating": "1.10",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "207.8",
+            "kill_deaths": "1.12",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "132.9",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "cypher",
+            "omen",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "grubinho",
+        "team": "KOI",
+        "rating": "1.09",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "197.5",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "126.1",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "viper",
+            "brimstone",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "RieNs",
+        "team": "TH",
+        "rating": "1.09",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "205.8",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "138.4",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "37%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "gekko",
+            "sova",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Elite",
+        "team": "BBL",
+        "rating": "1.08",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "199.8",
+            "kill_deaths": "1.13",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "133.7",
+            "kills_per_round": "0.73",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "43%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "cNed",
+        "team": "FUT",
+        "rating": "1.08",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "226.8",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "151.3",
+            "kills_per_round": "0.79",
+            "assists_per_round": "0.17",
+            "first_kills_per_round": "0.16",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "chamber",
+            "raze",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "sheydos",
+        "team": "KOI",
+        "rating": "1.07",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "181.3",
+            "kill_deaths": "1.13",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "122.3",
+            "kills_per_round": "0.67",
+            "assists_per_round": "0.17",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.05",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "killjoy",
+            "viper",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nataNk",
+        "team": "M8",
+        "rating": "1.07",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "229.6",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "150.4",
+            "kills_per_round": "0.79",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "0.15",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "39%"
+        },
+        "agent": [
+            "raze",
+            "phoenix",
+            "sage"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Derke",
+        "team": "VIT",
+        "rating": "1.07",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "234.5",
+            "kill_deaths": "1.16",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "154.0",
+            "kills_per_round": "0.83",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.16",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "22%"
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "yetujey",
+        "team": "FUT",
+        "rating": "1.07",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "201.3",
+            "kill_deaths": "1.10",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "132.6",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "viper",
+            "phoenix",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Wo0t",
+        "team": "TH",
+        "rating": "1.06",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "217.0",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "140.7",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "kayo",
+            "skye",
+            "reyna"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "marteen",
+        "team": "KC",
+        "rating": "1.06",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "222.9",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "147.5",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "23%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "benjyfishy",
+        "team": "TH",
+        "rating": "1.05",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "198.1",
+            "kill_deaths": "1.12",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "132.6",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "hiro",
+        "team": "FNC",
+        "rating": "1.05",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "190.6",
+            "kill_deaths": "1.10",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "123.5",
+            "kills_per_round": "0.69",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "23%"
+        },
+        "agent": [
+            "sova",
+            "gekko",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ardiis",
+        "team": "NAVI",
+        "rating": "1.05",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "212.0",
+            "kill_deaths": "1.04",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "139.4",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "21%"
+        },
+        "agent": [
+            "kayo",
+            "jett",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "MrFaliN",
+        "team": "FUT",
+        "rating": "1.04",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "191.0",
+            "kill_deaths": "0.96",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "125.5",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.42",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "skye",
+            "sova",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nukkye",
+        "team": "GX",
+        "rating": "1.04",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "202.2",
+            "kill_deaths": "0.99",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "137.4",
+            "kills_per_round": "0.69",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "cypher",
+            "sage",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Shao",
+        "team": "NAVI",
+        "rating": "1.04",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "191.8",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "129.5",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "brimstone",
+            "omen",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "purp0",
+        "team": "GX",
+        "rating": "1.04",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "217.2",
+            "kill_deaths": "1.04",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "144.5",
+            "kills_per_round": "0.76",
+            "assists_per_round": "0.16",
+            "first_kills_per_round": "0.19",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "6%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Cloud",
+        "team": "GX",
+        "rating": "1.02",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "200.9",
+            "kill_deaths": "0.99",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "135.6",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "breach",
+            "fade",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nAts",
+        "team": "TL",
+        "rating": "1.01",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "210.2",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "138.7",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.25",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "cypher",
+            "viper",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "QutionerX",
+        "team": "EF",
+        "rating": "1.01",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "235.9",
+            "kill_deaths": "1.02",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "155.0",
+            "kills_per_round": "0.81",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.21",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "10%"
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "MiniBoo",
+        "team": "TH",
+        "rating": "1.01",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "221.1",
+            "kill_deaths": "1.03",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "144.2",
+            "kills_per_round": "0.76",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.17",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "neon",
+            "yoru",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "SUYGETSU",
+        "team": "NAVI",
+        "rating": "1.00",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "184.9",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "125.7",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "viper",
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "qRaxs",
+        "team": "FUT",
+        "rating": "1.00",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "186.5",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "121.7",
+            "kills_per_round": "0.67",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "raze",
+            "fade",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Keiko",
+        "team": "TL",
+        "rating": "1.00",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "216.5",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "142.8",
+            "kills_per_round": "0.79",
+            "assists_per_round": "0.17",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.17",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "raze",
+            "yoru",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Zyppan",
+        "team": "NAVI",
+        "rating": "0.99",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "215.3",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "144.6",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.12",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "raze",
+            "kayo",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "logaN",
+        "team": "M8",
+        "rating": "0.99",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "181.7",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "119.4",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "32%",
+            "clutch_success_percentage": "4%"
+        },
+        "agent": [
+            "cypher",
+            "killjoy",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Kicks",
+        "team": "VIT",
+        "rating": "0.98",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "180.4",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "116.7",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "21%"
+        },
+        "agent": [
+            "skye",
+            "sova",
+            "deadlock"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Boo",
+        "team": "TH",
+        "rating": "0.97",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "173.4",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "111.2",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.41",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "omen",
+            "astra",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "runneR",
+        "team": "VIT",
+        "rating": "0.96",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "205.2",
+            "kill_deaths": "0.96",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "135.9",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.26",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "20%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "MAGNUM",
+        "team": "KC",
+        "rating": "0.96",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "180.0",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "120.8",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "killjoy",
+            "fade",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Brave",
+        "team": "EF",
+        "rating": "0.96",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "196.6",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "128.6",
+            "kills_per_round": "0.69",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.11",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "brimstone",
+            "omen",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "kamo",
+        "team": "TL",
+        "rating": "0.96",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "224.9",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "147.8",
+            "kills_per_round": "0.76",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.21",
+            "first_deaths_per_round": "0.19",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "yoru",
+            "raze",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "AtaKaptan",
+        "team": "FUT",
+        "rating": "0.95",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "190.5",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "121.1",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "sh1n",
+        "team": "KC",
+        "rating": "0.94",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "168.1",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "107.7",
+            "kills_per_round": "0.61",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "sage",
+            "omen",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "tomaszy",
+        "team": "KC",
+        "rating": "0.94",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "182.8",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "124.2",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "starxo",
+        "team": "KOI",
+        "rating": "0.94",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "180.3",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "117.5",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.42",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "harbor",
+            "skye",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Enzo",
+        "team": "TL",
+        "rating": "0.92",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "175.7",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "66%",
+            "average_damage_per_round": "117.9",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "18%",
+            "clutch_success_percentage": "9%"
+        },
+        "agent": [
+            "skye",
+            "sova",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Fit1nho",
+        "team": "GX",
+        "rating": "0.92",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "185.7",
+            "kill_deaths": "0.90",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "125.6",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.25",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "7%"
+        },
+        "agent": [
+            "raze",
+            "yoru",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "TakaS",
+        "team": "M8",
+        "rating": "0.91",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "205.4",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "65%",
+            "average_damage_per_round": "135.3",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.16",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "yoru",
+            "raze",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "hoody",
+        "team": "GX",
+        "rating": "0.91",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "173.0",
+            "kill_deaths": "0.87",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "119.5",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "9%"
+        },
+        "agent": [
+            "skye",
+            "breach",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ceNder",
+        "team": "VIT",
+        "rating": "0.90",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "168.7",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "111.4",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.34",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "pAura",
+        "team": "S2G",
+        "rating": "0.89",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "168.7",
+            "kill_deaths": "0.82",
+            "kill_assists_survived_traded": "67%",
+            "average_damage_per_round": "108.3",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "breach",
+            "kayo",
+            "sage"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Jamppi",
+        "team": "BBL",
+        "rating": "0.88",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "184.2",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "120.1",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.29",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "kayo",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Famsii",
+        "team": "HGE",
+        "rating": "0.88",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "171.6",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "125.6",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "paTiTek",
+        "team": "TH",
+        "rating": "0.87",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "185.7",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "123.2",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.44",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "viper",
+            "kayo",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Wailers",
+        "team": "M8",
+        "rating": "0.86",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "153.4",
+            "kill_deaths": "0.84",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "103.5",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ShadoW",
+        "team": "KOI",
+        "rating": "0.86",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "167.6",
+            "kill_deaths": "0.84",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "108.6",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "21%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "sova",
+            "fade",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Mistic",
+        "team": "TL",
+        "rating": "0.86",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "169.7",
+            "kill_deaths": "0.83",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "112.4",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "10%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Boaster",
+        "team": "FNC",
+        "rating": "0.85",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "152.8",
+            "kill_deaths": "0.79",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "99.7",
+            "kills_per_round": "0.52",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "omen",
+            "harbor",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Destrian",
+        "team": "HGE",
+        "rating": "0.84",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "158.7",
+            "kill_deaths": "0.77",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "111.9",
+            "kills_per_round": "0.54",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "21%",
+            "clutch_success_percentage": "10%"
+        },
+        "agent": [
+            "cypher",
+            "killjoy",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Redgar",
+        "team": "GX",
+        "rating": "0.82",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "154.0",
+            "kill_deaths": "0.80",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "101.3",
+            "kills_per_round": "0.56",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "37%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "omen",
+            "cypher",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ANGE1",
+        "team": "NAVI",
+        "rating": "0.81",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "172.0",
+            "kill_deaths": "0.80",
+            "kill_assists_survived_traded": "66%",
+            "average_damage_per_round": "116.3",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.29",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "7%"
+        },
+        "agent": [
+            "gekko",
+            "sova",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "reazy",
+        "team": "BBL",
+        "rating": "0.81",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "156.7",
+            "kill_deaths": "0.76",
+            "kill_assists_survived_traded": "67%",
+            "average_damage_per_round": "108.6",
+            "kills_per_round": "0.53",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.05",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "skye",
+            "sova",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "beyAz",
+        "team": "M8",
+        "rating": "0.80",
+        "region": "EMEA",
+        "playerStatistics": {
+            "average_combat_score": "155.4",
+            "kill_deaths": "0.72",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "103.8",
+            "kills_per_round": "0.52",
+            "assists_per_round": "0.42",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "breach",
+            "sova",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Smoggy",
+        "team": "EDG",
+        "rating": "1.11",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "207.1",
+            "kill_deaths": "1.16",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "136.0",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "kayo",
+            "raze",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "CHICHOO",
+        "team": "EDG",
+        "rating": "1.11",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "201.6",
+            "kill_deaths": "1.11",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "134.6",
+            "kills_per_round": "0.73",
+            "assists_per_round": "0.26",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "cypher",
+            "brimstone",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Kai",
+        "team": "TE",
+        "rating": "1.10",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "211.4",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "145.3",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.16",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "4%"
+        },
+        "agent": [
+            "jett",
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ZmjjKK",
+        "team": "EDG",
+        "rating": "1.10",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "260.9",
+            "kill_deaths": "1.20",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "159.4",
+            "kills_per_round": "0.91",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.21",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "raze",
+            "kayo",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Autumn",
+        "team": "FPX",
+        "rating": "1.05",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "212.1",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "138.4",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.26",
+            "first_kills_per_round": "0.11",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "phoenix"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "LuoK1ng",
+        "team": "TE",
+        "rating": "1.04",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "187.4",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "119.5",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.34",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "S1Mon",
+        "team": "EDG",
+        "rating": "0.99",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "170.2",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "112.6",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.47",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "breach",
+            "kayo",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "FengF",
+        "team": "TE",
+        "rating": "0.95",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "222.7",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "67%",
+            "average_damage_per_round": "139.2",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "sova",
+            "raze",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Flex1n",
+        "team": "BLG",
+        "rating": "0.93",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "192.1",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "120.6",
+            "kills_per_round": "0.67",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "36%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "whzy",
+        "team": "Toe",
+        "rating": "0.92",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "237.9",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "65%",
+            "average_damage_per_round": "145.4",
+            "kills_per_round": "0.82",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.19",
+            "first_deaths_per_round": "0.20",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nobody",
+        "team": "EDG",
+        "rating": "0.92",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "190.4",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "122.9",
+            "kills_per_round": "0.67",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "sova",
+            "skye",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "AAAAY",
+        "team": "FPX",
+        "rating": "0.86",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "189.5",
+            "kill_deaths": "1.03",
+            "kill_assists_survived_traded": "67%",
+            "average_damage_per_round": "126.8",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.25",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.05",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "6%"
+        },
+        "agent": [
+            "gekko",
+            "sova",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "heybay",
+        "team": "TE",
+        "rating": "0.86",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "170.5",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "105.2",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "9%"
+        },
+        "agent": [
+            "kayo",
+            "breach",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "BerLIN",
+        "team": "FPX",
+        "rating": "0.86",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "187.1",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "67%",
+            "average_damage_per_round": "125.8",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "omen",
+            "harbor",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Lysoar",
+        "team": "WOL",
+        "rating": "0.83",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "183.0",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "65%",
+            "average_damage_per_round": "120.5",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "4%"
+        },
+        "agent": [
+            "viper",
+            "cypher",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Life",
+        "team": "FPX",
+        "rating": "0.83",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "227.8",
+            "kill_deaths": "1.03",
+            "kill_assists_survived_traded": "62%",
+            "average_damage_per_round": "139.4",
+            "kills_per_round": "0.79",
+            "assists_per_round": "0.18",
+            "first_kills_per_round": "0.19",
+            "first_deaths_per_round": "0.21",
+            "headshot_percentage": "35%",
+            "clutch_success_percentage": "24%"
+        },
+        "agent": [
+            "reyna",
+            "chamber",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Biank",
+        "team": "TE",
+        "rating": "0.82",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "180.5",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "64%",
+            "average_damage_per_round": "118.3",
+            "kills_per_round": "0.60",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "16%",
+            "clutch_success_percentage": "35%"
+        },
+        "agent": [
+            "fade",
+            "sova",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Haodong",
+        "team": "TEC",
+        "rating": "0.80",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "155.6",
+            "kill_deaths": "0.79",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "101.3",
+            "kills_per_round": "0.55",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "36%"
+        },
+        "agent": [
+            "omen",
+            "cypher",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Knight",
+        "team": "BLG",
+        "rating": "0.80",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "187.8",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "64%",
+            "average_damage_per_round": "119.5",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "killjoy",
+            "kayo",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nephh",
+        "team": "BLG",
+        "rating": "0.77",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "190.5",
+            "kill_deaths": "0.88",
+            "kill_assists_survived_traded": "58%",
+            "average_damage_per_round": "119.7",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.40",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "20%",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "fade",
+            "kayo",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Yosemite",
+        "team": "BLG",
+        "rating": "0.61",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "206.5",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "55%",
+            "average_damage_per_round": "122.2",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "nizhaoTZH",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "181.0",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "119.3",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.34",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "pl1xx",
+        "team": "WOL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "187.3",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "130.4",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "kayo",
+            "viper",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Spring",
+        "team": "WOL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "203.6",
+            "kill_deaths": "0.96",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "159.8",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.24",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "jett",
+            "omen",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "aluba",
+        "team": "WOL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "195.6",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "114.4",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "killjoy",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "coldfish",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "182.4",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "118.4",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.29",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.04",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "sova",
+            "viper",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Yuicaw",
+        "team": "WOL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "221.2",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "162.1",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "cypher",
+            "raze",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "SiuFatBB",
+        "team": "WOL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "167.4",
+            "kill_deaths": "1.10",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "113.2",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.02",
+            "first_deaths_per_round": "0.03",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "breach",
+            "gekko",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "B3ar",
+        "team": "BLG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "127.1",
+            "kill_deaths": "0.68",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.44",
+            "assists_per_round": "0.48",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "brimstone",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Shion7",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "180.7",
+            "kill_deaths": "0.84",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "118.0",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "harbor",
+            "gekko",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Eren",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "202.5",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "136.1",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.26",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "reyna",
+            "sova"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "YHchen",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "188.8",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "128.5",
+            "kills_per_round": "0.64",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "kayo",
+            "gekko",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "SWERL",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "228.3",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "140.7",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "AC",
+        "team": "TEC",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "197.8",
+            "kill_deaths": "1.03",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "128.1",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Levius",
+        "team": "BLG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "149.9",
+            "kill_deaths": "0.75",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.54",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "fade",
+            "skye",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "vo0kashu",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "233.3",
+            "kill_deaths": "1.16",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "167.4",
+            "kills_per_round": "0.84",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "killjoy",
+            "cypher",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Ezeir",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "174.9",
+            "kill_deaths": "0.88",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "109.4",
+            "kills_per_round": "0.61",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Scales",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "149.0",
+            "kill_deaths": "0.71",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "100.1",
+            "kills_per_round": "0.51",
+            "assists_per_round": "0.50",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "skye",
+            "breach",
+            "kayo"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Z1yan",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "201.3",
+            "kill_deaths": "0.99",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "132.9",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "deadlock"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Dingwei",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "162.6",
+            "kill_deaths": "0.76",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.55",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "sova",
+            "skye",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "kawaii",
+        "team": "iNv",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "186.0",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "121.4",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "brimstone",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "TvirusLuke",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "215.2",
+            "kill_deaths": "0.88",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "152.6",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.21",
+            "first_deaths_per_round": "0.17",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Viva",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "220.5",
+            "kill_deaths": "1.24",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "144.5",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.10",
+            "first_deaths_per_round": "0.03",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "sova",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "YOU",
+        "team": "ZYG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "190.2",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "killjoy",
+            "sova",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Ninebody",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "235.9",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "163.1",
+            "kills_per_round": "0.80",
+            "assists_per_round": "0.29",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "phoenix",
+            "raze",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ICEKING",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "161.6",
+            "kill_deaths": "0.71",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.55",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "cypher",
+            "kayo",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "AAK",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "212.4",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "jett",
+            "cypher",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "hfmi0dzjc9z7",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "205.3",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "132.3",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "sova",
+            "gekko",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "PangH",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "115.5",
+            "kill_deaths": "0.40",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.33",
+            "assists_per_round": "0.16",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "killjoy",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "o0o0o",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "164.9",
+            "kill_deaths": "0.76",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "109.2",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "breach",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "OBONE",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "165.9",
+            "kill_deaths": "0.81",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "CB",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "198.6",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "123.4",
+            "kills_per_round": "0.67",
+            "assists_per_round": "0.34",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "breach",
+            "fade",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "GuanG",
+        "team": "NOVA",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "191.7",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "137.3",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "jett",
+            "neon",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "stew",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "233.5",
+            "kill_deaths": "1.20",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "151.7",
+            "kills_per_round": "0.83",
+            "assists_per_round": "0.16",
+            "first_kills_per_round": "0.14",
+            "first_deaths_per_round": "0.15",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "jkuro",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "175.6",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "104.5",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.11",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "fade",
+            "skye",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Nicc",
+        "team": "DRG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "181.8",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "114.5",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.39",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.09",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "gekko",
+            "breach",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "YiHao",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "158.1",
+            "kill_deaths": "0.80",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.54",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "astra",
+            "brimstone",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "MarT1n",
+        "team": "XLG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "176.8",
+            "kill_deaths": "0.81",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "killjoy",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "QiuYe",
+        "team": "XG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "166.4",
+            "kill_deaths": "0.74",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "",
+            "first_deaths_per_round": "",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "killjoy",
+            "skye",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Rb",
+        "team": "TEC",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "223.1",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "144.0",
+            "kills_per_round": "0.79",
+            "assists_per_round": "0.28",
+            "first_kills_per_round": "0.15",
+            "first_deaths_per_round": "0.18",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "fade",
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "LockM",
+        "team": "TEC",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "167.3",
+            "kill_deaths": "0.81",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "106.5",
+            "kills_per_round": "0.58",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.02",
+            "first_deaths_per_round": "0.05",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "viper",
+            "sova",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Abo",
+        "team": "TYL",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "211.0",
+            "kill_deaths": "0.99",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "145.6",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.18",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.16",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "sword9",
+        "team": "JDG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "171.3",
+            "kill_deaths": "0.78",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "122.6",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "sova",
+            "kayo",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "bunt",
+        "team": "AG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "186.5",
+            "kill_deaths": "0.93",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "108.8",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "monk",
+        "team": "AG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "178.7",
+            "kill_deaths": "0.79",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "117.1",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.35",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "breach",
+            "killjoy",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "deLb",
+        "team": "AG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "195.7",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "124.2",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.18",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "raze",
+            "reyna",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Spitfires",
+        "team": "AG",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "202.0",
+            "kill_deaths": "0.91",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "128.5",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.15",
+            "first_kills_per_round": "0.22",
+            "first_deaths_per_round": "0.20",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "cypher",
+            "jett",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "B1ack",
+        "team": "TEC",
+        "rating": "",
+        "region": "China",
+        "playerStatistics": {
+            "average_combat_score": "197.6",
+            "kill_deaths": "1.11",
+            "kill_assists_survived_traded": "",
+            "average_damage_per_round": "117.7",
+            "kills_per_round": "0.72",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "",
+            "clutch_success_percentage": ""
+        },
+        "agent": [
+            "breach",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "primmie",
+        "team": "TLN",
+        "rating": "1.16",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "249.9",
+            "kill_deaths": "1.15",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "165.0",
+            "kills_per_round": "0.90",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "41%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "clove",
+            "jett",
+            "iso"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "invy",
+        "team": "TS",
+        "rating": "1.15",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "208.0",
+            "kill_deaths": "1.11",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "139.3",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.47",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "kayo",
+            "viper",
+            "sage"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Jemkin",
+        "team": "RRQ",
+        "rating": "1.13",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "227.5",
+            "kill_deaths": "1.22",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "147.2",
+            "kills_per_round": "0.83",
+            "assists_per_round": "0.16",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "sScary",
+        "team": "BLD",
+        "rating": "1.11",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "214.0",
+            "kill_deaths": "1.09",
+            "kill_assists_survived_traded": "75%",
+            "average_damage_per_round": "141.2",
+            "kills_per_round": "0.75",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "omen",
+            "brimstone"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "2ge",
+        "team": "TS",
+        "rating": "1.10",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "198.3",
+            "kill_deaths": "1.08",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "128.4",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.36",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "23%"
+        },
+        "agent": [
+            "omen",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "d4v41",
+        "team": "PRX",
+        "rating": "1.08",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "198.1",
+            "kill_deaths": "1.05",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "132.7",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.06",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "sage",
+            "fade",
+            "viper"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "something",
+        "team": "PRX",
+        "rating": "1.08",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "219.6",
+            "kill_deaths": "1.12",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "140.8",
+            "kills_per_round": "0.78",
+            "assists_per_round": "0.23",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "gekko",
+            "reyna",
+            "jett"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Jremy",
+        "team": "TS",
+        "rating": "1.07",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "240.4",
+            "kill_deaths": "1.12",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "154.4",
+            "kills_per_round": "0.81",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.23",
+            "first_deaths_per_round": "0.21",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "jett",
+            "raze",
+            "neon"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "f0rsakeN",
+        "team": "PRX",
+        "rating": "1.06",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "209.4",
+            "kill_deaths": "1.06",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "136.6",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.37",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "kayo",
+            "harbor",
+            "yoru"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "JitBoyS",
+        "team": "TLN",
+        "rating": "1.05",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "199.4",
+            "kill_deaths": "1.02",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "131.6",
+            "kills_per_round": "0.71",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "36%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "viper",
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Jinggg",
+        "team": "PRX",
+        "rating": "1.04",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "224.0",
+            "kill_deaths": "1.07",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "147.4",
+            "kills_per_round": "0.77",
+            "assists_per_round": "0.26",
+            "first_kills_per_round": "0.13",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "20%",
+            "clutch_success_percentage": "15%"
+        },
+        "agent": [
+            "raze",
+            "reyna",
+            "sage"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "xffero",
+        "team": "RRQ",
+        "rating": "1.03",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "207.8",
+            "kill_deaths": "1.06",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "135.2",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "31%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "viper",
+            "astra",
+            "harbor"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "blaZek1ng",
+        "team": "GE",
+        "rating": "1.02",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "193.3",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "69%",
+            "average_damage_per_round": "130.3",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "30%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "fade",
+            "sova",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "BORKUM",
+        "team": "TS",
+        "rating": "1.01",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "188.5",
+            "kill_deaths": "0.98",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "121.6",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "viper",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Wild0reoo",
+        "team": "TS",
+        "rating": "1.01",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "192.2",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "76%",
+            "average_damage_per_round": "129.9",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.33",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Lmemore",
+        "team": "RRQ",
+        "rating": "1.00",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "208.6",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "139.8",
+            "kills_per_round": "0.73",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.13",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "19%"
+        },
+        "agent": [
+            "killjoy",
+            "cypher",
+            "chamber"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "JessieVash",
+        "team": "TS",
+        "rating": "1.00",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "188.0",
+            "kill_deaths": "1.01",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "126.0",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.30",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "16%"
+        },
+        "agent": [
+            "sova",
+            "skye",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "mindfreak",
+        "team": "PRX",
+        "rating": "0.98",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "179.8",
+            "kill_deaths": "1.00",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "118.2",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "34%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "viper",
+            "brimstone",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Surf",
+        "team": "TLN",
+        "rating": "0.97",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "181.9",
+            "kill_deaths": "0.97",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "121.4",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "38%",
+            "clutch_success_percentage": "5%"
+        },
+        "agent": [
+            "killjoy",
+            "viper",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Polvi",
+        "team": "GE",
+        "rating": "0.96",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "218.6",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "145.7",
+            "kills_per_round": "0.74",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.20",
+            "first_deaths_per_round": "0.19",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "raze",
+            "jett",
+            "gekko"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Benkai",
+        "team": "GE",
+        "rating": "0.95",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "169.1",
+            "kill_deaths": "0.90",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "117.5",
+            "kills_per_round": "0.59",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "viper",
+            "killjoy",
+            "cypher"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Estrella",
+        "team": "RRQ",
+        "rating": "0.95",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "167.2",
+            "kill_deaths": "0.89",
+            "kill_assists_survived_traded": "74%",
+            "average_damage_per_round": "109.5",
+            "kills_per_round": "0.58",
+            "assists_per_round": "0.42",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "6%"
+        },
+        "agent": [
+            "sova",
+            "skye",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "ban",
+        "team": "TLN",
+        "rating": "0.94",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "191.8",
+            "kill_deaths": "0.95",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "127.4",
+            "kills_per_round": "0.69",
+            "assists_per_round": "0.24",
+            "first_kills_per_round": "0.11",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "9%"
+        },
+        "agent": [
+            "yoru",
+            "kayo",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "NDG",
+        "team": "TS",
+        "rating": "0.94",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "183.5",
+            "kill_deaths": "0.96",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "123.9",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.22",
+            "first_kills_per_round": "0.08",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "12%"
+        },
+        "agent": [
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Russ",
+        "team": "GE",
+        "rating": "0.92",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "181.4",
+            "kill_deaths": "0.87",
+            "kill_assists_survived_traded": "71%",
+            "average_damage_per_round": "117.3",
+            "kills_per_round": "0.63",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.10",
+            "headshot_percentage": "38%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "gekko",
+            "kayo",
+            "breach"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Governor",
+        "team": "TLN",
+        "rating": "0.91",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "200.0",
+            "kill_deaths": "0.94",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "130.7",
+            "kills_per_round": "0.70",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.16",
+            "first_deaths_per_round": "0.17",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "18%"
+        },
+        "agent": [
+            "neon",
+            "jett",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Lightningfast",
+        "team": "GE",
+        "rating": "0.90",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "175.3",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "111.6",
+            "kills_per_round": "0.62",
+            "assists_per_round": "0.34",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "33%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "omen",
+            "viper",
+            "sage"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Monyet",
+        "team": "RRQ",
+        "rating": "0.90",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "198.5",
+            "kill_deaths": "0.88",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "131.9",
+            "kills_per_round": "0.68",
+            "assists_per_round": "0.32",
+            "first_kills_per_round": "0.12",
+            "first_deaths_per_round": "0.16",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "17%"
+        },
+        "agent": [
+            "omen",
+            "raze",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Retla",
+        "team": "BLD",
+        "rating": "0.90",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "169.7",
+            "kill_deaths": "0.92",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "115.4",
+            "kills_per_round": "0.61",
+            "assists_per_round": "0.19",
+            "first_kills_per_round": "0.05",
+            "first_deaths_per_round": "0.06",
+            "headshot_percentage": "26%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "viper",
+            "cypher",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "lenne",
+        "team": "IGN",
+        "rating": "0.89",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "168.2",
+            "kill_deaths": "0.76",
+            "kill_assists_survived_traded": "73%",
+            "average_damage_per_round": "110.3",
+            "kills_per_round": "0.53",
+            "assists_per_round": "0.38",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.07",
+            "headshot_percentage": "18%",
+            "clutch_success_percentage": "6%"
+        },
+        "agent": [
+            "sova",
+            "gekko",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Zest",
+        "team": "BLD",
+        "rating": "0.88",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "167.3",
+            "kill_deaths": "0.83",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "108.0",
+            "kills_per_round": "0.58",
+            "assists_per_round": "0.29",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "28%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "fade",
+            "gekko",
+            "skye"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Deryeon",
+        "team": "BLD",
+        "rating": "0.87",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "186.8",
+            "kill_deaths": "0.86",
+            "kill_assists_survived_traded": "70%",
+            "average_damage_per_round": "123.7",
+            "kills_per_round": "0.65",
+            "assists_per_round": "0.20",
+            "first_kills_per_round": "0.15",
+            "first_deaths_per_round": "0.14",
+            "headshot_percentage": "29%",
+            "clutch_success_percentage": "8%"
+        },
+        "agent": [
+            "harbor",
+            "raze",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "crazyguy",
+        "team": "BLD",
+        "rating": "0.83",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "177.9",
+            "kill_deaths": "0.74",
+            "kill_assists_survived_traded": "65%",
+            "average_damage_per_round": "118.7",
+            "kills_per_round": "0.56",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.12",
+            "headshot_percentage": "23%",
+            "clutch_success_percentage": "11%"
+        },
+        "agent": [
+            "sova",
+            "breach",
+            "fade"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "fl1pzjder",
+        "team": "RRQ",
+        "rating": "0.83",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "160.3",
+            "kill_deaths": "0.76",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "108.0",
+            "kills_per_round": "0.55",
+            "assists_per_round": "0.31",
+            "first_kills_per_round": "0.07",
+            "first_deaths_per_round": "0.11",
+            "headshot_percentage": "27%",
+            "clutch_success_percentage": "20%"
+        },
+        "agent": [
+            "gekko",
+            "viper",
+            "omen"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Crws",
+        "team": "TLN",
+        "rating": "0.83",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "157.4",
+            "kill_deaths": "0.79",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "107.7",
+            "kills_per_round": "0.54",
+            "assists_per_round": "0.27",
+            "first_kills_per_round": "0.04",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "22%",
+            "clutch_success_percentage": "13%"
+        },
+        "agent": [
+            "harbor",
+            "omen",
+            "astra"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "yay",
+        "team": "BLD",
+        "rating": "0.83",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "194.8",
+            "kill_deaths": "0.85",
+            "kill_assists_survived_traded": "68%",
+            "average_damage_per_round": "129.6",
+            "kills_per_round": "0.66",
+            "assists_per_round": "0.16",
+            "first_kills_per_round": "0.17",
+            "first_deaths_per_round": "0.21",
+            "headshot_percentage": "25%",
+            "clutch_success_percentage": "23%"
+        },
+        "agent": [
+            "neon",
+            "skye",
+            "raze"
+        ],
+        "playerCategory": "vct-international"
+    },
+    {
+        "playerName": "Egoist",
+        "team": "BLD",
+        "rating": "0.78",
+        "region": "Pacific",
+        "playerStatistics": {
+            "average_combat_score": "170.0",
+            "kill_deaths": "0.75",
+            "kill_assists_survived_traded": "72%",
+            "average_damage_per_round": "108.4",
+            "kills_per_round": "0.57",
+            "assists_per_round": "0.21",
+            "first_kills_per_round": "0.09",
+            "first_deaths_per_round": "0.08",
+            "headshot_percentage": "24%",
+            "clutch_success_percentage": "14%"
+        },
+        "agent": [
+            "skye",
+            "killjoy"
+        ],
+        "playerCategory": "vct-international"
+    }
+]
