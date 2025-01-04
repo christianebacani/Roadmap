@@ -12,7 +12,6 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-week-sql-challenge)
-   - [Data Scraping](#data-scraping)
    - [HackerRank](#hackerrank)
    - [Python for Data Engineering](#python-for-data-engineering)
    - [Python CLI Projects](#python-cli-projects)
