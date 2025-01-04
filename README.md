@@ -13,7 +13,6 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-week-sql-challenge)
    - [Data Scraping](#data-scraping)
-   - [Bash Scripts](#bash-scripts)
    - [HackerRank](#hackerrank)
    - [Python for Data Engineering](#python-for-data-engineering)
    - [Python CLI Projects](#python-cli-projects)
@@ -93,10 +92,6 @@ This section covers advanced database design principles, including normalization
 ### 8 Week SQL Challenge
 
 This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
-
-### Bash Scripts
-
-This directory contains both my mini and major projects in `Bash scripting (Bourne Again Shell)`. I am eager to deepen my knowledge of scripting, orchestration, automation, command-line interfaces (CLI), and Linux. This repository serves as both a guide and a compilation of the practical skills I have acquired in Bash scripting and how I have applied them.
 
 ### HackerRank
 
