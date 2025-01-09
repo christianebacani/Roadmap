@@ -1,0 +1,22 @@
+column_name,data_type,unit,description
+date,String,iso8601,Date of the recorded daily weather data
+weather_code,Integer,wmo code,The most severe weather condition on a given day
+temperature_2m_max,Decimal,°C,Maximum daily air temperature at 2 meters above ground
+temperature_2m_min,Decimal,°C,Minimum daily air temperature at 2 meters above ground
+temperature_2m_mean,Decimal,°C,Mean daily air temperature at 2 meters above ground
+apparent_temperature_max,Decimal,°C,Maximum daily apparent temperature
+apparent_temperature_min,Decimal,°C,Minimum daily apparent temperature
+apparent_temperature_mean,Decimal,°C,Mean daily apparent temperature
+sunrise_time,String,iso8601,Sunrise time
+sunset_time,String,iso8601,Sunset time
+daylight_duration,Decimal,s,Number of seconds of daylight per day
+sunshine_duration,Decimal,s,Number of seconds of sunshine per day
+precipitation_sum,Decimal,mm,"Sum of daily precipitation (including rain, showers and snowfall)"
+rain_sum,Decimal,mm,Sum of daily rain
+snowfall_sum,Integer,cm,Sum of daily snowfall
+precipitation_hours,Integer,h,The number of hours with rain
+wind_speed_10m_max,Decimal,km/h,Maximum wind speed on a day
+wind_gusts_10m_max,Decimal,km/h,Maximum wind gusts on a day
+wind_direction_10m_dominant,Integer,°,Dominant wind direction
+shortwave_radiation_sum,Decimal,MJ/m²,The sum of solar radiaion on a given day in Megajoules
+et0_fao_evapotranspiration,Decimal,mm,Daily sum of ET₀ Reference Evapotranspiration of a well watered grass field

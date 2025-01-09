@@ -10,7 +10,7 @@ def logs(message):
     now = datetime.now()
     timestamp = now.strftime(format)
 
-    logfile = 'Logfile.txt'
+    logfile = 'logfile.txt'
 
     with open(logfile, 'a') as f:
         f.write(f'{message} : {timestamp}\n')
