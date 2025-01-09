@@ -6,7 +6,7 @@ import Load
 # Logs
 
 def logs(message):
-    format = '%Y-%m-%d'
+    format = '%Y-%m-%d %H:%M:%S'
     now = datetime.now()
     timestamp = now.strftime(format)
 
