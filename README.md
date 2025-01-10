@@ -94,7 +94,7 @@ This section contains my solutions to the `8 Week SQL Challenge`, showcasing rea
 
 ### Coding Challenges using Python
 
-# This directory includes sub-folders related to `Python Solved Coding Challenges` in different platforms such as `HackerRank` and `LeetCode`. Diversifying my knowledge in different area such as solving problems using algorithms.
+This directory includes sub-folders related to `Python Solved Coding Challenges` in different platforms such as `HackerRank` and `LeetCode`. Diversifying my knowledge in different area such as solving problems using algorithms.
 
 ### Python for Data Engineering
 
