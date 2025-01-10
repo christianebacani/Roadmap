@@ -12,7 +12,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
    - [8 Week SQL Challenge](#8-week-sql-challenge)
-   - [HackerRank](#hackerrank)
+   - [Coding Challenges using Python](#coding-challenges-using-python)
    - [Python for Data Engineering](#python-for-data-engineering)
    - [Python CLI Projects](#python-cli-projects)
      
@@ -92,9 +92,9 @@ This section covers advanced database design principles, including normalization
 
 This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
 
-### HackerRank
+### Coding Challenges using Python
 
-This directory includes various folders such as `Python (Basics)`, serving as a collection of Python exercises I've completed on the `HackerRank` platform. These exercises complement my learning approach by reinforcing key concepts in Software Engineering and Data Engineering. In addition to building projects, solving diverse Python problems helps strengthen my foundational skills, ensuring a lasting impact on my career development.
+# This directory includes sub-folders related to `Python Solved Coding Challenges` in different platforms such as `HackerRank` and `LeetCode`. Diversifying my knowledge in different area such as solving problems using algorithms.
 
 ### Python for Data Engineering
 
