@@ -1,0 +1,2 @@
+time_unit,weather_code_unit,temperature_2m_max_unit,temperature_2m_min_unit,temperature_2m_mean_unit,apparent_temperature_max,apparent_temperature_min,apparent_temperature_mean,sunrise_unit,sunset_unit,daylight_duration_unit,sunshine_duration_unit,precipitation_sum_unit,rain_sum_unit,snowfall_sum_unit,precipitation_hours_unit,wind_speed_10m_max_unit,wind_gusts_10m_max_unit,wind_direction_10m_dominant_unit,shortwave_radiation_sum_unit,et0_fao_evapotranspiration_unit
+iso8601,wmo code,°C,°C,°C,°C,°C,°C,iso8601,iso8601,s,s,mm,mm,cm,h,km/h,km/h,°,MJ/m²,mm
