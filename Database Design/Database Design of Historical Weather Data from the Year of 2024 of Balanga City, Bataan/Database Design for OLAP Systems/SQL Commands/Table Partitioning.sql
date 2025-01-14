@@ -53,10 +53,10 @@ CREATE TABLE
         temperature_2m_mean, apparent_temperature_max, apparent_temperature_min,
         apparent_temperature_mean, precipitation_sum, precipitation_hours
     FROM
-	practice_db.daily_weather_data_from_2024;
+	daily_weather_data_from_2024;
 	
 CREATE TABLE 
-	practice_db.advance_metrics AS
+	advance_metrics AS
     SELECT
 	date, wind_speed_10m_max, wind_gusts_10m_max, 
 	wind_direction_10m_dominant, shortwave_radiation_sum, et0_fao_evapotranspiration
