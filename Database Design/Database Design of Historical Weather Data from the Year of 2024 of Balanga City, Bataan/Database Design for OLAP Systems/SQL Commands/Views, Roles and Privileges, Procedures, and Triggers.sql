@@ -31,7 +31,7 @@ SELECT
     wind_direction_10m_dominant,
     shortwave_radiation_sum
 FROM 
-    practice_db.daily_weather_data_from_2024;
+    daily_weather_data_from_2024;
     
 
 -- Create weather_analysts role
