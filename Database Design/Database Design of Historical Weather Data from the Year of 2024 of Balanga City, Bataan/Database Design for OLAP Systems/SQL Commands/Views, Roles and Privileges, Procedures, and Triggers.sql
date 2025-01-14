@@ -4,9 +4,9 @@
 CREATE VIEW 
 	practice_db.monthly_weather_trends AS
 SELECT
-	MONTH(STR_TO_DATE(date, '%Y-%m-%d')) AS month,
+    MONTH(STR_TO_DATE(date, '%Y-%m-%d')) AS month,
     ROUND(AVG(temperature_2m_mean), 2) AS average_monthly_temperature,
-	ROUND(AVG(apparent_temperature_mean), 2) AS average_monthly_apparent_temperature,
+    ROUND(AVG(apparent_temperature_mean), 2) AS average_monthly_apparent_temperature,
     ROUND(AVG(daylight_duration), 2) AS average_monthly_daylight_duration,
     ROUND(AVG(sunshine_duration), 2) AS average_monthly_sunshine_duration,
     ROUND(SUM(precipitation_sum), 2) AS total_monthly_precipitation,
@@ -22,15 +22,15 @@ ORDER BY
 
 -- Radiation and wind data view
 CREATE VIEW
-	practice_db.radiation_and_wind_data AS
+    practice_db.radiation_and_wind_data AS
 SELECT 
-	date,
+    date,
     wind_speed_10m_max,
     wind_gusts_10m_max,
     wind_direction_10m_dominant,
     shortwave_radiation_sum
 FROM 
-	practice_db.daily_weather_data_from_2024;
+    practice_db.daily_weather_data_from_2024;
     
 
 -- Create weather_analysts role
@@ -66,34 +66,34 @@ TO
 -- Procedure to delete duplicate records and insert new records in daily_weather_data_from_2024 data
 DELIMITER //
 CREATE PROCEDURE practice_db.insert_new_records (IN weatherDate DATE, IN weatherCode INT, IN temperature2mMax NUMERIC, 
-												IN  temperature2mMin NUMERIC, IN temperature2mMean NUMERIC, IN apparentTemperatureMax NUMERIC,
+						IN  temperature2mMin NUMERIC, IN temperature2mMean NUMERIC, IN apparentTemperatureMax NUMERIC,
                                                 IN apparentTemperatureMin NUMERIC, IN apparentTemperatureMean NUMERIC, IN sunriseTime VARCHAR(50),
                                                 IN sunsetTime VARCHAR(50), IN daylightDuration NUMERIC, IN sunshineDuration NUMERIC,
                                                 IN precipitationSum NUMERIC, IN rainSum NUMERIC, IN snowfallSum INTEGER,
                                                 IN precipitationHours INTEGER, IN windSpeed10mMax NUMERIC, IN windGusts10mMax NUMERIC,
-												IN windDirection10mDominant INTEGER, IN shorwaveRadiationSum NUMERIC, IN et0FaoEvapotranspiration NUMERIC) 
+						IN windDirection10mDominant INTEGER, IN shorwaveRadiationSum NUMERIC, IN et0FaoEvapotranspiration NUMERIC) 
 BEGIN
 	DELETE FROM 
 		practice_db.daily_weather_data_from_2024
 	WHERE 
 		date = weatherDate;
         
-    INSERT INTO
+    	INSERT INTO
 		practice_db.daily_weather_data_from_2024 (
-        date, weather_code, temperature_2m_max,
-        temperature_2m_min, temperature_2m_mean, apparent_temperature_max,
-        apparent_temperature_min, apparent_temperature_mean, sunrise_time,
-        sunset_time, daylight_duration, sunshine_duration,
-        precipitation_sum, rain_sum, snowfall_sum,
-        precipitation_hours, wind_speed_10m_max, wind_gusts_10m_max,
-        wind_direction_10m_dominant, shortwave_radiation_sum, et0_fao_transpiration)
-	VALUES (weatherDate, weatherCode, temperature2mMax,
-			temperature2mMin, temperature2mMean, apparentTemperatureMax,
-			apparentTemperatureMin, apparentTemperatureMean, sunriseTime,
-			sunsetTime, daylightDuration, sunshineDuration,
-			precipitationSum, rainSum, snowfallSum,
-			precipitationHours, windSpeed10mMax, windGusts10mMax,
-			windDirection10mDominant, shortwaveRadiationSum, et0FaoTranspiration);
+        	date, weather_code, temperature_2m_max,
+        	temperature_2m_min, temperature_2m_mean, apparent_temperature_max,
+        	apparent_temperature_min, apparent_temperature_mean, sunrise_time,
+        	sunset_time, daylight_duration, sunshine_duration,
+        	precipitation_sum, rain_sum, snowfall_sum,
+        	precipitation_hours, wind_speed_10m_max, wind_gusts_10m_max,
+        	wind_direction_10m_dominant, shortwave_radiation_sum, et0_fao_transpiration)
+		VALUES (weatherDate, weatherCode, temperature2mMax,
+		temperature2mMin, temperature2mMean, apparentTemperatureMax,
+		apparentTemperatureMin, apparentTemperatureMean, sunriseTime,
+		sunsetTime, daylightDuration, sunshineDuration,
+		precipitationSum, rainSum, snowfallSum,
+		precipitationHours, windSpeed10mMax, windGusts10mMax,
+		windDirection10mDominant, shortwaveRadiationSum, et0FaoTranspiration);
 END //
 DELIMITER ;
 
