@@ -5,7 +5,7 @@ import sqlite3
 def load(filmsData):
     csvFilepath = 'Target Data Files\\Most Highly Ranked Films Data\\CSV File\\top_25_recent_films_data.csv'
     dbName = 'Target Data Files\\Most Highly Ranked Films Data\\Database\\Movies.db'
-    tableName = 'Target Data Files\\Most Highly Ranked Films Data\\Database\\Movies.db\\Recent_Top_25'
+    tableName = 'Recent_Top_25'
     
     filmsData.to_csv(csvFilepath, index=False)
     conn = sqlite3.connect(dbName)
