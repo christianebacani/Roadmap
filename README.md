@@ -11,8 +11,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Joining Data in SQL](#joining-data-in-sql)
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
-   - [8 Week SQL Challenge](#8-week-sql-challenge)
-   - [Coding Challenges using Python](#coding-challenges-using-python)
+   - [Coding Challenges using Python and SQL](#coding-challenges-using-python-and-sql)
    - [Python for Data Engineering](#python-for-data-engineering)
    - [Python CLI Projects](#python-cli-projects)
      
@@ -88,13 +87,9 @@ These projects focus on relational database concepts, including:
 
 This section covers advanced database design principles, including normalization, schema design, and best practices for creating scalable data systems.
 
-### 8 Week SQL Challenge
+### Coding Challenges using Python and SQL
 
-This section contains my solutions to the `8 Week SQL Challenge`, showcasing real-world SQL problem-solving skills through various case studies.
-
-### Coding Challenges using Python
-
-This directory includes sub-folders related to `Python Solved Coding Challenges` in different platforms such as `HackerRank` and `LeetCode`. Diversifying my knowledge in different area such as solving problems using algorithms.
+This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `HackerRank`, `LeetCode` and `Naukri 360 Code`. Diversifying my knowledge in different area such as solving problems using algorithms and data-analysis.
 
 ### Python for Data Engineering
 
