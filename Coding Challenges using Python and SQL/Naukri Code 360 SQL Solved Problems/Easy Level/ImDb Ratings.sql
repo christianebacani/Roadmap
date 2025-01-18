@@ -596,7 +596,7 @@ INSERT INTO IMDB (Movie_id, Title, Rating, TotalVotes, MetaCritic, Budget, Runti
 
 -- Question Name : IMDb Rating
 -- Problem Statement : From the IMDb dataset, print the title and rating of those movies which have a genre starting from 'C' 
--- 					   released in 2014 with a budget higher than 4 Crore. (Download the dataset from console)
+-- 		       released in 2014 with a budget higher than 4 Crore. (Download the dataset from console)
 SELECT
 	title,
 	rating
