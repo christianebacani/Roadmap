@@ -49,7 +49,7 @@ def transform(rows):
 # Load
 def load(df):
     username = '<YOUR_USERNAME>'
-    password = '<PASSWORD>'
+    password = '<YOUR_PASSWORD>'
     hostname = '<HOST_NAME>'
     dbName = 'World_Economies'
     
