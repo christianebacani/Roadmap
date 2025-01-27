@@ -221,7 +221,7 @@ log_progress('[PROD] Loading to Local MySQL Database Started')
 terminalLogJobProgress('Loading to Local MySQL Database')
 username = '<YOUR_USERNAME>'
 password = '<YOUR_PASSWORD>'
-hostname = '<HOSTNAME>'
+hostname = '<YOUR_HOSTNAME>'
 dbName = 'world_economies'
 tableName = 'countries_by_gdp'
 engine = f'mysql+pymysql://{username}:{password}@{hostname}/{dbName}'
