@@ -2,766 +2,1712 @@
 <data>
   <row>
     <Country>United States</Country>
-    <GDP_USD_billion>26854.60</GDP_USD_billion>
+    <IMF_GDP_USD_billions>30337.16</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>27360.94</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>25744.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>China</Country>
-    <GDP_USD_billion>19373.59</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Japan</Country>
-    <GDP_USD_billion>4409.74</GDP_USD_billion>
+    <IMF_GDP_USD_billions>19534.89</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>17794.78</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>17963.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Germany</Country>
-    <GDP_USD_billion>4308.85</GDP_USD_billion>
+    <IMF_GDP_USD_billions>4921.56</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>4456.08</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4076.92</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Japan</Country>
+    <IMF_GDP_USD_billions>4389.33</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>4212.94</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4232.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>India</Country>
-    <GDP_USD_billion>3736.88</GDP_USD_billion>
+    <IMF_GDP_USD_billions>4271.92</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3549.92</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3465.54</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>United Kingdom</Country>
-    <GDP_USD_billion>3158.94</GDP_USD_billion>
+    <IMF_GDP_USD_billions>3730.26</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3340.03</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3089.07</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>France</Country>
-    <GDP_USD_billion>2923.49</GDP_USD_billion>
+    <IMF_GDP_USD_billions>3283.43</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3030.90</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2775.32</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Italy</Country>
-    <GDP_USD_billion>2169.74</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2459.60</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2254.85</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2046.95</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Canada</Country>
-    <GDP_USD_billion>2089.67</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2330.31</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2140.09</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2137.94</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Brazil</Country>
-    <GDP_USD_billion>2081.24</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2307.16</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2173.67</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1920.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Russia</Country>
-    <GDP_USD_billion>2062.65</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2195.71</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2021.42</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2240.42</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>South Korea</Country>
-    <GDP_USD_billion>1721.91</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1947.13</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1712.79</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1673.92</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Australia</Country>
-    <GDP_USD_billion>1707.55</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Mexico</Country>
-    <GDP_USD_billion>1663.16</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1881.14</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1723.83</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1776.58</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Spain</Country>
-    <GDP_USD_billion>1492.43</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1827.58</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1580.69</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1415.87</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Mexico</Country>
+    <IMF_GDP_USD_billions>1817.82</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1788.89</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1463.32</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Indonesia</Country>
-    <GDP_USD_billion>1391.78</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Netherlands</Country>
-    <GDP_USD_billion>1080.88</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Saudi Arabia</Country>
-    <GDP_USD_billion>1061.90</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1492.62</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1371.17</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1319.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Turkey</Country>
-    <GDP_USD_billion>1029.30</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1455.41</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1108.02</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>907.12</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Netherlands</Country>
+    <IMF_GDP_USD_billions>1272.96</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1118.12</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1008.03</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Saudi Arabia</Country>
+    <IMF_GDP_USD_billions>1136.58</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1067.58</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1108.15</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Switzerland</Country>
-    <GDP_USD_billion>869.60</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Taiwan</Country>
-    <GDP_USD_billion>790.73</GDP_USD_billion>
+    <IMF_GDP_USD_billions>999.60</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>884.94</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>818.43</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Poland</Country>
-    <GDP_USD_billion>748.89</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Argentina</Country>
-    <GDP_USD_billion>641.10</GDP_USD_billion>
+    <IMF_GDP_USD_billions>915.45</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>811.23</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>688.12</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Belgium</Country>
-    <GDP_USD_billion>624.25</GDP_USD_billion>
+    <IMF_GDP_USD_billions>689.36</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>632.22</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>582.64</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Sweden</Country>
-    <GDP_USD_billion>599.05</GDP_USD_billion>
+    <IMF_GDP_USD_billions>638.78</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>593.27</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>591.19</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Argentina</Country>
+    <IMF_GDP_USD_billions>604.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>640.59</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>631.13</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Ireland</Country>
-    <GDP_USD_billion>594.10</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Thailand</Country>
-    <GDP_USD_billion>574.23</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Norway</Country>
-    <GDP_USD_billion>554.11</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Israel</Country>
-    <GDP_USD_billion>539.22</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Singapore</Country>
-    <GDP_USD_billion>515.55</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Austria</Country>
-    <GDP_USD_billion>515.20</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Nigeria</Country>
-    <GDP_USD_billion>506.60</GDP_USD_billion>
+    <IMF_GDP_USD_billions>587.23</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>545.63</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>532.41</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>United Arab Emirates</Country>
-    <GDP_USD_billion>498.98</GDP_USD_billion>
+    <IMF_GDP_USD_billions>568.57</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>504.17</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>507.06</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Vietnam</Country>
-    <GDP_USD_billion>449.09</GDP_USD_billion>
+    <Country>Singapore</Country>
+    <IMF_GDP_USD_billions>561.73</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>501.43</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>466.79</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Malaysia</Country>
-    <GDP_USD_billion>447.03</GDP_USD_billion>
+    <Country>Austria</Country>
+    <IMF_GDP_USD_billions>559.22</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>516.03</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>470.30</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Israel</Country>
+    <IMF_GDP_USD_billions>550.90</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>509.90</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>525.00</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Thailand</Country>
+    <IMF_GDP_USD_billions>545.34</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>514.95</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>495.34</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Philippines</Country>
-    <GDP_USD_billion>440.90</GDP_USD_billion>
+    <IMF_GDP_USD_billions>507.67</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>437.15</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>404.28</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Bangladesh</Country>
-    <GDP_USD_billion>420.52</GDP_USD_billion>
+    <Country>Vietnam</Country>
+    <IMF_GDP_USD_billions>506.60</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>429.72</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>408.80</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Denmark</Country>
-    <GDP_USD_billion>405.63</GDP_USD_billion>
+    <Country>Norway</Country>
+    <IMF_GDP_USD_billions>503.47</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>485.51</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>579.42</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>South Africa</Country>
-    <GDP_USD_billion>399.01</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Hong Kong</Country>
-    <GDP_USD_billion>382.85</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Egypt</Country>
-    <GDP_USD_billion>378.11</GDP_USD_billion>
+    <Country>Malaysia</Country>
+    <IMF_GDP_USD_billions>488.25</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>399.65</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>406.31</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Iran</Country>
-    <GDP_USD_billion>367.97</GDP_USD_billion>
+    <IMF_GDP_USD_billions>478.10</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>401.50</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>398.05</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Chile</Country>
-    <GDP_USD_billion>358.56</GDP_USD_billion>
+    <Country>Bangladesh</Country>
+    <IMF_GDP_USD_billions>445.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>437.42</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>432.68</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Romania</Country>
-    <GDP_USD_billion>348.90</GDP_USD_billion>
+    <Country>Denmark</Country>
+    <IMF_GDP_USD_billions>432.23</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>404.20</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>400.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Hong Kong</Country>
+    <IMF_GDP_USD_billions>422.06</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>382.06</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>359.84</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Colombia</Country>
-    <GDP_USD_billion>334.69</GDP_USD_billion>
+    <IMF_GDP_USD_billions>419.33</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>363.54</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>343.94</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>South Africa</Country>
+    <IMF_GDP_USD_billions>418.05</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>377.78</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>405.27</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Romania</Country>
+    <IMF_GDP_USD_billions>406.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>351.00</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>300.69</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Pakistan</Country>
+    <IMF_GDP_USD_billions>393.10</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>338.37</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>326.80</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Chile</Country>
+    <IMF_GDP_USD_billions>362.24</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>335.53</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>300.69</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Czech Republic</Country>
-    <GDP_USD_billion>330.48</GDP_USD_billion>
+    <IMF_GDP_USD_billions>360.23</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>330.86</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>290.53</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Egypt</Country>
+    <IMF_GDP_USD_billions>345.80</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>395.93</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>409.31</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Finland</Country>
-    <GDP_USD_billion>301.67</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Peru</Country>
-    <GDP_USD_billion>268.24</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Iraq</Country>
-    <GDP_USD_billion>267.89</GDP_USD_billion>
+    <IMF_GDP_USD_billions>319.99</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>300.19</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>282.51</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Portugal</Country>
-    <GDP_USD_billion>267.72</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>New Zealand</Country>
-    <GDP_USD_billion>251.97</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Kazakhstan</Country>
-    <GDP_USD_billion>245.69</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Greece</Country>
-    <GDP_USD_billion>239.30</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Qatar</Country>
-    <GDP_USD_billion>219.57</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Algeria</Country>
-    <GDP_USD_billion>206.01</GDP_USD_billion>
+    <IMF_GDP_USD_billions>319.93</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>287.08</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>254.85</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Hungary</Country>
-    <GDP_USD_billion>188.50</GDP_USD_billion>
+    <IMF_GDP_USD_billions>312.62</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>212.39</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>177.34</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Kuwait</Country>
-    <GDP_USD_billion>164.71</GDP_USD_billion>
+    <Country>Kazakhstan</Country>
+    <IMF_GDP_USD_billions>306.63</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>261.42</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>225.50</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Peru</Country>
+    <IMF_GDP_USD_billions>294.90</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>267.60</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>242.63</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Iraq</Country>
+    <IMF_GDP_USD_billions>270.87</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>250.84</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>264.18</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Greece</Country>
+    <IMF_GDP_USD_billions>265.17</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>238.21</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>217.28</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Algeria</Country>
+    <IMF_GDP_USD_billions>264.27</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>239.90</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>191.91</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>New Zealand</Country>
+    <IMF_GDP_USD_billions>262.92</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>253.47</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>245.84</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Qatar</Country>
+    <IMF_GDP_USD_billions>240.22</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>235.77</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>237.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Ethiopia</Country>
-    <GDP_USD_billion>156.08</GDP_USD_billion>
+    <IMF_GDP_USD_billions>238.80</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>163.70</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>118.97</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Nigeria</Country>
+    <IMF_GDP_USD_billions>199.72</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>362.81</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>475.06</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Ukraine</Country>
-    <GDP_USD_billion>148.71</GDP_USD_billion>
+    <IMF_GDP_USD_billions>189.83</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>178.76</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>160.50</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Morocco</Country>
-    <GDP_USD_billion>138.78</GDP_USD_billion>
+    <IMF_GDP_USD_billions>168.60</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>141.11</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>130.91</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Kuwait</Country>
+    <IMF_GDP_USD_billions>161.95</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>161.77</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>175.36</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Slovakia</Country>
-    <GDP_USD_billion>127.53</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Ecuador</Country>
-    <GDP_USD_billion>121.29</GDP_USD_billion>
+    <IMF_GDP_USD_billions>142.62</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>132.79</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>115.30</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Dominican Republic</Country>
-    <GDP_USD_billion>121.29</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Puerto Rico</Country>
-    <GDP_USD_billion>120.84</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Kenya</Country>
-    <GDP_USD_billion>118.13</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Angola</Country>
-    <GDP_USD_billion>117.88</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Oman</Country>
-    <GDP_USD_billion>104.90</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Guatemala</Country>
-    <GDP_USD_billion>102.31</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Bulgaria</Country>
-    <GDP_USD_billion>100.64</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Venezuela</Country>
-    <GDP_USD_billion>96.63</GDP_USD_billion>
+    <IMF_GDP_USD_billions>126.24</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>121.44</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>113.54</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Uzbekistan</Country>
-    <GDP_USD_billion>92.33</GDP_USD_billion>
+    <IMF_GDP_USD_billions>125.51</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>90.89</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>80.39</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Luxembourg</Country>
-    <GDP_USD_billion>86.97</GDP_USD_billion>
+    <Country>Bulgaria</Country>
+    <IMF_GDP_USD_billions>123.42</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>101.58</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>90.21</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Tanzania</Country>
-    <GDP_USD_billion>85.42</GDP_USD_billion>
+    <Country>Ecuador</Country>
+    <IMF_GDP_USD_billions>121.42</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>118.84</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>115.05</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Turkmenistan</Country>
-    <GDP_USD_billion>82.65</GDP_USD_billion>
+    <Country>Puerto Rico</Country>
+    <IMF_GDP_USD_billions>120.97</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>117.90</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>113.43</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Croatia</Country>
-    <GDP_USD_billion>78.88</GDP_USD_billion>
+    <Country>Kenya</Country>
+    <IMF_GDP_USD_billions>116.32</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>107.44</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>113.42</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Lithuania</Country>
-    <GDP_USD_billion>78.35</GDP_USD_billion>
+    <Country>Angola</Country>
+    <IMF_GDP_USD_billions>113.29</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>84.77</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>113.30</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Guatemala</Country>
+    <IMF_GDP_USD_billions>112.37</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>102.05</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>95.00</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Oman</Country>
+    <IMF_GDP_USD_billions>110.99</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>108.19</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>114.67</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Costa Rica</Country>
-    <GDP_USD_billion>77.78</GDP_USD_billion>
+    <IMF_GDP_USD_billions>95.15</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>86.50</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>68.38</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Uruguay</Country>
-    <GDP_USD_billion>77.31</GDP_USD_billion>
+    <Country>Luxembourg</Country>
+    <IMF_GDP_USD_billions>91.21</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>85.75</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>81.53</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Croatia</Country>
+    <IMF_GDP_USD_billions>89.67</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>82.69</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>71.55</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Panama</Country>
-    <GDP_USD_billion>77.26</GDP_USD_billion>
+    <IMF_GDP_USD_billions>87.35</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>83.38</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>76.52</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Ivory Coast</Country>
-    <GDP_USD_billion>77.05</GDP_USD_billion>
+    <IMF_GDP_USD_billions>86.99</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>78.79</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>70.02</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Sri Lanka</Country>
+    <IMF_GDP_USD_billions>74.85</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2022</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>84.36</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>76.19</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Turkmenistan</Country>
+    <IMF_GDP_USD_billions>83.88</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>59.89</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>67.01</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Lithuania</Country>
+    <IMF_GDP_USD_billions>82.79</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>77.84</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>70.88</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Uruguay</Country>
+    <IMF_GDP_USD_billions>82.61</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>77.24</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>71.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Serbia</Country>
-    <GDP_USD_billion>73.96</GDP_USD_billion>
+    <IMF_GDP_USD_billions>82.55</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>75.19</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>63.56</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Belarus</Country>
-    <GDP_USD_billion>73.54</GDP_USD_billion>
+    <Country>Tanzania</Country>
+    <IMF_GDP_USD_billions>79.87</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>79.16</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>73.53</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Azerbaijan</Country>
-    <GDP_USD_billion>70.03</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>DR Congo</Country>
-    <GDP_USD_billion>69.47</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Slovenia</Country>
-    <GDP_USD_billion>68.11</GDP_USD_billion>
+    <IMF_GDP_USD_billions>75.65</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>72.36</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>78.72</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Ghana</Country>
-    <GDP_USD_billion>66.62</GDP_USD_billion>
+    <IMF_GDP_USD_billions>75.31</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>76.37</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>73.77</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Slovenia</Country>
+    <IMF_GDP_USD_billions>73.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>68.22</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>59.98</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Belarus</Country>
+    <IMF_GDP_USD_billions>73.13</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>71.86</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>72.87</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>DR Congo</Country>
+    <IMF_GDP_USD_billions>72.48</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>66.38</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>62.55</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Myanmar</Country>
-    <GDP_USD_billion>63.99</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Jordan</Country>
-    <GDP_USD_billion>52.06</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Tunisia</Country>
-    <GDP_USD_billion>49.81</GDP_USD_billion>
+    <IMF_GDP_USD_billions>64.28</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>64.81</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>65.21</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Uganda</Country>
-    <GDP_USD_billion>49.79</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Cameroon</Country>
-    <GDP_USD_billion>48.62</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Latvia</Country>
-    <GDP_USD_billion>47.40</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Sudan</Country>
-    <GDP_USD_billion>46.70</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Libya</Country>
-    <GDP_USD_billion>46.30</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Bolivia</Country>
-    <GDP_USD_billion>46.10</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Bahrain</Country>
-    <GDP_USD_billion>44.87</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Paraguay</Country>
-    <GDP_USD_billion>42.82</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Nepal</Country>
-    <GDP_USD_billion>42.10</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Estonia</Country>
-    <GDP_USD_billion>41.55</GDP_USD_billion>
+    <IMF_GDP_USD_billions>55.59</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>49.27</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>48.24</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Macau</Country>
-    <GDP_USD_billion>35.84</GDP_USD_billion>
+    <IMF_GDP_USD_billions>55.45</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>47.06</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>24.04</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>El Salvador</Country>
-    <GDP_USD_billion>33.75</GDP_USD_billion>
+    <Country>Cameroon</Country>
+    <IMF_GDP_USD_billions>53.39</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>47.95</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>44.34</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Honduras</Country>
-    <GDP_USD_billion>32.86</GDP_USD_billion>
+    <Country>Jordan</Country>
+    <IMF_GDP_USD_billions>53.30</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>50.81</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>47.45</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Papua New Guinea</Country>
-    <GDP_USD_billion>31.36</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Senegal</Country>
-    <GDP_USD_billion>31.22</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Cyprus</Country>
-    <GDP_USD_billion>30.86</GDP_USD_billion>
+    <Country>Tunisia</Country>
+    <IMF_GDP_USD_billions>52.64</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>48.53</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>46.18</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Cambodia</Country>
-    <GDP_USD_billion>30.63</GDP_USD_billion>
+    <IMF_GDP_USD_billions>51.16</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2025</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>31.77</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>29.50</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Bolivia</Country>
+    <IMF_GDP_USD_billions>48.17</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>45.85</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>44.01</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Bahrain</Country>
+    <IMF_GDP_USD_billions>47.81</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>43.20</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>44.38</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Latvia</Country>
+    <IMF_GDP_USD_billions>45.52</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>43.63</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>40.88</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Paraguay</Country>
+    <IMF_GDP_USD_billions>44.94</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>42.96</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>41.72</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Libya</Country>
+    <IMF_GDP_USD_billions>44.81</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>50.49</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>40.54</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Nepal</Country>
+    <IMF_GDP_USD_billions>43.67</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>40.91</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>39.41</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Estonia</Country>
+    <IMF_GDP_USD_billions>43.04</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>40.74</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>38.05</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Honduras</Country>
+    <IMF_GDP_USD_billions>36.73</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>34.40</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>31.72</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Zimbabwe</Country>
-    <GDP_USD_billion>29.93</GDP_USD_billion>
+    <IMF_GDP_USD_billions>35.92</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>26.54</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>26.42</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Zambia</Country>
-    <GDP_USD_billion>29.27</GDP_USD_billion>
+    <Country>El Salvador</Country>
+    <IMF_GDP_USD_billions>35.85</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>34.02</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>32.49</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Iceland</Country>
-    <GDP_USD_billion>28.62</GDP_USD_billion>
+    <Country>Cyprus</Country>
+    <IMF_GDP_USD_billions>34.79</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>32.23</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>29.21</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Bosnia and Herzegovina</Country>
-    <GDP_USD_billion>28.49</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Trinidad and Tobago</Country>
-    <GDP_USD_billion>28.22</GDP_USD_billion>
+    <Country>Senegal</Country>
+    <IMF_GDP_USD_billions>33.69</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>31.01</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>27.77</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Georgia</Country>
-    <GDP_USD_billion>27.95</GDP_USD_billion>
+    <IMF_GDP_USD_billions>33.19</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>30.54</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>24.61</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Haiti</Country>
-    <GDP_USD_billion>26.58</GDP_USD_billion>
+    <Country>Iceland</Country>
+    <IMF_GDP_USD_billions>32.92</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>31.02</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>28.06</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Armenia</Country>
-    <GDP_USD_billion>23.73</GDP_USD_billion>
+    <Country>Papua New Guinea</Country>
+    <IMF_GDP_USD_billions>31.72</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>30.93</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>31.61</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Sudan</Country>
+    <IMF_GDP_USD_billions>30.87</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>109.33</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>36.73</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Zambia</Country>
+    <IMF_GDP_USD_billions>29.87</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>28.16</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>29.14</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Bosnia and Herzegovina</Country>
+    <IMF_GDP_USD_billions>29.08</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>27.05</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>24.47</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Trinidad and Tobago</Country>
+    <IMF_GDP_USD_billions>28.36</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>28.14</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>30.05</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Guinea</Country>
-    <GDP_USD_billion>23.33</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Burkina Faso</Country>
-    <GDP_USD_billion>21.08</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Mali</Country>
-    <GDP_USD_billion>20.78</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Gabon</Country>
-    <GDP_USD_billion>20.33</GDP_USD_billion>
+    <IMF_GDP_USD_billions>25.45</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>23.61</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>20.85</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Albania</Country>
-    <GDP_USD_billion>20.18</GDP_USD_billion>
+    <IMF_GDP_USD_billions>25.43</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>22.98</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>18.92</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Armenia</Country>
+    <IMF_GDP_USD_billions>25.41</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>24.21</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>19.51</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Haiti</Country>
+    <IMF_GDP_USD_billions>24.05</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>19.85</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>18.75</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Mozambique</Country>
-    <GDP_USD_billion>19.91</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Palestine</Country>
-    <GDP_USD_billion>19.21</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Botswana</Country>
-    <GDP_USD_billion>19.57</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Yemen</Country>
-    <GDP_USD_billion>19.53</GDP_USD_billion>
+    <IMF_GDP_USD_billions>22.98</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>20.62</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>18.41</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Malta</Country>
-    <GDP_USD_billion>19.41</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Benin</Country>
-    <GDP_USD_billion>19.24</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Nicaragua</Country>
-    <GDP_USD_billion>17.29</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Jamaica</Country>
-    <GDP_USD_billion>17.25</GDP_USD_billion>
+    <IMF_GDP_USD_billions>22.74</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>20.96</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>18.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Mongolia</Country>
-    <GDP_USD_billion>16.91</GDP_USD_billion>
+    <IMF_GDP_USD_billions>21.94</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>19.87</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>17.15</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Niger</Country>
-    <GDP_USD_billion>16.62</GDP_USD_billion>
+    <Country>Burkina Faso</Country>
+    <IMF_GDP_USD_billions>21.90</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>20.32</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>19.18</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Mali</Country>
+    <IMF_GDP_USD_billions>21.66</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>20.91</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>18.83</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Botswana</Country>
+    <IMF_GDP_USD_billions>21.42</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>19.40</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>20.35</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Benin</Country>
+    <IMF_GDP_USD_billions>21.37</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>19.67</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>17.40</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Guyana</Country>
-    <GDP_USD_billion>16.31</GDP_USD_billion>
+    <IMF_GDP_USD_billions>21.18</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>16.79</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>14.72</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Brunei</Country>
-    <GDP_USD_billion>15.99</GDP_USD_billion>
+    <Country>Gabon</Country>
+    <IMF_GDP_USD_billions>21.01</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>20.52</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>20.13</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Madagascar</Country>
-    <GDP_USD_billion>15.97</GDP_USD_billion>
+    <Country>Jamaica</Country>
+    <IMF_GDP_USD_billions>20.10</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>19.42</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>17.10</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Moldova</Country>
-    <GDP_USD_billion>15.83</GDP_USD_billion>
+    <Country>Nicaragua</Country>
+    <IMF_GDP_USD_billions>18.83</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>17.83</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>15.67</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>North Macedonia</Country>
-    <GDP_USD_billion>15.28</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Equatorial Guinea</Country>
-    <GDP_USD_billion>15.10</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Mauritius</Country>
-    <GDP_USD_billion>14.57</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Bahamas</Country>
-    <GDP_USD_billion>14.11</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Laos</Country>
-    <GDP_USD_billion>14.09</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Namibia</Country>
-    <GDP_USD_billion>13.49</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Rwanda</Country>
-    <GDP_USD_billion>13.15</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Congo</Country>
-    <GDP_USD_billion>13.03</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Tajikistan</Country>
-    <GDP_USD_billion>12.80</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Kyrgyzstan</Country>
-    <GDP_USD_billion>12.31</GDP_USD_billion>
+    <Country>Niger</Country>
+    <IMF_GDP_USD_billions>18.82</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>16.82</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>15.41</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Chad</Country>
-    <GDP_USD_billion>11.96</GDP_USD_billion>
+    <IMF_GDP_USD_billions>18.70</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>13.15</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>16.80</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Malawi</Country>
-    <GDP_USD_billion>11.28</GDP_USD_billion>
+    <Country>Palestine</Country>
+    <IMF_GDP_USD_billions>18.60</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2023</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>17.40</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>19.11</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Mauritania</Country>
-    <GDP_USD_billion>10.97</GDP_USD_billion>
+    <Country>Moldova</Country>
+    <IMF_GDP_USD_billions>18.36</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>16.54</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>14.51</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Kosovo</Country>
-    <GDP_USD_billion>9.99</GDP_USD_billion>
+    <Country>Lebanon</Country>
+    <IMF_GDP_USD_billions>21.78</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2022</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>17.94</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>39.30</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Togo</Country>
-    <GDP_USD_billion>9.00</GDP_USD_billion>
+    <Country>Madagascar</Country>
+    <IMF_GDP_USD_billions>16.46</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>16.03</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>14.95</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Mauritius</Country>
+    <IMF_GDP_USD_billions>16.36</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.40</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>12.90</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Brunei</Country>
+    <IMF_GDP_USD_billions>15.99</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>15.13</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>16.68</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>North Macedonia</Country>
+    <IMF_GDP_USD_billions>15.87</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.76</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>13.71</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Kyrgyzstan</Country>
+    <IMF_GDP_USD_billions>15.77</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>13.78</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>12.56</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Congo</Country>
+    <IMF_GDP_USD_billions>15.50</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>15.32</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>15.34</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Laos</Country>
+    <IMF_GDP_USD_billions>15.19</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>15.84</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>15.36</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Afghanistan</Country>
+    <IMF_GDP_USD_billions>14.47</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2022</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.50</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>14.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Bahamas</Country>
+    <IMF_GDP_USD_billions>14.39</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.34</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>12.90</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Rwanda</Country>
+    <IMF_GDP_USD_billions>13.70</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.10</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>13.31</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Tajikistan</Country>
+    <IMF_GDP_USD_billions>13.00</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>12.06</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>10.49</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Somalia</Country>
-    <GDP_USD_billion>8.74</GDP_USD_billion>
+    <IMF_GDP_USD_billions>12.80</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>11.68</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>10.42</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Namibia</Country>
+    <IMF_GDP_USD_billions>12.77</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>12.35</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>12.61</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Kosovo</Country>
+    <IMF_GDP_USD_billions>11.32</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>10.44</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>9.40</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Malawi</Country>
+    <IMF_GDP_USD_billions>11.24</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>14.08</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>12.56</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Equatorial Guinea</Country>
+    <IMF_GDP_USD_billions>10.71</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>12.12</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>11.77</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Mauritania</Country>
+    <IMF_GDP_USD_billions>10.63</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>10.45</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>11.00</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Togo</Country>
+    <IMF_GDP_USD_billions>9.83</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>9.17</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>8.09</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Montenegro</Country>
-    <GDP_USD_billion>7.03</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>South Sudan</Country>
-    <GDP_USD_billion>7.01</GDP_USD_billion>
+    <IMF_GDP_USD_billions>8.01</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>7.41</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>6.23</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Maldives</Country>
-    <GDP_USD_billion>7.00</GDP_USD_billion>
+    <IMF_GDP_USD_billions>7.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>6.60</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>6.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Barbados</Country>
-    <GDP_USD_billion>6.12</GDP_USD_billion>
+    <IMF_GDP_USD_billions>6.86</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>6.39</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>5.70</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Fiji</Country>
-    <GDP_USD_billion>5.38</GDP_USD_billion>
+    <IMF_GDP_USD_billions>5.80</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>5.50</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4.98</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Eswatini</Country>
-    <GDP_USD_billion>4.82</GDP_USD_billion>
+    <IMF_GDP_USD_billions>5.08</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>4.60</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4.33</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Liberia</Country>
-    <GDP_USD_billion>4.38</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Djibouti</Country>
-    <GDP_USD_billion>3.92</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Andorra</Country>
-    <GDP_USD_billion>3.67</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Aruba</Country>
-    <GDP_USD_billion>3.63</GDP_USD_billion>
+    <IMF_GDP_USD_billions>4.75</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>4.33</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.27</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Sierra Leone</Country>
-    <GDP_USD_billion>3.52</GDP_USD_billion>
+    <IMF_GDP_USD_billions>4.56</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3.81</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.48</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Djibouti</Country>
+    <IMF_GDP_USD_billions>4.36</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>4.10</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4.00</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Suriname</Country>
-    <GDP_USD_billion>3.47</GDP_USD_billion>
+    <IMF_GDP_USD_billions>4.34</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3.78</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.62</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Burundi</Country>
-    <GDP_USD_billion>3.23</GDP_USD_billion>
+    <Country>Aruba</Country>
+    <IMF_GDP_USD_billions>4.07</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3.54</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.54</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Andorra</Country>
+    <IMF_GDP_USD_billions>3.90</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3.73</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.38</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Belize</Country>
-    <GDP_USD_billion>3.16</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Central African Republic</Country>
-    <GDP_USD_billion>2.74</GDP_USD_billion>
+    <IMF_GDP_USD_billions>3.30</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>3.28</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.83</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Bhutan</Country>
-    <GDP_USD_billion>2.68</GDP_USD_billion>
+    <IMF_GDP_USD_billions>3.11</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.90</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.90</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Eritrea</Country>
-    <GDP_USD_billion>2.67</GDP_USD_billion>
+    <Country>Burundi</Country>
+    <IMF_GDP_USD_billions>3.08</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.64</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>4.03</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>Lesotho</Country>
-    <GDP_USD_billion>2.58</GDP_USD_billion>
+    <Country>Central African Republic</Country>
+    <IMF_GDP_USD_billions>2.81</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.56</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.40</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Cape Verde</Country>
-    <GDP_USD_billion>2.47</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.72</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.59</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.31</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Gambia</Country>
-    <GDP_USD_billion>2.28</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.69</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.34</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.23</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Saint Lucia</Country>
-    <GDP_USD_billion>2.26</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.58</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.52</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.17</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
-    <Country>East Timor</Country>
-    <GDP_USD_billion>1.99</GDP_USD_billion>
+    <Country>Lesotho</Country>
+    <IMF_GDP_USD_billions>2.40</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.05</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>2.29</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Seychelles</Country>
-    <GDP_USD_billion>1.95</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.20</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.14</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.99</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Guinea-Bissau</Country>
-    <GDP_USD_billion>1.89</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.15</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.97</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.57</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Antigua and Barbuda</Country>
-    <GDP_USD_billion>1.86</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.13</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.03</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.77</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>San Marino</Country>
-    <GDP_USD_billion>1.81</GDP_USD_billion>
+    <IMF_GDP_USD_billions>2.03</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.85</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2021</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.78</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Timor-Leste</Country>
+    <IMF_GDP_USD_billions>1.99</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>2.24</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>3.20</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Solomon Islands</Country>
-    <GDP_USD_billion>1.70</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.71</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.63</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.60</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Comoros</Country>
-    <GDP_USD_billion>1.35</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.42</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.35</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.25</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Grenada</Country>
-    <GDP_USD_billion>1.27</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.41</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.32</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>1.19</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Vanuatu</Country>
-    <GDP_USD_billion>1.06</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.29</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.13</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.98</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Saint Kitts and Nevis</Country>
-    <GDP_USD_billion>1.05</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.13</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.08</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.98</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Saint Vincent and the Grenadines</Country>
-    <GDP_USD_billion>1.04</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.13</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>1.07</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.95</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Samoa</Country>
-    <GDP_USD_billion>0.90</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Dominica</Country>
-    <GDP_USD_billion>0.68</GDP_USD_billion>
+    <IMF_GDP_USD_billions>1.02</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.93</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.86</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>São Tomé and Príncipe</Country>
-    <GDP_USD_billion>0.62</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.75</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.60</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.55</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Dominica</Country>
+    <IMF_GDP_USD_billions>0.71</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.65</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.61</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Tonga</Country>
-    <GDP_USD_billion>0.54</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.58</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.50</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2022</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.49</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Micronesia</Country>
-    <GDP_USD_billion>0.46</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Marshall Islands</Country>
-    <GDP_USD_billion>0.29</GDP_USD_billion>
-  </row>
-  <row>
-    <Country>Palau</Country>
-    <GDP_USD_billion>0.26</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.48</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.46</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.43</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Kiribati</Country>
-    <GDP_USD_billion>0.25</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.31</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.28</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.22</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Palau</Country>
+    <IMF_GDP_USD_billions>0.31</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.26</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.23</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
+  </row>
+  <row>
+    <Country>Marshall Islands</Country>
+    <IMF_GDP_USD_billions>0.30</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.28</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.28</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Nauru</Country>
-    <GDP_USD_billion>0.15</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.16</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.15</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.15</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
   <row>
     <Country>Tuvalu</Country>
-    <GDP_USD_billion>0.07</GDP_USD_billion>
+    <IMF_GDP_USD_billions>0.07</IMF_GDP_USD_billions>
+    <IMF_Year_Estimate>2024</IMF_Year_Estimate>
+    <World_Bank_GDP_USD_billions>0.06</World_Bank_GDP_USD_billions>
+    <World_Bank_Year_Estimate>2023</World_Bank_Year_Estimate>
+    <United_Nations_GDP_USD_billions>0.06</United_Nations_GDP_USD_billions>
+    <UN_Year_Estimate>2022</UN_Year_Estimate>
   </row>
 </data>
