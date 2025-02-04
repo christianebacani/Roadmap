@@ -110,7 +110,7 @@ def run_query(queryStatement : list, engine : str) -> None:
 
 # Logs
 def log_progress(message : str) -> None:
-    format = '%Y-%m-%d'
+    format = '%Y-%m-%d %H:%M:%S'
     now = datetime.now()
     timestamp = now.strftime(format)
 
