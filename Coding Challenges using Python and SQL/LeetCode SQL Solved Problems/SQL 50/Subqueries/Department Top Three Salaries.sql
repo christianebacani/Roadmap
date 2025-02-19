@@ -12,7 +12,6 @@ SELECT
 FROM
     Department)
 
-
 SELECT
     top3_highest_salary_per_dept.name AS Department,
     Employee.name AS Employee,
