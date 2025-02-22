@@ -16,7 +16,7 @@ def tree_node(tree: pd.DataFrame) -> pd.DataFrame:
         
         elif p_id in list(tree['id']) and id in list(tree['p_id']):
             output_df = pd.concat([output_df, pd.DataFrame({'id' : id, 'type' : 'Inner'}, index=[0])], ignore_index=True)
-        
+
         elif p_id in list(tree['id']) and id not in list(tree['p_id']):
             output_df = pd.concat([output_df, pd.DataFrame({'id' : id, 'type' : 'Leaf'}, index=[0])], ignore_index=True)
     
