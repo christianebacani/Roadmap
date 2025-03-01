@@ -14,7 +14,7 @@ class Solution:
         for num in nums:
             if num != 0:
                 new_nums.append(num)
-    
+
         for num in nums:
             if num == 0:
                 new_nums.append(num)
