@@ -1,4 +1,4 @@
-# 1920. Build Array from Permutation
+# 1920.) Build Array from Permutation
 # Categories : Array, Simulation
 
 class Solution:
