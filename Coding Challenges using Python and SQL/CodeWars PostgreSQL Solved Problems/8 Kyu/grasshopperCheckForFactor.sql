@@ -1,5 +1,4 @@
--- 8 Kyu
--- Grasshopper - Check for factor
+-- 8 Kyu: Grasshopper - Check for factor
 
 SELECT
   id,

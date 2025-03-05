@@ -1,5 +1,4 @@
--- 8 Kyu
--- Beginner Series #1 School Paperwork
+-- 8 Kyu: Beginner Series #1 School Paperwork
 
 SELECT
   n,

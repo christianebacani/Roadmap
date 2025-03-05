@@ -1,5 +1,4 @@
--- 8 Kyu
--- Opposites Attract
+-- 8 Kyu: Opposites Attract
 
 SELECT
   flower1,

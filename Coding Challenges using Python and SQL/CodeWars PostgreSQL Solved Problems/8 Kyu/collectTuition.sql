@@ -1,5 +1,4 @@
--- 8 Kyu
--- Collect Tuition (SQL for Beginners # 4)
+-- 8 Kyu: Collect Tuition (SQL for Beginners # 4)
 
 SELECT *
 FROM

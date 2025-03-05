@@ -1,5 +1,4 @@
--- 8 Kyu
--- Opposite Numbers
+-- 8 Kyu: Opposite Numbers
 
 SELECT
   (number - (number * 2)) AS res
