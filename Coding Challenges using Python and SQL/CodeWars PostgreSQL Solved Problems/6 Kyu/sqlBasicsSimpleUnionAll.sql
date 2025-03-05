@@ -1,5 +1,4 @@
--- 6 Kyu
--- SQL Basics: Simple UNION ALL
+-- 6 Kyu: SQL Basics: Simple UNION ALL
 
 SELECT
   'US' AS location,
