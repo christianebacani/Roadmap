@@ -1,5 +1,4 @@
--- 6 Kyu
--- SQL Basics : Simple IN
+-- 6 Kyu: SQL Basics : Simple IN
 
 SELECT
   id,
