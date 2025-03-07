@@ -89,7 +89,7 @@ This section covers advanced database design principles, including normalization
 
 ### Coding Challenges using Python and SQL
 
-This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `HackerRank`, `LeetCode`, and `CodeWars`. Diversifying my knowledge in different area such as solving problems using algorithms, data-analysis, and database management.
+This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `HackerRank`, `LeetCode`, `CodeWars`, and `CodeChef`. Diversifying my knowledge in different area such as solving problems using algorithms, data-analysis, and database management.
 
 ### Python for Data Engineering
 
