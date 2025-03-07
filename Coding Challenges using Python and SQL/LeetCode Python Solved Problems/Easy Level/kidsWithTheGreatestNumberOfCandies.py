@@ -3,13 +3,13 @@
 
 class Solution:
     def kidsWithCandies(self, candies: list[int], extraCandies: int) -> list[bool]:
-        greatestNumberOfCandies = max(candies)
+        maximum_number_of_candies = max(candies)
         result = []
 
         for candy in candies:
             total_number_of_candies = candy + extraCandies
 
-            if total_number_of_candies >= greatestNumberOfCandies:
+            if total_number_of_candies >= maximum_number_of_candies:
                 result.append(True)
         
             else:
