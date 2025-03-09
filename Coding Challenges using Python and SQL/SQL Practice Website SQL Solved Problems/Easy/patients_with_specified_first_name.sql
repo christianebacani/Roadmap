@@ -2,8 +2,8 @@
 -- Category: Easy
 
 SELECT
-	first_name
+    first_name
  FROM
- 	patients
+     patients
  WHERE
- 	first_name LIKE 'C%';
+     first_name LIKE 'C%';
