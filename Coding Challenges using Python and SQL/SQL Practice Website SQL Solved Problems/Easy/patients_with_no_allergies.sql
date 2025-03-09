@@ -2,10 +2,10 @@
 -- Category: Easy
 
 SELECT
-	first_name,
+    first_name,
     last_name
 FROM
-	patients
+    patients
 WHERE
-	allergies IS NULL;
+    allergies IS NULL;
    
