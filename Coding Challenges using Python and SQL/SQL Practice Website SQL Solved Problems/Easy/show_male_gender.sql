@@ -2,11 +2,11 @@
 -- Category: Easy
 
 SELECT
-	first_name,
+    first_name,
     last_name,
     gender
 FROM
-	patients
+    patients
 WHERE
-	gender = 'M'
+    gender = 'M'
     
