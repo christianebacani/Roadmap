@@ -2,8 +2,8 @@
 -- Categories: Easy
 
 SELECT
-	COUNT(patient_id) AS total_patients
+    COUNT(patient_id) AS total_patients
 FROM
-	patients
+    patients
 WHERE
-	SUBSTR(birth_date, 1, 4) = '2010';
+    SUBSTR(birth_date, 1, 4) = '2010';
