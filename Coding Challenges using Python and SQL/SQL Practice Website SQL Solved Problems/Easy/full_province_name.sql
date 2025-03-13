@@ -2,12 +2,12 @@
 -- Category: Easy
 
 SELECT
-	first_name,
+    first_name,
     last_name,
     province_names.province_name
 FROM
-	patients
+    patients
 INNER JOIN
-	province_names
+    province_names
 ON
-	patients.province_id = province_names.province_id;
+    patients.province_id = province_names.province_id;
