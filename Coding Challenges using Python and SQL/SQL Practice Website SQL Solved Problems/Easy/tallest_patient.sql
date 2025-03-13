@@ -2,13 +2,13 @@
 -- Category: Easy
 
 SELECT
-	first_name,
+    first_name,
     last_name,
     height
 FROM
-	patients
-order by
-	height DESC
+    patients
+ORDER BY
+    height DESC
 LIMIT
-	1;
+    1;
    
