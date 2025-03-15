@@ -93,7 +93,7 @@ This directory includes sub-folders related to `Coding Challenges using Python a
 
 ### Data Engineering Projects
 
-This directory contains all the projects that I created using difference skills related to my chosen career path which is `Data Engineering`. It consist of `Web Scraping Scripts`, `ETL/ELT Pipelines`, `Batch/Stream Processing`,  `Data Analytics`, and `AI/ML Models`. 
+This directory contains all the projects that I created using difference skills related to my chosen career path which is `Data Engineering`. It consist of `Web Scraping Scripts`, `ETL/ELT Pipelines`, `Batch/Stream Processing`,  `Data Analytics`, and `AI/ML Models` Projects. 
 
 ### Python CLI Projects
 
