@@ -12,7 +12,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
    - [Coding Challenges using Python and SQL](#coding-challenges-using-python-and-sql)
-   - [Python for Data Engineering](#python-for-data-engineering)
+   - [Data Engineering Projects](#data-engineering-projects)
    - [Python CLI Projects](#python-cli-projects)
      
 3. [Contact](#contact)
@@ -91,9 +91,9 @@ This section covers advanced database design principles, including normalization
 
 This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `HackerRank`, `LeetCode`, `CodeWars`,`CodeChef`, and `SQL Practice`. Diversifying my knowledge in different area such as solving problems using algorithms, data-analysis, and database management.
 
-### Python for Data Engineering
+### Data Engineering Projects
 
-This directory contains a collection of `Data Pipeline` scripts developed in `Python`, as part of my learning journey in the `Python for Data Engineering` course on `Coursera`, which I completed through a financial aid opportunity. I plan to continue adding scripts here to build and refine my practical data engineering skills.
+This directory contains all the projects that I created using difference skills related to my chosen career path which is `Data Engineering`. It consist of `Web Scraping Scripts`, `ETL/ELT Pipelines`, `Batch/Stream Processing`,  `Data Analytics`, and `AI/ML Models`. 
 
 ### Python CLI Projects
 
