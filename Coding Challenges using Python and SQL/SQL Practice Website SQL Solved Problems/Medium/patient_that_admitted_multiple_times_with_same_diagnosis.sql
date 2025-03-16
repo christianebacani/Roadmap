@@ -2,7 +2,7 @@
 -- Category: Medium
 
 SELECT
-	DISTINCT
+    DISTINCT
     patients.patient_id,
     admissions.diagnosis
 FROM
