@@ -1,0 +1,228 @@
+// Project name and description
+PROJECT voting_transactions_conceptual_model {
+  database_type: 'PostgreSQL'
+  Note: 'Conceptual model of voting transactions snowflake schema using Kimball\'s approach to implementing data models. URL: https://dbdiagram.io/d/67d9180675d75cc84479a4ce'
+}
+
+// Election officers dimension table
+TABLE dim_election_officers {
+  election_officer_id INTEGER [PK]
+  voter_occupation_id INTEGER
+  election_position VARCHAR(255)
+  first_name VARCHAR(255)
+  middle_name VARCHAR(255)
+  last_name VARCHAR(255)
+}
+
+// Voted locations dimension table
+TABLE dim_voted_locations {
+  voted_location_id INTEGER [PK]
+  location TEXT
+}
+
+// Voted dates dimension table
+TABLE dim_voted_dates {
+  voted_date_id INTEGER [PK]
+  voted_year INTEGER
+  voted_month INTEGER
+  voted_day INTEGER
+}
+
+// Genders dimension table
+TABLE dim_genders {
+  gender CHAR(1) [PK]
+  gender_name VARCHAR(10)
+}
+
+// Party lists dimension table
+TABLE dim_party_lists {
+  party_list_id INTEGER [PK]
+  party_list VARCHAR(255)
+  party_list_chairperson VARCHAR(255)
+  party_list_vice_chairperson VARCHAR(255)
+  party_list_secretary_general VARCHAR(255)
+  party_list_treasurer VARCHAR(255)
+  party_list_auditor VARCHAR(255)
+  party_list_sectoral_heads TEXT
+  party_list_public_relation_officers TEXT
+  part_list_legal_counsels TEXT
+  party_list_nominees TEXT
+  party_list_general_members TEXT
+}
+
+// Politicians dimension table
+TABLE dim_politicians {
+  politician_id INTEGER [PK]
+  voter_occupation_id INTEGER [ref: - dim_voter_occupations.voter_occupation_id]
+  party_list_id INTEGER [ref: > dim_party_lists.party_list_id]
+  gender CHAR(1) [ref: > dim_genders.gender]
+  first_name VARCHAR(255)
+  middle_name VARCHAR(255)
+  last_name VARCHAR(255)
+  birthdate DATE
+  birthplace TEXT
+}
+
+// Voter occupation categories dimension table
+TABLE dim_voter_occupation_categories {
+  voter_occupation_category_id INTEGER [PK]
+  voter_occupation_category VARCHAR(255)
+}
+
+// Voter occupations dimension table
+TABLE dim_voter_occupations {
+  voter_occupation_id INTEGER [PK]
+  voter_occupation_category_id INTEGER  [ref: > dim_voter_occupation_categories.voter_occupation_category_id]
+  occupation VARCHAR(255)
+}
+
+// Voter regions dimension table
+TABLE dim_voter_regions {
+  voter_region_id INTEGER [PK]
+  region_name VARCHAR(255)
+  founded_date DATE
+  regional_directors TEXT
+  assistant_regional_directors TEXT
+  regional_development_council_chairperson VARCHAR(255)
+  regional_development_council_co_chairperson VARCHAR(255)
+  provincial_governors TEXT
+  city_mayors TEXT
+  municipal_mayors TEXT
+  private_sector_representatives TEXT
+  chief_minister VARCHAR(255)
+  deputy_chief_ministers TEXT
+  members_of_the_regional_parliament TEXT
+  regional_ministers TEXT
+  regional_disaster_risk_reduction_and_management_officers TEXT
+  regional_planning_officers TEXT
+  regional_health_officers TEXT
+  regional_tourism_officers TEXT
+  regional_enviroment_officers TEXT
+}
+
+// Voters provinces dimension table
+TABLE dim_voter_provinces {
+  voter_province_id INTEGER [PK]
+  voter_region_id INTEGER [ref: > dim_voter_regions.voter_region_id]
+  province_name VARCHAR(255)
+  founded_date DATE
+  governor VARCHAR(255)
+  vice_governor VARCHAR(255)
+  province_board_members TEXT
+  presidents_of_provincial_liga_ng_mga_baranggay TEXT
+  presidents_of_the_sangguniang_bayan TEXT
+  indigenous_people_representatives TEXT
+  secretaries_to_the_sangguniang_panlalawigan TEXT
+  provincial_treasurers TEXT
+  provincial_accessors TEXT
+  provincial_accountants TEXT
+  provincial_planning_and_development_coordinators TEXT
+  provincial_engineers TEXT
+  provincial_health_officers TEXT
+  provincial_social_welface_officers TEXT
+  provincial_agriculturist TEXT
+  provincial_environment_and_natural_resources_officers TEXT
+  provincial_legal_officers TEXT
+  provincial_disaster_risk_reduction_and_management_officers TEXT
+  provincial_information_officers TEXT
+  provincial_tourism_officers TEXT
+  provincial_veterinarians TEXT
+}
+
+// Voter municipalities dimension table
+TABLE dim_voter_municipalities {
+  voter_municipality_id INTEGER [PK]
+  voter_province_id INTEGER [ref: > dim_voter_provinces.voter_province_id]
+  municipality_name VARCHAR(255)
+  founded_date DATE
+  municipal_mayor VARCHAR(255)
+  municipal_vice_mayor VARCHAR(255)
+  municipal_councilors TEXT
+  municipal_secretary_to_sangguniang_bayan VARCHAR(255)
+  municipal_treasurers TEXT
+  municipal_accessors TEXT
+  municipal_accountants TEXT
+  municipal_planning_and_development_coordinators TEXT
+  municipal_engineers TEXT
+  municipal_architects TEXT
+  municipal_health_officers TEXT
+  municipal_social_welfare_officers TEXT
+  municipal_agriculturist TEXT
+  municipal_environment_and_natural_resources_officers TEXT
+}
+
+// Voter cities dimension table=
+TABLE dim_voter_cities {
+  voter_city_id INTEGER [PK]
+  voter_province_id INTEGER [ref: > dim_voter_provinces.voter_province_id]
+  city_name VARCHAR(255)
+  is_capital BOOLEAN
+  founded_date DATE
+  city_mayor VARCHAR(255)
+  city_vice_mayor VARCHAR(255)
+  city_councilors TEXT
+  city_administrators TEXT
+  city_treasurers TEXT
+  city_accessors TEXT
+  city_accountants TEXT
+  city_planning_and_development_officers TEXT
+  city_engineers TEXT
+  city_health_officers TEXT
+  city_social_welfare_and_development_officers TEXT
+  city_legal_officers TEXT
+  city_budget_officers TEXT
+  city_environment_and_natural_resources_officers TEXT
+}
+
+// Voter baranggays dimension table
+TABLE dim_voter_baranggays {
+  voter_baranggay_id INTEGER [PK]
+  voter_city_id INTEGER [ref: > dim_voter_cities.voter_city_id]
+  voter_municipality INTEGER [ref: > dim_voter_municipalities.voter_municipality_id]
+  baranggay_name VARCHAR(255)
+  founded_date DATE
+  baranggay_captain VARCHAR(255)
+  baranggay_councilors TEXT
+  baranggay_sangguniang_kabataan_chairperson VARCHAR(255)
+  baranggay_secretary VARCHAR(255)
+  baranggay_treasurer VARCHAR(255)
+  baranggay_health_workers TEXT
+  baranggay_peace_and_order_officers TEXT
+  baranggay_nutrition_scholars TEXT
+  baranggay_day_care_workers TEXT
+}
+
+// Voter addresses dimension table
+TABLE dim_voter_addresses {
+  voter_address_id INTEGER [PK]
+  voter_baranggay_id INTEGER [ref: > dim_voter_baranggays.voter_baranggay_id]
+  zipcode INTEGER
+  street_name VARCHAR(255)
+  house_number INTEGER
+}
+
+// Voter dimensions table
+TABLE dim_voters {
+  voter_id INTEGER [PK]
+  voter_occupation_id INTEGER [ref: > dim_voter_occupations.voter_occupation_id]
+  gender CHAR(1) [ref: > dim_genders.gender]
+  voter_address_id INTEGER [ref: > dim_voter_addresses.voter_address_id]
+  full_name VARCHAR(255)
+  middle_name VARCHAR(255)
+  last_name VARCHAR(255)
+  age INTEGER
+  birthdate DATE
+  birthplace TEXT
+  is_current_student BOOLEAN
+}
+
+// Total votes per voters fact table
+TABLE fact_total_votes_per_voters {
+  voter_id INTEGER [ref: > dim_voters.voter_id]
+  voted_date_id INTEGER [ref: > dim_voted_dates.voted_date_id]
+  voted_location_id INTEGER [ref: > dim_voted_locations.voted_location_id]
+  election_officer_id INTEGER [ref: > dim_election_officers.election_officer_id]
+  total_votes_for_pdp_laban_party_list INTEGER
+  total_votes_for_nacionalista_party_lists INTEGER
+  total_votes_for_independent_party_lists INTEGER
+}
