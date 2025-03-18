@@ -11,6 +11,7 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Joining Data in SQL](#joining-data-in-sql)
    - [Relational Databases in SQL](#relational-databases-in-sql)
    - [Database Design](#database-design)
+   - [Data Warehousing Concepts](#data-warehousing-concepts)
    - [Coding Challenges using Python and SQL](#coding-challenges-using-python-and-sql)
    - [Data Engineering Projects](#data-engineering-projects)
    - [Python CLI Projects](#python-cli-projects)
@@ -86,6 +87,11 @@ These projects focus on relational database concepts, including:
 ### Database Design
 
 This section covers advanced database design principles, including normalization, schema design, and best practices for creating scalable data systems.
+
+### Data Warehousing Concepts
+
+This directory contains all the projects that I implemented/created after learning the concepts for `Data Warehousing` that is really crucial for building `Data Platforms`
+that supports `Business Intelligence`, `Analytics`, `Data Science`, and `ML/AI Operations`. It is one of the important concepts that a Data Engineer should know.
 
 ### Coding Challenges using Python and SQL
 
