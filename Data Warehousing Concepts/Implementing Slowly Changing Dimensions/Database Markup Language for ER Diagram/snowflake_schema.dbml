@@ -1,0 +1,224 @@
+PROJECT
+  student_grades_entity_relationship_diagram {
+    database: 'PostgreSQL'
+    note: 'Entity relationship diagram of student_grades database using Snowflake Schema and implementing Slowly Changing Dimensions'
+}
+
+
+// Grade remarks dimension table (SCD Type 0)
+TABLE dim_grade_remarks {
+  remark_id INTEGER [PK]
+  remark VARCHAR(20)
+  previous_remark VARCHAR(20)
+}
+
+
+// Professors dimension table (SCD Type 1)
+TABLE dim_professors {
+  professor_id INTEGER [PK]
+  professor VARCHAR(255)
+  graduated_at VARCHAR(255)
+  graduated_year INTEGER
+  degree VARCHAR(255)
+}
+
+
+// Instructors dimension table (SCD Type 1)
+TABLE dim_instructors {
+  instructor_id INTEGER [PK]
+  instructor VARCHAR(255)
+  graduated_at VARCHAR(255)
+  graduated_year INTEGER
+  degree VARCHAR(255)  
+}
+
+
+// Subjects dimension table (SCD Type 2)
+TABLE dim_subjects {
+  subject_id INTEGER [PK]
+  subject VARCHAR(255) 
+}
+
+
+// Departments dimension table (SCD Type 3)
+TABLE dim_departments {
+  department_id INTEGER [PK]
+  department VARCHAR(255)
+  previous_department VARCHAR(255)
+}
+
+
+// Courses dimension table (SCD Type 3)
+TABLE dim_courses {
+  course_id INTEGER [PK] 
+  department_id INTEGER [ref: > dim_departments.department_id]
+  course VARCHAR(255)
+  previous_course VARCHAR(255)
+}
+
+
+// Universities dimension table (SCD Type 3)
+TABLE dim_universities {
+  university_id INTEGER [PK]
+  university VARCHAR(255)
+  president VARCHAR(255)
+  previous_president VARCHAR(255)
+  founded_date DATE
+}
+
+
+// Campuses dimension table (SCD Type 3)
+TABLE dim_campuses {
+  campus_id INTEGER [PK]
+  university_id INTEGER [ref: > dim_universities.university_id]
+  campus VARCHAR(255)
+  director VARCHAR(255)
+  previous_director VARCHAR(255)
+  location TEXT
+  founded_date DATE
+}
+
+
+// Semesters dimension table (SCD Type 1)
+TABLE dim_semesters {
+  semester_id INTEGER [PK]
+  semester VARCHAR(50)
+}
+
+
+// Academic school years dimension table (SCD Type 1)
+TABLE dim_academic_school_years {
+  academic_school_year_id INTEGER [PK]
+  academic_school_year VARCHAR(50)
+}
+
+
+// College years dimension table (SCD Type 1)
+TABLE dim_college_years {
+  college_year_id INTEGER [PK]
+  college_year VARCHAR(30)
+}
+
+
+// Provinces dimension table (SCD Type 3)
+TABLE dim_provinces {
+  province_id INTEGER [PK]
+  province VARCHAR(255)
+  governor VARCHAR(255)
+  previous_governor VARCHAR(255)
+  founded_date DATE
+}
+
+
+// Cities dimension table (SCD Type 3)
+TABLE dim_cities {
+  city_id INTEGER [PK]
+  province_id INTEGER [ref: > dim_provinces.province_id]
+  city VARCHAR(255)
+  mayor VARCHAR(255)
+  previous_mayor VARCHAR(255)
+  zipcode INTEGER
+  founded_date DATE
+}
+
+
+// Municipalities dimension table (SCD Type 3)
+TABLE dim_municipalities {
+    municipality_id INTEGER [PK]
+    province_id INTEGER [ref: > dim_provinces.province_id]
+    municipality VARCHAR(255)
+    mayor VARCHAR(255)
+    previous_mayor VARCHAR(255)
+    zipcode INTEGER
+    founded_date DATE  
+}
+
+
+// Baranggays dimension table (SCD Type 3)
+TABLE dim_baranggays {
+  baranggay_id INTEGER [PK]
+  city_id INTEGER [ref: > dim_cities.city_id]
+  municipality_id INTEGER [ref: > dim_municipalities.municipality_id]
+  baranggay VARCHAR(255)
+  captain VARCHAR(255)
+  previous_captain VARCHAR(255)
+  founded_date DATE
+}
+
+
+// Student addresses dimension table (SCD Type 1)
+TABLE dim_student_addresses {
+  student_address_id INTEGER [PK]
+  baranggay_id INTEGER [ref: > dim_baranggays.baranggay_id]
+  street_name VARCHAR(255)
+  house_number INTEGER
+}
+
+
+// Students dimension table (SCD Type 1)
+TABLE dim_student_genders {
+  gender CHAR(1) [PK]
+  gender_name VARCHAR(10)
+}
+
+
+// Occupation categories dimension table (SCD Type 1)
+TABLE dim_occupation_categories {
+  occupation_category_id INTEGER [PK]
+  occupation_category VARCHAR(255)
+}
+
+
+// Occupations dimension table (SCD Type 3)
+TABLE dim_occupations {
+  occupation_id INTEGER [PK]
+  occupation_category_id INTEGER [ref: > dim_occupation_categories.occupation_category_id]
+  occupation VARCHAR(255)
+  previous_occupation VARCHAR(255)
+}
+
+
+// Student guardians dimension table (SCD Type 1)
+TABLE dim_student_guardians {
+  student_guardian_id INTEGER [PK]
+  occupation_id INTEGER [ref: > dim_occupations.occupation_id]
+  relationship_to_student VARCHAR(255)
+  first_name VARCHAR(255)
+  middle_name VARCHAR(255)
+  last_name VARCHAR(255)
+  contact_number INTEGER
+  address TEXT
+}
+
+
+// Students dimension table (SCD Type 1)
+TABLE dim_students {
+  student_id INTEGER [PK]
+  student_guardian_id INTEGER [ref: > dim_student_guardians.student_guardian_id]
+  first_name VARCHAR(255)
+  middle_name VARCHAR(255)
+  last_name VARCHAR(255)
+  is_transfree BOOLEAN
+  academic_status ENUM [note: 'Academic status: Currently Enrolled, Semestral Break, Vacation, Withdrawal, and Discontinued']
+  is_working_student BOOLEAN
+  graduation_date DATE
+}
+
+
+// Student semestral grades fact table
+TABLE fact_student_semestral_grades {
+  student_id INTEGER [ref: > dim_students.student_id]
+  gender CHAR(1) [ref: > dim_student_genders.gender]
+  student_address_id INTEGER [ref: > dim_student_addresses.student_address_id]
+  college_year_id INTEGER [ref: > dim_college_years.college_year_id]
+  academic_school_year_id INTEGER [ref: > dim_academic_school_years.academic_school_year_id]
+  semester_id INTEGER [ref: > dim_semesters.semester_id]
+  campus_id INTEGER [ref: > dim_campuses.campus_id]
+  course_id INTEGER [ref: > dim_courses.course_id]
+  subject_id INTEGER [ref: > dim_subjects.subject_id]
+  instructor_id INTEGER [ref: > dim_instructors.instructor_id]
+  professor_id INTEGER [ref: > dim_professors.professor_id]
+  remark_id INTEGER [ref: > dim_grade_remarks.remark_id]
+  semester_grade NUMERIC
+  subject_total_units NUMERIC
+}
