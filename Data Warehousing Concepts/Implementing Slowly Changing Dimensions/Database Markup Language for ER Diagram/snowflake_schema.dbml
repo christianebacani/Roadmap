@@ -5,7 +5,7 @@ PROJECT
 }
 
 
-// Grade remarks dimension table (SCD Type 0)
+// Grade remarks dimension table (SCD Type 3)
 TABLE dim_grade_remarks {
   remark_id INTEGER [PK]
   remark VARCHAR(20)
