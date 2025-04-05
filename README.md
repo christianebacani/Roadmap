@@ -95,7 +95,7 @@ that supports `Business Intelligence`, `Analytics`, `Data Science`, and `ML/AI O
 
 ### Coding Challenges using Python and SQL
 
-This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `LeetCode`, `SQL-Practice`, and `HackerRank`. Diversifying my knowledge in different area such as solving problems using algorithms, data-analysis, and database management.
+This directory includes sub-folders related to `Coding Challenges using Python and SQL` in different platforms such as `LeetCode`, `SQL-Practice`, `HackerRank`, `Programmiz Pro`, and `Naukri Code 360`. Diversifying my knowledge in different area such as solving problems using algorithms, data-analysis, and database management.
 
 ### Data Engineering Projects
 
