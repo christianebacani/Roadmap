@@ -1,146 +1,133 @@
 /*
-	Format Revisioning using PostgreSQL
+    Format Revisioning using PostgreSQL
 */
 
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '.', '');
+    geolocation = REPLACE(geolocation, '.', '');
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'r1', '')
+    geolocation = REPLACE(geolocation, 'r1', '')
 WHERE
-	geolocation LIKE '%r1%';
+    geolocation LIKE '%r1%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'r2', '')
+    geolocation = REPLACE(geolocation, 'r2', '')
 WHERE
-	geolocation LIKE '%r2%';
+    geolocation LIKE '%r2%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '1/', '')
+    geolocation = REPLACE(geolocation, '1/', '')
 WHERE
-	geolocation LIKE '%1/%';
+    geolocation LIKE '%1/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '1/,', '')
+    geolocation = REPLACE(geolocation, '1/,', '')
 WHERE
-	geolocation LIKE '%1/,%';
+    geolocation LIKE '%1/,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '2/', '')
+    geolocation = REPLACE(geolocation, '2/', '')
 WHERE
-	geolocation LIKE '%2/%';
+    geolocation LIKE '%2/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '2/,', '')
+    geolocation = REPLACE(geolocation, '2/,', '')
 WHERE
-	geolocation LIKE '%2/,%';
+    geolocation LIKE '%2/,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '3/', '')
+    geolocation = REPLACE(geolocation, '3/', '')
 WHERE
-	geolocation LIKE '%3/%';
+    geolocation LIKE '%3/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '3/,', '')
+    geolocation = REPLACE(geolocation, '3/,', '')
 WHERE
-	geolocation LIKE '%3/,%';
+    geolocation LIKE '%3/,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '4/', '')
+    geolocation = REPLACE(geolocation, '4/', '')
 WHERE
-	geolocation LIKE '%4/%';
+    geolocation LIKE '%4/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, ',   5', '')
+    geolocation = REPLACE(geolocation, ',   5', '')
 WHERE
-	geolocation LIKE '%,   5/%';
-
+    geolocation LIKE '%,   5/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'a/', '')
+    geolocation = REPLACE(geolocation, 'a/', '')
 WHERE
-	geolocation LIKE '%a/%';
+    geolocation LIKE '%a/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'a/,', '')
+    geolocation = REPLACE(geolocation, 'a/,', '')
 WHERE
-	geolocation LIKE '%a/,%';
+    geolocation LIKE '%a/,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'b/', '')
+    geolocation = REPLACE(geolocation, 'b/', '')
 WHERE
-	geolocation LIKE '%b/%';
-
+    geolocation LIKE '%b/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'b/,', '')
+    geolocation = REPLACE(geolocation, 'b/,', '')
 WHERE
-	geolocation LIKE '%b/,%';
+    geolocation LIKE '%b/,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, 'c/', '')
+    geolocation = REPLACE(geolocation, 'c/', '')
 WHERE
-	geolocation LIKE '%c/%';
-
+    geolocation LIKE '%c/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, '/', '')
+    geolocation = REPLACE(geolocation, '/', '')
 WHERE
-	geolocation LIKE '%/%';
+    geolocation LIKE '%/%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = REPLACE(geolocation, ',', '')
+    geolocation = REPLACE(geolocation, ',', '')
 WHERE
-	geolocation LIKE '%,%';
+    geolocation LIKE '%,%';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	geolocation = TRIM(geolocation);
-
-
-
-
-
-
-
-
-
-
+    geolocation = TRIM(geolocation);
