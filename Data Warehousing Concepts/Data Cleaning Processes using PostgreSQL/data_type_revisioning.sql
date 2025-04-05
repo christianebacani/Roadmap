@@ -4,143 +4,143 @@
 
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	geolocation
+    geolocation
 TYPE
-	VARCHAR(255);
+    VARCHAR(255);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Estimate ('000) 2018"
+    "Estimate ('000) 2018"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Estimate ('000) 2018"::NUMERIC(9, 2);
+    "Estimate ('000) 2018"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Estimate ('000) 2021"
+    "Estimate ('000) 2021"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Estimate ('000) 2021"::NUMERIC(9, 2);
+    "Estimate ('000) 2021"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Estimate ('000) 2023"
+    "Estimate ('000) 2023"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Estimate ('000) 2023"::NUMERIC(9, 2);
+    "Estimate ('000) 2023"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Coefficient of Variation 2018"
+    "Coefficient of Variation 2018"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Coefficient of Variation 2018"::NUMERIC(9, 2);
+    "Coefficient of Variation 2018"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Coefficient of Variation 2021"
+    "Coefficient of Variation 2021"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Coefficient of Variation 2021"::NUMERIC(9, 2);
+    "Coefficient of Variation 2021"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Coefficient of Variation 2023"
+    "Coefficient of Variation 2023"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Coefficient of Variation 2023"::NUMERIC(9, 2);
+    "Coefficient of Variation 2023"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Standard Error 2018"
+    "Standard Error 2018"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Standard Error 2018"::NUMERIC(9, 2);
+    "Standard Error 2018"::NUMERIC(9, 2);
 	
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Standard Error 2021"
+    "Standard Error 2021"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Standard Error 2021"::NUMERIC(9, 2);
+    "Standard Error 2021"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"Standard Error 2023"
+    "Standard Error 2023"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"Standard Error 2023"::NUMERIC(9, 2);
+    "Standard Error 2023"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Lower Limit) 2018"
+    "95% Confidence Interval (Lower Limit) 2018"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Lower Limit) 2018"::NUMERIC(9, 2);
+    "95% Confidence Interval (Lower Limit) 2018"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Lower Limit) 2021"
+    "95% Confidence Interval (Lower Limit) 2021"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Lower Limit) 2021"::NUMERIC(9, 2);
+    "95% Confidence Interval (Lower Limit) 2021"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Lower Limit) 2023"
+    "95% Confidence Interval (Lower Limit) 2023"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Lower Limit) 2023"::NUMERIC(9, 2);
+    "95% Confidence Interval (Lower Limit) 2023"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Upper Limit) 2018"
+    "95% Confidence Interval (Upper Limit) 2018"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Upper Limit) 2018"::NUMERIC(9, 2);
+    "95% Confidence Interval (Upper Limit) 2018"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Upper Limit) 2021"
+    "95% Confidence Interval (Upper Limit) 2021"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Upper Limit) 2021"::NUMERIC(9, 2);
+    "95% Confidence Interval (Upper Limit) 2021"::NUMERIC(9, 2);
 
 ALTER TABLE
-	magnitudes
+    magnitudes
 ALTER COLUMN
-	"95% Confidence Interval (Upper Limit) 2023"
+    "95% Confidence Interval (Upper Limit) 2023"
 TYPE
-	NUMERIC(9, 2)
+    NUMERIC(9, 2)
 USING
-	"95% Confidence Interval (Upper Limit) 2023"::NUMERIC(9, 2);
+    "95% Confidence Interval (Upper Limit) 2023"::NUMERIC(9, 2);
