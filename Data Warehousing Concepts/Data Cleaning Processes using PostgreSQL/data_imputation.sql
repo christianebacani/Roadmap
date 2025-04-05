@@ -4,76 +4,71 @@
 
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Estimate ('000) 2018" = '0.00'
+    "Estimate ('000) 2018" = '0.00'
 WHERE
-	"Estimate ('000) 2018" = '..';
+    "Estimate ('000) 2018" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Estimate ('000) 2021" = '0.00'
+    "Estimate ('000) 2021" = '0.00'
 WHERE
-	"Estimate ('000) 2021" = '..';
+    "Estimate ('000) 2021" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Coefficient of Variation 2018" = '0.00'
+    "Coefficient of Variation 2018" = '0.00'
 WHERE
-	"Coefficient of Variation 2018" = '..';
+    "Coefficient of Variation 2018" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Coefficient of Variation 2021" = '0.00'
+    "Coefficient of Variation 2021" = '0.00'
 WHERE
-	"Coefficient of Variation 2021" = '..';
+    "Coefficient of Variation 2021" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Standard Error 2018" = '0.00'
+    "Standard Error 2018" = '0.00'
 WHERE
-	"Standard Error 2018" = '..';
+    "Standard Error 2018" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"Standard Error 2021" = '0.00'
+    "Standard Error 2021" = '0.00'
 WHERE
-	"Standard Error 2021" = '..';
+    "Standard Error 2021" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"95% Confidence Interval (Lower Limit) 2018" = '0.00'
+    "95% Confidence Interval (Lower Limit) 2018" = '0.00'
 WHERE
-	"95% Confidence Interval (Lower Limit) 2018" = '..';
+    "95% Confidence Interval (Lower Limit) 2018" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"95% Confidence Interval (Lower Limit) 2021" = '0.00'
+    "95% Confidence Interval (Lower Limit) 2021" = '0.00'
 WHERE
-	"95% Confidence Interval (Lower Limit) 2021" = '..';
+    "95% Confidence Interval (Lower Limit) 2021" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"95% Confidence Interval (Upper Limit) 2018" = '0.00'
+    "95% Confidence Interval (Upper Limit) 2018" = '0.00'
 WHERE
-	"95% Confidence Interval (Upper Limit) 2018" = '..';
+    "95% Confidence Interval (Upper Limit) 2018" = '..';
 
 UPDATE
-	magnitudes
+    magnitudes
 SET
-	"95% Confidence Interval (Upper Limit) 2021" = '0.00'
+    "95% Confidence Interval (Upper Limit) 2021" = '0.00'
 WHERE
-	"95% Confidence Interval (Upper Limit) 2021" = '..';
-
-
-
-	
-
+    "95% Confidence Interval (Upper Limit) 2021" = '..';
