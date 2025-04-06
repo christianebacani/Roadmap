@@ -1,0 +1,6 @@
+
+2025-03-15 12:34:54 : Initiating etl pipeline process. Initiating extraction process
+2025-03-15 12:34:55 : Extraction process completed. Initiating transformation process
+2025-03-15 12:34:56 : Transformation process completed. Initiating loading process
+2025-03-15 12:34:59 : Loading process completed. Running queries
+2025-03-15 12:35:00 : Running queries completed. Database connection closed
