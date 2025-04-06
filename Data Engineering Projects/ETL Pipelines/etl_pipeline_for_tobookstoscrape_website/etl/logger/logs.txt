@@ -1,0 +1,5 @@
+2025-04-06 19:35:28: Initiating ETL Pipeline. Initiating extraction process
+2025-04-06 19:35:28: Extraction process completed. Initiating transformation process
+2025-04-06 19:35:28: Transformation process completed. Initiating loading process and Initiating PostgreSQL Server Connection
+2025-04-06 19:35:29: Loading process completed. Running SQL Query
+2025-04-06 19:35:29: PostgreSQL Server Connection Removed
