@@ -18,5 +18,5 @@ SELECT
 FROM
     session_and_num_ads
 WHERE
-    number_of_ads_appeared  = 0;
+    number_of_ads_appeared = 0;
 
