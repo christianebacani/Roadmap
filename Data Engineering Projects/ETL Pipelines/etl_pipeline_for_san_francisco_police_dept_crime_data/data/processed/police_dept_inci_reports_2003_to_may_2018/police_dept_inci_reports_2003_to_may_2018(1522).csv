@@ -1,0 +1,1001 @@
+id,incident_number,incident_code,category,descript,day_of_the_week,date,time,police_dept_district,resolution,address,location_x_axis,location_y_axis
+14053105406303,140531054,6303,Larceny/theft,Petty Theft From A Building,Wednesday,2014-06-25,19:16,Mission,None,2300 Block Of Mission St,-122.419058868103,37.7594227506297
+14051696568000,140516965,68000,Non-criminal,Fire Report,Sunday,2014-06-22,05:15,Southern,None,100 Block Of Spear St,-122.393228290724,37.7919510439646
+14607940406244,146079404,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-04-22,20:05,Northern,None,700 Block Of Polk St,-122.419387180576,37.7837899781799
+14040625315200,140406253,15200,SecondaryCodes,Domestic Violence,Wednesday,2014-05-07,00:01,Mission,None,1200 Block Of Treat Avenue,-122.41283040295,37.7501495078008
+14027932310120,140279323,10120,Fraud,"False Pretenses, Petty Theft",Thursday,2014-04-03,10:00,Bayview,None,0 Block Of Neptune St,-122.396951826234,37.7305884470993
+14015982204134,140159822,4134,Assault,Battery,Sunday,2014-02-23,15:08,Central,"Arrest, Booked",0 Block Of Kearny St,-122.403552860945,37.7886749669059
+14602389306374,146023893,6374,Larceny/theft,Grand Theft Of Property,Tuesday,2014-01-21,20:09,Southern,None,100 Block Of Valencia St,-122.422375026857,37.7707188965808
+14059705651040,140597056,51040,Non-criminal,Aided Case,Friday,2014-07-18,12:10,Southern,None,200 Block Of 5th St,-122.40421085252,37.7808486964235
+14042354204013,140423542,4013,Assault,Aggravated Assault With A Deadly Weapon,Tuesday,2014-05-20,23:18,Mission,"Arrest, Booked",4100 Block Of 18th St,-122.435563016294,37.760801062884
+14044781516650,140447815,16650,Drug/narcotic,Possession Of Meth-amphetamine,Thursday,2014-05-29,08:48,Southern,"Arrest, Booked",500 Block Of Minna St,-122.40877066526,37.7801357011746
+14045217175000,140452171,75000,MissingPerson,Found Person,Monday,2014-05-19,14:30,Bayview,Located,1400 Block Of Innes Avenue,-122.386100703211,37.7380020117208
+14039196104144,140391961,4144,"SexOffenses,Forcible",Sexual Battery,Saturday,2014-05-10,05:00,Mission,"Arrest, Booked",100 Block Of Julian Avenue,-122.420908468984,37.7657766621198
+14011926819024,140119268,19024,DisorderlyConduct,"Disturbing The Peace, Fighting",Monday,2014-02-10,09:10,Mission,None,2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14036222903011,140362229,3011,Robbery,Robbery On The Street With A Gun,Thursday,2014-05-01,23:43,Taraval,None,4100 Block Of Lawton St,-122.507284772553,37.756676700431
+14045125804134,140451258,4134,Assault,Battery,Friday,2014-05-30,12:40,Southern,"Arrest, Cited",100 Block Of 9th St,-122.413980520967,37.7755687325824
+14054913210149,140549132,10149,Forgery/counterfeiting,"Money, Changing Face Amount",Wednesday,2014-07-02,09:30,Southern,Unfounded,1000 Block Of Market St,-122.411339562557,37.7812707434494
+14059929006242,140599290,6242,Larceny/theft,Petty Theft From Locked Auto,Friday,2014-07-18,18:00,Tenderloin,None,100 Block Of Taylor St,-122.410791677645,37.7836952269749
+14059391316010,140593913,16010,Drug/narcotic,Possession Of Marijuana,Thursday,2014-07-17,12:18,Bayview,"Arrest, Booked",900 Block Of Connecticut St,-122.397089183868,37.7535987880327
+14005990904013,140059909,4013,Assault,Aggravated Assault With A Deadly Weapon,Tuesday,2014-01-21,08:59,Tenderloin,None,0 Block Of Turk St,-122.409853729941,37.7833862379382
+14604812006374,146048120,6374,Larceny/theft,Grand Theft Of Property,Wednesday,2014-02-26,17:30,Central,None,200 Block Of Vallejo St,-122.402130610278,37.7993635026487
+14011149668030,140111496,68030,Non-criminal,Courtesy Report,Wednesday,2014-02-05,18:00,Bayview,Prosecuted By Outside Agency,1300 Block Of Vandyke Avenue,-122.387714321434,37.7265698157203
+14612189506244,146121895,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-06-20,19:00,Southern,None,0 Block Of Langton St,-122.409202487854,37.7768958210183
+14052723506244,140527235,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-06-25,14:00,Richmond,None,100 Block Of Great Hy,-122.511298876781,37.7759977595559
+14049809074000,140498090,74000,MissingPerson,Missing Adult,Tuesday,2014-02-18,00:01,Northern,None,0 Block Of Vanness Avenue,-122.419234662317,37.7757784176924
+14029383428160,140293834,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Tuesday,2014-04-08,23:15,Northern,None,1600 Block Of Bush St,-122.424442028878,37.7882271832363
+14052059615300,140520596,15300,SecondaryCodes,Prejudice-based Incident,Saturday,2014-06-21,18:55,Mission,None,2800 Block Of Harrison St,-122.411890526714,37.7518117592566
+14043330303074,140433303,3074,Robbery,"Robbery, Bodily Force",Saturday,2014-05-24,06:10,Bayview,None,1000 Block Of Deharo St,-122.400677469279,37.755898750597
+14020143912120,140201439,12120,WeaponLaws,Poss Of Prohibited Weapon,Sunday,2014-03-09,06:36,Taraval,"Arrest, Booked",100 Block Of Elverano Wy,-122.461466221515,37.7306500534041
+14042184728165,140421847,28165,Vandalism,"Malicious Mischief, Graffiti",Saturday,2014-05-17,19:00,Park,None,1400 Block Of Haight St,-122.446143672039,37.7700527182372
+14013124027110,140131240,27110,DisorderlyConduct,Maintaining A Public Nuisance After Notification,Thursday,2014-02-13,20:32,Park,"Arrest, Booked",700 Block Of Stanyan St,-122.453376250788,37.7687142722405
+14610306906374,146103069,6374,Larceny/theft,Grand Theft Of Property,Tuesday,2014-05-20,17:45,Southern,None,700 Block Of Howard St,-122.401560967513,37.7840888680389
+14008558464070,140085584,64070,SuspiciousOcc,Suspicious Occurrence,Wednesday,2014-01-29,10:50,Mission,None,3700 Block Of 18th St,-122.427242380192,37.7614118083919
+14040535275000,140405352,75000,MissingPerson,Found Person,Wednesday,2014-05-14,15:14,Park,Located,1400 Block Of Grove St,-122.440483106998,37.7755529016833
+14085743007025,140857430,7025,VehicleTheft,Stolen Truck,Friday,2014-10-10,00:01,Ingleside,None,100 Block Of Coso Avenue,-122.417763672743,37.7458707743395
+14056496407020,140564964,7020,VehicleTheft,Stolen And Recovered Vehicle,Thursday,2014-07-03,12:00,Central,None,800 Block Of Pine St,-122.409804474418,37.7909286115977
+14036213803074,140362138,3074,Robbery,"Robbery, Bodily Force",Thursday,2014-05-01,22:00,Bayview,"Arrest, Booked",800 Block Of Innes Avenue,-122.374882420332,37.731431829647
+14020605368020,140206053,68020,OtherOffenses,Miscellaneous Investigation,Sunday,2014-03-09,00:01,Taraval,None,1600 Block Of 48th Avenue,-122.507668947457,37.7556527462069
+14603260671000,146032606,71000,Non-criminal,Lost Property,Wednesday,2014-02-12,22:00,Mission,None,700 Block Of South Van Ness Avenue,-122.417169894749,37.7611477647601
+14031845428160,140318454,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Thursday,2014-04-17,09:32,Park,None,100 Block Of Buenavistaeast Avenue,-122.4386375261,37.7695794425474
+14056148702104,140561487,2104,"SexOffenses,Forcible",Assault To Rape With Bodily Force,Monday,2014-06-23,00:30,Bayview,None,0 Block Of Cameron Wy,-122.387181635995,37.7209669615499
+14046992203031,140469922,3031,Robbery,Robbery Of A Service Station With A Gun,Thursday,2014-06-05,20:17,Bayview,None,2300 Block Of San Bruno Avenue,-122.40582138691,37.7326781230902
+14021977764020,140219777,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-03-15,06:22,Taraval,Psychopathic Case,500 Block Of Randolph St,-122.46755454771,37.7143245782455
+14050731275000,140507312,75000,MissingPerson,Found Person,Wednesday,2014-06-18,14:00,Bayview,Located,1300 Block Of Gilman Avenue,-122.394646250335,37.7219920197814
+14051511174000,140515111,74000,MissingPerson,Missing Adult,Saturday,2014-06-21,11:30,Mission,Located,900 Block Of Potrero Avenue,-122.406604919508,37.7571580431915
+14608396606244,146083966,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-04-21,02:00,Bayview,None,200 Block Of Williams Avenue,-122.397744427103,37.7299346936044
+14612907106244,146129071,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-06-28,16:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14037117307021,140371173,7021,VehicleTheft,Stolen Automobile,Sunday,2014-05-04,22:10,Northern,None,100 Block Of Elm St,-122.419687428854,37.7816616317999
+14058097606153,140580976,6153,Larceny/theft,Grand Theft From Person,Friday,2014-07-11,02:30,Central,None,500 Block Of Sutter St,-122.409423604675,37.7890647342848
+14011656503073,140116565,3073,Robbery,"Robbery, Armed With A Dangerous Weapon",Sunday,2014-02-09,07:15,Tenderloin,"Arrest, Booked",100 Block Of Turk St,-122.411615075408,37.7831614109395
+14040664519057,140406645,19057,Assault,Threats Against Life,Thursday,2014-05-15,09:15,Northern,None,3200 Block Of Divisadero St,-122.4428172375,37.7994896740468
+14055261865015,140552618,65015,OtherOffenses,Traffic Violation,Thursday,2014-07-03,17:26,Ingleside,"Arrest, Booked",5000 Block Of Mission St,-122.439892168458,37.71810900453
+14610587706372,146105877,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-06-03,09:10,Central,None,200 Block Of Jefferson St,-122.416629414907,37.8080574789267
+14013839306243,140138393,6243,Larceny/theft,Petty Theft From Locked Auto,Sunday,2014-02-16,11:20,Northern,None,1100 Block Of Fillmore St,-122.431979576386,37.7800478529923
+14059616104134,140596161,4134,Assault,Battery,Friday,2014-07-18,01:40,Central,"Arrest, Booked",400 Block Of Broadway St,-122.405087523335,37.7981219270604
+14043238364070,140432383,64070,SuspiciousOcc,Suspicious Occurrence,Friday,2014-05-09,18:00,Taraval,None,2500 Block Of 34th Avenue,-122.49149841042,37.7395294165111
+14604214406244,146042144,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-03-02,01:00,Northern,None,800 Block Of Eddy St,-122.421667086071,37.7828419848131
+14058878216650,140588782,16650,Drug/narcotic,Possession Of Meth-amphetamine,Tuesday,2014-07-15,18:47,Mission,"Arrest, Booked",500 Block Of South Van Ness Avenue,-122.417339031772,37.7643660722829
+14041833316030,140418333,16030,Drug/narcotic,Possession Of Marijuana For Sales,Monday,2014-05-19,12:05,Tenderloin,"Arrest, Booked",0 Block Of Jones St,-122.412054141237,37.7816136403158
+14029094328100,140290943,28100,Vandalism,"Malicious Mischief, Breaking Windows",Tuesday,2014-04-08,03:10,Taraval,None,2400 Block Of Noriega St,-122.489868656046,37.7535951575186
+14055955116650,140559551,16650,Drug/narcotic,Possession Of Meth-amphetamine,Sunday,2014-07-06,09:00,Northern,"Arrest, Booked",2800 Block Of Steiner St,-122.436925479507,37.7954829440321
+14059627463010,140596274,63010,Warrants,Warrant Arrest,Friday,2014-07-18,04:44,Taraval,"Arrest, Booked",1400 Block Of La Playa St,-122.509004036553,37.7593183455027
+14900250319095,149002503,19095,Drug/narcotic,Under Influence Of Drugs In A Public Place,Wednesday,2014-04-30,20:48,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14043522463010,140435224,63010,Warrants,Warrant Arrest,Saturday,2014-05-24,21:02,Tenderloin,"Arrest, Booked",300 Block Of Leavenworth St,-122.414406029855,37.7841907151119
+14052807312130,140528073,12130,WeaponLaws,Poss Of Tear Gas Weapon,Wednesday,2014-06-25,21:21,Southern,"Arrest, Booked",800 Block Of Harrison St,-122.400702308547,37.7798560085262
+14049750328160,140497503,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Sunday,2014-06-15,20:00,Bayview,None,0 Block Of Northridge Rd,-122.375605171962,37.7307215215703
+14077266205043,140772662,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Thursday,2014-09-11,17:00,Ingleside,None,100 Block Of Brookdale Avenue,-122.4208910342,37.7120920675614
+14609000206374,146090002,6374,Larceny/theft,Grand Theft Of Property,Friday,2014-05-09,06:45,Central,None,300 Block Of Bay St,-122.412803753,37.8057739875696
+14022927106303,140229271,6303,Larceny/theft,Petty Theft From A Building,Tuesday,2014-03-18,02:21,Tenderloin,None,200 Block Of Mason St,-122.409523740653,37.7857602954934
+14054421704134,140544217,4134,Assault,Battery,Monday,2014-06-30,12:00,Central,Complainant Refuses To Prosecute,1000 Block Of Sutter St,-122.417672923626,37.7881242734432
+14038901305141,140389013,5141,Burglary,"Burglary,residence Under Constrt, Forcible Entry",Thursday,2014-05-08,15:30,Ingleside,None,0 Block Of Zircon Pl,-122.434490784964,37.742885936309
+14050228764070,140502287,64070,SuspiciousOcc,Suspicious Occurrence,Saturday,2014-06-14,15:15,Ingleside,None,700 Block Of Mangels Avenue,-122.453630668802,37.7329638736896
+14608550806372,146085508,6372,Larceny/theft,Petty Theft Of Property,Thursday,2014-04-24,23:30,Southern,None,600 Block Of Howard St,-122.39998852115,37.7854873412292
+14060332406244,140603324,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-07-20,19:16,Mission,None,2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14049623204021,140496232,4021,Assault,Attempted Homicide With A Gun,Sunday,2014-06-15,13:55,Bayview,None,1000 Block Of Palou Avenue,-122.380737923208,37.7282764057526
+14033265872000,140332658,72000,Non-criminal,Found Property,Tuesday,2014-04-22,05:40,Tenderloin,None,200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14614141706244,146141417,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-07-22,01:00,Taraval,None,1500 Block Of 32nd Avenue,-122.490796957229,37.7582643904268
+14013989606244,140139896,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-02-16,16:46,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14026024775000,140260247,75000,MissingPerson,Found Person,Friday,2014-03-28,10:30,Northern,Located,900 Block Of Buchanan St,-122.428317163038,37.7786014452645
+14607817706244,146078177,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-04-22,16:30,Southern,None,300 Block Of 10th St,-122.411636621857,37.7717869350639
+14050592426080,140505924,26080,OtherOffenses,Conspiracy,Wednesday,2014-06-18,13:45,Central,"Arrest, Booked",0 Block Of Bay St,-122.406429633461,37.8065688614525
+14053892564020,140538925,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-06-29,12:41,Southern,Psychopathic Case,900 Block Of Folsom St,-122.404974448604,37.7789337876718
+14026612604012,140266126,4012,Assault,Aggravated Assault With A Knife,Sunday,2014-03-30,15:27,Northern,"Arrest, Booked",1200 Block Of Turk St,-122.428818526724,37.7808642652455
+14048135261030,140481352,61030,Non-criminal,"Death Report, Cause Unknown",Tuesday,2014-06-10,00:59,Mission,None,300 Block Of South Van Ness Avenue,-122.417653316856,37.7675941669426
+14027726407025,140277264,7025,VehicleTheft,Stolen Truck,Wednesday,2014-04-02,23:00,Taraval,None,900 Block Of Garfield St,-122.471210108433,37.7195882326981
+14030699864070,140306998,64070,SuspiciousOcc,Suspicious Occurrence,Sunday,2014-04-13,10:30,Northern,None,2500 Block Of Greenwich St,-122.441638087409,37.7981619146399
+14003653775000,140036537,75000,MissingPerson,Found Person,Sunday,2014-01-12,22:00,Park,Located,1500 Block Of Masonic Avenue,-122.443800919687,37.7656751586662
+14041018505083,140410185,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Saturday,2014-05-10,10:30,Central,None,700 Block Of Broadway St,-122.409164766852,37.7976146082072
+14047637506304,140476375,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-06-06,23:40,Mission,None,2500 Block Of Folsom St,-122.414532039691,37.7564790387047
+14054573205073,140545732,5073,Burglary,"Burglary, Unlawful Entry",Wednesday,2014-06-11,19:00,Central,None,100 Block Of Battery St,-122.399931233001,37.7927338103903
+14008203507021,140082035,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-01-28,06:00,Ingleside,None,0 Block Of Newton St,-122.4388062816,37.7139608597963
+14060181764020,140601817,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-07-20,07:03,Tenderloin,Psychopathic Case,200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14014887506312,140148875,6312,Larceny/theft,Petty Theft Bicycle,Wednesday,2014-02-19,18:45,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14051401615200,140514016,15200,SecondaryCodes,Domestic Violence,Saturday,2014-06-21,03:33,Park,"Arrest, Booked",1300 Block Of Hayes St,-122.438637446729,37.7748288206275
+14055876328100,140558763,28100,Vandalism,"Malicious Mischief, Breaking Windows",Saturday,2014-07-05,23:35,Bayview,None,2400 Block Of Griffith St,-122.386437671186,37.7191834462785
+14014426504134,140144265,4134,Assault,Battery,Tuesday,2014-02-18,13:20,Southern,"Arrest, Booked",800 Block Of Market St,-122.407633520742,37.7841893501425
+14007959309320,140079593,9320,Fraud,"Credit Card, Theft By Use Of",Monday,2014-01-27,00:01,Mission,None,0 Block Of Abbey St,-122.427272544145,37.763381720095
+14007779165010,140077791,65010,OtherOffenses,Traffic Violation Arrest,Sunday,2014-01-26,23:20,Mission,"Arrest, Booked",2700 Block Of Mission St,-122.418587172219,37.7530186537446
+14056167572000,140561675,72000,Non-criminal,Found Property,Monday,2014-07-07,06:37,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14058664503074,140586645,3074,Robbery,"Robbery, Bodily Force",Tuesday,2014-07-15,05:20,Southern,None,500 Block Of Minna St,-122.408673540372,37.7800574377607
+14017927806242,140179278,6242,Larceny/theft,Petty Theft From Locked Auto,Sunday,2014-03-02,06:30,Southern,None,1100 Block Of Howard St,-122.409605982336,37.7777263414712
+14050858606310,140508586,6310,Larceny/theft,Attempted Theft Of A Bicycle,Thursday,2014-06-19,13:10,Mission,None,3600 Block Of 23rd St,-122.423891274444,37.7534626136883
+14015291730030,140152917,30030,OtherOffenses,Defrauding Taxi Driver,Friday,2014-02-21,00:10,Taraval,None,100 Block Of Font Bl,-122.473644075533,37.7155536666978
+14054838806304,140548388,6304,Larceny/theft,Grand Theft From A Building,Wednesday,2014-06-25,17:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14603553106224,146035531,6224,Larceny/theft,Grand Theft From Unlocked Auto,Wednesday,2014-02-19,22:00,Ingleside,None,2000 Block Of Bay Shore Bl,-122.399766787626,37.7141809476816
+14064295206243,140642952,6243,Larceny/theft,Petty Theft From Locked Auto,Saturday,2014-08-02,17:00,Mission,None,2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14040708527195,140407085,27195,Trespass,Trespassing,Thursday,2014-05-15,11:57,Tenderloin,None,0 Block Of Powell St,-122.407845374111,37.7850943210103
+14056117028160,140561170,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Friday,2014-07-04,18:30,Northern,None,2800 Block Of Vanness Avenue,-122.424808513989,37.8017849138186
+14000561775000,140005617,75000,MissingPerson,Found Person,Thursday,2014-01-02,18:00,Bayview,Located,1400 Block Of Palou Avenue,-122.388078475154,37.7324430442707
+14022759804144,140227598,4144,"SexOffenses,Forcible",Sexual Battery,Saturday,2014-03-15,14:00,Bayview,None,1300 Block Of Thomas Avenue,-122.386674578836,37.7277289638812
+14604033606244,146040336,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-02-24,09:00,Ingleside,None,4100 Block Of San Bruno Avenue,-122.40243796606,37.7125220127664
+14026274871000,140262748,71000,Non-criminal,Lost Property,Thursday,2014-03-27,12:00,Mission,None,1800 Block Of 15th St,-122.425864046062,37.7662536102334
+14058106526150,140581065,26150,OtherOffenses,Parole Violation,Sunday,2014-07-13,09:00,Northern,"Arrest, Booked",2100 Block Of Washington St,-122.428652387494,37.7923732330449
+14055498771010,140554987,71010,OtherOffenses,Lost/stolen License Plate,Thursday,2014-07-03,20:00,Taraval,None,1200 Block Of 18th Avenue,-122.476050154557,37.7645385238917
+14045614507025,140456145,7025,VehicleTheft,Stolen Truck,Saturday,2014-05-31,02:00,Tenderloin,Unfounded,0 Block Of 5thstnorth St,-122.408648588965,37.7849124714135
+14045681665016,140456816,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Sunday,2014-06-01,16:46,Southern,"Arrest, Cited",800 Block Of Bryant St,-122.403404791479,37.775420706711
+14047072506241,140470725,6241,Larceny/theft,Petty Theft From Locked Auto,Thursday,2014-06-05,23:00,Central,None,600 Block Of Taylor St,-122.41178390547,37.7886524498371
+14034177804014,140341778,4014,Assault,Aggravated Assault With Bodily Force,Friday,2014-04-25,01:15,Mission,None,2500 Block Of Mission St,-122.418891810986,37.7562166627216
+14052513274000,140525132,74000,MissingPerson,Missing Adult,Tuesday,2014-06-24,16:30,Park,None,1400 Block Of Grove St,-122.440483106998,37.7755529016833
+14604086906372,146040869,6372,Larceny/theft,Petty Theft Of Property,Friday,2014-02-14,20:50,Northern,None,2000 Block Of Chestnut St,-122.436775838314,37.8006947037442
+14027311505081,140273115,5081,Burglary,"Burglary, Hot Prowl, Forcible Entry",Wednesday,2014-04-02,05:40,Taraval,"Arrest, Booked",100 Block Of Lenox Wy,-122.465616085454,37.7417568103981
+14049395971000,140493959,71000,Non-criminal,Lost Property,Saturday,2014-06-14,01:00,Tenderloin,None,200 Block Of Mason St,-122.409523740653,37.7857602954934
+14080804172000,140808041,72000,Non-criminal,Found Property,Thursday,2014-09-25,02:19,Northern,None,0 Block Of Grove St,-122.41742986085,37.7785349354394
+14053116707021,140531167,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-06-25,06:00,Mission,None,2100 Block Of Bryant St,-122.410010186622,37.7598145866152
+14012066306303,140120663,6303,Larceny/theft,Petty Theft From A Building,Monday,2014-02-10,15:20,Northern,None,1700 Block Of Polk St,-122.42121146461,37.7928202341314
+14613317906374,146133179,6374,Larceny/theft,Grand Theft Of Property,Thursday,2014-07-03,11:59,Ingleside,None,2900 Block Of Diamond St,-122.434229200474,37.733019952271
+14012480363010,140124803,63010,Warrants,Warrant Arrest,Tuesday,2014-02-11,19:30,Taraval,"Arrest, Booked",1500 Block Of 25th Avenue,-122.483294616551,37.7585952446282
+14608215606244,146082156,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-04-28,00:10,Northern,None,100 Block Of Lily St,-122.423196872599,37.7744075350369
+14044511005053,140445110,5053,Burglary,"Burglary Of Store, Unlawful Entry",Monday,2014-05-26,09:40,Central,None,800 Block Of Stockton St,-122.407748570466,37.7936363546057
+14047467064020,140474670,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-06-07,15:30,Park,Psychopathic Case,800 Block Of Burnett Avenue,-122.444770160248,37.7494613254037
+14015947475000,140159474,75000,MissingPerson,Found Person,Saturday,2014-02-22,10:30,Park,Located,1400 Block Of 7th Avenue,-122.464044777804,37.7613161836641
+14607552106374,146075521,6374,Larceny/theft,Grand Theft Of Property,Thursday,2014-04-17,09:15,Southern,None,800 Block Of Market St,-122.406690592261,37.7852071918419
+14015339106113,140153391,6113,Larceny/theft,Grand Theft Pickpocket,Friday,2014-02-21,05:00,Central,None,900 Block Of Mason St,-122.410845624227,37.7923158747647
+14035173304134,140351733,4134,Assault,Battery,Monday,2014-04-28,13:53,Southern,Psychopathic Case,800 Block Of Market St,-122.406520987144,37.7850629421661
+14060540564070,140605405,64070,SuspiciousOcc,Suspicious Occurrence,Monday,2014-06-30,12:00,Bayview,None,200 Block Of Williams Avenue,-122.397744427103,37.7299346936044
+14057307828165,140573078,28165,Vandalism,"Malicious Mischief, Graffiti",Wednesday,2014-07-09,18:00,Central,None,800 Block Of Grant Avenue,-122.406460320184,37.7947041509893
+14614173006224,146141730,6224,Larceny/theft,Grand Theft From Unlocked Auto,Tuesday,2014-07-22,20:00,Park,None,1900 Block Of Eddy St,-122.43978515169,37.7805327441756
+14603988406244,146039884,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-02-25,20:15,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14612720706372,146127207,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-06-25,11:15,Northern,None,2000 Block Of Polk St,-122.421608893207,37.7955038710773
+14031440204013,140314402,4013,Assault,Aggravated Assault With A Deadly Weapon,Tuesday,2014-04-15,22:22,Tenderloin,"Arrest, Booked",0 Block Of Mcallister St,-122.413434938269,37.7810130602185
+14083500003074,140835000,3074,Robbery,"Robbery, Bodily Force",Friday,2014-10-03,21:30,Taraval,None,1800 Block Of Irving St,-122.477696048974,37.7635915438758
+14045807228150,140458072,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-06-01,20:45,Richmond,None,1600 Block Of Balboa St,-122.476440851818,37.776722817171
+14043990306365,140439903,6365,Larceny/theft,Petty Theft With Prior,Monday,2014-05-26,11:10,Tenderloin,"Arrest, Booked",100 Block Of Ofarrell St,-122.407244087032,37.7865647607685
+14044002905043,140440029,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Monday,2014-05-26,17:30,Central,None,800 Block Of Pacific Avenue,-122.409061067118,37.7966786637547
+14607894506374,146078945,6374,Larceny/theft,Grand Theft Of Property,Wednesday,2014-04-09,12:53,Mission,None,200 Block Of Clintonpark St,-122.425654813324,37.768992468359
+14052212207021,140522122,7021,VehicleTheft,Stolen Automobile,Thursday,2014-06-12,15:00,Taraval,None,200 Block Of Montana St,-122.461424508784,37.716636765559
+14023466206303,140234662,6303,Larceny/theft,Petty Theft From A Building,Wednesday,2014-03-19,17:15,Southern,None,300 Block Of 2nd St,-122.396251395987,37.7852582857699
+14045228426142,140452284,26142,Kidnapping,False Imprisonment,Friday,2014-05-30,19:00,Central,"Arrest, Booked",700 Block Of Bush St,-122.409614596783,37.7899992253577
+14064923774000,140649237,74000,MissingPerson,Missing Adult,Monday,2014-08-04,08:00,Park,Located,0 Block Of Douglass St,-122.439480427224,37.7628492491536
+14055215727195,140552157,27195,Trespass,Trespassing,Thursday,2014-07-03,04:00,Bayview,None,1100 Block Of Palou Avenue,-122.382475491131,37.7292626391341
+14612303906244,146123039,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-06-26,17:00,Richmond,None,1000 Block Of Great Hy,-122.510225749052,37.7672442209616
+14026604128150,140266041,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-03-30,14:07,Northern,None,300 Block Of Grove St,-122.42236966578,37.7779702929916
+14037594305053,140375943,5053,Burglary,"Burglary Of Store, Unlawful Entry",Tuesday,2014-05-06,15:23,Central,None,200 Block Of Post St,-122.406021838484,37.7886491245294
+14022938407025,140229384,7025,VehicleTheft,Stolen Truck,Tuesday,2014-03-18,10:10,Ingleside,"Arrest, Booked",500 Block Of Portola Dr,-122.451320967694,37.7458040635503
+14607645006244,146076450,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-04-20,13:00,Taraval,None,1700 Block Of Funston Avenue,-122.469972038954,37.7559049591151
+14042608506303,140426085,6303,Larceny/theft,Petty Theft From A Building,Monday,2014-04-21,11:00,Taraval,None,200 Block Of Vasquez Avenue,-122.461605603047,37.7435323559986
+14610472206244,146104722,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-05-31,11:30,Mission,None,3300 Block Of 17th St,-122.421087244049,37.763392442414
+14031939964020,140319399,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-04-17,13:03,Ingleside,Psychopathic Case,700 Block Of Sunnydale Avenue,-122.409097425845,37.7100309962416
+14036957604013,140369576,4013,Assault,Aggravated Assault With A Deadly Weapon,Sunday,2014-05-04,15:37,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14033843006303,140338430,6303,Larceny/theft,Petty Theft From A Building,Wednesday,2014-04-23,20:30,Central,None,200 Block Of Geary St,-122.407413025963,37.7874074125228
+14040531806243,140405318,6243,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-05-14,18:30,Northern,None,3600 Block Of Lyon St,-122.44827840533,37.804271887891
+14054631015401,140546310,15401,Loitering,"Cash Dispensing Machines (atm), Loitering Prohibi",Tuesday,2014-07-01,16:54,Mission,"Arrest, Booked",2000 Block Of Mission St,-122.419520367886,37.764228935718
+14030805704134,140308057,4134,Assault,Battery,Sunday,2014-04-13,18:29,Park,"Arrest, Cited",300 Block Of Lagunahonda Bl,-122.458680189782,37.7481554692332
+14060970806244,140609708,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-07-22,18:45,Southern,None,500 Block Of 4th St,-122.397251222589,37.7789803526172
+14065882427170,140658824,27170,OtherOffenses,Resisting Arrest,Friday,2014-08-08,23:43,Southern,"Arrest, Booked",1300 Block Of Mission St,-122.415757039196,37.7754692820041
+14050721519050,140507215,19050,OtherOffenses,Obscene Phone Calls(s),Saturday,2014-06-07,17:00,Ingleside,None,0 Block Of Marston Avenue,-122.445942459805,37.7274122881141
+14030596226036,140305962,26036,Arson,Arson Of An Inhabited Dwelling,Saturday,2014-04-12,23:18,Tenderloin,"Arrest, Booked",200 Block Of Jones St,-122.412573643201,37.7834687204586
+14032151005151,140321510,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Thursday,2014-04-17,22:45,Southern,None,500 Block Of Folsom St,-122.395504697372,37.7865675775946
+14049578909320,140495789,9320,Fraud,"Credit Card, Theft By Use Of",Saturday,2014-06-14,23:30,Northern,None,1900 Block Of Bush St,-122.429373450659,37.7875979136474
+14016468309320,140164683,9320,Fraud,"Credit Card, Theft By Use Of",Sunday,2014-02-23,22:30,Park,None,500 Block Of Parnassus Avenue,-122.458220811697,37.7633123961354
+14031377719057,140313777,19057,Assault,Threats Against Life,Saturday,2014-04-12,23:00,Central,None,700 Block Of Kearny St,-122.404847847867,37.7951006528052
+14016325909250,140163259,9250,Fraud,Fraudulent Use Of Automated Teller Card,Monday,2014-02-24,17:40,Tenderloin,"Arrest, Booked",400 Block Of Eddy St,-122.415088721046,37.7836719564372
+14026171228160,140261712,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Friday,2014-03-28,21:58,Mission,None,2100 Block Of Mission St,-122.419331147814,37.7622643357423
+14007540004134,140075400,4134,Assault,Battery,Sunday,2014-01-26,05:37,Mission,"Arrest, Booked",1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14021397328160,140213973,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Thursday,2014-03-13,00:01,Central,None,900 Block Of Sacramento St,-122.408125184867,37.7930721329454
+14024130026080,140241300,26080,OtherOffenses,Conspiracy,Saturday,2014-03-22,02:40,Tenderloin,"Arrest, Booked",0 Block Of Ofarrell St,-122.405861657246,37.786627232545
+14016408106340,140164081,6340,Larceny/theft,Attempted Theft Coin Operated Machine,Tuesday,2014-02-25,05:55,Tenderloin,None,500 Block Of Ellis St,-122.415414178631,37.784476659022
+14031465616710,140314656,16710,Drug/narcotic,Possession Of Narcotics Paraphernalia,Wednesday,2014-04-16,00:25,Mission,"Arrest, Booked",2000 Block Of Mission St,-122.41965834371,37.7642205603745
+14048305705053,140483057,5053,Burglary,"Burglary Of Store, Unlawful Entry",Tuesday,2014-06-10,13:15,Mission,None,1000 Block Of Valencia St,-122.420933634888,37.7557024462397
+14013061228160,140130612,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Thursday,2014-02-13,15:10,Northern,None,1300 Block Of Webster St,-122.431046366089,37.7830295716044
+14041713175000,140417131,75000,MissingPerson,Found Person,Sunday,2014-05-18,20:00,Southern,Located,0 Block Of Dore St,-122.413045971966,37.7738617771611
+14040513664020,140405136,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-05-01,14:00,Bayview,Located,100 Block Of Venus St,-122.397983785696,37.7307424863811
+14041396363010,140413963,63010,Warrants,Warrant Arrest,Saturday,2014-05-17,19:02,Richmond,"Arrest, Booked",900 Block Of Clement St,-122.469251458373,37.7827807755947
+14607141671000,146071416,71000,Non-criminal,Lost Property,Saturday,2014-04-12,00:20,Mission,None,3100 Block Of 16th St,-122.423002014422,37.7647948860579
+14042024763010,140420247,63010,Warrants,Warrant Arrest,Monday,2014-05-19,22:56,Mission,"Arrest, Booked",1300 Block Of Utah St,-122.405337194755,37.7524089409576
+14015494106224,140154941,6224,Larceny/theft,Grand Theft From Unlocked Auto,Friday,2014-02-21,14:00,Richmond,None,2600 Block Of Elcaminodelmar St,-122.509695887518,37.7802134292058
+14050270464020,140502704,64020,Non-criminal,"Aided Case, Mental Disturbed",Tuesday,2014-06-17,14:25,Southern,Psychopathic Case,0 Block Of Newmontgomery St,-122.401738283506,37.7885335775983
+14014556463010,140145564,63010,Warrants,Warrant Arrest,Tuesday,2014-02-18,18:09,Mission,"Arrest, Booked",2300 Block Of Mission St,-122.419196838603,37.7594144253287
+14021677306302,140216773,6302,Larceny/theft,Petty Theft From A Building,Friday,2014-03-07,08:30,Ingleside,None,100 Block Of Appleton Avenue,-122.421849898832,37.7380536150512
+14028956064020,140289560,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-04-07,17:40,Southern,Psychopathic Case,200 Block Of Folsom St,-122.392347671978,37.7890603555993
+14017423406363,140174234,6363,Larceny/theft,Petty Theft Shoplifting,Wednesday,2014-02-26,21:09,Southern,None,800 Block Of Market St,-122.407633520742,37.7841893501425
+14618539606374,146185396,6374,Larceny/theft,Grand Theft Of Property,Thursday,2014-09-11,13:00,Central,None,1300 Block Of Sansome St,-122.403136797439,37.8026329102835
+14032951415200,140329514,15200,SecondaryCodes,Domestic Violence,Sunday,2014-04-20,22:00,Mission,None,200 Block Of Dolores St,-122.42666706177,37.7659871570237
+14044307303474,140443073,3474,Robbery,Attempted Robbery With Bodily Force,Tuesday,2014-05-27,16:08,Mission,None,2400 Block Of Market St,-122.435773846395,37.7624591846215
+14055770906363,140557709,6363,Larceny/theft,Petty Theft Shoplifting,Saturday,2014-07-05,17:01,Southern,"Arrest, Cited",800 Block Of Market St,-122.406520987144,37.7850629421661
+14055661006304,140556610,6304,Larceny/theft,Grand Theft From A Building,Saturday,2014-07-05,07:30,Mission,"Arrest, Booked",1600 Block Of Bryant St,-122.410616059829,37.766238070453
+14043088215201,140430882,15201,Assault,Stalking,Thursday,2014-05-22,00:01,Mission,None,1200 Block Of South Van Ness Avenue,-122.416269089153,37.7531590161083
+14613938706372,146139387,6372,Larceny/theft,Petty Theft Of Property,Thursday,2014-07-17,17:00,Southern,None,800 Block Of Market St,-122.406690592261,37.7852071918419
+14055104607021,140551046,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-07-02,20:00,Taraval,None,100 Block Of Garces Dr,-122.478943772791,37.7151948453327
+14009050574000,140090505,74000,MissingPerson,Missing Adult,Thursday,2014-01-30,21:40,Ingleside,Located,0 Block Of Laidley St,-122.43164540421,37.7409970550724
+14033975164070,140339751,64070,SuspiciousOcc,Suspicious Occurrence,Thursday,2014-04-24,07:15,Bayview,None,900 Block Of Gilman Avenue,-122.386528277818,37.7173949536041
+14031604407021,140316044,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-04-16,03:30,Ingleside,None,100 Block Of Prague St,-122.426678211606,37.7197318823585
+14018718030140,140187180,30140,WeaponLaws,Possession Of Air Gun,Tuesday,2014-03-04,20:45,Bayview,"Arrest, Cited",1700 Block Of Revere Avenue,-122.392695211453,37.7331674700829
+14048657868020,140486578,68020,OtherOffenses,Miscellaneous Investigation,Tuesday,2014-06-10,21:15,Taraval,"Arrest, Cited",700 Block Of Font Bl,-122.483569270838,37.7230650556781
+14034343974000,140343439,74000,MissingPerson,Missing Adult,Friday,2014-04-25,07:30,Taraval,Located,300 Block Of Arballo Dr,-122.483066441234,37.7208318410205
+14048584306314,140485843,6314,Larceny/theft,Grand Theft Bicycle,Thursday,2014-06-05,16:00,Taraval,None,1200 Block Of 12th Avenue,-122.469517556144,37.764824254365
+14057049406244,140570494,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-07-09,17:15,Richmond,None,900 Block Of Clement St,-122.469243450686,37.7826711066719
+14039670104012,140396701,4012,Assault,Aggravated Assault With A Knife,Sunday,2014-05-11,23:40,Ingleside,None,5200 Block Of Mission St,-122.442226397949,37.7150747131897
+14055448206243,140554482,6243,Larceny/theft,Petty Theft From Locked Auto,Friday,2014-07-04,11:00,Central,None,300 Block Of Post St,-122.407591091073,37.7883401187101
+14604586906244,146045869,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-03-03,18:00,Ingleside,None,0 Block Of Mirabel Avenue,-122.416490513829,37.7465284344966
+14036630664020,140366306,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-05-03,12:54,Northern,Psychopathic Case,1000 Block Of Polk St,-122.419858277339,37.786137125238
+14060439474000,140604394,74000,MissingPerson,Missing Adult,Saturday,2014-07-19,17:00,Mission,None,100 Block Of Capp St,-122.418549940195,37.7642837095036
+14051512712110,140515127,12110,WeaponLaws,Possession Of Machine Gun,Saturday,2014-06-21,14:20,Northern,"Arrest, Booked",700 Block Of Turk St,-122.421489175672,37.7819085223368
+14017722204073,140177222,4073,Assault,Assault On A Police Officer With A Deadly Weapon,Saturday,2014-03-01,12:08,Southern,None,1100 Block Of Mission St,-122.412736707425,37.7777124404316
+14041941619024,140419416,19024,DisorderlyConduct,"Disturbing The Peace, Fighting",Wednesday,2014-05-14,17:00,Ingleside,None,500 Block Of Alemany Bl,-122.421305348396,37.7321638759455
+14605043206372,146050432,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-03-12,12:30,Northern,None,1800 Block Of Jefferson St,-122.44296385416,37.8046876171455
+14046772262050,140467722,62050,Warrants,Enroute To Outside Jurisdiction,Thursday,2014-06-05,08:40,Tenderloin,"Arrest, Booked",100 Block Of Leavenworth St,-122.413893155951,37.782346520673
+14059523275000,140595232,75000,MissingPerson,Found Person,Sunday,2014-07-06,20:00,Tenderloin,"Arrest, Cited",300 Block Of Eddy St,-122.412930522059,37.7838344374141
+14009440064020,140094400,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-02-01,13:10,Northern,Psychopathic Case,0 Block Of Cervantes Bl,-122.438303387855,37.8036341301778
+14055886019057,140558860,19057,Assault,Threats Against Life,Sunday,2014-07-06,00:26,Mission,"Arrest, Booked",100 Block Of Sancarlos St,-122.420119071449,37.7609695131583
+14065783262050,140657832,62050,Warrants,Enroute To Outside Jurisdiction,Thursday,2014-08-07,16:55,Taraval,"Arrest, Booked",200 Block Of Winston Dr,-122.475491822708,37.7268308382992
+14028004104013,140280041,4013,Assault,Aggravated Assault With A Deadly Weapon,Friday,2014-04-04,14:30,Taraval,None,300 Block Of Victoria St,-122.465400905286,37.7170346290255
+14616133071000,146161330,71000,Non-criminal,Lost Property,Wednesday,2014-08-13,16:37,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14014033264010,140140332,64010,Non-criminal,"Aided Case, Dog Bite",Monday,2014-02-17,02:25,Ingleside,"Arrest, Booked",1600 Block Of Bacon St,-122.418915377858,37.7236825333993
+14015825006241,140158250,6241,Larceny/theft,Petty Theft From Locked Auto,Saturday,2014-02-22,19:00,Northern,None,100 Block Of Olive St,-122.42026193778,37.7844541271135
+14018768528160,140187685,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Tuesday,2014-03-04,15:00,Bayview,None,500 Block Of Selby St,-122.395970616699,37.7439242542019
+14037643007023,140376430,7023,VehicleTheft,Stolen Motorcycle,Tuesday,2014-05-06,09:30,Tenderloin,"Arrest, Booked",100 Block Of Ofarrell St,-122.407222440955,37.7864562588009
+14050725928150,140507259,28150,Vandalism,"Malicious Mischief, Vandalism",Wednesday,2014-06-18,22:23,Bayview,None,0 Block Of Nichols Wy,-122.387234795761,37.7194008333885
+14011318515200,140113185,15200,SecondaryCodes,Domestic Violence,Friday,2014-02-07,22:43,Ingleside,None,200 Block Of Addison St,-122.432513268341,37.7377582824808
+14033800428160,140338004,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Wednesday,2014-04-23,19:00,Northern,"Arrest, Booked",2400 Block Of California St,-122.434689351674,37.7888538411014
+14025531706361,140255317,6361,Larceny/theft,Petty Theft Shoplifting,Wednesday,2014-03-26,19:30,Central,None,100 Block Of Jackson St,-122.398919477596,37.796953574467
+14036685172000,140366851,72000,Non-criminal,Found Property,Saturday,2014-05-03,10:45,Bayview,None,200 Block Of Williams Avenue,-122.397744427103,37.7299346936044
+14613453106372,146134531,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-07-09,00:10,Southern,None,1300 Block Of Folsom St,-122.41248627649,37.773001280588
+14039786206364,140397862,6364,Larceny/theft,Grand Theft Shoplifting,Monday,2014-05-12,11:33,Southern,None,800 Block Of Market St,-122.406520987144,37.7850629421661
+14042701128100,140427011,28100,Vandalism,"Malicious Mischief, Breaking Windows",Wednesday,2014-05-21,23:30,Northern,None,200 Block Of Franklin St,-122.421351246136,37.7768495726299
+14075284606153,140752846,6153,Larceny/theft,Grand Theft From Person,Sunday,2014-09-07,00:01,Mission,None,4100 Block Of 18th St,-122.435563016294,37.760801062884
+14051779727195,140517797,27195,Trespass,Trespassing,Thursday,2014-06-19,08:35,Northern,None,1600 Block Of Union St,-122.426473957204,37.798291291684
+14053865227170,140538652,27170,OtherOffenses,Resisting Arrest,Sunday,2014-06-29,09:06,Mission,"Arrest, Cited",1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14606816206244,146068162,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-04-09,23:30,Taraval,None,2600 Block Of 45th Avenue,-122.503290611562,37.7371425019657
+14010833061030,140108330,61030,Non-criminal,"Death Report, Cause Unknown",Thursday,2014-02-06,09:40,Southern,None,500 Block Of Mission St,-122.399010207568,37.7887066123323
+14040196816620,140401968,16620,Drug/narcotic,Possession Of Cocaine,Tuesday,2014-05-13,18:48,Northern,"Arrest, Booked",1100 Block Of Eddy St,-122.42577891406,37.7823192392643
+14012515226080,140125152,26080,OtherOffenses,Conspiracy,Tuesday,2014-02-11,22:38,Central,"Arrest, Booked",1200 Block Of Leavenworth St,-122.416094667716,37.7925730803437
+14050489165015,140504891,65015,OtherOffenses,Traffic Violation,Wednesday,2014-06-18,09:05,Taraval,"Arrest, Cited",200 Block Of Stonecrest Dr,-122.474122827903,37.7257416114051
+14007497906303,140074979,6303,Larceny/theft,Petty Theft From A Building,Saturday,2014-01-25,19:00,Tenderloin,None,0 Block Of Taylor St,-122.410689907787,37.7824948907735
+14028796228100,140287962,28100,Vandalism,"Malicious Mischief, Breaking Windows",Sunday,2014-04-06,18:30,Mission,None,4100 Block Of 24th St,-122.43522121962,37.7512817650178
+14073512115095,140735121,15095,Non-criminal,Tarasoff Report,Monday,2014-09-01,06:00,Northern,None,2300 Block Of Buchanan St,-122.431073169007,37.7915687103002
+14012488106372,140124881,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-02-11,16:20,Central,None,300 Block Of Powell St,-122.408384275542,37.7878271137225
+14053125815200,140531258,15200,SecondaryCodes,Domestic Violence,Thursday,2014-06-26,23:04,Mission,None,0 Block Of Balmy St,-122.412457038391,37.7517963632308
+14039677330030,140396773,30030,OtherOffenses,Defrauding Taxi Driver,Sunday,2014-05-11,23:10,Mission,"Arrest, Cited",1900 Block Of Mission St,-122.41967661615,37.7658510977435
+14084656864070,140846568,64070,SuspiciousOcc,Suspicious Occurrence,Tuesday,2014-10-07,12:45,Park,None,1500 Block Of Haight St,-122.447783070559,37.7699549503465
+14056993609330,140569936,9330,Fraud,"Credit Card, Incomplete Or Counterfeit",Wednesday,2014-07-09,15:00,Central,"Arrest, Booked",700 Block Of Post St,-122.41417943719,37.787502483207
+14027951164070,140279511,64070,SuspiciousOcc,Suspicious Occurrence,Wednesday,2014-04-02,16:30,Taraval,None,1500 Block Of Sloat Bl,-122.489713969124,37.7339497680852
+14023596164070,140235961,64070,SuspiciousOcc,Suspicious Occurrence,Thursday,2014-03-20,10:02,Central,None,100 Block Of Montgomery St,-122.40221854007,37.7905215969161
+14026586106303,140265861,6303,Larceny/theft,Petty Theft From A Building,Sunday,2014-03-30,11:00,Richmond,None,4200 Block Of Geary Bl,-122.464815691402,37.7808630914427
+14036863128150,140368631,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-05-04,02:00,Northern,None,0 Block Of Hemlock St,-122.419203004268,37.7874378309112
+14036995216010,140369952,16010,Drug/narcotic,Possession Of Marijuana,Sunday,2014-05-04,19:00,Southern,"Arrest, Cited",900 Block Of Howard St,-122.406508487003,37.7803313209065
+14061122073010,140611220,73010,Non-criminal,Turned In Gun,Wednesday,2014-07-23,10:31,Ingleside,None,900 Block Of Rolph St,-122.428641379657,37.7111887011083
+14057081428150,140570814,28150,Vandalism,"Malicious Mischief, Vandalism",Tuesday,2014-07-08,02:45,Northern,None,600 Block Of Hayes St,-122.427093375316,37.7763027391045
+14059771104134,140597711,4134,Assault,Battery,Friday,2014-07-18,16:30,Tenderloin,"Arrest, Cited",300 Block Of Taylor St,-122.411302813025,37.7855355791102
+14033971707025,140339717,7025,VehicleTheft,Stolen Truck,Wednesday,2014-04-23,18:00,Richmond,None,600 Block Of 12th Avenue,-122.470295051017,37.7759942821838
+14608570206374,146085702,6374,Larceny/theft,Grand Theft Of Property,Tuesday,2014-04-15,11:15,Southern,None,0 Block Of 3rd St,-122.402835528142,37.7868009028384
+14033575972000,140335759,72000,Non-criminal,Found Property,Tuesday,2014-04-22,17:30,Richmond,None,600 Block Of 29th Avenue,-122.488875977233,37.7770182739733
+14046370871000,140463708,71000,Non-criminal,Lost Property,Tuesday,2014-06-03,00:01,Central,None,300 Block Of Powell St,-122.408384275542,37.7878271137225
+14029179716629,140291797,16629,Drug/narcotic,Sales Cocaine Base/schoolyard Trafficking Act Vio,Tuesday,2014-04-08,10:36,Mission,"Arrest, Booked",2000 Block Of Mission St,-122.419520367886,37.764228935718
+14610826371000,146108263,71000,Non-criminal,Lost Property,Saturday,2014-06-07,12:00,Richmond,None,500 Block Of Johnfkennedy Dr,-122.466204667893,37.7725405391593
+14047469206302,140474692,6302,Larceny/theft,Petty Theft From A Building,Saturday,2014-06-07,15:30,Southern,None,1000 Block Of Market St,-122.411339562557,37.7812707434494
+14021043063010,140210430,63010,Warrants,Warrant Arrest,Wednesday,2014-03-12,08:03,Mission,"Arrest, Booked",2800 Block Of Mission St,-122.418296094437,37.7514284856786
+14013247063010,140132470,63010,Warrants,Warrant Arrest,Friday,2014-02-14,08:02,Park,"Arrest, Booked",700 Block Of Central Avenue,-122.444806683615,37.7765047002747
+14603567228150,146035672,28150,Vandalism,"Malicious Mischief, Vandalism",Tuesday,2014-02-18,19:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14610902306244,146109023,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-06-08,17:15,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14051857905013,140518579,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Sunday,2014-06-22,13:00,Park,None,0 Block Of Uranus Tr,-122.445506440102,37.7611919632466
+14018177868020,140181778,68020,OtherOffenses,Miscellaneous Investigation,Monday,2014-03-03,03:07,Northern,"Arrest, Booked",2400 Block Of Greenwich St,-122.440003892274,37.7984811036926
+14046093604014,140460936,4014,Assault,Aggravated Assault With Bodily Force,Monday,2014-06-02,11:55,Park,"Arrest, Booked",600 Block Of Divisadero St,-122.437780560713,37.7754834563836
+14034370206304,140343702,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-04-25,10:30,Park,None,1400 Block Of Shrader St,-122.450588539257,37.7619525856877
+14050965306301,140509653,6301,Larceny/theft,Petty Theft From A Building,Wednesday,2014-06-18,22:30,Park,None,0 Block Of Ord Ct,-122.440906613041,37.7639200417485
+14610276006244,146102760,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-05-01,11:19,Southern,None,800 Block Of Mission St,-122.405395493939,37.7835100715421
+14608949706372,146089497,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-04-23,23:00,Bayview,None,1500 Block Of Vandyke Avenue,-122.391459714269,37.7286847085813
+14035582664070,140355826,64070,SuspiciousOcc,Suspicious Occurrence,Tuesday,2014-04-29,20:10,Bayview,None,1000 Block Of Connecticut St,-122.397089183868,37.7535987880327
+14062077606244,140620776,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-07-25,19:00,Taraval,None,2500 Block Of 32nd Avenue,-122.489491162173,37.7396187452689
+14050828564020,140508285,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-06-19,12:12,Southern,"Arrest, Cited",100 Block Of 9th St,-122.413980520967,37.7755687325824
+14014038216650,140140382,16650,Drug/narcotic,Possession Of Meth-amphetamine,Monday,2014-02-17,03:00,Mission,"Arrest, Booked",2400 Block Of Mission St,-122.418887293065,37.7576217212029
+14033916506243,140339165,6243,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-04-23,21:00,Park,None,100 Block Of Beaver St,-122.435991258656,37.7650278006101
+14042796464020,140427964,64020,Non-criminal,"Aided Case, Mental Disturbed",Wednesday,2014-05-21,23:20,Mission,Psychopathic Case,400 Block Of Bartlett St,-122.419390669989,37.7497536971801
+14024924103071,140249241,3071,Robbery,"Robbery, Armed With A Gun",Monday,2014-03-24,20:40,Ingleside,None,700 Block Of Athens St,-122.432493253831,37.7161566666857
+14036536412080,140365364,12080,WeaponLaws,Poss Of Firearm By Convicted Felon/addict/alien,Saturday,2014-05-03,00:25,Ingleside,"Arrest, Booked",4400 Block Of Mission St,-122.43307534135,37.726854596498
+14052383527010,140523835,27010,Fraud,Defrauding An Innkeeper,Tuesday,2014-06-24,14:15,Ingleside,None,4500 Block Of Mission St,-122.433743692364,37.7259707375737
+14046039064020,140460390,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-06-02,20:14,Park,Psychopathic Case,100 Block Of Buenavistaeast Avenue,-122.43874821941,37.769513512671
+14609663006372,146096630,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-05-14,16:30,Bayview,None,3800 Block Of 3rd St,-122.387939452192,37.7422600519555
+14020524327195,140205243,27195,Trespass,Trespassing,Monday,2014-03-10,15:39,Tenderloin,"Arrest, Cited",0 Block Of Turk St,-122.409853729941,37.7833862379382
+14058530206363,140585302,6363,Larceny/theft,Petty Theft Shoplifting,Monday,2014-07-14,17:10,Tenderloin,None,100 Block Of Stockton St,-122.40642786236,37.78710945429
+14008667306244,140086673,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-01-29,15:00,Park,None,2600 Block Of Geary Bl,-122.446612978839,37.7822458223917
+14031762272000,140317622,72000,Non-criminal,Found Property,Wednesday,2014-04-16,22:00,Tenderloin,None,300 Block Of Eddy St,-122.412930522059,37.7838344374141
+14018975006244,140189750,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-02-06,22:00,Southern,None,700 Block Of Harrison St,-122.397814506334,37.7821372491619
+14061387862020,140613878,62020,Warrants,Enroute To Department Of Corrections,Thursday,2014-07-24,06:54,Tenderloin,"Arrest, Booked",100 Block Of Hyde St,-122.415669661443,37.7821198488931
+14054605307023,140546053,7023,VehicleTheft,Stolen Motorcycle,Monday,2014-06-30,15:00,Bayview,None,100 Block Of Channel St,-122.390753273663,37.7743792347808
+14609792306244,146097923,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-05-20,00:01,Taraval,None,2700 Block Of Ortega St,-122.492959110287,37.7515826668938
+14023795107021,140237951,7021,VehicleTheft,Stolen Automobile,Thursday,2014-03-20,07:45,Southern,None,100 Block Of South Van Ness Avenue,-122.417938407907,37.7705413769242
+14606896806224,146068968,6224,Larceny/theft,Grand Theft From Unlocked Auto,Saturday,2014-04-12,17:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14048798064070,140487980,64070,SuspiciousOcc,Suspicious Occurrence,Sunday,2014-05-25,00:01,Northern,None,1000 Block Of Polk St,-122.419858277339,37.786137125238
+14608879006244,146088790,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-05-08,23:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14028545506362,140285455,6362,Larceny/theft,Petty Theft Shoplifting,Sunday,2014-04-06,11:15,Tenderloin,"Arrest, Booked",0 Block Of Ofarrell St,-122.405895369887,37.7867342184983
+14084973804134,140849738,4134,Assault,Battery,Wednesday,2014-10-08,12:30,Central,"Arrest, Cited",900 Block Of Post St,-122.417634160005,37.787063186215
+14049547216040,140495472,16040,Drug/narcotic,Sale Of Marijuana,Sunday,2014-06-15,07:30,Central,"Arrest, Booked",400 Block Of Broadway St,-122.405065483077,37.7980134745487
+14027959964015,140279599,64015,Non-criminal,"Aided Case, Injured Person",Friday,2014-04-04,12:05,Southern,None,700 Block Of Market St,-122.404756583284,37.7864540511999
+14055196107025,140551961,7025,VehicleTheft,Stolen Truck,Wednesday,2014-07-02,22:00,Richmond,Unfounded,100 Block Of 3rd Avenue,-122.461281748309,37.7851598485769
+14044870075000,140448700,75000,MissingPerson,Found Person,Thursday,2014-04-03,14:00,Southern,Located,100 Block Of 6th St,-122.407376463936,37.7799892619986
+14056877806304,140568778,6304,Larceny/theft,Grand Theft From A Building,Thursday,2014-07-03,18:30,Northern,None,2000 Block Of Union St,-122.433030311668,37.7973462529678
+14006711206244,140067112,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-01-23,13:50,Southern,None,200 Block Of Clara St,-122.403561687186,37.7786012616155
+14054526506304,140545265,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-06-27,12:00,Taraval,None,2200 Block Of Vicente St,-122.490992385651,37.7386928139833
+14031872707021,140318727,7021,VehicleTheft,Stolen Automobile,Thursday,2014-04-17,00:01,Park,None,100 Block Of Pierce St,-122.433574435909,37.7712393589919
+14054269763010,140542697,63010,Warrants,Warrant Arrest,Monday,2014-06-30,14:17,Southern,"Arrest, Booked",1600 Block Of Market St,-122.422188261426,37.7726948236861
+14056307971000,140563079,71000,Non-criminal,Lost Property,Monday,2014-07-07,10:30,Southern,None,1200 Block Of Market St,-122.415448759562,37.778293520129
+14073373305013,140733733,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Sunday,2014-08-31,12:00,Taraval,None,1200 Block Of 15th Avenue,-122.472785857895,37.7646817096397
+14035764071000,140357640,71000,Non-criminal,Lost Property,Tuesday,2014-04-29,17:00,Central,None,1600 Block Of The Embarcaderonorth St,-122.410774214375,37.8084350175869
+14040669502104,140406695,2104,"SexOffenses,Forcible",Assault To Rape With Bodily Force,Wednesday,2014-05-14,22:15,Central,None,200 Block Of Beach St,-122.413178958845,37.8076387530515
+14023710510149,140237105,10149,Forgery/counterfeiting,"Money, Changing Face Amount",Tuesday,2014-03-11,16:00,Taraval,None,0 Block Of Broad St,-122.454756002084,37.7132579074067
+14607519506244,146075195,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-04-08,23:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14603595106374,146035951,6374,Larceny/theft,Grand Theft Of Property,Tuesday,2014-02-11,18:30,Southern,None,300 Block Of Spear St,-122.390136077091,37.7894806825431
+14058817406303,140588174,6303,Larceny/theft,Petty Theft From A Building,Saturday,2014-07-12,14:00,Southern,None,0 Block Of Dore St,-122.412933062384,37.7739274524819
+14028880764020,140288807,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-04-07,10:30,Southern,Psychopathic Case,0 Block Of 9th St,-122.415064887666,37.7764354063246
+14609477506372,146094775,6372,Larceny/theft,Petty Theft Of Property,Sunday,2014-05-18,00:01,Northern,None,700 Block Of 14th St,-122.429553089449,37.7677490465525
+14609816906372,146098169,6372,Larceny/theft,Petty Theft Of Property,Sunday,2014-05-25,23:00,Park,None,1700 Block Of Waller St,-122.452540312646,37.7683901140691
+14008073875000,140080738,75000,MissingPerson,Found Person,Sunday,2014-01-26,12:00,Mission,Located,3600 Block Of 19th St,-122.424257504658,37.7599852182816
+14057027806372,140570278,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-07-08,13:00,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14023941804014,140239418,4014,Assault,Aggravated Assault With Bodily Force,Friday,2014-03-21,13:00,Taraval,"Arrest, Booked",2700 Block Of Ocean Avenue,-122.475519166314,37.7325986366747
+14602699428150,146026994,28150,Vandalism,"Malicious Mischief, Vandalism",Friday,2014-02-07,19:30,Northern,None,1500 Block Of Polk St,-122.420850403389,37.7910371428072
+14009596919090,140095969,19090,Drunkenness,Under Influence Of Alcohol In A Public Place,Sunday,2014-02-02,23:50,Mission,"Arrest, Booked",4100 Block Of 18th St,-122.435563016294,37.760801062884
+14026677864020,140266778,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-03-30,20:25,Central,Psychopathic Case,1300 Block Of Mason St,-122.411743045233,37.7960620679909
+14035069426032,140350694,26032,Arson,Arson Of A Commercial Building,Monday,2014-04-28,06:45,Central,None,800 Block Of Hyde St,-122.416992162344,37.7886442171326
+14055815551040,140558155,51040,Non-criminal,Aided Case,Wednesday,2014-07-02,20:00,Tenderloin,None,500 Block Of Ofarrell St,-122.413820070176,37.7857382950322
+14085328472000,140853284,72000,Non-criminal,Found Property,Thursday,2014-10-09,14:20,Central,None,400 Block Of Geary St,-122.41072162587,37.7870966495663
+14082054006131,140820540,6131,Larceny/theft,Grand Theft Pursesnatch,Sunday,2014-09-28,11:00,Central,None,300 Block Of Post St,-122.407591091073,37.7883401187101
+14004947765016,140049477,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Friday,2014-01-17,17:15,Southern,"Arrest, Cited",800 Block Of Bryant St,-122.403404791479,37.775420706711
+14054599230130,140545992,30130,OtherOffenses,Peddling Without A License,Tuesday,2014-07-01,14:35,Tenderloin,"Arrest, Booked",100 Block Of Taylor St,-122.410928353347,37.7836778741124
+14011889072000,140118890,72000,Non-criminal,Found Property,Monday,2014-02-10,06:02,Tenderloin,None,0 Block Of Grove St,-122.415642487855,37.7788323158792
+14019763406243,140197634,6243,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-03-05,21:30,Ingleside,None,500 Block Of Excelsior Avenue,-122.429200920471,37.7241923246644
+14061380604013,140613806,4013,Assault,Aggravated Assault With A Deadly Weapon,Thursday,2014-07-24,04:50,Park,"Arrest, Booked",900 Block Of Buenavistawest Avenue,-122.44324157754,37.7699941054658
+14608124906372,146081249,6372,Larceny/theft,Petty Theft Of Property,Friday,2014-04-25,20:00,Southern,None,1600 Block Of Market St,-122.421619493654,37.773433937273
+14052438815200,140524388,15200,SecondaryCodes,Domestic Violence,Tuesday,2014-06-24,17:00,Taraval,"Arrest, Booked",3000 Block Of 20th Avenue,-122.475913117818,37.7318853447788
+14015708671000,140157086,71000,Non-criminal,Lost Property,Friday,2014-02-21,22:00,Bayview,None,1900 Block Of Silver Avenue,-122.401945292314,37.7345717472897
+14020633226170,140206332,26170,OtherOffenses,Probation Violation,Monday,2014-03-10,22:13,Tenderloin,"Arrest, Booked",0 Block Of Turk St,-122.409853729941,37.7833862379382
+14049019305043,140490193,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Thursday,2014-06-12,21:00,Northern,None,0 Block Of Rico Wy,-122.439377039453,37.8049265133237
+14045244416030,140452444,16030,Drug/narcotic,Possession Of Marijuana For Sales,Friday,2014-05-30,19:26,Ingleside,"Arrest, Booked",100 Block Of Mullen Avenue,-122.408750035741,37.7462859108488
+14039240871010,140392408,71010,OtherOffenses,Lost/stolen License Plate,Thursday,2014-05-08,08:00,Mission,None,2600 Block Of Mission St,-122.41860030589,37.7546255872838
+14043328403474,140433284,3474,Robbery,Attempted Robbery With Bodily Force,Saturday,2014-05-24,05:45,Taraval,None,0 Block Of Harold Avenue,-122.45315825844,37.7194976005023
+14042736228100,140427362,28100,Vandalism,"Malicious Mischief, Breaking Windows",Thursday,2014-05-22,05:30,Northern,None,500 Block Of Hayes St,-122.425394322722,37.7765195621679
+14053428064020,140534280,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-06-27,22:44,Mission,Psychopathic Case,200 Block Of 13th St,-122.417949217834,37.7697208630457
+14602387106244,146023871,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-01-20,18:00,Southern,None,700 Block Of Brannan St,-122.402917180962,37.7732011737995
+14059132106152,140591321,6152,Larceny/theft,Grand Theft From Person,Wednesday,2014-07-02,15:30,Southern,None,1100 Block Of Market St,-122.41371122073,37.7796660426062
+14037346475000,140373464,75000,MissingPerson,Found Person,Monday,2014-05-05,18:00,Southern,Located,0 Block Of Moss St,-122.407999186749,37.7778241673064
+14061256330190,140612563,30190,OtherOffenses,Violation Of Municipal Police Code,Wednesday,2014-07-23,17:05,Ingleside,"Arrest, Cited",0 Block Of Byron Ct,-122.444388948318,37.7094774455525
+14022315415200,140223154,15200,SecondaryCodes,Domestic Violence,Sunday,2014-03-16,10:53,Bayview,None,0 Block Of Dakota St,-122.395513264888,37.7536178531447
+14026337605013,140263376,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Friday,2014-03-28,15:00,Taraval,None,300 Block Of Arballo Dr,-122.483066441234,37.7208318410205
+14041842406243,140418424,6243,Larceny/theft,Petty Theft From Locked Auto,Monday,2014-05-19,12:30,Southern,None,200 Block Of Interstate80 Hy,-122.365565425353,37.8096707013239
+14010015404134,140100154,4134,Assault,Battery,Sunday,2014-02-02,17:00,Tenderloin,None,0 Block Of Powell St,-122.407707096397,37.7851034545661
+14057496305141,140574963,5141,Burglary,"Burglary,residence Under Constrt, Forcible Entry",Thursday,2014-07-10,17:00,Park,None,0 Block Of Clarendon Avenue,-122.4499552406,37.7587994993972
+14604592228150,146045922,28150,Vandalism,"Malicious Mischief, Vandalism",Tuesday,2014-03-04,21:00,Ingleside,None,300 Block Of Elsie St,-122.420210406772,37.7385803293271
+14010678206242,140106782,6242,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-02-05,15:00,Richmond,None,400 Block Of Crossover Dr,-122.478195467399,37.7686746439767
+14614583906372,146145839,6372,Larceny/theft,Petty Theft Of Property,Monday,2014-07-21,12:30,Southern,None,600 Block Of Market St,-122.401655040432,37.7889048945911
+14610905106244,146109051,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-06-08,15:00,Park,None,500 Block Of Twinpeaks Bl,-122.446757209575,37.7531845175462
+14039406219022,140394062,19022,DisorderlyConduct,Disturbing The Peace,Saturday,2014-05-10,22:45,Park,"Arrest, Cited",500 Block Of Parnassus Avenue,-122.458220811697,37.7633123961354
+14053854928160,140538549,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Saturday,2014-06-28,14:30,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14029359963010,140293599,63010,Warrants,Warrant Arrest,Wednesday,2014-04-09,22:28,Northern,"Arrest, Booked",0 Block Of Grove St,-122.41742986085,37.7785349354394
+14608827306244,146088273,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-05-03,00:01,Central,None,500 Block Of Union St,-122.407974943839,37.8006466385111
+14614029306244,146140293,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-07-20,18:00,Richmond,None,1000 Block Of Pointlobos Avenue,-122.513642064265,37.7784692199467
+14021376305013,140213763,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Tuesday,2014-03-11,14:45,Richmond,None,2700 Block Of Mcallister St,-122.457483497724,37.7754134501039
+14052160764020,140521607,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-06-23,18:40,Park,Psychopathic Case,1400 Block Of 7th Avenue,-122.464044777804,37.7613161836641
+14012204564070,140122045,64070,SuspiciousOcc,Suspicious Occurrence,Friday,2014-02-07,23:00,Northern,None,1800 Block Of Pine St,-122.426267960819,37.7889430432056
+14034946563010,140349465,63010,Warrants,Warrant Arrest,Sunday,2014-04-27,16:46,Park,"Arrest, Booked",1700 Block Of Haight St,-122.450492384367,37.7696094511519
+14016645706371,140166457,6371,Larceny/theft,Petty Theft Of Property,Tuesday,2014-02-25,14:50,Northern,"Arrest, Booked",1100 Block Of Larkin St,-122.418445946252,37.7882184507651
+14019951162050,140199511,62050,Warrants,Enroute To Outside Jurisdiction,Saturday,2014-03-08,13:55,Central,"Arrest, Booked",1500 Block Of Hyde St,-122.418272974845,37.7950153661233
+14029970706244,140299707,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-04-10,20:30,Southern,None,800 Block Of Brannan St,-122.404287383732,37.7721179825299
+14611226406244,146112264,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-06-06,00:01,Southern,None,300 Block Of 9th St,-122.410334776842,37.7728140362003
+14023978164020,140239781,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-03-21,15:41,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14610027506244,146100275,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-05-28,10:00,Richmond,None,700 Block Of 27th Avenue,-122.486465485931,37.7752565111936
+14030095671010,140300956,71010,OtherOffenses,Lost/stolen License Plate,Thursday,2014-04-10,17:00,Ingleside,None,100 Block Of Loehr St,-122.413676487435,37.7126165766239
+14607251106244,146072511,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-04-16,19:00,Ingleside,None,0 Block Of Mullen Avenue,-122.409794926535,37.7464265162897
+14028439415200,140284394,15200,SecondaryCodes,Domestic Violence,Saturday,2014-04-05,23:31,Southern,"Arrest, Booked",900 Block Of Mission St,-122.407160717737,37.7821161321441
+14057377765010,140573777,65010,OtherOffenses,Traffic Violation Arrest,Thursday,2014-07-10,17:45,Central,"Arrest, Cited",700 Block Of Post St,-122.41417943719,37.787502483207
+14032231428150,140322314,28150,Vandalism,"Malicious Mischief, Vandalism",Friday,2014-04-18,13:57,Southern,None,100 Block Of 6th St,-122.407877117352,37.7803875013555
+14014733862050,140147338,62050,Warrants,Enroute To Outside Jurisdiction,Wednesday,2014-02-19,11:53,Bayview,"Arrest, Booked",2800 Block Of Jennings St,-122.392952429963,37.7223723544042
+14047683619055,140476836,19055,Assault,Threatening Phone Call(s),Sunday,2014-06-08,11:20,Park,None,1700 Block Of Ellis St,-122.434992629934,37.7819893688505
+14016876005082,140168760,5082,Burglary,"Burglary, Hot Prowl, Attempted Forcible Entry",Wednesday,2014-02-26,16:57,Bayview,None,1100 Block Of Oakdale Avenue,-122.382192583973,37.7298874272325
+14025434727170,140254347,27170,OtherOffenses,Resisting Arrest,Wednesday,2014-03-26,14:54,Bayview,"Arrest, Booked",0 Block Of Cashmere St,-122.382705072801,37.7358858148594
+14610287306244,146102873,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-05-25,10:00,Bayview,None,1100 Block Of Gilman Avenue,-122.391002965046,37.7197891773069
+14057843261040,140578432,61040,Non-criminal,"Death Report, Natural Causes",Saturday,2014-07-12,11:30,Southern,None,300 Block Of 9th St,-122.410416664036,37.7727234013654
+14030684107021,140306841,7021,VehicleTheft,Stolen Automobile,Saturday,2014-04-12,19:00,Northern,None,700 Block Of Oak St,-122.431673447197,37.7739204424876
+14048961307025,140489613,7025,VehicleTheft,Stolen Truck,Thursday,2014-06-12,17:30,Mission,None,0 Block Of Diamond St,-122.437174308795,37.7613164774097
+14052542765016,140525427,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Wednesday,2014-06-25,03:40,Richmond,"Arrest, Cited",3200 Block Of Geary Bl,-122.453702980691,37.7817840733425
+14014356875000,140143568,75000,MissingPerson,Found Person,Wednesday,2014-01-29,10:30,Taraval,Located,1500 Block Of 48th Avenue,-122.507800240259,37.7575174809346
+14043848868020,140438488,68020,OtherOffenses,Miscellaneous Investigation,Monday,2014-05-26,01:50,Richmond,None,2800 Block Of Geary Bl,-122.449636031165,37.7823043073506
+14605742206372,146057422,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-03-19,13:00,Southern,None,0 Block Of 4th St,-122.405582629186,37.7854659679151
+14026251675000,140262516,75000,MissingPerson,Found Person,Saturday,2014-03-29,05:15,Mission,Located,3500 Block Of Cesar Chavez St,-122.420832650303,37.7479994493226
+14613694106244,146136941,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-07-06,16:15,Richmond,None,500 Block Of Johnfkennedy Dr,-122.466204667893,37.7725405391593
+14054213628150,140542136,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-06-30,11:10,Southern,Psychopathic Case,100 Block Of Otis St,-122.420303482492,37.770896885856
+14609827206224,146098272,6224,Larceny/theft,Grand Theft From Unlocked Auto,Monday,2014-05-26,23:00,Central,None,700 Block Of Post St,-122.41420144235,37.7876109394648
+14040025527170,140400255,27170,OtherOffenses,Resisting Arrest,Tuesday,2014-05-13,09:10,Tenderloin,"Arrest, Booked",0 Block Of Jones St,-122.412054141237,37.7816136403158
+14608565571000,146085655,71000,Non-criminal,Lost Property,Sunday,2014-03-30,22:00,Taraval,None,400 Block Of Eucalyptus Dr,-122.477748171724,37.7311784743797
+14061584663010,140615846,63010,Warrants,Warrant Arrest,Thursday,2014-07-24,18:38,Tenderloin,"Arrest, Cited",500 Block Of Ellis St,-122.415414178631,37.784476659022
+14027571372000,140275713,72000,Non-criminal,Found Property,Wednesday,2014-04-02,23:15,Tenderloin,None,300 Block Of Eddy St,-122.412930522059,37.7838344374141
+14058734205143,140587342,5143,Burglary,"Burglary,residence Under Constrt, Unlawful Entry",Friday,2014-07-11,11:30,Mission,None,3600 Block Of 21st St,-122.429019501389,37.7563710297824
+14012702307053,140127023,7053,Non-criminal,Impounded Vehicle,Wednesday,2014-02-12,15:04,Southern,"Arrest, Booked",900 Block Of Bryant St,-122.405773120598,37.7733935593284
+14034508704154,140345087,4154,Assault,Battery Of A Police Officer,Saturday,2014-04-26,00:40,Mission,None,2500 Block Of Mission St,-122.418891810986,37.7562166627216
+14085810905043,140858109,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Wednesday,2014-10-08,21:00,Taraval,None,1300 Block Of 24th Avenue,-122.482485143453,37.7623742091367
+14008384506303,140083845,6303,Larceny/theft,Petty Theft From A Building,Sunday,2014-01-26,02:00,Tenderloin,None,300 Block Of Mason St,-122.409756223507,37.7869126924267
+14050012871000,140500128,71000,Non-criminal,Lost Property,Tuesday,2014-04-22,10:00,Ingleside,None,0 Block Of Phelan Avenue,-122.452289660492,37.7256933575703
+14032959226030,140329592,26030,Arson,Arson,Monday,2014-04-21,03:40,Mission,None,0 Block Of Corwin St,-122.439618182524,37.7570531323914
+14022393806304,140223938,6304,Larceny/theft,Grand Theft From A Building,Tuesday,2014-03-04,00:01,Richmond,None,600 Block Of 5th Avenue,-122.462940548031,37.7763292584158
+14032337806303,140323378,6303,Larceny/theft,Petty Theft From A Building,Tuesday,2014-04-15,12:00,Taraval,None,100 Block Of Aptos Avenue,-122.466758005159,37.7291845796038
+14045548219057,140455482,19057,Assault,Threats Against Life,Saturday,2014-05-31,22:10,Mission,None,1000 Block Of Capp St,-122.417054438267,37.7498946481153
+14040036875000,140400368,75000,MissingPerson,Found Person,Tuesday,2014-05-13,09:25,Southern,Located,0 Block Of Langton St,-122.409202487854,37.7768958210183
+14013869464020,140138694,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-02-16,13:34,Central,Psychopathic Case,1100 Block Of Powell St,-122.409880214664,37.7951763917246
+14044149705083,140441497,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Monday,2014-05-26,23:00,Park,None,0 Block Of Potomac St,-122.432551414901,37.7703856416755
+14027142606304,140271426,6304,Larceny/theft,Grand Theft From A Building,Saturday,2014-03-15,09:00,Mission,None,1600 Block Of 15th St,-122.420266169564,37.7667020541277
+14026822906303,140268229,6303,Larceny/theft,Petty Theft From A Building,Friday,2014-03-28,23:30,Northern,None,1300 Block Of Fillmore St,-122.432355641362,37.7819065476741
+14053637727170,140536377,27170,OtherOffenses,Resisting Arrest,Saturday,2014-06-28,14:30,Central,"Arrest, Booked",2400 Block Of Taylor St,-122.415061036543,37.804871231209
+14609150506372,146091505,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-05-13,10:19,Northern,None,500 Block Of Franklin St,-122.421870573964,37.7794240214489
+14007592730190,140075927,30190,OtherOffenses,Violation Of Municipal Police Code,Sunday,2014-01-26,10:45,Tenderloin,None,0 Block Of Mcallister St,-122.412596970637,37.7811192121542
+14603444206372,146034442,6372,Larceny/theft,Petty Theft Of Property,Friday,2014-02-14,19:01,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14012453061030,140124530,61030,Non-criminal,"Death Report, Cause Unknown",Sunday,2014-02-09,01:00,Tenderloin,None,200 Block Of Golden Gate Avenue,-122.414302052544,37.781863316866
+14014425971010,140144259,71010,OtherOffenses,Lost/stolen License Plate,Tuesday,2014-02-18,02:00,Bayview,None,1600 Block Of Palou Avenue,-122.391849084977,37.7345805334314
+14032020507021,140320205,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-04-15,07:00,Southern,None,300 Block Of King St,-122.395021745914,37.7753128522284
+14607643806244,146076438,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-04-19,18:00,Richmond,None,800 Block Of 37th Avenue,-122.497044392687,37.7729011034229
+14045212164080,140452121,64080,SuspiciousOcc,Suspicious Person,Thursday,2014-05-29,23:20,Tenderloin,None,200 Block Of Ofarrell St,-122.408496298209,37.786296190453
+14039971128160,140399711,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Tuesday,2014-05-13,03:05,Tenderloin,None,0 Block Of Taylor St,-122.410689907787,37.7824948907735
+14062936406373,140629364,6373,Larceny/theft,Petty Theft Of Property,Tuesday,2014-07-29,12:45,Central,None,0 Block Of Telegraphhill Bl,-122.405335349658,37.8022727860748
+14047381009110,140473810,9110,Fraud,"Forgery, Credit Card",Thursday,2014-05-15,12:00,Mission,None,400 Block Of South Van Ness Avenue,-122.417662868855,37.7662744315825
+14030361505151,140303615,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Friday,2014-04-11,20:00,Southern,None,600 Block Of 7th St,-122.402366997531,37.7724610410735
+14039934104134,140399341,4134,Assault,Battery,Thursday,2014-05-01,21:20,Mission,None,2500 Block Of Bryant St,-122.409136145271,37.7535885545728
+14023351764020,140233517,64020,Non-criminal,"Aided Case, Mental Disturbed",Wednesday,2014-03-19,15:00,Southern,Psychopathic Case,500 Block Of 5th St,-122.39998111124,37.7776242389287
+14049836316623,140498363,16623,Drug/narcotic,Possession Of Base/rock Cocaine For Sale,Monday,2014-06-16,11:05,Tenderloin,"Arrest, Booked",200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14608710606244,146087106,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-05-05,13:00,Southern,None,1600 Block Of Mission St,-122.419230534198,37.7720332586406
+14036520164020,140365201,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-05-02,22:35,Southern,Psychopathic Case,200 Block Of 8th St,-122.411271940537,37.7760329501244
+14058806164020,140588061,64020,Non-criminal,"Aided Case, Mental Disturbed",Tuesday,2014-07-15,15:05,Park,Psychopathic Case,2400 Block Of Fulton St,-122.457337524606,37.7744861396627
+14050450604134,140504506,4134,Assault,Battery,Wednesday,2014-06-18,03:15,Ingleside,"Arrest, Cited",900 Block Of Geneva Avenue,-122.439909766772,37.715765426995
+14009688265015,140096882,65015,OtherOffenses,Traffic Violation,Sunday,2014-02-02,13:00,Taraval,"Arrest, Cited",2100 Block Of 19th Avenue,-122.475834051706,37.7477027554333
+14053735304013,140537353,4013,Assault,Aggravated Assault With A Deadly Weapon,Saturday,2014-06-28,15:30,Southern,None,800 Block Of Market St,-122.407633520742,37.7841893501425
+14004410407021,140044104,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-01-14,23:00,Central,None,2400 Block Of Mason St,-122.413765578666,37.8060871401325
+14007541614040,140075416,14040,OtherOffenses,Indecent Exposure,Sunday,2014-01-26,04:25,Park,"Arrest, Cited",400 Block Of Parnassus Avenue,-122.458220811697,37.7633123961354
+14024591065010,140245910,65010,OtherOffenses,Traffic Violation Arrest,Sunday,2014-03-23,16:34,Central,"Arrest, Booked",600 Block Of Leavenworth St,-122.414834509733,37.7870044894925
+14014157862050,140141578,62050,Warrants,Enroute To Outside Jurisdiction,Monday,2014-02-17,15:45,Mission,"Arrest, Booked",2500 Block Of Mission St,-122.418753848152,37.7562250119744
+14028097227010,140280972,27010,Fraud,Defrauding An Innkeeper,Friday,2014-04-04,18:55,Tenderloin,None,0 Block Of Eddy St,-122.408890252742,37.7843467613273
+14606463706372,146064637,6372,Larceny/theft,Petty Theft Of Property,Saturday,2014-03-29,23:00,Mission,None,100 Block Of Utah St,-122.406667637408,37.7677704791539
+14008066972000,140080669,72000,Non-criminal,Found Property,Monday,2014-01-27,12:00,Park,None,900 Block Of Cole St,-122.449793795131,37.7653329767786
+14040427919057,140404279,19057,Assault,Threats Against Life,Tuesday,2014-05-13,10:00,Southern,"Arrest, Booked",0 Block Of Howard St,-122.392134062208,37.7916972492914
+14609044406244,146090444,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-05-04,23:07,Tenderloin,None,300 Block Of Taylor St,-122.411302813025,37.7855355791102
+14047506016100,140475060,16100,Drug/narcotic,Possession Of Heroin,Saturday,2014-06-07,18:10,Southern,"Arrest, Booked",0 Block Of 6th St,-122.409011206639,37.7811340568243
+14048065509020,140480655,9020,Forgery/counterfeiting,"Checks, Make Or Pass Fictitious",Tuesday,2014-06-03,12:00,Park,None,200 Block Of Irving St,-122.460436710591,37.7643497621693
+14038784109320,140387841,9320,Fraud,"Credit Card, Theft By Use Of",Thursday,2014-05-08,00:05,Tenderloin,None,300 Block Of Ofarrell St,-122.410509258795,37.7860432222992
+14018615428160,140186154,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Tuesday,2014-03-04,12:30,Ingleside,None,700 Block Of Morse St,-122.447249886783,37.7106007556727
+14050396209320,140503962,9320,Fraud,"Credit Card, Theft By Use Of",Monday,2014-06-16,20:09,Tenderloin,"Arrest, Booked",300 Block Of Ofarrell St,-122.410509258795,37.7860432222992
+14011577751040,140115777,51040,Non-criminal,Aided Case,Saturday,2014-02-08,21:35,Taraval,None,3400 Block Of Kirkham St,-122.497771623926,37.7589654077711
+14012847928160,140128479,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Wednesday,2014-02-12,22:50,Taraval,None,200 Block Of Denslowe Dr,-122.474586695159,37.720469226768
+14608101706372,146081017,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-04-23,10:00,Tenderloin,None,100 Block Of Mason St,-122.409336821846,37.7848337315521
+14011859968020,140118599,68020,OtherOffenses,Miscellaneous Investigation,Saturday,2014-02-08,15:30,Mission,None,600 Block Of Valencia St,-122.421747650463,37.7627436601147
+14042002164070,140420021,64070,SuspiciousOcc,Suspicious Occurrence,Monday,2014-05-19,15:30,Taraval,None,100 Block Of Summit St,-122.453994369282,37.7164758973784
+14060968904134,140609689,4134,Assault,Battery,Tuesday,2014-07-22,19:30,Southern,None,0 Block Of Perry St,-122.396167865037,37.7827239702919
+14031358961030,140313589,61030,Non-criminal,"Death Report, Cause Unknown",Tuesday,2014-04-15,16:13,Taraval,None,4000 Block Of 19th Avenue,-122.471071293807,37.7156903218239
+14032972407025,140329724,7025,VehicleTheft,Stolen Truck,Saturday,2014-04-19,22:00,Park,None,0 Block Of Central Avenue,-122.443623584992,37.7699529913031
+14609729606372,146097296,6372,Larceny/theft,Petty Theft Of Property,Thursday,2014-05-15,15:20,Central,None,100 Block Of California St,-122.39821721889,37.793486649905
+14008097663010,140080976,63010,Warrants,Warrant Arrest,Monday,2014-01-27,21:00,Southern,"Arrest, Booked",900 Block Of Howard St,-122.406412115335,37.7802524576974
+14607589406244,146075894,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-04-18,22:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14025552706362,140255527,6362,Larceny/theft,Petty Theft Shoplifting,Wednesday,2014-03-26,16:00,Southern,"Arrest, Booked",1500 Block Of Mission St,-122.417975390351,37.7737509379648
+14047880406313,140478804,6313,Larceny/theft,Petty Theft Bicycle,Sunday,2014-04-27,11:00,Mission,None,500 Block Of Shotwell St,-122.415783592856,37.7596204259953
+14061987651040,140619876,51040,Non-criminal,Aided Case,Saturday,2014-07-26,00:45,Northern,None,0 Block Of Marina Bl,-122.432951589917,37.8050520228881
+14023844805012,140238448,5012,Burglary,"Burglary Of Apartment House, Att Forcible Entry",Thursday,2014-03-20,19:15,Central,None,1300 Block Of Vallejo St,-122.419919551038,37.7972231716517
+14035014906154,140350149,6154,Larceny/theft,Grand Theft From Person,Sunday,2014-04-27,21:02,Richmond,None,1900 Block Of Divisadero St,-122.440461678217,37.7875852094515
+14014950004134,140149500,4134,Assault,Battery,Wednesday,2014-02-19,22:50,Tenderloin,None,500 Block Of Ellis St,-122.415414178631,37.784476659022
+14057378306363,140573783,6363,Larceny/theft,Petty Theft Shoplifting,Thursday,2014-07-10,17:55,Tenderloin,"Arrest, Cited",100 Block Of Ofarrell St,-122.407244087032,37.7865647607685
+14020827506363,140208275,6363,Larceny/theft,Petty Theft Shoplifting,Tuesday,2014-03-11,12:52,Southern,"Arrest, Cited",800 Block Of Market St,-122.407633520742,37.7841893501425
+14020376428150,140203764,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-03-10,06:00,Park,None,1300 Block Of Page St,-122.443016710149,37.771408322171
+14009199515200,140091995,15200,SecondaryCodes,Domestic Violence,Friday,2014-01-31,15:25,Central,None,1300 Block Of Battery St,-122.402005149655,37.803687099963
+14054760362060,140547603,62060,Warrants,Enroute To Adult Authority,Wednesday,2014-07-02,01:40,Central,"Arrest, Booked",100 Block Of Grant Avenue,-122.40502080789,37.7880208011824
+14051045628100,140510456,28100,Vandalism,"Malicious Mischief, Breaking Windows",Thursday,2014-06-19,23:47,Bayview,"Arrest, Booked",2700 Block Of 3rd St,-122.388076644103,37.7547301832658
+14048931228100,140489312,28100,Vandalism,"Malicious Mischief, Breaking Windows",Saturday,2014-06-07,13:00,Mission,None,4300 Block Of 19th St,-122.437590972713,37.759179189934
+14045482604134,140454826,4134,Assault,Battery,Saturday,2014-05-31,17:40,Southern,"Arrest, Booked",800 Block Of Market St,-122.406690592261,37.7852071918419
+14030074671000,140300746,71000,Non-criminal,Lost Property,Friday,2014-04-11,11:15,Ingleside,None,1400 Block Of Church St,-122.426937897817,37.7473004188732
+14035551910040,140355519,10040,Embezzlement,"Embezzlement, Petty Theft By Employee",Monday,2014-04-28,08:30,Northern,None,2200 Block Of Pacific Avenue,-122.432273200861,37.7936060977463
+14050133605141,140501336,5141,Burglary,"Burglary,residence Under Constrt, Forcible Entry",Monday,2014-06-16,17:00,Richmond,None,1700 Block Of Lake St,-122.478193024288,37.7861099041154
+14052404328160,140524043,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Saturday,2014-06-21,20:00,Mission,None,1400 Block Of San Bruno Avenue,-122.404224665429,37.7509352400718
+14053466604134,140534666,4134,Assault,Battery,Saturday,2014-06-28,01:20,Mission,None,2300 Block Of Market St,-122.434229003953,37.7634850137846
+14061176905013,140611769,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Wednesday,2014-07-23,11:15,Richmond,None,4900 Block Of Anza St,-122.501202614075,37.7773548145232
+14022082126141,140220821,26141,Kidnapping,"Kidnapping, Adult Victim",Friday,2014-03-14,07:00,Bayview,"Arrest, Booked",0 Block Of Middlepoint Rd,-122.37934537972,37.7357419068572
+14032265965016,140322659,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Wednesday,2014-04-16,16:45,Bayview,"Arrest, Cited",5000 Block Of 3rd St,-122.391517460482,37.7328509353031
+14046337215095,140463372,15095,Non-criminal,Tarasoff Report,Tuesday,2014-06-03,19:50,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14039324612030,140393246,12030,WeaponLaws,Exhibiting Deadly Weapon In A Threating Manner,Saturday,2014-05-10,16:22,Bayview,None,3800 Block Of 3rd St,-122.387939452192,37.7422600519555
+14048794665016,140487946,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Thursday,2014-06-12,11:20,Park,"Arrest, Cited",500 Block Of Parnassus Avenue,-122.458267329165,37.7634158564883
+14606114406372,146061144,6372,Larceny/theft,Petty Theft Of Property,Sunday,2014-03-30,19:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14042530009250,140425300,9250,Fraud,Fraudulent Use Of Automated Teller Card,Tuesday,2014-05-06,00:01,Southern,None,500 Block Of Market St,-122.400194768944,37.7900527936016
+14611584806244,146115848,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-06-12,22:00,Northern,None,1300 Block Of Webster St,-122.431046366089,37.7830295716044
+14053226205073,140532262,5073,Burglary,"Burglary, Unlawful Entry",Friday,2014-06-27,10:49,Central,"Arrest, Booked",300 Block Of Powell St,-122.408384275542,37.7878271137225
+14608356806244,146083568,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-04-17,17:00,Bayview,None,800 Block Of Chinabasin St,-122.386775025935,37.765377517215
+14611816528150,146118165,28150,Vandalism,"Malicious Mischief, Vandalism",Saturday,2014-06-21,00:30,Bayview,None,2100 Block Of Revere Avenue,-122.400413404342,37.7375477051225
+14043578504154,140435785,4154,Assault,Battery Of A Police Officer,Sunday,2014-05-25,00:30,Mission,"Arrest, Cited",4100 Block Of 18th St,-122.435573154199,37.7609106220681
+14040912264070,140409122,64070,SuspiciousOcc,Suspicious Occurrence,Friday,2014-05-16,03:15,Central,None,1100 Block Of Montgomery St,-122.404216929938,37.7996385451312
+14009859305011,140098593,5011,Burglary,"Burglary Of Apartment House, Forcible Entry",Sunday,2014-02-02,16:00,Richmond,None,200 Block Of 15th Avenue,-122.474245863174,37.7834187574811
+14033901805053,140339018,5053,Burglary,"Burglary Of Store, Unlawful Entry",Thursday,2014-04-24,07:51,Bayview,"Arrest, Booked",2400 Block Of San Bruno Avenue,-122.404715339655,37.7301607832628
+14026075809320,140260758,9320,Fraud,"Credit Card, Theft By Use Of",Thursday,2014-03-27,13:00,Southern,None,600 Block Of Mission St,-122.401692292616,37.7865888590763
+14012493868020,140124938,68020,OtherOffenses,Miscellaneous Investigation,Friday,2014-02-07,02:00,Mission,None,400 Block Of 14th St,-122.423321421434,37.7680170125986
+14023303405061,140233034,5061,Burglary,"Burglary Of Warehouse, Forcible Entry",Wednesday,2014-03-19,03:45,Bayview,None,100 Block Of Mississippi St,-122.394698550916,37.7645975666681
+14011270127195,140112701,27195,Trespass,Trespassing,Friday,2014-02-07,16:35,Central,"Arrest, Booked",300 Block Of Grant Avenue,-122.405618748152,37.7903200915161
+14010535806240,140105358,6240,Larceny/theft,Attempted Theft From Locked Vehicle,Wednesday,2014-02-05,09:44,Bayview,None,1300 Block Of Fairfax Avenue,-122.384404223333,37.739674117404
+14049579505053,140495795,5053,Burglary,"Burglary Of Store, Unlawful Entry",Sunday,2014-06-15,11:02,Northern,"Arrest, Booked",3200 Block Of Scott St,-122.441147713309,37.7997018632448
+14046279475000,140462794,75000,MissingPerson,Found Person,Sunday,2014-06-01,11:55,Ingleside,None,700 Block Of Andover St,-122.416936685644,37.7344123229715
+14022418006374,140224180,6374,Larceny/theft,Grand Theft Of Property,Sunday,2014-03-16,17:35,Tenderloin,None,100 Block Of Powell St,-122.40801449292,37.7859507767613
+14029826006365,140298260,6365,Larceny/theft,Petty Theft With Prior,Thursday,2014-04-10,12:45,Ingleside,"Arrest, Booked",3300 Block Of Mission St,-122.421128029505,37.7435550542265
+14022722506314,140227225,6314,Larceny/theft,Grand Theft Bicycle,Monday,2014-03-17,17:00,Central,None,900 Block Of Powell St,-122.409390517289,37.7934286229218
+14008012063010,140080120,63010,Warrants,Warrant Arrest,Monday,2014-01-27,16:50,Northern,"Arrest, Booked",1000 Block Of Post St,-122.419104424644,37.7868764841608
+14045401461030,140454014,61030,Non-criminal,"Death Report, Cause Unknown",Friday,2014-05-30,02:30,Taraval,None,1800 Block Of 21st Avenue,-122.478618706027,37.7531929151299
+14081094904134,140810949,4134,Assault,Battery,Thursday,2014-09-25,22:15,Southern,None,100 Block Of 6th St,-122.407474439624,37.779911669335
+14052031403071,140520314,3071,Robbery,"Robbery, Armed With A Gun",Sunday,2014-06-22,02:45,Southern,None,0 Block Of Essex St,-122.395062469002,37.7859930647181
+14025115564020,140251155,64020,Non-criminal,"Aided Case, Mental Disturbed",Tuesday,2014-03-25,08:30,Northern,Psychopathic Case,800 Block Of Ellis St,-122.42019129512,37.7838703920898
+14048162507021,140481625,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-06-10,00:01,Ingleside,None,100 Block Of Hamerton Avenue,-122.437664579467,37.7339751507837
+14044042719090,140440427,19090,Drunkenness,Under Influence Of Alcohol In A Public Place,Monday,2014-05-26,18:04,Mission,"Arrest, Booked",200 Block Of 13th St,-122.417949217834,37.7697208630457
+14016943964070,140169439,64070,SuspiciousOcc,Suspicious Occurrence,Wednesday,2014-02-26,16:30,Taraval,None,700 Block Of Holloway Avenue,-122.460742806233,37.7217780140524
+14055046806244,140550468,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-07-02,18:30,Southern,None,0 Block Of Bryant St,-122.388333561781,37.7870493450273
+14023476906113,140234769,6113,Larceny/theft,Grand Theft Pickpocket,Wednesday,2014-03-19,15:30,Tenderloin,None,300 Block Of Ofarrell St,-122.410509258795,37.7860432222992
+14602540706244,146025407,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-01-29,08:00,Bayview,None,1500 Block Of 17th St,-122.399197268723,37.7650392333682
+14006468565016,140064685,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Wednesday,2014-01-22,19:10,Central,"Arrest, Booked",700 Block Of Hyde St,-122.416666396234,37.7877291936428
+14023726875000,140237268,75000,MissingPerson,Found Person,Wednesday,2014-03-19,09:00,Tenderloin,Located,200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14048961307021,140489613,7021,VehicleTheft,Stolen Automobile,Thursday,2014-06-12,17:30,Mission,None,0 Block Of Diamond St,-122.437174308795,37.7613164774097
+14050307506220,140503075,6220,Larceny/theft,Attempted Theft From Unlocked Vehicle,Tuesday,2014-06-17,15:35,Central,None,400 Block Of Sutter St,-122.407802668376,37.7893818905021
+14042391275000,140423912,75000,MissingPerson,Found Person,Tuesday,2014-05-20,21:30,Central,None,300 Block Of Powell St,-122.408384275542,37.7878271137225
+14041559930200,140415599,30200,OtherOffenses,Violation Of Municipal Code,Sunday,2014-05-18,13:30,Park,None,1800 Block Of Haight St,-122.452706340322,37.7692156705894
+14046747164020,140467471,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-06-05,04:45,Mission,"Arrest, Booked",2300 Block Of Market St,-122.434229003953,37.7634850137846
+14056939065010,140569390,65010,OtherOffenses,Traffic Violation Arrest,Wednesday,2014-07-09,13:30,Richmond,"Arrest, Cited",1700 Block Of Pierce St,-122.43658540753,37.7861520898411
+14608106706244,146081067,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-04-21,19:00,Tenderloin,None,0 Block Of Golden Gate Avenue,-122.411268613368,37.7822500873167
+14022546719057,140225467,19057,Assault,Threats Against Life,Monday,2014-03-17,08:20,Tenderloin,None,100 Block Of Hyde St,-122.415669661443,37.7821198488931
+14049836316625,140498363,16625,Drug/narcotic,Sale Of Base/rock Cocaine,Monday,2014-06-16,11:05,Tenderloin,"Arrest, Booked",200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14007582005071,140075820,5071,Burglary,"Burglary, Forcible Entry",Saturday,2014-01-25,22:00,Bayview,None,100 Block Of Connecticut St,-122.397742832337,37.7644165495331
+14059711909320,140597119,9320,Fraud,"Credit Card, Theft By Use Of",Thursday,2014-07-17,16:45,Southern,None,800 Block Of Market St,-122.407633520742,37.7841893501425
+14018909526170,140189095,26170,OtherOffenses,Probation Violation,Wednesday,2014-03-05,10:44,Southern,"Arrest, Booked",0 Block Of 6th St,-122.40950430935,37.781526271747
+14056092806301,140560928,6301,Larceny/theft,Petty Theft From A Building,Sunday,2014-07-06,16:00,Northern,None,2100 Block Of Polk St,-122.421934733603,37.7964230372522
+14610531606244,146105316,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-05-29,19:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14026088306304,140260883,6304,Larceny/theft,Grand Theft From A Building,Thursday,2014-03-27,15:15,Central,None,600 Block Of Pine St,-122.406536677006,37.7913419604498
+14037689465015,140376894,65015,OtherOffenses,Traffic Violation,Wednesday,2014-05-07,00:01,Mission,"Arrest, Booked",700 Block Of South Van Ness Avenue,-122.417169894749,37.7611477647601
+14040991226145,140409912,26145,Larceny/theft,"Lost Property, Grand Theft",Friday,2014-05-16,07:15,Ingleside,None,0 Block Of Cordova St,-122.436154623588,37.7128189051559
+14049043863010,140490438,63010,Warrants,Warrant Arrest,Friday,2014-06-13,09:00,Southern,"Arrest, Booked",0 Block Of Newmontgomery St,-122.400593259668,37.7876024687437
+14023865806372,140238658,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-03-18,17:08,Ingleside,None,1300 Block Of Brussels St,-122.400915489697,37.7156871542492
+14036588130200,140365881,30200,OtherOffenses,Violation Of Municipal Code,Saturday,2014-05-03,10:06,Mission,None,3300 Block Of Cesar Chavez St,-122.417059385145,37.7480778892528
+14054803704013,140548037,4013,Assault,Aggravated Assault With A Deadly Weapon,Wednesday,2014-07-02,06:00,Tenderloin,None,400 Block Of Ellis St,-122.413631253258,37.7848053746211
+14058566971000,140585669,71000,Non-criminal,Lost Property,Saturday,2014-07-12,01:00,Northern,None,1500 Block Of Eddy St,-122.433155869003,37.78126734681
+14033396306304,140333963,6304,Larceny/theft,Grand Theft From A Building,Monday,2014-04-21,21:30,Southern,None,800 Block Of Folsom St,-122.402343659494,37.7811666837563
+14019466805043,140194668,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Thursday,2014-03-06,10:30,Northern,None,700 Block Of 14th St,-122.430631050261,37.767573913801
+14045957562020,140459575,62020,Warrants,Enroute To Department Of Corrections,Monday,2014-06-02,14:51,Southern,"Arrest, Booked",700 Block Of Market St,-122.405359371753,37.7859774761625
+14603932306244,146039323,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-02-23,09:00,Central,None,400 Block Of Post St,-122.409256096494,37.788239899778
+14009739119055,140097391,19055,Assault,Threatening Phone Call(s),Tuesday,2014-01-28,20:00,Ingleside,None,900 Block Of Naples St,-122.435708836961,37.7147560562323
+14036046116060,140360461,16060,Drug/narcotic,Transportation Of Marijuana,Thursday,2014-05-01,11:57,Southern,"Arrest, Booked",800 Block Of Market St,-122.406520987144,37.7850629421661
+14030780505083,140307805,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Sunday,2014-04-13,17:45,Central,None,100 Block Of Pacific Avenue,-122.398584486941,37.7979862806213
+14012159216030,140121592,16030,Drug/narcotic,Possession Of Marijuana For Sales,Monday,2014-02-10,20:05,Southern,"Arrest, Booked",1000 Block Of Market St,-122.411071423064,37.7817511307229
+14045466661030,140454666,61030,Non-criminal,"Death Report, Cause Unknown",Friday,2014-05-30,09:30,Richmond,None,500 Block Of 39th Avenue,-122.49959009335,37.7784276187176
+14039467030190,140394670,30190,OtherOffenses,Violation Of Municipal Police Code,Sunday,2014-05-11,00:01,Tenderloin,"Arrest, Cited",0 Block Of Turk St,-122.409849441655,37.7832755202567
+14060210012100,140602100,12100,WeaponLaws,Poss Of Loaded Firearm,Sunday,2014-07-20,11:22,Mission,"Arrest, Booked",2600 Block Of Bryant St,-122.409121399225,37.7519787472165
+14016078872000,140160788,72000,Non-criminal,Found Property,Sunday,2014-02-23,20:49,Central,None,1300 Block Of Columbus Avenue,-122.418537074676,37.8061515935611
+14040571604134,140405716,4134,Assault,Battery,Wednesday,2014-05-14,23:15,Central,None,400 Block Of Geary St,-122.41072162587,37.7870966495663
+14043887016660,140438870,16660,Drug/narcotic,Possession Of Controlled Substance,Monday,2014-05-26,07:00,Central,"Arrest, Booked",900 Block Of Post St,-122.417641342653,37.7871735250079
+14058376006244,140583760,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-07-09,16:30,Ingleside,None,5600 Block Of Diamondheights Bl,-122.438474610014,37.7385577300951
+14017807664020,140178076,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-03-01,17:27,Bayview,Psychopathic Case,800 Block Of Chinabasin St,-122.386775025935,37.765377517215
+14037570561030,140375705,61030,Non-criminal,"Death Report, Cause Unknown",Tuesday,2014-05-06,15:32,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14019329009320,140193290,9320,Fraud,"Credit Card, Theft By Use Of",Tuesday,2014-03-04,01:00,Taraval,None,2400 Block Of Ulloa St,-122.482540062286,37.7409306662777
+14059204072000,140592040,72000,Non-criminal,Found Property,Wednesday,2014-07-16,08:45,Richmond,None,600 Block Of 10th Avenue,-122.468155139436,37.7760917531552
+14024136606243,140241366,6243,Larceny/theft,Petty Theft From Locked Auto,Friday,2014-03-21,23:00,Southern,None,100 Block Of Clara St,-122.401084585059,37.7804019602431
+14048768907021,140487689,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-06-11,09:00,Ingleside,None,100 Block Of Seville St,-122.436792560764,37.7114064731752
+14009829275000,140098292,75000,MissingPerson,Found Person,Monday,2014-01-27,12:00,Taraval,Located,400 Block Of Arch St,-122.467075800324,37.7188064246891
+14028855605143,140288556,5143,Burglary,"Burglary,residence Under Constrt, Unlawful Entry",Saturday,2014-04-05,16:30,Park,None,0 Block Of Walter St,-122.432450783401,37.7683848780008
+14056687905083,140566879,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Tuesday,2014-07-08,00:01,Southern,None,300 Block Of 9th St,-122.410416664036,37.7727234013654
+14052733205013,140527332,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Monday,2014-06-23,22:13,Northern,None,1900 Block Of Clay St,-122.425187017072,37.791913382979
+14024646364020,140246463,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-03-23,22:20,Tenderloin,Psychopathic Case,100 Block Of Powell St,-122.40801449292,37.7859507767613
+14048120563010,140481205,63010,Warrants,Warrant Arrest,Monday,2014-06-09,21:15,Tenderloin,"Arrest, Booked",0 Block Of Ofarrell St,-122.405895369887,37.7867342184983
+14010817007021,140108170,7021,VehicleTheft,Stolen Automobile,Thursday,2014-02-06,00:01,Mission,None,1000 Block Of Alabama St,-122.411125926112,37.7550759585846
+14049796716010,140497967,16010,Drug/narcotic,Possession Of Marijuana,Monday,2014-06-16,08:40,Northern,None,100 Block Of Grove St,-122.419085788323,37.7784353333225
+14604660771000,146046607,71000,Non-criminal,Lost Property,Friday,2014-03-07,11:28,Southern,None,100 Block Of Bluxome St,-122.399063980262,37.7750122063541
+14016140705071,140161407,5071,Burglary,"Burglary, Forcible Entry",Friday,2014-02-21,17:00,Central,None,900 Block Of The Embarcaderonorth St,-122.40038746482,37.8025735991651
+14060642504134,140606425,4134,Assault,Battery,Monday,2014-07-21,19:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14043565064020,140435650,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-05-24,22:44,Richmond,Psychopathic Case,300 Block Of 16th Avenue,-122.475227211016,37.7814709723134
+14010470863010,140104708,63010,Warrants,Warrant Arrest,Wednesday,2014-02-05,00:15,Bayview,None,1100 Block Of 8th St,-122.399996628792,37.767030629393
+14019235526170,140192355,26170,OtherOffenses,Probation Violation,Thursday,2014-03-06,11:22,Ingleside,"Arrest, Booked",4500 Block Of Mission St,-122.434263310171,37.7254969149557
+14009652562050,140096525,62050,Warrants,Enroute To Outside Jurisdiction,Sunday,2014-02-02,09:20,Park,"Arrest, Booked",1700 Block Of Haight St,-122.451288061231,37.7693967099165
+14006366572000,140063665,72000,Non-criminal,Found Property,Wednesday,2014-01-22,11:39,Richmond,None,3800 Block Of Sacramento St,-122.456060174905,37.7869763742804
+14027604004134,140276040,4134,Assault,Battery,Thursday,2014-04-03,02:37,Mission,"Arrest, Booked",100 Block Of Lucky St,-122.413218264888,37.750125954078
+14047163206304,140471632,6304,Larceny/theft,Grand Theft From A Building,Sunday,2014-05-25,16:00,Richmond,None,2000 Block Of Post St,-122.435575820196,37.784892281882
+14016790027010,140167900,27010,Fraud,Defrauding An Innkeeper,Wednesday,2014-02-26,10:05,Richmond,None,4000 Block Of California St,-122.460859620052,37.7855237752876
+14048008106244,140480081,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-06-08,20:30,Taraval,None,2400 Block Of 41st Avenue,-122.499264595602,37.7410543982056
+14009907406362,140099074,6362,Larceny/theft,Petty Theft Shoplifting,Monday,2014-02-03,09:21,Southern,"Arrest, Cited",700 Block Of Mission St,-122.403070000847,37.7852686309087
+14060203106244,140602031,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-07-19,17:30,Northern,None,300 Block Of Fulton St,-122.422536478306,37.7787958771466
+14025948815200,140259488,15200,SecondaryCodes,Domestic Violence,Friday,2014-03-28,08:27,Bayview,None,700 Block Of Jerrold Avenue,-122.373456171525,37.7296796672727
+14610176206244,146101762,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-04-25,19:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14041429074000,140414290,74000,MissingPerson,Missing Adult,Saturday,2014-05-17,22:30,Southern,Located,800 Block Of Bryant St,-122.403307133032,37.7753428666813
+14036979263010,140369792,63010,Warrants,Warrant Arrest,Sunday,2014-05-04,17:49,Tenderloin,"Arrest, Booked",100 Block Of Hyde St,-122.415533007999,37.7821372997842
+14018185305141,140181853,5141,Burglary,"Burglary,residence Under Constrt, Forcible Entry",Saturday,2014-03-01,13:00,Northern,None,2100 Block Of Vallejo St,-122.432675156254,37.7955918814709
+14024236406303,140242364,6303,Larceny/theft,Petty Theft From A Building,Sunday,2014-03-16,17:40,Southern,None,100 Block Of Newmontgomery St,-122.399162882154,37.7864378682412
+14027569406241,140275694,6241,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-04-02,22:52,Southern,None,800 Block Of Market St,-122.406520987144,37.7850629421661
+14022959407025,140229594,7025,VehicleTheft,Stolen Truck,Monday,2014-03-17,12:30,Southern,None,200 Block Of 3rd St,-122.399899436982,37.7846480308387
+14609550706372,146095507,6372,Larceny/theft,Petty Theft Of Property,Monday,2014-05-12,11:50,Central,None,0 Block Of Edith St,-122.408486641243,37.8028612760009
+14022033227195,140220332,27195,Trespass,Trespassing,Saturday,2014-03-15,11:57,Mission,"Arrest, Cited",0 Block Of Duboce Avenue,-122.421291105646,37.7698454425586
+14035492527170,140354925,27170,OtherOffenses,Resisting Arrest,Tuesday,2014-04-29,13:17,Mission,"Arrest, Booked",3100 Block Of 26th St,-122.41350190466,37.7492652916222
+14013238916010,140132389,16010,Drug/narcotic,Possession Of Marijuana,Thursday,2014-02-13,13:00,Taraval,Complainant Refuses To Prosecute,100 Block Of Aptos Avenue,-122.466758005159,37.7291845796038
+14613951971000,146139519,71000,Non-criminal,Lost Property,Friday,2014-07-18,22:00,Southern,None,500 Block Of Howard St,-122.397032436528,37.7878246694374
+14073666874000,140736668,74000,MissingPerson,Missing Adult,Sunday,2014-08-31,06:00,Bayview,None,800 Block Of Colby St,-122.410173295656,37.7199272935428
+14048845505053,140488455,5053,Burglary,"Burglary Of Store, Unlawful Entry",Thursday,2014-06-12,14:39,Tenderloin,"Arrest, Booked",0 Block Of Powell St,-122.407845374111,37.7850943210103
+14039986861030,140399868,61030,Non-criminal,"Death Report, Cause Unknown",Friday,2014-05-09,10:00,Mission,None,400 Block Of Noe St,-122.432841285403,37.7622235967273
+14032110605083,140321106,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Friday,2014-04-18,04:30,Mission,None,200 Block Of Church St,-122.428813616546,37.7668081482188
+14609123206372,146091232,6372,Larceny/theft,Petty Theft Of Property,Friday,2014-05-09,12:15,Ingleside,None,200 Block Of Ottawa Avenue,-122.44770562687,37.7167188000613
+14901050616660,149010506,16660,Drug/narcotic,Possession Of Controlled Substance,Thursday,2014-07-03,22:23,Mission,"Arrest, Booked",1800 Block Of Folsom St,-122.415467502172,37.7677259930694
+14062507703072,140625077,3072,Robbery,"Robbery, Armed With A Knife",Monday,2014-07-28,04:10,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14048434004013,140484340,4013,Assault,Aggravated Assault With A Deadly Weapon,Wednesday,2014-06-11,05:00,Northern,None,1300 Block Of Bush St,-122.419508197521,37.7888565421382
+14054726163010,140547261,63010,Warrants,Warrant Arrest,Tuesday,2014-07-01,22:06,Bayview,"Arrest, Booked",0 Block Of Northridge Rd,-122.375512968635,37.730806609582
+14032744906244,140327449,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-04-20,07:30,Bayview,None,0 Block Of Thornton Avenue,-122.404598191952,37.7304037781663
+14018223705073,140182237,5073,Burglary,"Burglary, Unlawful Entry",Friday,2014-02-28,17:30,Taraval,None,2000 Block Of 37th Avenue,-122.495502769291,37.7487068486863
+14041111164070,140411111,64070,SuspiciousOcc,Suspicious Occurrence,Tuesday,2014-05-13,10:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14026179019057,140261790,19057,Assault,Threats Against Life,Friday,2014-03-28,22:14,Bayview,"Arrest, Booked",1500 Block Of Underwood Avenue,-122.390894724304,37.7293119114256
+14033635906242,140336359,6242,Larceny/theft,Petty Theft From Locked Auto,Tuesday,2014-04-22,18:00,Mission,None,100 Block Of Hoffman Avenue,-122.440881569624,37.7528891971178
+14054771672000,140547716,72000,Non-criminal,Found Property,Wednesday,2014-07-02,06:02,Tenderloin,None,200 Block Of Powell St,-122.408201657254,37.7868849113107
+14041556107023,140415561,7023,VehicleTheft,Stolen Motorcycle,Saturday,2014-05-17,20:00,Park,None,1700 Block Of Mcallister St,-122.440857271375,37.7774237689287
+14053424675000,140534246,75000,MissingPerson,Found Person,Friday,2014-06-27,22:36,Taraval,Located,0 Block Of Lobos St,-122.4542979309,37.7148602682687
+14060882963010,140608829,63010,Warrants,Warrant Arrest,Tuesday,2014-07-22,15:13,Mission,"Arrest, Booked",2700 Block Of Mission St,-122.418587172219,37.7530186537446
+14609789806224,146097898,6224,Larceny/theft,Grand Theft From Unlocked Auto,Wednesday,2014-05-21,13:00,Taraval,None,3200 Block Of 20th Avenue,-122.475647460786,37.7285280627465
+14042557605013,140425576,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Tuesday,2014-05-20,09:00,Central,None,800 Block Of Clay St,-122.407083382259,37.7942202340581
+14079447806243,140794478,6243,Larceny/theft,Petty Theft From Locked Auto,Saturday,2014-09-20,20:10,Park,None,200 Block Of Dellbrook Avenue,-122.453087966399,37.7503148137066
+14020153619057,140201536,19057,Assault,Threats Against Life,Sunday,2014-03-09,09:13,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14007006864020,140070068,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-01-24,13:00,Tenderloin,Psychopathic Case,200 Block Of Turk St,-122.413259498719,37.7829514828801
+14602422706374,146024227,6374,Larceny/theft,Grand Theft Of Property,Friday,2014-01-31,08:00,Richmond,None,0 Block Of Lupine Avenue,-122.448353764649,37.7844598547658
+14614602506372,146146025,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-07-23,00:01,Southern,None,600 Block Of Howard St,-122.39998852115,37.7854873412292
+14053517572000,140535175,72000,Non-criminal,Found Property,Saturday,2014-06-28,09:48,Northern,None,2100 Block Of Broadway St,-122.432458748598,37.7945229506481
+14057174307025,140571743,7025,VehicleTheft,Stolen Truck,Wednesday,2014-07-09,23:40,Mission,None,600 Block Of Clipper St,-122.440470148971,37.7486962966071
+14022624914040,140226249,14040,OtherOffenses,Indecent Exposure,Monday,2014-03-17,11:32,Mission,None,900 Block Of Potrero Avenue,-122.406604919508,37.7571580431915
+14036525172000,140365251,72000,Non-criminal,Found Property,Friday,2014-05-02,16:15,Mission,None,600 Block Of Valencia St,-122.421747650463,37.7627436601147
+14008486563010,140084865,63010,Warrants,Warrant Arrest,Wednesday,2014-01-29,03:07,Mission,"Arrest, Booked",4000 Block Of 23rd St,-122.433158153537,37.753011591235
+14049337971010,140493379,71010,OtherOffenses,Lost/stolen License Plate,Saturday,2014-05-31,09:00,Mission,None,100 Block Of Collingwood St,-122.435964918002,37.7600122429873
+14610304706244,146103047,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-05-26,16:30,Southern,None,600 Block Of Harrison St,-122.39595792334,37.7836037602517
+14006190405041,140061904,5041,Burglary,"Burglary Of Residence, Forcible Entry",Tuesday,2014-01-21,07:45,Taraval,None,800 Block Of Shields St,-122.470294463864,37.7179400339261
+14054073206243,140540732,6243,Larceny/theft,Petty Theft From Locked Auto,Sunday,2014-06-29,18:30,Park,None,2600 Block Of Geary Bl,-122.446612978839,37.7822458223917
+14032302706224,140323027,6224,Larceny/theft,Grand Theft From Unlocked Auto,Friday,2014-04-18,15:00,Mission,None,1800 Block Of Mission St,-122.419832890144,37.7674625261825
+14056460704012,140564607,4012,Assault,Aggravated Assault With A Knife,Monday,2014-07-07,21:30,Richmond,None,2800 Block Of Turk St,-122.451998028803,37.7780501202623
+14053661272000,140536612,72000,Non-criminal,Found Property,Saturday,2014-06-28,18:50,Mission,None,600 Block Of Valencia St,-122.421747650463,37.7627436601147
+14055878565016,140558785,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Sunday,2014-07-06,12:11,Southern,"Arrest, Cited",800 Block Of Bryant St,-122.403404791479,37.775420706711
+14012944964070,140129449,64070,SuspiciousOcc,Suspicious Occurrence,Thursday,2014-02-13,10:14,Tenderloin,None,300 Block Of Turk St,-122.414900544562,37.7827419623926
+14028875006304,140288750,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-01-24,15:00,Mission,None,200 Block Of Valencia St,-122.422350411388,37.7689928234329
+14058310228160,140583102,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Monday,2014-07-14,00:45,Ingleside,None,800 Block Of Huron Avenue,-122.451673446707,37.7104898317041
+14046897407021,140468974,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-06-04,20:00,Taraval,None,1800 Block Of Irving St,-122.477696048974,37.7635915438758
+14028523907021,140285239,7021,VehicleTheft,Stolen Automobile,Saturday,2014-04-05,21:30,Bayview,None,1500 Block Of Mckinnon Avenue,-122.388358368929,37.7353049278407
+14612686706244,146126867,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-06-29,02:17,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14049109406221,140491094,6221,Larceny/theft,Petty Theft From Unlocked Auto,Tuesday,2014-06-10,18:00,Bayview,None,1700 Block Of Bancroft Avenue,-122.39492263846,37.7268838000332
+14042121762030,140421217,62030,Warrants,Enroute To Parole Officer,Tuesday,2014-05-20,11:00,Northern,None,200 Block Of Austin St,-122.422942704145,37.7888965453254
+14033565272000,140335652,72000,Non-criminal,Found Property,Wednesday,2014-04-23,05:00,Richmond,None,1000 Block Of Johnfkennedy Dr,-122.484935109476,37.77007733438
+14039267405053,140392674,5053,Burglary,"Burglary Of Store, Unlawful Entry",Saturday,2014-05-10,13:05,Northern,None,2100 Block Of Chestnut St,-122.438701348232,37.8004498859761
+14033776104134,140337761,4134,Assault,Battery,Tuesday,2014-04-22,09:10,Tenderloin,None,500 Block Of Leavenworth St,-122.414782081215,37.7860514387143
+14018877428150,140188774,28150,Vandalism,"Malicious Mischief, Vandalism",Friday,2014-02-28,22:00,Ingleside,None,5100 Block Of Mission St,-122.441352016549,37.716127093001
+14608494206374,146084942,6374,Larceny/theft,Grand Theft Of Property,Saturday,2014-04-26,23:40,Southern,None,300 Block Of 11th St,-122.413287527194,37.7711962032376
+14053388464020,140533884,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-06-27,20:34,Central,Psychopathic Case,200 Block Of Front St,-122.398858370205,37.7940794996565
+14035145428100,140351454,28100,Vandalism,"Malicious Mischief, Breaking Windows",Monday,2014-04-28,05:00,Central,None,100 Block Of Geary St,-122.405819515169,37.7876106365854
+14057354564020,140573545,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-07-10,16:35,Mission,Psychopathic Case,2900 Block Of 26th St,-122.409312943294,37.7496263957217
+14061151519057,140611515,19057,Assault,Threats Against Life,Thursday,2014-07-17,18:09,Taraval,None,1200 Block Of 47th Avenue,-122.507264141795,37.7631558214885
+14608050806244,146080508,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-04-10,12:30,Bayview,None,400 Block Of Rhodeisland St,-122.402571216964,37.7641259075201
+14612397671000,146123976,71000,Non-criminal,Lost Property,Saturday,2014-06-28,23:45,Southern,None,300 Block Of 11th St,-122.413189430011,37.7712736913576
+10014440904154,100144409,4154,Assault,Battery Of A Police Officer,Thursday,2014-07-24,10:00,Tenderloin,None,0 Block Of Powell St,-122.407845374111,37.7850943210103
+14026243128160,140262431,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Friday,2014-03-28,23:00,Tenderloin,None,500 Block Of Eddy St,-122.416710733848,37.7833570390935
+14028809505043,140288095,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Sunday,2014-04-06,20:30,Mission,None,1600 Block Of 15th St,-122.420266169564,37.7667020541277
+14608580906244,146085809,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-05-02,21:00,Southern,None,0 Block Of Sheridan St,-122.411343205591,37.7725876659749
+14019670510125,140196705,10125,Fraud,"False Pretenses, Grand Theft",Monday,2014-02-24,00:01,Central,None,1200 Block Of Stockton St,-122.408562639884,37.7970067945044
+14022152807023,140221528,7023,VehicleTheft,Stolen Motorcycle,Friday,2014-03-14,20:00,Ingleside,None,3100 Block Of Folsom St,-122.413550054783,37.747706695536
+14032595461030,140325954,61030,Non-criminal,"Death Report, Cause Unknown",Saturday,2014-04-19,14:00,Bayview,None,500 Block Of Burrows St,-122.408532326048,37.7276161831555
+14008273406242,140082734,6242,Larceny/theft,Petty Theft From Locked Auto,Monday,2014-01-27,08:15,Ingleside,None,900 Block Of Moscow St,-122.433330086987,37.7138142313922
+14022386928150,140223869,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-03-16,15:15,Taraval,None,1600 Block Of 19th Avenue,-122.476757162986,37.75701549838
+14015255307021,140152553,7021,VehicleTheft,Stolen Automobile,Thursday,2014-02-20,15:00,Bayview,None,600 Block Of Tennessee St,-122.389722246974,37.7636150076929
+14610649928150,146106499,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-06-02,04:00,Northern,None,600 Block Of Oak St,-122.430006398939,37.7740207326063
+14022021368030,140220213,68030,Non-criminal,Courtesy Report,Saturday,2014-03-15,09:00,Taraval,None,1900 Block Of 18th Avenue,-122.475279310173,37.751469583813
+14017830506365,140178305,6365,Larceny/theft,Petty Theft With Prior,Saturday,2014-03-01,18:45,Tenderloin,"Arrest, Cited",100 Block Of Powell St,-122.407877787733,37.7859680076775
+14034822905151,140348229,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Sunday,2014-04-27,05:45,Southern,None,900 Block Of Brannan St,-122.406179415424,37.7706221909544
+14043230504154,140432305,4154,Assault,Battery Of A Police Officer,Friday,2014-05-23,19:50,Mission,"Arrest, Booked",200 Block Of 13th St,-122.417949217834,37.7697208630457
+14011090961030,140110909,61030,Non-criminal,"Death Report, Cause Unknown",Thursday,2014-02-06,15:00,Northern,None,300 Block Of Buchanan St,-122.427240696821,37.7732377699999
+14038761914040,140387619,14040,OtherOffenses,Indecent Exposure,Thursday,2014-05-08,16:47,Northern,"Arrest, Booked",100 Block Of Larkin St,-122.416607695115,37.7791387543353
+14603252106372,146032521,6372,Larceny/theft,Petty Theft Of Property,Saturday,2014-02-15,17:30,Park,None,200 Block Of Upper Tr,-122.445069215681,37.7628549658127
+14033491171000,140334911,71000,Non-criminal,Lost Property,Tuesday,2014-04-22,20:15,Park,None,0 Block Of Carmel St,-122.447061290048,37.7610228074572
+14045103272000,140451032,72000,Non-criminal,Found Property,Wednesday,2014-05-28,18:00,Park,None,100 Block Of Parnassus Avenue,-122.451932539265,37.7646462249759
+14051179964070,140511799,64070,SuspiciousOcc,Suspicious Occurrence,Wednesday,2014-06-18,23:30,Ingleside,None,600 Block Of Lisbon St,-122.436616388637,37.7181265496171
+14044845906303,140448459,6303,Larceny/theft,Petty Theft From A Building,Saturday,2014-04-26,17:30,Mission,None,400 Block Of Church St,-122.4286109134,37.7632288973036
+14031121009020,140311210,9020,Forgery/counterfeiting,"Checks, Make Or Pass Fictitious",Tuesday,2014-04-08,15:00,Taraval,None,1500 Block Of 17th Avenue,-122.474726848505,37.7589732042341
+14050823506373,140508235,6373,Larceny/theft,Petty Theft Of Property,Thursday,2014-06-19,09:30,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14041311715200,140413117,15200,SecondaryCodes,Domestic Violence,Saturday,2014-05-17,13:30,Mission,None,2300 Block Of Mission St,-122.419058868103,37.7594227506297
+14023089206312,140230892,6312,Larceny/theft,Petty Theft Bicycle,Tuesday,2014-03-18,16:23,Southern,None,200 Block Of Interstate80 Hy,-122.365565425353,37.8096707013239
+14060072806244,140600728,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-07-19,16:00,Southern,None,0 Block Of The Embarcaderonorth St,-122.388379873919,37.7833104067015
+14076984165016,140769841,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Friday,2014-09-12,16:15,Southern,"Arrest, Cited",1100 Block Of Mission St,-122.411626152299,37.7785895740312
+14610342306224,146103423,6224,Larceny/theft,Grand Theft From Unlocked Auto,Saturday,2014-05-24,00:01,Southern,None,1100 Block Of Howard St,-122.411359138357,37.7764944808779
+14057709263010,140577092,63010,Warrants,Warrant Arrest,Friday,2014-07-11,20:06,Ingleside,"Arrest, Booked",4200 Block Of Mission St,-122.430581904122,37.7295968082944
+14027928205033,140279282,5033,Burglary,"Burglary Of Hotel Room, Unlawful Entry",Friday,2014-04-04,00:01,Northern,None,700 Block Of Ellis St,-122.418562097105,37.7841847091303
+14043590103071,140435901,3071,Robbery,"Robbery, Armed With A Gun",Sunday,2014-05-25,01:45,Northern,None,100 Block Of Steiner St,-122.431834622947,37.7702707640359
+14044556875000,140445568,75000,MissingPerson,Found Person,Wednesday,2014-05-28,09:46,Bayview,"Arrest, Booked",1000 Block Of 3rd St,-122.390012504038,37.7754049026932
+14060399803072,140603998,3072,Robbery,"Robbery, Armed With A Knife",Monday,2014-07-21,02:30,Mission,None,300 Block Of Utah St,-122.406558795418,37.7651783927703
+14040280375000,140402803,75000,MissingPerson,Found Person,Tuesday,2014-05-13,08:00,Southern,Located,0 Block Of Dore St,-122.413045971966,37.7738617771611
+14039943216010,140399432,16010,Drug/narcotic,Possession Of Marijuana,Monday,2014-05-12,21:45,Southern,None,200 Block Of Interstate80 Hy,-122.365565425353,37.8096707013239
+14079157164020,140791571,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-09-19,20:24,Southern,Psychopathic Case,300 Block Of 5th St,-122.402142725311,37.7791933366389
+14602200571000,146022005,71000,Non-criminal,Lost Property,Friday,2014-01-24,15:30,Bayview,None,0 Block Of Santafe Avenue,-122.400726998337,37.7341372088624
+14052566507021,140525665,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-06-24,19:00,Taraval,None,1600 Block Of 33rd Avenue,-122.491600474332,37.7563610441277
+14614005506374,146140055,6374,Larceny/theft,Grand Theft Of Property,Friday,2014-07-18,16:00,Southern,None,800 Block Of Folsom St,-122.402343659494,37.7811666837563
+14900138909320,149001389,9320,Fraud,"Credit Card, Theft By Use Of",Friday,2014-02-21,10:02,Park,None,800 Block Of Divisadero St,-122.438393115334,37.777318694956
+14606159206244,146061592,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-03-30,23:00,Park,None,800 Block Of Corbett Avenue,-122.443428829359,37.7533851302761
+14059637105053,140596371,5053,Burglary,"Burglary Of Store, Unlawful Entry",Friday,2014-07-18,07:30,Ingleside,None,4900 Block Of Mission St,-122.438695075365,37.7196920262929
+14031053505073,140310535,5073,Burglary,"Burglary, Unlawful Entry",Monday,2014-04-14,11:58,Northern,None,1500 Block Of Broadway St,-122.422617297546,37.7958935012253
+14614523706244,146145237,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-07-25,17:30,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14061679772000,140616797,72000,Non-criminal,Found Property,Friday,2014-07-25,01:22,Northern,None,1100 Block Of Fillmore St,-122.432116233695,37.7800304351156
+14039960806244,140399608,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-05-12,19:35,Central,None,500 Block Of Bush St,-122.406742211994,37.7904732830605
+14057518719057,140575187,19057,Assault,Threats Against Life,Friday,2014-07-11,09:37,Mission,None,1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14039140015200,140391400,15200,SecondaryCodes,Domestic Violence,Friday,2014-05-09,20:50,Mission,None,400 Block Of 14th St,-122.423331891395,37.7681265516795
+14015681207025,140156812,7025,VehicleTheft,Stolen Truck,Friday,2014-02-21,19:00,Bayview,None,600 Block Of Minnesota St,-122.390565753138,37.7622810879309
+14081164628160,140811646,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Thursday,2014-09-25,19:00,Bayview,None,2000 Block Of Thomas Avenue,-122.39958770419,37.7350510103906
+14035255928150,140352559,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-04-28,16:45,Southern,"Arrest, Booked",800 Block Of Market St,-122.406520987144,37.7850629421661
+14051960272000,140519602,72000,Non-criminal,Found Property,Friday,2014-06-20,18:00,Central,None,800 Block Of Kearny St,-122.40498359935,37.7957863362398
+14040272804014,140402728,4014,Assault,Aggravated Assault With Bodily Force,Tuesday,2014-05-13,23:30,Ingleside,"Arrest, Booked",100 Block Of Baltimore Wy,-122.43184152371,37.7091066275082
+14010783762050,140107837,62050,Warrants,Enroute To Outside Jurisdiction,Thursday,2014-02-06,02:05,Ingleside,"Arrest, Booked",0 Block Of Whitney St,-122.427694662516,37.7408236197194
+14044466728160,140444667,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Wednesday,2014-05-28,08:43,Tenderloin,None,300 Block Of Eddy St,-122.412930522059,37.7838344374141
+14040144164070,140401441,64070,SuspiciousOcc,Suspicious Occurrence,Monday,2014-05-12,12:00,Northern,None,1500 Block Of Post St,-122.426529714226,37.7860427680942
+14036657204134,140366572,4134,Assault,Battery,Saturday,2014-05-03,14:30,Mission,"Arrest, Cited",2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14018692205053,140186922,5053,Burglary,"Burglary Of Store, Unlawful Entry",Tuesday,2014-03-04,12:00,Tenderloin,"Arrest, Booked",100 Block Of Ofarrell St,-122.407244087032,37.7865647607685
+14024843162050,140248431,62050,Warrants,Enroute To Outside Jurisdiction,Monday,2014-03-24,15:54,Ingleside,"Arrest, Booked",1500 Block Of Sunnydale Avenue,-122.417107986993,37.7122561827524
+14020326927195,140203269,27195,Trespass,Trespassing,Sunday,2014-03-09,23:00,Bayview,"Arrest, Booked",5000 Block Of 3rd St,-122.391257625349,37.7327899367388
+14009638704014,140096387,4014,Assault,Aggravated Assault With Bodily Force,Sunday,2014-02-02,00:45,Southern,None,100 Block Of Minna St,-122.400803885548,37.7864412623669
+14056676604134,140566766,4134,Assault,Battery,Tuesday,2014-07-08,15:35,Southern,"Arrest, Cited",800 Block Of Bryant St,-122.403404791479,37.775420706711
+14057996304134,140579963,4134,Assault,Battery,Saturday,2014-07-12,20:57,Northern,None,1400 Block Of Pine St,-122.419694813697,37.7897774160756
+14020213664020,140202136,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-03-09,13:34,Southern,Psychopathic Case,1200 Block Of Harrison St,-122.409065690706,37.773248092065
+14606200106244,146062001,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-04-01,01:00,Northern,None,2300 Block Of Vanness Avenue,-122.423871800526,37.7971395544377
+14016361363010,140163613,63010,Warrants,Warrant Arrest,Monday,2014-02-24,21:28,Mission,"Arrest, Booked",3500 Block Of Cesar Chavez St,-122.420832650303,37.7479994493226
+14027667071010,140276670,71010,OtherOffenses,Lost/stolen License Plate,Wednesday,2014-04-02,17:00,Ingleside,None,200 Block Of Bradford St,-122.409676930557,37.7385015279059
+14054181506362,140541815,6362,Larceny/theft,Petty Theft Shoplifting,Monday,2014-06-30,10:15,Central,None,200 Block Of Grant Avenue,-122.405225091497,37.7890977565658
+14022895007021,140228950,7021,VehicleTheft,Stolen Automobile,Monday,2014-03-17,23:00,Taraval,None,0 Block Of Santapaula Avenue,-122.463309733165,37.7389974766992
+14609289806372,146092898,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-05-07,18:30,Bayview,None,700 Block Of San Bruno Avenue,-122.404964343348,37.7601390450409
+14022907709015,140229077,9015,Forgery/counterfeiting,"Checks, Forgery (felony)",Monday,2014-03-17,15:30,Central,None,500 Block Of California St,-122.404155994669,37.7927292290324
+14069912906371,140699129,6371,Larceny/theft,Petty Theft Of Property,Tuesday,2014-08-19,16:30,Tenderloin,None,0 Block Of Unitednations Pz,-122.41431222924,37.7798339183587
+14034270407021,140342704,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-04-23,20:15,Taraval,None,1200 Block Of Funston Avenue,-122.470728986084,37.7647728467304
+14040081365016,140400813,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Tuesday,2014-05-13,13:02,Park,"Arrest, Cited",600 Block Of Haight St,-122.432918340311,37.7717365330369
+14050985764070,140509857,64070,SuspiciousOcc,Suspicious Occurrence,Thursday,2014-06-19,20:24,Bayview,None,1500 Block Of Kirkwood Avenue,-122.388798895151,37.7375755833256
+14038763174000,140387631,74000,MissingPerson,Missing Adult,Monday,2014-05-05,09:43,Southern,None,1000 Block Of Howard St,-122.408520791815,37.7785853155801
+14015461204052,140154612,4052,Assault,Attempted Mayhem With A Knife,Friday,2014-02-21,16:24,Ingleside,"Arrest, Booked",5700 Block Of Mission St,-122.449729173956,37.7098635927288
+14052312004134,140523120,4134,Assault,Battery,Monday,2014-06-23,22:37,Tenderloin,None,200 Block Of Jones St,-122.412573643201,37.7834687204586
+14052674804013,140526748,4013,Assault,Aggravated Assault With A Deadly Weapon,Wednesday,2014-06-25,11:39,Ingleside,"Arrest, Booked",0 Block Of Bronte St,-122.410221854229,37.739342840117
+14059532328100,140595323,28100,Vandalism,"Malicious Mischief, Breaking Windows",Thursday,2014-07-17,00:01,Ingleside,None,100 Block Of Blythdale Avenue,-122.420556751442,37.7108945814914
+14051490368000,140514903,68000,Non-criminal,Fire Report,Saturday,2014-06-21,13:30,Richmond,None,4100 Block Of Geary Bl,-122.463764261964,37.7811749336778
+14022032606361,140220326,6361,Larceny/theft,Petty Theft Shoplifting,Thursday,2014-03-13,18:45,Northern,None,0 Block Of Peace Pz,-122.429629258891,37.7848966681924
+14007448064020,140074480,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-01-25,20:00,Bayview,Psychopathic Case,800 Block Of Chinabasin St,-122.386775025935,37.765377517215
+14011167871000,140111678,71000,Non-criminal,Lost Property,Wednesday,2014-02-05,16:00,Richmond,None,400 Block Of 6th Avenue,-122.464279879446,37.7800332991006
+14055823019057,140558230,19057,Assault,Threats Against Life,Saturday,2014-07-05,20:26,Mission,"Arrest, Booked",1000 Block Of Potrero Avenue,-122.406539115148,37.7564864109309
+14019612505011,140196125,5011,Burglary,"Burglary Of Apartment House, Forcible Entry",Friday,2014-03-07,01:05,Central,None,400 Block Of Vallejo St,-122.405128001679,37.7989796032565
+14054695603011,140546956,3011,Robbery,Robbery On The Street With A Gun,Tuesday,2014-07-01,19:00,Bayview,None,0 Block Of Flora St,-122.394396938807,37.7318711159459
+14038795427170,140387954,27170,OtherOffenses,Resisting Arrest,Thursday,2014-05-08,18:27,Richmond,"Arrest, Booked",4100 Block Of Geary Bl,-122.463744066947,37.7809170537256
+14605786428150,146057864,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-03-24,17:00,Ingleside,None,0 Block Of Schwerin St,-122.410335138973,37.7127263408597
+14051715175000,140517151,75000,MissingPerson,Found Person,Sunday,2014-06-22,09:20,Bayview,Located,1400 Block Of Phelps St,-122.394438859914,37.7364438996732
+14062271606243,140622716,6243,Larceny/theft,Petty Theft From Locked Auto,Sunday,2014-07-27,03:15,Northern,None,400 Block Of Hayes St,-122.423749669429,37.776729432919
+14011910505043,140119105,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Sunday,2014-02-09,17:00,Northern,None,3000 Block Of Laguna St,-122.430810962722,37.7993113027935
+14055918126080,140559181,26080,OtherOffenses,Conspiracy,Sunday,2014-07-06,04:00,Northern,"Arrest, Booked",1400 Block Of Eddy St,-122.431474711791,37.78148065212
+14030055806303,140300558,6303,Larceny/theft,Petty Theft From A Building,Friday,2014-04-11,07:15,Bayview,None,900 Block Of Rhodeisland St,-122.401824375473,37.7577537438825
+14016234206151,140162342,6151,Larceny/theft,Grand Theft From Person,Sunday,2014-02-23,18:00,Southern,None,800 Block Of Market St,-122.407633520742,37.7841893501425
+14010996816100,140109968,16100,Drug/narcotic,Possession Of Heroin,Thursday,2014-02-06,19:06,Mission,"Arrest, Booked",500 Block Of Dolores St,-122.426153349478,37.7606186794333
+14031961204134,140319612,4134,Assault,Battery,Thursday,2014-04-17,16:40,Northern,None,900 Block Of Geary St,-122.418918390218,37.7859407304209
+14048007505151,140480075,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Friday,2014-06-06,19:15,Southern,None,1000 Block Of Folsom St,-122.40764532532,37.7769790129819
+14011737568020,140117375,68020,OtherOffenses,Miscellaneous Investigation,Sunday,2014-02-09,14:35,Park,None,2400 Block Of Geary Bl,-122.443597047511,37.7826435280939
+14045906405071,140459064,5071,Burglary,"Burglary, Forcible Entry",Saturday,2014-05-31,05:30,Southern,None,800 Block Of Bryant St,-122.40387577729,37.7748933799863
+14060884105053,140608841,5053,Burglary,"Burglary Of Store, Unlawful Entry",Tuesday,2014-07-22,15:00,Northern,"Arrest, Booked",1300 Block Of Webster St,-122.431046366089,37.7830295716044
+14057025605153,140570256,5153,Burglary,"Burglary,store Under Construction, Unlawful Entry",Wednesday,2014-07-09,17:44,Central,None,300 Block Of Jefferson St,-122.418270696719,37.8078519838014
+14612909306372,146129093,6372,Larceny/theft,Petty Theft Of Property,Friday,2014-07-04,22:30,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14602595206224,146025952,6224,Larceny/theft,Grand Theft From Unlocked Auto,Friday,2014-01-31,07:00,Bayview,None,800 Block Of Leconte Avenue,-122.395775347748,37.717345915805
+14606972806244,146069728,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-04-05,22:30,Mission,None,100 Block Of Corwin St,-122.440597996794,37.7577046417505
+14061229006303,140612290,6303,Larceny/theft,Petty Theft From A Building,Thursday,2014-05-01,00:01,Tenderloin,None,100 Block Of Mason St,-122.409336821846,37.7848337315521
+14013374164020,140133741,64020,Non-criminal,"Aided Case, Mental Disturbed",Friday,2014-02-14,18:20,Mission,Psychopathic Case,500 Block Of Noe St,-122.432823612921,37.760618201641
+14016376065016,140163760,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Monday,2014-02-24,23:13,Richmond,"Arrest, Cited",200 Block Of 15th Avenue,-122.47410767749,37.7834250674026
+14059779905053,140597799,5053,Burglary,"Burglary Of Store, Unlawful Entry",Friday,2014-07-18,17:12,Mission,"Arrest, Booked",2000 Block Of Market St,-122.426955631709,37.769247063207
+14056111426170,140561114,26170,OtherOffenses,Probation Violation,Sunday,2014-07-06,20:45,Southern,"Arrest, Booked",600 Block Of 2nd St,-122.391336579912,37.7811758808197
+14613441206244,146134412,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-07-11,21:50,Taraval,None,0 Block Of Cragmont Avenue,-122.468153900151,37.7508481865236
+14039277128160,140392771,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Friday,2014-05-09,21:30,Bayview,None,1600 Block Of Kirkwood Avenue,-122.390872523812,37.7387519497438
+14016302764020,140163027,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-02-24,17:40,Ingleside,None,5600 Block Of Mission St,-122.447095289615,37.7111225502685
+14025340206314,140253402,6314,Larceny/theft,Grand Theft Bicycle,Tuesday,2014-03-25,23:00,Park,None,200 Block Of Carl St,-122.453607983061,37.7653901111757
+14043615364020,140436153,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-05-25,05:34,Southern,Psychopathic Case,700 Block Of Natoma St,-122.412904380868,37.7759981805312
+14042031619057,140420316,19057,Assault,Threats Against Life,Tuesday,2014-05-20,00:05,Mission,None,4000 Block Of 18th St,-122.434446928667,37.7608670671665
+14053595906372,140535959,6372,Larceny/theft,Petty Theft Of Property,Saturday,2014-06-28,15:00,Northern,None,0 Block Of Grove St,-122.417448582701,37.7786438096934
+14050319428100,140503194,28100,Vandalism,"Malicious Mischief, Breaking Windows",Sunday,2014-06-15,15:00,Taraval,None,3000 Block Of Noriega St,-122.496311763014,37.7534209290325
+14041126871000,140411268,71000,Non-criminal,Lost Property,Thursday,2014-05-15,23:00,Mission,None,700 Block Of Valencia St,-122.421431349205,37.7608899230496
+14606784106244,146067841,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-04-04,16:26,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14018651805151,140186518,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Monday,2014-03-03,19:30,Mission,None,2100 Block Of Market St,-122.431009912441,37.7658139265694
+14039906264020,140399062,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-05-12,19:00,Tenderloin,Psychopathic Case,600 Block Of Ofarrell St,-122.414850480524,37.7856087588303
+14040213205043,140402132,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Saturday,2014-05-10,12:00,Bayview,None,2000 Block Of 26th St,-122.400006785029,37.7507663355018
+14043515530200,140435155,30200,OtherOffenses,Violation Of Municipal Code,Saturday,2014-05-24,20:10,Mission,"Arrest, Booked",1900 Block Of Mission St,-122.41967661615,37.7658510977435
+14056783362050,140567833,62050,Warrants,Enroute To Outside Jurisdiction,Tuesday,2014-07-08,22:07,Southern,"Arrest, Booked",1000 Block Of Harrison St,-122.404439703838,37.7770583079983
+14030206515201,140302065,15201,Assault,Stalking,Friday,2014-04-11,09:30,Southern,"Arrest, Booked",0 Block Of The Embarcaderonorth St,-122.38791460114,37.7833631726076
+14029792707021,140297927,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-04-09,16:00,Bayview,None,200 Block Of Burrows St,-122.405617331405,37.7284944661785
+14030471005013,140304710,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Saturday,2014-04-12,15:20,Park,"Arrest, Booked",600 Block Of Corbett Avenue,-122.443294006418,37.7561106903233
+14054793207021,140547932,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-07-01,20:30,Park,None,100 Block Of Ulloa St,-122.455328112406,37.743932805001
+14013394519090,140133945,19090,Drunkenness,Under Influence Of Alcohol In A Public Place,Friday,2014-02-14,19:33,Tenderloin,"Arrest, Booked",0 Block Of Turk St,-122.409853729941,37.7833862379382
+14052200316650,140522003,16650,Drug/narcotic,Possession Of Meth-amphetamine,Monday,2014-06-23,20:50,Southern,"Arrest, Booked",600 Block Of 4th St,-122.395411806894,37.7773551623763
+14025360605073,140253606,5073,Burglary,"Burglary, Unlawful Entry",Wednesday,2014-03-26,00:44,Southern,None,1100 Block Of Market St,-122.413564091744,37.779514030063
+14030323904134,140303239,4134,Assault,Battery,Saturday,2014-04-12,01:40,Mission,None,400 Block Of Castro St,-122.435012093789,37.7617677182954
+14029856126080,140298561,26080,OtherOffenses,Conspiracy,Saturday,2014-04-05,16:22,Northern,"Arrest, Booked",2200 Block Of Chestnut St,-122.439895933785,37.8002979847002
+14028289374000,140282893,74000,MissingPerson,Missing Adult,Saturday,2014-04-05,07:30,Taraval,Located,100 Block Of Aptos Avenue,-122.466880621762,37.7292354079524
+14051891115201,140518911,15201,Assault,Stalking,Tuesday,2014-06-10,17:00,Central,None,1200 Block Of California St,-122.414955526873,37.7913636073531
+14607348406244,146073484,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-04-02,17:30,Southern,None,100 Block Of Spear St,-122.393228290724,37.7919510439646
+14019404406244,140194044,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-03-06,11:24,Central,None,400 Block Of Stockton St,-122.406977563692,37.789918101686
+14040552819057,140405528,19057,Assault,Threats Against Life,Wednesday,2014-05-14,21:50,Ingleside,None,100 Block Of Capistrano Avenue,-122.437335688962,37.7285232278791
+14033199509250,140331995,9250,Fraud,Fraudulent Use Of Automated Teller Card,Monday,2014-04-21,16:15,Central,None,300 Block Of Sansome St,-122.401201213588,37.7937743739296
+14061774575000,140617745,75000,MissingPerson,Found Person,Friday,2014-07-25,08:35,Ingleside,Located,0 Block Of Santaynez Avenue,-122.438988995963,37.7240384497911
+14030612004134,140306120,4134,Assault,Battery,Sunday,2014-04-13,01:15,Mission,Complainant Refuses To Prosecute,4000 Block Of 18th St,-122.434457353955,37.7609766090845
+14038480363010,140384803,63010,Warrants,Warrant Arrest,Wednesday,2014-05-07,15:17,Mission,"Arrest, Booked",2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14050983575000,140509835,75000,MissingPerson,Found Person,Thursday,2014-06-19,19:45,Bayview,Located,1400 Block Of Phelps St,-122.394438859914,37.7364438996732
+14609450906244,146094509,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-05-18,20:00,Central,None,1100 Block Of Green St,-122.417512645705,37.7983792613726
+14023073965016,140230739,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Tuesday,2014-03-18,17:52,Tenderloin,"Arrest, Cited",600 Block Of Powell St,-122.408879710651,37.7909597423267
+14022619206373,140226192,6373,Larceny/theft,Petty Theft Of Property,Sunday,2014-03-16,22:00,Mission,None,3400 Block Of 19th St,-122.421047623733,37.7601791935819
+14058355030180,140583550,30180,OtherOffenses,Acts Against Public Transit,Monday,2014-07-14,08:35,Southern,"Arrest, Cited",0 Block Of 5th St,-122.407805288642,37.7837068386088
+14029251304013,140292513,4013,Assault,Aggravated Assault With A Deadly Weapon,Tuesday,2014-04-08,14:30,Southern,None,500 Block Of 9th St,-122.407702149718,37.7706967930865
+14012355406304,140123554,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-02-07,14:35,Ingleside,None,0 Block Of Phelan Avenue,-122.452289660492,37.7256933575703
+14050764165016,140507641,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Thursday,2014-06-19,04:50,Mission,"Arrest, Cited",2100 Block Of Market St,-122.429788986988,37.7666521474762
+14043706062050,140437060,62050,Warrants,Enroute To Outside Jurisdiction,Sunday,2014-05-25,14:46,Tenderloin,"Arrest, Booked",100 Block Of Jones St,-122.412386379783,37.7825386747303
+14034787327170,140347873,27170,OtherOffenses,Resisting Arrest,Saturday,2014-04-26,23:52,Bayview,"Arrest, Booked",1000 Block Of Gilman Avenue,-122.389136383607,37.718732479957
+14022092863010,140220928,63010,Warrants,Warrant Arrest,Saturday,2014-03-15,14:36,Tenderloin,"Arrest, Booked",100 Block Of Stockton St,-122.40642786236,37.78710945429
+14057128206244,140571282,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-07-09,19:50,Southern,None,0 Block Of The Embarcaderonorth St,-122.388379873919,37.7833104067015
+14032054071010,140320540,71010,OtherOffenses,Lost/stolen License Plate,Thursday,2014-04-17,01:45,Taraval,None,500 Block Of Holloway Avenue,-122.45870382749,37.7218937927463
+14060024527130,140600245,27130,OtherOffenses,Possession Of Burglary Tools,Saturday,2014-07-19,15:17,Southern,"Arrest, Booked",700 Block Of Market St,-122.405294845215,37.7863072236365
+14007739305151,140077393,5151,Burglary,"Burglary,store Under Construction, Forcible Entry",Sunday,2014-01-26,04:30,Southern,None,500 Block Of Brannan St,-122.397615567933,37.7773918242817
+14041464805051,140414648,5051,Burglary,"Burglary Of Store, Forcible Entry",Sunday,2014-05-18,02:40,Northern,None,2300 Block Of Lombard St,-122.440198698426,37.7994352314248
+14019624404073,140196244,4073,Assault,Assault On A Police Officer With A Deadly Weapon,Friday,2014-03-07,12:59,Bayview,"Arrest, Booked",0 Block Of Watchman Wy,-122.395370635905,37.7552883570221
+14041761419057,140417614,19057,Assault,Threats Against Life,Sunday,2014-05-18,18:00,Taraval,"Arrest, Booked",2100 Block Of 17th Avenue,-122.473948709071,37.7477858761479
+14060511062060,140605110,62060,Warrants,Enroute To Adult Authority,Monday,2014-07-21,12:11,Southern,"Arrest, Booked",800 Block Of Bryant St,-122.403404791479,37.775420706711
+14613589606244,146135896,6244,Larceny/theft,Grand Theft From Locked Auto,Saturday,2014-07-12,21:00,Southern,None,200 Block Of Dore St,-122.409940665043,37.7713855982626
+14056401104014,140564011,4014,Assault,Aggravated Assault With Bodily Force,Monday,2014-07-07,17:45,Tenderloin,"Arrest, Booked",500 Block Of Ofarrell St,-122.413820070176,37.7857382950322
+14015886864020,140158868,64020,Non-criminal,"Aided Case, Mental Disturbed",Sunday,2014-02-23,05:50,Park,Psychopathic Case,700 Block Of Clayton St,-122.448129494514,37.7679265590444
+14029233104134,140292331,4134,Assault,Battery,Monday,2014-04-07,13:20,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14046744303073,140467443,3073,Robbery,"Robbery, Armed With A Dangerous Weapon",Thursday,2014-06-05,05:38,Southern,None,1400 Block Of Market St,-122.418025338851,37.7759819721841
+14016948906240,140169489,6240,Larceny/theft,Attempted Theft From Locked Vehicle,Thursday,2014-01-30,08:00,Central,None,600 Block Of Hyde St,-122.416614060876,37.786777956045
+14048639675000,140486396,75000,MissingPerson,Found Person,Wednesday,2014-06-11,08:30,Park,Located,0 Block Of Fortuna Avenue,-122.442635687217,37.7805987203442
+14029029464020,140290294,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-04-07,21:15,Tenderloin,Psychopathic Case,700 Block Of Ofarrell St,-122.417107256373,37.7853238292094
+14053177568020,140531775,68020,OtherOffenses,Miscellaneous Investigation,Friday,2014-06-27,06:00,Northern,None,2200 Block Of Vanness Avenue,-122.423682814338,37.7962046209564
+14049200803074,140492008,3074,Robbery,"Robbery, Bodily Force",Friday,2014-06-13,19:30,Ingleside,None,1700 Block Of Sunnydale Avenue,-122.417144802399,37.7121502932531
+14021389807021,140213898,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-03-12,21:30,Ingleside,None,0 Block Of Curtis St,-122.439959095946,37.7140912007906
+14009409606363,140094096,6363,Larceny/theft,Petty Theft Shoplifting,Thursday,2014-01-30,15:07,Central,None,200 Block Of Stockton St,-122.406658711008,37.7882745285785
+14048092806304,140480928,6304,Larceny/theft,Grand Theft From A Building,Sunday,2014-06-08,18:30,Northern,None,2200 Block Of Jackson St,-122.432095267448,37.7927280324537
+14007912364070,140079123,64070,SuspiciousOcc,Suspicious Occurrence,Friday,2014-01-24,14:00,Mission,None,1300 Block Of South Van Ness Avenue,-122.416116085651,37.7515608619924
+14055726006363,140557260,6363,Larceny/theft,Petty Theft Shoplifting,Saturday,2014-07-05,13:05,Central,None,100 Block Of Grant Avenue,-122.405109154557,37.78847708957
+14613847006372,146138470,6372,Larceny/theft,Petty Theft Of Property,Tuesday,2014-07-15,10:00,Southern,None,800 Block Of Market St,-122.407633520742,37.7841893501425
+14036774672000,140367746,72000,Non-criminal,Found Property,Saturday,2014-05-03,13:30,Richmond,None,400 Block Of 6th Avenue,-122.464279879446,37.7800332991006
+14016619062050,140166190,62050,Warrants,Enroute To Outside Jurisdiction,Tuesday,2014-02-25,18:45,Mission,"Arrest, Booked",2700 Block Of Mission St,-122.418587172219,37.7530186537446
+14044418413060,140444184,13060,Prostitution,Solicits For Act Of Prostitution,Wednesday,2014-05-28,22:40,Southern,"Arrest, Cited",100 Block Of 3rd St,-122.400916029025,37.7854574902997
+14042563906113,140425639,6113,Larceny/theft,Grand Theft Pickpocket,Wednesday,2014-05-21,15:45,Southern,None,500 Block Of Market St,-122.400194768944,37.7900527936016
+14055343464020,140553434,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-07-03,14:00,Southern,Psychopathic Case,300 Block Of Clementina St,-122.40232147638,37.7820387146172
+14037374319057,140373743,19057,Assault,Threats Against Life,Monday,2014-05-05,23:30,Bayview,"Arrest, Booked",5000 Block Of 3rd St,-122.391257625349,37.7327899367388
+14033402462050,140334024,62050,Warrants,Enroute To Outside Jurisdiction,Tuesday,2014-04-22,15:30,Southern,"Arrest, Booked",900 Block Of Market St,-122.409708423721,37.7828276498838
+14611776928160,146117769,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Saturday,2014-06-21,21:00,Taraval,None,2900 Block Of 22nd Avenue,-122.477842275247,37.7335462817337
+14036724106313,140367241,6313,Larceny/theft,Petty Theft Bicycle,Saturday,2014-05-03,17:30,Park,None,1700 Block Of Fulton St,-122.445652525154,37.7759612670837
+14603097306244,146030973,6244,Larceny/theft,Grand Theft From Locked Auto,Tuesday,2014-02-11,22:00,Ingleside,None,100 Block Of Banks St,-122.412566762947,37.7408343967129
+14048822307021,140488223,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-06-10,00:01,Bayview,None,0 Block Of Southernheights Avenue,-122.400439827382,37.7578282939982
+14017644004134,140176440,4134,Assault,Battery,Saturday,2014-03-01,02:15,Ingleside,"Arrest, Booked",1800 Block Of Sunnydale Avenue,-122.417144802399,37.7121502932531
+14016566909320,140165669,9320,Fraud,"Credit Card, Theft By Use Of",Friday,2014-01-31,00:01,Taraval,None,2100 Block Of 42nd Avenue,-122.500591551193,37.746609704093
+14049668026150,140496680,26150,OtherOffenses,Parole Violation,Sunday,2014-06-15,16:30,Southern,"Arrest, Booked",900 Block Of Mission St,-122.407160717737,37.7821161321441
+14050225964020,140502259,64020,Non-criminal,"Aided Case, Mental Disturbed",Tuesday,2014-06-17,12:35,Mission,Psychopathic Case,600 Block Of 14th St,-122.428254748888,37.7677090926808
+14035924865010,140359248,65010,OtherOffenses,Traffic Violation Arrest,Wednesday,2014-04-30,23:34,Central,"Arrest, Booked",600 Block Of Sutter St,-122.411090752992,37.7889641756063
+14028239807025,140282398,7025,VehicleTheft,Stolen Truck,Friday,2014-04-04,18:00,Richmond,None,200 Block Of Balboa St,-122.461346511027,37.7774104345191
+14013812707020,140138127,7020,VehicleTheft,Stolen And Recovered Vehicle,Friday,2014-02-14,19:30,Taraval,None,2500 Block Of 44th Avenue,-122.502348467876,37.739052225351
+14020399605071,140203996,5071,Burglary,"Burglary, Forcible Entry",Monday,2014-03-10,03:51,Southern,None,100 Block Of Natoma St,-122.399826049876,37.7863007587473
+14054292605043,140542926,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Friday,2014-02-14,16:00,Ingleside,None,100 Block Of Otsego Avenue,-122.440083667738,37.7253481284825
+14036558005053,140365580,5053,Burglary,"Burglary Of Store, Unlawful Entry",Saturday,2014-05-03,04:30,Mission,"Arrest, Booked",2000 Block Of Market St,-122.426955631709,37.769247063207
+14608455006244,146084550,6244,Larceny/theft,Grand Theft From Locked Auto,Friday,2014-04-25,18:25,Southern,None,800 Block Of 3rd St,-122.391425069857,37.7778727797586
+14035005875000,140350058,75000,MissingPerson,Found Person,Friday,2014-04-25,12:30,Park,Located,0 Block Of Shrader St,-122.452839772389,37.7745145380854
+14045941271000,140459412,71000,Non-criminal,Lost Property,Thursday,2014-05-29,23:00,Mission,None,2300 Block Of Market St,-122.43403618214,37.7632941952462
+14040349719057,140403497,19057,Assault,Threats Against Life,Wednesday,2014-05-14,11:20,Southern,"Arrest, Booked",500 Block Of Market St,-122.400922955775,37.7897601819924
+14040838462050,140408384,62050,Warrants,Enroute To Outside Jurisdiction,Thursday,2014-05-15,20:19,Tenderloin,"Arrest, Booked",0 Block Of Jones St,-122.412054141237,37.7816136403158
+14040403175000,140404031,75000,MissingPerson,Found Person,Tuesday,2014-05-13,18:45,Bayview,Located,400 Block Of Mansell St,-122.406079770608,37.7204106184752
+14021851906223,140218519,6223,Larceny/theft,Petty Theft From Unlocked Auto,Thursday,2014-03-13,19:00,Ingleside,None,3300 Block Of San Bruno Avenue,-122.40065024922,37.7197629937223
+14033495564010,140334955,64010,Non-criminal,"Aided Case, Dog Bite",Tuesday,2014-04-22,16:15,Bayview,"Arrest, Cited",1200 Block Of Palou Avenue,-122.384336676296,37.7303189803917
+14052622171010,140526221,71010,OtherOffenses,Lost/stolen License Plate,Monday,2014-06-23,12:00,Taraval,None,300 Block Of Kensington Wy,-122.462481409934,37.7431147525673
+14027665862050,140276658,62050,Warrants,Enroute To Outside Jurisdiction,Thursday,2014-04-03,09:42,Mission,"Arrest, Booked",3000 Block Of 16th St,-122.420070483636,37.7649720006151
+14052538616650,140525386,16650,Drug/narcotic,Possession Of Meth-amphetamine,Wednesday,2014-06-25,02:53,Richmond,None,3800 Block Of Jackson St,-122.458462835765,37.7894826746909
+14061760428160,140617604,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Friday,2014-07-18,08:00,Taraval,None,1800 Block Of 15th Avenue,-122.471991519639,37.7533806317807
+14023082006304,140230820,6304,Larceny/theft,Grand Theft From A Building,Friday,2014-03-07,01:00,Tenderloin,None,100 Block Of Ellis St,-122.408270724034,37.7854941424186
+14009580616650,140095806,16650,Drug/narcotic,Possession Of Meth-amphetamine,Saturday,2014-02-01,23:02,Mission,"Arrest, Booked",2000 Block Of Mission St,-122.41965834371,37.7642205603745
+14054502707021,140545027,7021,VehicleTheft,Stolen Automobile,Monday,2014-06-30,23:00,Ingleside,None,0 Block Of Newman St,-122.418473473487,37.7377962526481
+14012739605013,140127396,5013,Burglary,"Burglary Of Apartment House, Unlawful Entry",Monday,2014-02-10,08:00,Park,None,1800 Block Of Page St,-122.451257962254,37.770468310716
+14020715871000,140207158,71000,Non-criminal,Lost Property,Saturday,2014-03-01,09:00,Southern,None,1600 Block Of Mission St,-122.419230534198,37.7720332586406
+14046429572000,140464295,72000,Non-criminal,Found Property,Wednesday,2014-06-04,09:14,Tenderloin,None,200 Block Of Hyde St,-122.415721688006,37.7830679886919
+14026827951040,140268279,51040,Non-criminal,Aided Case,Monday,2014-03-31,14:31,Bayview,None,1400 Block Of Mendell St,-122.390577977348,37.7342439948771
+14053983226080,140539832,26080,OtherOffenses,Conspiracy,Sunday,2014-06-29,17:45,Tenderloin,"Arrest, Booked",0 Block Of Grove St,-122.41565370001,37.7787196511256
+14048113671000,140481136,71000,Non-criminal,Lost Property,Monday,2014-06-09,21:35,Bayview,None,1300 Block Of Revere Avenue,-122.385545453301,37.728979731984
+14029832304134,140298323,4134,Assault,Battery,Thursday,2014-04-10,12:40,Southern,None,400 Block Of Berry St,-122.3982226939,37.7720161231813
+14029566468000,140295664,68000,Non-criminal,Fire Report,Wednesday,2014-04-09,14:18,Mission,None,1100 Block Of Guerrero St,-122.422801886175,37.7523764342445
+14043487863010,140434878,63010,Warrants,Warrant Arrest,Saturday,2014-05-24,18:40,Bayview,"Arrest, Booked",1500 Block Of Indiana St,-122.390566006127,37.7507377457056
+14048608926170,140486089,26170,OtherOffenses,Probation Violation,Wednesday,2014-06-11,14:55,Central,"Arrest, Booked",2700 Block Of Taylor St,-122.415642825776,37.8077624944954
+14019499772000,140194997,72000,Non-criminal,Found Property,Friday,2014-03-07,06:36,Tenderloin,None,300 Block Of Ellis St,-122.411965795229,37.7849141859562
+14043303027195,140433030,27195,Trespass,Trespassing,Friday,2014-05-23,19:33,Northern,"Arrest, Cited",800 Block Of Vanness Avenue,-122.420996914,37.7831032668735
+14022294605041,140222946,5041,Burglary,"Burglary Of Residence, Forcible Entry",Saturday,2014-03-15,16:00,Ingleside,None,0 Block Of Coleridge St,-122.419090461302,37.7445598689955
+14036224126170,140362241,26170,OtherOffenses,Probation Violation,Thursday,2014-05-01,23:18,Ingleside,"Arrest, Booked",0 Block Of Phelan Avenue,-122.452289660492,37.7256933575703
+14016074405153,140160744,5153,Burglary,"Burglary,store Under Construction, Unlawful Entry",Sunday,2014-02-23,21:45,Central,None,1000 Block Of Kearny St,-122.4055247968,37.7977714997338
+14007266662060,140072666,62060,Warrants,Enroute To Adult Authority,Saturday,2014-01-25,06:41,Bayview,"Arrest, Booked",1000 Block Of Oakdale Avenue,-122.380348349699,37.7288276251864
+14035818716100,140358187,16100,Drug/narcotic,Possession Of Heroin,Wednesday,2014-04-30,10:40,Tenderloin,"Arrest, Booked",100 Block Of Taylor St,-122.410928353347,37.7836778741124
+14613440606372,146134406,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-07-09,16:00,Taraval,None,0 Block Of Zoo Rd,-122.500837040524,37.7308580846494
+14041872568020,140418725,68020,OtherOffenses,Miscellaneous Investigation,Monday,2014-05-19,13:10,Taraval,None,2000 Block Of Ocean Avenue,-122.464887436585,37.7263567583183
+14042519004134,140425190,4134,Assault,Battery,Wednesday,2014-05-21,14:31,Southern,Not Prosecuted,900 Block Of Market St,-122.409708423721,37.7828276498838
+14030959472000,140309594,72000,Non-criminal,Found Property,Monday,2014-04-14,12:51,Central,"Arrest, Cited",600 Block Of Hyde St,-122.416614060876,37.786777956045
+14061334506241,140613345,6241,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-07-23,12:00,Taraval,None,2600 Block Of 25th Avenue,-122.481882200653,37.7383900873155
+14054858219057,140548582,19057,Assault,Threats Against Life,Wednesday,2014-07-02,11:10,Ingleside,None,0 Block Of Brookdale Avenue,-122.4208910342,37.7120920675614
+14007170919057,140071709,19057,Assault,Threats Against Life,Thursday,2014-01-23,16:30,Northern,None,100 Block Of Lily St,-122.423218630168,37.7745160228957
+14603801806372,146038018,6372,Larceny/theft,Petty Theft Of Property,Wednesday,2014-01-29,10:41,Central,None,1300 Block Of Taylor St,-122.413169470388,37.7947589530812
+14036177664010,140361776,64010,Non-criminal,"Aided Case, Dog Bite",Thursday,2014-05-01,19:50,Bayview,None,400 Block Of Carolina St,-122.400381521653,37.7629748622045
+14605505606244,146055056,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-03-20,21:00,Park,None,100 Block Of Anzavista Avenue,-122.444161019223,37.7794418360873
+14022880307025,140228803,7025,VehicleTheft,Stolen Truck,Monday,2014-03-17,21:00,Richmond,None,700 Block Of 27th Avenue,-122.486603658939,37.7752502353871
+14034369903012,140343699,3012,Robbery,Robbery On The Street With A Knife,Monday,2014-04-21,10:30,Southern,None,700 Block Of Market St,-122.40409466245,37.7872560927993
+14043334728160,140433347,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Saturday,2014-05-24,06:40,Richmond,None,300 Block Of 14th Avenue,-122.472981975493,37.7815707596523
+14055608064020,140556080,64020,Non-criminal,"Aided Case, Mental Disturbed",Saturday,2014-07-05,01:04,Northern,Psychopathic Case,1300 Block Of Golden Gate Avenue,-122.432800615342,37.7795115909237
+14007975306244,140079753,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-01-27,12:15,Richmond,None,800 Block Of Johnfkennedy Dr,-122.476879731094,37.7715884019503
+14029529428150,140295294,28150,Vandalism,"Malicious Mischief, Vandalism",Wednesday,2014-04-09,12:50,Park,Psychopathic Case,800 Block Of Burnett Avenue,-122.444955474092,37.7488029817107
+14034703363010,140347033,63010,Warrants,Warrant Arrest,Saturday,2014-04-26,17:57,Central,"Arrest, Booked",700 Block Of Post St,-122.41417943719,37.787502483207
+14007393704134,140073937,4134,Assault,Battery,Saturday,2014-01-25,16:58,Ingleside,None,0 Block Of 30th St,-122.422634459462,37.7422794284678
+14602625171000,146026251,71000,Non-criminal,Lost Property,Saturday,2014-01-18,22:00,Southern,None,500 Block Of 4th St,-122.39784956123,37.7793117074346
+14603193706244,146031937,6244,Larceny/theft,Grand Theft From Locked Auto,Wednesday,2014-02-12,11:50,Bayview,None,800 Block Of Chinabasin St,-122.386775025935,37.765377517215
+14014877812015,140148778,12015,WeaponLaws,Carrying A Concealed Weapon,Wednesday,2014-02-19,17:34,Tenderloin,None,0 Block Of Ofarrell St,-122.405895369887,37.7867342184983
+14010923172000,140109231,72000,Non-criminal,Found Property,Tuesday,2014-02-04,02:00,Bayview,None,2500 Block Of Marin St,-122.40275678107,37.7481108122818
+14043549016666,140435490,16666,Drug/narcotic,Transportaion Of Controlled Substance,Saturday,2014-05-24,22:07,Northern,"Arrest, Booked",1100 Block Of Larkin St,-122.418580508889,37.7881906054546
+14055069028165,140550690,28165,Vandalism,"Malicious Mischief, Graffiti",Thursday,2014-07-03,01:05,Mission,"Arrest, Booked",3000 Block Of 26th St,-122.41023195455,37.749571116991
+14013846205073,140138462,5073,Burglary,"Burglary, Unlawful Entry",Saturday,2014-02-15,18:00,Northern,None,1700 Block Of Buchanan St,-122.42995092411,37.7860338859281
+14042802574000,140428025,74000,MissingPerson,Missing Adult,Monday,2014-05-19,12:00,Northern,Located,1300 Block Of Golden Gate Avenue,-122.432800615342,37.7795115909237
+14050692265010,140506922,65010,OtherOffenses,Traffic Violation Arrest,Wednesday,2014-06-18,19:30,Central,"Arrest, Cited",1500 Block Of Leavenworth St,-122.416496129598,37.7952409092566
+14032059068030,140320590,68030,Non-criminal,Courtesy Report,Thursday,2014-04-17,21:40,Northern,Unfounded,1600 Block Of Vanness Avenue,-122.422595167172,37.7908192261207
+14017013504134,140170135,4134,Assault,Battery,Thursday,2014-02-27,03:00,Mission,None,2300 Block Of Mission St,-122.419058868103,37.7594227506297
+14036238215200,140362382,15200,SecondaryCodes,Domestic Violence,Friday,2014-05-02,00:01,Southern,None,300 Block Of Berry St,-122.396661415271,37.7730956120037
+14610894028150,146108940,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-06-08,23:00,Ingleside,None,2500 Block Of Diamond St,-122.43473971073,37.7379235425973
+14024424107021,140244241,7021,VehicleTheft,Stolen Automobile,Sunday,2014-03-23,03:49,Park,None,700 Block Of Burnett Avenue,-122.444988615951,37.7509565296294
+14025982071000,140259820,71000,Non-criminal,Lost Property,Friday,2014-03-21,16:00,Tenderloin,None,300 Block Of Ofarrell St,-122.410509258795,37.7860432222992
+14018669364070,140186693,64070,SuspiciousOcc,Suspicious Occurrence,Tuesday,2014-03-04,11:00,Taraval,None,1400 Block Of 19th Avenue,-122.476765576244,37.7607569579598
+14023970316660,140239703,16660,Drug/narcotic,Possession Of Controlled Substance,Friday,2014-03-21,15:40,Richmond,"Arrest, Booked",3000 Block Of Fulton St,-122.464301593843,37.7736093391917
+14009024806301,140090248,6301,Larceny/theft,Petty Theft From A Building,Thursday,2014-01-30,15:30,Ingleside,None,100 Block Of Raymond Avenue,-122.406120541562,37.7129813696098
+14025744807021,140257448,7021,VehicleTheft,Stolen Automobile,Wednesday,2014-03-26,18:15,Central,None,400 Block Of Broadway St,-122.404282497745,37.7982249345487
+14057224605083,140572246,5083,Burglary,"Burglary, Hot Prowl, Unlawful Entry",Thursday,2014-07-10,10:30,Taraval,None,100 Block Of Capitol Avenue,-122.458941248116,37.7118507107143
+14604838006374,146048380,6374,Larceny/theft,Grand Theft Of Property,Monday,2014-03-03,07:45,Central,None,800 Block Of Lombard St,-122.41550752023,37.8024597497756
+14609913906244,146099139,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-05-22,15:00,Northern,None,300 Block Of Fulton St,-122.422536478306,37.7787958771466
+14027359106243,140273591,6243,Larceny/theft,Petty Theft From Locked Auto,Wednesday,2014-04-02,08:30,Northern,None,1300 Block Of Webster St,-122.431046366089,37.7830295716044
+14049972506304,140499725,6304,Larceny/theft,Grand Theft From A Building,Monday,2014-06-16,16:30,Southern,None,300 Block Of Bryant St,-122.392453180142,37.7838938835847
+14039990906302,140399909,6302,Larceny/theft,Petty Theft From A Building,Sunday,2014-04-20,00:01,Tenderloin,None,100 Block Of Eddy St,-122.410135236377,37.7841889075267
+14037218707021,140372187,7021,VehicleTheft,Stolen Automobile,Monday,2014-05-05,11:30,Southern,"Arrest, Booked",200 Block Of Interstate80 Hy,-122.365565425353,37.8096707013239
+14041272751040,140412727,51040,Non-criminal,Aided Case,Saturday,2014-05-17,10:00,Ingleside,None,1000 Block Of San Jose Avenue,-122.426175414516,37.7369083672204
+14052617426030,140526174,26030,Arson,Arson,Wednesday,2014-06-25,11:00,Southern,"Arrest, Booked",0 Block Of 4th St,-122.405582629186,37.7854659679151
+14038970627065,140389706,27065,Fraud,False Id To Peace Officer,Friday,2014-05-09,10:49,Mission,"Arrest, Cited",400 Block Of Treat Avenue,-122.413746252112,37.7629630100343
+14047736716650,140477367,16650,Drug/narcotic,Possession Of Meth-amphetamine,Sunday,2014-06-08,13:30,Southern,"Arrest, Booked",800 Block Of Market St,-122.407633520742,37.7841893501425
+14048914616710,140489146,16710,Drug/narcotic,Possession Of Narcotics Paraphernalia,Thursday,2014-06-12,19:42,Mission,"Arrest, Booked",200 Block Of Sanchez St,-122.430883448045,37.765110583712
+14044420375000,140444203,75000,MissingPerson,Found Person,Tuesday,2014-05-27,07:30,Richmond,Located,400 Block Of 15th Avenue,-122.473975335475,37.7795923651443
+14061595916664,140615959,16664,Drug/narcotic,Sale Of Controlled Substance,Thursday,2014-07-24,18:10,Ingleside,None,4700 Block Of Mission St,-122.436194484896,37.7227270383576
+14606197806374,146061978,6374,Larceny/theft,Grand Theft Of Property,Tuesday,2014-04-01,01:00,Northern,None,3600 Block Of Fillmore St,-122.436813560188,37.8040123472212
+14031231572000,140312315,72000,Non-criminal,Found Property,Tuesday,2014-04-01,00:01,Mission,None,2300 Block Of 16th St,-122.409529913278,37.7657184395282
+14010259228150,140102592,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-02-02,22:00,Ingleside,None,100 Block Of Congdon St,-122.426182433659,37.7304979029841
+14046169904144,140461699,4144,"SexOffenses,Forcible",Sexual Battery,Monday,2014-06-02,14:10,Central,None,3200 Block Of Vanness Avenue,-122.425221057967,37.8055600294296
+14609772971000,146097729,71000,Non-criminal,Lost Property,Friday,2014-05-02,21:45,Richmond,None,700 Block Of Cabrillo St,-122.466566705363,37.775301499982
+14610924906244,146109249,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-06-09,22:00,Richmond,None,1600 Block Of Pierce St,-122.436396309059,37.7852195889086
+14061489804134,140614898,4134,Assault,Battery,Thursday,2014-07-24,12:45,Southern,None,800 Block Of Market St,-122.406520987144,37.7850629421661
+14052607706221,140526077,6221,Larceny/theft,Petty Theft From Unlocked Auto,Wednesday,2014-06-25,10:10,Taraval,"Arrest, Booked",1400 Block Of 44th Avenue,-122.503786775839,37.7595652375426
+14026559819057,140265598,19057,Assault,Threats Against Life,Sunday,2014-03-30,12:20,Mission,"Arrest, Booked",3000 Block Of Harrison St,-122.411584193034,37.7486195212612
+14612026706374,146120267,6374,Larceny/theft,Grand Theft Of Property,Friday,2014-06-20,06:15,Central,None,300 Block Of Powell St,-122.408384275542,37.7878271137225
+14014825106112,140148251,6112,Larceny/theft,Grand Theft Pickpocket,Tuesday,2014-02-18,14:40,Southern,None,800 Block Of Mission St,-122.405395493939,37.7835100715421
+14052050228150,140520502,28150,Vandalism,"Malicious Mischief, Vandalism",Monday,2014-06-23,00:01,Northern,None,1400 Block Of Broadway St,-122.420947526133,37.7959569772463
+14014662562050,140146625,62050,Warrants,Enroute To Outside Jurisdiction,Wednesday,2014-02-19,07:19,Taraval,"Arrest, Booked",2100 Block Of Irving St,-122.480879331306,37.7633413989149
+14028216609020,140282166,9020,Forgery/counterfeiting,"Checks, Make Or Pass Fictitious",Wednesday,2014-04-02,12:00,Tenderloin,None,300 Block Of Eddy St,-122.413790972781,37.7838365565348
+14056290204134,140562902,4134,Assault,Battery,Monday,2014-07-07,13:25,Southern,"Arrest, Booked",800 Block Of Market St,-122.406520987144,37.7850629421661
+14015961205041,140159612,5041,Burglary,"Burglary Of Residence, Forcible Entry",Sunday,2014-02-23,13:10,Bayview,None,700 Block Of University St,-122.411557888153,37.7206278240296
+14034814406373,140348144,6373,Larceny/theft,Petty Theft Of Property,Saturday,2014-04-26,21:00,Northern,None,1500 Block Of Webster St,-122.431437121772,37.7849665704308
+14042950627130,140429506,27130,OtherOffenses,Possession Of Burglary Tools,Thursday,2014-05-22,19:17,Richmond,Located,700 Block Of 35th Avenue,-122.495036567834,37.7748653244871
+14011491771000,140114917,71000,Non-criminal,Lost Property,Sunday,2014-01-05,00:01,Central,None,1000 Block Of Stockton St,-122.408236208765,37.7953821757057
+14610359206244,146103592,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-05-26,23:30,Southern,None,100 Block Of 6th St,-122.408466556173,37.7807008318778
+14606490006224,146064900,6224,Larceny/theft,Grand Theft From Unlocked Auto,Saturday,2014-04-05,00:01,Ingleside,None,1400 Block Of Somerset St,-122.402419910628,37.7141098299563
+14051767863010,140517678,63010,Warrants,Warrant Arrest,Sunday,2014-06-22,14:00,Central,"Arrest, Booked",200 Block Of Post St,-122.406021838484,37.7886491245294
+14059847416220,140598474,16220,Drug/narcotic,Possession Of Opiates For Sales,Friday,2014-07-18,22:30,Tenderloin,"Arrest, Booked",200 Block Of Leavenworth St,-122.414081138014,37.7832767266062
+14051926027170,140519260,27170,OtherOffenses,Resisting Arrest,Monday,2014-06-23,05:45,Park,"Arrest, Booked",400 Block Of Scott St,-122.43577940458,37.7738288559127
+14057977504134,140579775,4134,Assault,Battery,Saturday,2014-07-12,20:29,Bayview,None,600 Block Of Jamestown Avenue,-122.387833652325,37.7131072321423
+14025766463010,140257664,63010,Warrants,Warrant Arrest,Wednesday,2014-03-12,16:25,Central,"Arrest, Booked",1400 Block Of Grant Avenue,-122.407560004563,37.8001710961561
+14028100562030,140281005,62030,Warrants,Enroute To Parole Officer,Friday,2014-04-04,16:30,Central,"Arrest, Booked",600 Block Of Post St,-122.41201048788,37.7877770164282
+14041164404134,140411644,4134,Assault,Battery,Friday,2014-05-16,23:25,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14016080705043,140160807,5043,Burglary,"Burglary Of Residence, Unlawful Entry",Friday,2014-02-21,19:30,Central,None,700 Block Of Francisco St,-122.417901792274,37.804069667949
+14042013451040,140420134,51040,Non-criminal,Aided Case,Monday,2014-05-19,22:22,Taraval,None,1200 Block Of 15th Avenue,-122.472785857895,37.7646817096397
+14032643568020,140326435,68020,OtherOffenses,Miscellaneous Investigation,Saturday,2014-04-19,10:00,Park,None,200 Block Of Glenview Dr,-122.446751870717,37.7484265857005
+14604947906244,146049479,6244,Larceny/theft,Grand Theft From Locked Auto,Thursday,2014-03-06,18:00,Mission,None,200 Block Of Guerrero St,-122.424185302421,37.7668770284191
+14044729165010,140447291,65010,OtherOffenses,Traffic Violation Arrest,Wednesday,2014-05-28,12:25,Mission,"Arrest, Booked",2800 Block Of 17th St,-122.411826280883,37.7642766926597
+14044961764020,140449617,64020,Non-criminal,"Aided Case, Mental Disturbed",Thursday,2014-05-29,18:56,Central,None,200 Block Of Kearny St,-122.403915681571,37.790538993725
+14039988009320,140399880,9320,Fraud,"Credit Card, Theft By Use Of",Sunday,2014-04-20,00:01,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14025165003011,140251650,3011,Robbery,Robbery On The Street With A Gun,Tuesday,2014-03-25,00:01,Park,None,2100 Block Of Geary Bl,-122.43861644522,37.7833516158109
+14037532928160,140375329,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Tuesday,2014-05-06,10:30,Taraval,None,100 Block Of Randolph St,-122.463958201329,37.714242338502
+14028614607021,140286146,7021,VehicleTheft,Stolen Automobile,Sunday,2014-04-06,16:50,Mission,None,400 Block Of South Van Ness Avenue,-122.417445475116,37.7654718923359
+14055025805053,140550258,5053,Burglary,"Burglary Of Store, Unlawful Entry",Wednesday,2014-07-02,20:22,Southern,"Arrest, Booked",700 Block Of Mission St,-122.403070000847,37.7852686309087
+14034933006244,140349330,6244,Larceny/theft,Grand Theft From Locked Auto,Sunday,2014-04-27,11:15,Mission,None,3800 Block Of 19th St,-122.429327352496,37.7595684935875
+14036798427170,140367984,27170,OtherOffenses,Resisting Arrest,Saturday,2014-05-03,23:47,Ingleside,"Arrest, Cited",0 Block Of Rudden Avenue,-122.441468690174,37.7243190596784
+14049807875000,140498078,75000,MissingPerson,Found Person,Monday,2014-06-16,02:00,Ingleside,Located,1500 Block Of Sunnydale Avenue,-122.417107986993,37.7122561827524
+14026518406370,140265184,6370,Larceny/theft,Attempted Petty Theft Of Property,Saturday,2014-03-29,18:30,Southern,None,700 Block Of Howard St,-122.401560967513,37.7840888680389
+14602976606374,146029766,6374,Larceny/theft,Grand Theft Of Property,Saturday,2014-02-08,01:00,Southern,None,1200 Block Of Folsom St,-122.410802477808,37.7743299153836
+14071666004134,140716660,4134,Assault,Battery,Tuesday,2014-08-26,02:00,Tenderloin,None,300 Block Of Leavenworth St,-122.414406029855,37.7841907151119
+14022122775000,140221227,75000,MissingPerson,Found Person,Friday,2014-03-14,08:00,Mission,None,1200 Block Of Hampshire St,-122.40714465605,37.7520972558707
+14007622665016,140076226,65016,OtherOffenses,"Drivers License, Suspended Or Revoked",Sunday,2014-01-26,12:26,Ingleside,"Arrest, Cited",400 Block Of Monterey Bl,-122.445471500181,37.7316566613859
+14018264164020,140182641,64020,Non-criminal,"Aided Case, Mental Disturbed",Monday,2014-03-03,12:11,Southern,Psychopathic Case,300 Block Of Folsom St,-122.393408569442,37.7880677400696
+14613230328150,146132303,28150,Vandalism,"Malicious Mischief, Vandalism",Sunday,2014-07-06,23:00,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14052116804134,140521168,4134,Assault,Battery,Monday,2014-06-23,14:45,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14050600728160,140506007,28160,Vandalism,"Malicious Mischief, Vandalism Of Vehicles",Wednesday,2014-06-18,13:36,Central,None,900 Block Of Kearny St,-122.405283980519,37.7965510480789
+14034575828165,140345758,28165,Vandalism,"Malicious Mischief, Graffiti",Saturday,2014-04-26,08:59,Ingleside,None,1600 Block Of Alabama St,-122.410522872328,37.746636041676
+14059786812030,140597868,12030,WeaponLaws,Exhibiting Deadly Weapon In A Threating Manner,Thursday,2014-07-17,22:00,Taraval,"Arrest, Booked",300 Block Of Shields St,-122.465797811186,37.7179700121368
+14015751973000,140157519,73000,Non-criminal,Property For Identification,Saturday,2014-02-22,14:34,Park,"Arrest, Booked",1600 Block Of Haight St,-122.449944521424,37.7695680602698
+14026551027170,140265510,27170,OtherOffenses,Resisting Arrest,Sunday,2014-03-30,11:45,Northern,"Arrest, Cited",1400 Block Of Fillmore St,-122.432544280591,37.7828388666355
+14020286327195,140202863,27195,Trespass,Trespassing,Sunday,2014-03-09,18:55,Northern,"Arrest, Cited",1200 Block Of Polk St,-122.420231590619,37.78798096196
+14609509606244,146095096,6244,Larceny/theft,Grand Theft From Locked Auto,Monday,2014-05-19,18:00,Park,None,2600 Block Of Geary Bl,-122.446612978839,37.7822458223917
+14614579806224,146145798,6224,Larceny/theft,Grand Theft From Unlocked Auto,Monday,2014-07-21,19:20,Southern,None,0 Block Of Bryant St,-122.388333561781,37.7870493450273
+14021248675000,140212486,75000,MissingPerson,Found Person,Wednesday,2014-03-12,19:54,Bayview,Located,2000 Block Of 3rd St,-122.388661890469,37.7636780415803
+14017210327170,140172103,27170,OtherOffenses,Resisting Arrest,Thursday,2014-02-27,16:15,Tenderloin,"Arrest, Booked",200 Block Of Leavenworth St,-122.414081138014,37.7832767266062
+14606913271000,146069132,71000,Non-criminal,Lost Property,Friday,2014-04-11,20:30,Southern,None,800 Block Of Bryant St,-122.403404791479,37.775420706711
+14017499904014,140174999,4014,Assault,Aggravated Assault With Bodily Force,Friday,2014-02-28,16:22,Bayview,"Arrest, Booked",100 Block Of Kiska Rd,-122.375989158092,37.7301576924252
+14031547207021,140315472,7021,VehicleTheft,Stolen Automobile,Tuesday,2014-04-15,12:00,Taraval,None,2400 Block Of Wawona St,-122.493036237102,37.7369162328272
