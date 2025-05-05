@@ -42,4 +42,5 @@ log_progress('Extraction Phase Ended')
 # Transformation Phase
 log_progress('Initiating Transformation Phase')
 processing_staged_datasets('data/stage/active_business_locs_in_san_francisco')
+processing_staged_datasets('data/stage/registered_business_locs_in_san_francisco')
 log_progress('Transformation Phase Ended')
