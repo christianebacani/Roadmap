@@ -1,0 +1,1001 @@
+ttxid,certificate_number,ownership_name,dba_name,full_business_address,city,state,business_zip,dba_start_date,dba_end_date,location_start_date,location_end_date,mailing_address_1
+1158432-08-171,433776,Global Capital Markets Inc,Global Capital Markets Inc.,90 New Montgomery St Fl 9th,San Francisco,CA,94105,2007-05-01T00:00:00.000,,2017-06-01T00:00:00.000,,19200 Von Karman Ave # 210
+1158434-08-171,464016,Jml Engineering & Construction,Jml Engineering & Construction Inc,921 S Marina Way South Ste D,Richmond,CA,94804,2011-11-07T00:00:00.000,,2017-06-01T00:00:00.000,,2010 Crow Canyon Pl Ste 108
+1158438-08-171,166780,Wu Bai-Chao,Bcw Construction & Maint Co,275 Colon Ave,San Francisco,CA,94134,1996-05-13T00:00:00.000,,2017-08-17T00:00:00.000,,275 Colon Ave
+1158439-08-171,166780,Wu Bai-Chao,Bai Chao Wu,2907 San Bruno Ave,San Francisco,CA,94134,1996-05-13T00:00:00.000,,1999-03-18T00:00:00.000,,275 Colon Ave
+1158444-08-171,1074407,"Golden Gateidence Opco, LLC",San Francisco Post Acute,5767 Mission St,San Francisco,CA,94112,2017-07-17T00:00:00.000,,2017-08-04T00:00:00.000,,2121 Pine St
+1158445-08-171,1026403,Culturewise Inc,Culturewise Inc,1315 23rd Ave #210,San Francisco,CA,94122,2016-02-16T00:00:00.000,,2017-08-17T00:00:00.000,,1315 23rd Ave Ste 210
+1158448-08-171,1009153,Senhua Enterprise Inc,Senhua Enterprise Inc,3315 Jennings St,San Francisco,CA,94124,2015-01-30T00:00:00.000,,2017-04-01T00:00:00.000,,3315 Jennings St
+1158453-08-171,946412,Blum David R,Dr. Clue,2727 Tachevah Dr Apt 12,Santa Rosa,CA,94505,1995-10-27T00:00:00.000,,2017-08-17T00:00:00.000,,2727 Tachevah Dr Apt 12
+1158480-08-171,1074922,Ramon A.Navarrete,R & M Plumbing,48 Ocean Ave,San Francisco,CA,94112,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,48 Ocean Ave
+1158492-08-171,1074929,Man Group LLC,Omg Tea,2891 Sanbruno Ave,San Francisco,CA,94134,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,2891 San Bruno Ave
+1158494-08-171,1074930,"Chroma Colors, Inc.","Chroma Colors, Inc.",929 Po Box,Fairfax,CA,94978,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,59 Larkspur St Ste 1
+1158504-08-171,1074938,Sam Burbank,Inverse Square Films,5 Bessie St,San Francisco,CA,94110,2017-08-17T00:00:00.000,,2017-08-17T00:00:00.000,,5 Bessie St
+1158508-08-171,1074940,Alfonso Cosio,Bay Area Art Services,770 Van Ness Ave 105,San Francisco,CA,94102,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,770 Van Ness Ave 105 Ste
+1158512-08-171,1074942,The Andrew Warner Company LLC,Mixergy,201 Mission St,San Francsico,CA,94105,2013-01-01T00:00:00.000,,2013-01-01T00:00:00.000,,0000 Undeliverable Mail
+1158519-08-171,1074945,Cos And Company LLC,Cos And Company LLC,90 Heather Ave 304,San Francisco,CA,94118,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,90 Heather Ave Apt 304
+1158524-08-171,1074947,Steven J Axelrod Inc,Steven J Axelrod Inc,513 Valencia St Ste 4,San Francisco,CA,94110,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,513 Valencia St Ste 4
+1158525-08-171,1074947,Steven J Axelrod Inc,Tax Office SF,513 Valencia St Ste 4,San Francisco,CA,94110,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,513 Valencia St Ste 4
+1158529-08-171,1074949,Henry Wang,Guardian Remodeling And Construction,11 Airport Blvd,South San Francisco,CA,94080,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,29 Burlwood Dr
+1158545-08-171,1074962,Sas C-Stores Inc.,San Francisco Mart 3,3300 Cesar Chavez St,San Francisco,CA,94110,2017-07-20T00:00:00.000,,2017-07-20T00:00:00.000,,12003 Mukilteo Speedway 101 Ste
+1158547-08-171,1074963,"Sas C-Stores, Inc.",San Francisco Mart 1,2000 19th Ave,San Francisco,CA,94116,2017-07-20T00:00:00.000,,2017-07-20T00:00:00.000,,12003 Mukilteo Speedway 101 Ste
+1158551-08-171,1074965,Sas C-Stores Inc.,San Francisco Mart 2,2301 19th Ave,San Francisco,CA,94116,2017-07-20T00:00:00.000,,2017-07-20T00:00:00.000,,12003 Mukilteo Speedway 101 Ste
+1158555-08-171,1074967,1926 Trophy Building Inc.,1926 Trophy Building Inc.,501 38th Ave,San Francisco,CA,94121,2010-08-16T00:00:00.000,,2010-08-16T00:00:00.000,,510 Chotem Crescent
+1158557-08-171,1074968,Kelly Johnson,Casa Kj,1587 34th Ave,San Francisco,CA,94122,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,1587 34th Ave
+1158559-08-171,1074969,Stephen Gene Fan Tam,532 28th Ave,532 28th Ave,San Francisco,CA,94121,2008-08-08T00:00:00.000,,2008-08-08T00:00:00.000,,115 Nova Dr
+1158567-08-171,1012152,Women Organized To Make Abuse Nonexistent Inc (Woman Inc),Women Organized To Make Abuse Non Existent Inc.,26 Boardman Pl,San Francisco,CA,94103,1977-07-01T00:00:00.000,,2016-07-01T00:00:00.000,,26 Boardman Pl
+1158574-08-171,340678,Ssb Technologies Inc,Level Access Inc.,114 Sansome St Ste 950,San Francisco,CA,94104,2000-04-02T00:00:00.000,,2017-07-01T00:00:00.000,,1310 N Courthouse Rd Ste 860
+1158575-08-171,1039239,Elevated Systems Inc,Elevated San Francisco,2442 Bayshore Blvd,San Francisco,CA,94134,2016-07-08T00:00:00.000,,2017-08-18T00:00:00.000,,2442 Bay Shore Blvd
+1158594-08-171,1074978,Connect Speech Therapy Inc.,Connect Speech Therapy Inc,1316 Leavenworth St,San Francisco,CA,94109,2017-08-15T00:00:00.000,,2017-08-15T00:00:00.000,,1316 Leavenworth St
+1158606-08-171,401443,Waters Joshua A,Daiquiri Dash,864 Folsom St,San Francisco,CA,94107,2006-09-01T00:00:00.000,,2017-07-03T00:00:00.000,,864 Folsom St
+1158613-08-171,1074986,Richard Chu,469 25th Ave.,469 25th Ave Apt 4,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,469 25th Ave Apt 4
+1158617-08-171,1074988,Ka Yan Mary Fong D.D.S. Inc.,Smiledontics Dental Office,43 Raymond Ave,San Francisco,CA,94134,2017-01-03T00:00:00.000,,2017-01-03T00:00:00.000,,43 Raymond Ave
+1158623-08-171,1074991,Michael Rathman,Golden Sunset Vacation,1244 30th Ave,San Francisco,CA,94122,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,1244 30th Ave
+1158629-08-171,1074994,Calvin Chu,565 28th Ave,565 28th Ave Apt,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,469 25th Ave Apt 4
+1158634-08-171,471315,Enertis Solar Inc,Enertis Solar Inc,"1 Hallidie Plaza, Market St Ste 401",San Francisco,CA,94102,2012-07-01T00:00:00.000,,2015-07-01T00:00:00.000,,230 California St Ste 508
+1158638-08-171,1074997,Michael Piro,5140 Geary Blvd Apartments,100 Shoreline Hwy Ste B160,Mill Valley,CA,94941,2011-06-03T00:00:00.000,,2011-06-03T00:00:00.000,,1040 Redwood Hwy Frontage Rd
+1158642-08-171,1074999,Leon Zhu,G. L. Bay Construction Co.,55 Kempton Ave,San Francisco,CA,94132,2017-08-19T00:00:00.000,,2017-08-19T00:00:00.000,,55 Kempton Ave
+1158654-08-171,1075005,Eddie & Lulu Tsao-Wu,414-26th Ave 6 Units Apt,414 26th Ave,San Francisco,CA,94121,1992-09-15T00:00:00.000,,1992-09-15T00:00:00.000,,638 38th Ave
+1158658-08-171,1075009,Karen Bartlett,Kl Bartlett Consulting,1229 Lakehurst Rd,Livermore,CA,94551,2014-06-14T00:00:00.000,,2014-06-14T00:00:00.000,,1229 Lakehurst Rd
+1158668-08-171,1075014,Clare Badaracco,Maximus Law,1910 Filbert St,San Francisco,CA,94123,2017-08-08T00:00:00.000,,2017-08-08T00:00:00.000,,1910 Filbert St
+1158672-08-171,1075016,Wayman Wr/ Wayman J I,4301-4307 Clement Apts,4301 4307 Clement St,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,445 38th Ave
+1158676-08-171,1075018,Ian Hannula,Ian Hannula,2542 3rd St Apt,San Francsico,CA,94107,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,2542 3rd St Apt 0
+1158680-08-171,1075020,Wfp Construction,Wfp Construction,510 Crane St Bldg D,Lake Elsinore,CA,92530,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,18500 Pasadena St Ste A
+1158717-08-171,1075043,Keith Goodman,Alison Goodman,1345 Clement St,San Francisco,CA,94118,2012-10-02T00:00:00.000,,2012-10-02T00:00:00.000,,900 Van Ness Ave Ste 102
+1158727-08-171,484425,Bikehub,Bikehub,311 Townsend St,San Francisco,CA,94107,2013-10-01T00:00:00.000,,2017-08-21T00:00:00.000,,1522 Park St
+1158730-08-171,1074998,Ken Yong Fong & Susan Lee,Ken Yong Fong & Susan Lee,7115 Geary Blvd,San Francisco,CA,94121,2012-02-13T00:00:00.000,,2012-02-13T00:00:00.000,,518 36th Ave Fl
+1158732-08-171,331813,Eviction Defense Collab Inc,"Eviction Defense Collaborative, Inc (Edc)",1338 Mission St Fl 4,San Francisco,CA,94103,2002-10-09T00:00:00.000,,2016-01-01T00:00:00.000,,972 Mission St # Ground
+1158738-08-171,1004666,"Mortar & Mash One, LLC",Side Hustle,601 19th St,San Francisco,CA,94107,2014-10-01T00:00:00.000,,2017-08-21T00:00:00.000,,601 19th St
+1158739-08-171,328767,Oleary John J,John J Oleary,3853 18th St,San Francisco,CA,94114,1999-08-04T00:00:00.000,,2017-08-21T00:00:00.000,,Po Box 14108
+1158740-08-171,1014721,Creative Health Services Psychology Group Pc,Creative Health Services Psychology Group Pc,110 Gough St Ste 203,San Francisco,CA,94102,2015-01-01T00:00:00.000,,2017-08-21T00:00:00.000,,2031 17th Ave
+1158760-08-171,1075053,Nirvana Beauty Inc,Nirvana Beauty And Brows,17 Columbus Ave,San Francisco,CA,94111,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,535 Pierce Street St 2102 Apt
+1158781-08-171,1075069,Ecoatm LLC,Ecoatm LLC - Inside Kfood4less0351,345 Williams Ave,San Francisco,CA,94124,2017-08-22T00:00:00.000,,2017-08-22T00:00:00.000,,10121 Barnes Canyon Rd
+1158786-08-171,1075071,Tn Building Inc,Tn Building Inc,1312 Ortega St,San Francisco,CA,94122,2017-08-22T00:00:00.000,,2017-08-22T00:00:00.000,,1312 Ortega St
+1158788-08-171,1075072,"Viasat, Inc.","Viasat, Inc.",6155 El Camino Real,Carlsbad,CA,92009,2016-09-26T00:00:00.000,,2016-09-26T00:00:00.000,,349 Inverness Dr S
+1158802-08-171,1075080,Darby Davenport,D Davenport Coaching & Consulting,164 Castro St,San Francisco,CA,94114,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,164 Castro St
+1158804-08-171,1075082,"Three Rivers Real Estate And Development, LLC.",Three Rivers Real Estate And Development,885 25th Ave,San Francisco,CA,94121,2013-06-03T00:00:00.000,,2013-06-03T00:00:00.000,,Po Box 511
+1158806-08-171,1075083,Monique Mead,Long Weekend Management,358 Edinburgh St,San Francisco,CA,94112,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,358 Edinburgh St
+1158808-08-171,1075084,Patricia Torres Ortiz,Artspacesf,3126 S Steiner,San Francisco,CA,94123,2017-08-18T00:00:00.000,,2017-08-18T00:00:00.000,,3126 Steiner St
+1158816-08-171,1075087,A8 Salon Inc,A8 Salon Inc,999 Powell St,San Francisco,CA,94108,2017-08-20T00:00:00.000,,2017-08-20T00:00:00.000,,999 Powell St
+1158834-08-171,476383,Sather Elliot J,Elliot Sather Product Development,1463 12th Ave Ste A,San Francisco,CA,94122,2013-01-01T00:00:00.000,,2017-08-22T00:00:00.000,,1463 12th Ave Ste A
+1158840-08-171,416529,Paychex North America Inc,"Paychex North America, Inc.",235 Montgomery St Ste 914,San Francisco,CA,94104,2003-01-01T00:00:00.000,,2017-06-03T00:00:00.000,,911 Panorama Trl S
+1158843-08-171,1013684,Woodford Studio Inc,Cal Lumber & Supply,1459 18th St Ste 355,San Francisco,CA,94107,2015-05-19T00:00:00.000,,2017-08-21T00:00:00.000,,1459 18th St # 355
+1158848-08-171,1017463,Rp Associates L P,Rp Associates Lp,1251 Turk St,San Francisco,CA,94115,2015-05-13T00:00:00.000,,2016-10-14T00:00:00.000,,201 Eddy St
+1158849-08-171,366120,Lee Eugene,"East Alarm, Inc",1812 Little Branham Ln,San Jose,CA,95124,2003-01-05T00:00:00.000,,2003-01-05T00:00:00.000,,Po Box 112323
+1158851-08-171,1075096,The Fox Sister,Foxsister,3161 24th St,San Francisco,CA,94110,2017-02-28T00:00:00.000,,2017-02-28T00:00:00.000,,3161 24th St
+1158857-08-171,1075099,"Mastec North America, Inc","Mastec North America, Inc.",800 S Douglas Rd Ph,Coral Gables,FL,33134,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,800 S Douglas Rd
+1158883-08-171,1075112,"Asfp, LLC",Pacific Heights Transitional Care Center,2707 Pine St,San Francisco,CA,94115,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,28202 Cabot Rd Ste 412
+1158887-08-171,1075114,Fog City Fire Protection,Fog City Fire Protection,40 12th St,San Francisco,CA,94103,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,40 12th St
+1158895-08-171,1075120,Margaret Mee Wong Survivor's Trust And Arthur & Sue Wong Family Trust,Margaret Mee Wong Survivor's Trust And Arthur & Sue Wong Family Trust,541 26th Ave Apt,San Francisco,CA,94121,1983-10-07T00:00:00.000,,1983-10-07T00:00:00.000,,541 26th Ave Apt 1
+1158904-08-171,1075123,Raquel Garcia,Raquel Garcia Lmft,1801 Bush St Ste 208,San Francisco,CA,94102,2017-08-23T00:00:00.000,,2017-08-23T00:00:00.000,,128 Laguna St Apt B
+1158916-08-171,1075130,"Ronim & Associates, LLC","Ronim & Associates, LLC",1934 17th Ave,San Francisco,CA,94116,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,1934 17th Ave
+1158930-08-171,1075136,Concord Real Estate Services,Concord Real Estate Services,449 S Beverly S Dr Fl First,Beverly Hills,CA,90212,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,449 S Beverly Dr Fl 1
+1158944-08-171,1075146,Irene Oi-Ling Woo Lee,"4300 Anza Street, San Francisco, Ca.  94121",4300 Anza St,San Francisco,CA,94121,2011-07-01T00:00:00.000,,2011-07-01T00:00:00.000,,Po Box P.O. Box 22696
+1158973-08-171,1075154,"Inari Medical, Inc.","Inari Medical, Inc.",9272 Jeronimo Rd Ste 124,Irvine,CA,92618,2017-08-01T00:00:00.000,,2017-08-23T00:00:00.000,,9 Parker Ste 100
+1158977-08-171,1075156,"Success Investment, LLC","Success Investment, LLC",275 6th Ave 105,San Francisco,CA,94118,2017-08-23T00:00:00.000,,2017-08-23T00:00:00.000,,275 6th Ave Ste 105
+1158978-08-171,471105,Hughen Amanda P,Day Projects,179 Peralta Ave,San Francisco,CA,94110,2012-07-19T00:00:00.000,,2017-03-13T00:00:00.000,,179 Peralta Ave
+1158980-08-171,458135,Fish Six Restaurant Corp,The Melt,925 Market St,San Francisco,CA,94103,2011-04-12T00:00:00.000,,2017-08-23T00:00:00.000,,925 Market St
+1158983-08-171,385429,Religence Inc,Crvtech,2090 Green St #31,San Francisco,CA,94123,2005-01-01T00:00:00.000,,2017-07-01T00:00:00.000,,2090 Green St Apt 31
+1158987-08-171,331813,Eviction Defense Collab Inc,Radco,1338 Mission St Fl 4,San Francisco,CA,94103,2002-10-09T00:00:00.000,,2014-01-01T00:00:00.000,,972 Mission St # Ground
+1158988-08-171,1074004,"Correlation Management, LLC",Correlation Ventures,650 California St 06-147,San Francisco,CA,94108,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,9255 Towne Centre Dr Ste 350
+1158992-08-171,1017789,Clementina Towers Associates Lp,Clementina Towers Associates Lp,320 Clementina St,San Francisco,CA,94103,2015-05-13T00:00:00.000,,2016-10-13T00:00:00.000,,201 Eddy St
+1158993-08-171,1017789,Clementina Towers Associates Lp,Clementina Towers Associates Lp,330 Clementina St,San Francisco,CA,94103,2015-05-13T00:00:00.000,,2016-10-13T00:00:00.000,,201 Eddy St
+1158994-08-171,1042515,"Illuminated Futures , Inc.",Team Machine,400 Avila St Apt 304,San Francisco,CA,94123,2016-07-14T00:00:00.000,,2017-08-23T00:00:00.000,,400 Avila St Apt 304
+1158995-08-171,482543,Visitacion Group LLC,"Visitacion Group, LLC",650 California St Ste 1900,San Francisco,CA,94108,2013-07-08T00:00:00.000,,2014-06-01T00:00:00.000,,425 California St Bldg 2600
+1159001-08-171,1075159,Arthur Chin And Linda Ho Chin,371-373 4th Ave,4th Ave Apt,San Francisco,CA,94118,2015-03-07T00:00:00.000,,2015-03-07T00:00:00.000,,11 Manzanita Ave Apt
+1159005-08-171,1075161,Fmh Investment,Fmh Investment,12 Waverly Place,San Francisco,CA,94108,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,301 Gambier St
+1159007-08-171,1075162,Marzio Cuomo,Spacious Edwardian Flat,469 14th St,San Francisco,CA,94103,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,469 14th St
+1159013-08-171,1075165,Pavan LLC,Pavan LLC,2010 Mission St,San Francisco,CA,94110,2001-08-28T00:00:00.000,,2001-08-28T00:00:00.000,,104 Woodbridge Cir
+1159023-08-171,1075174,Rose Jade Management LLC,Rose Jade Management LLC,2187 Market St,San Francisco,CA,94114,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,58 Villa Dr
+1159044-08-171,1075187,"Englewood Construction, Inc.","Englewood Construction, Inc.",80 Main St,Lemont,IL,60439,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,80 Main St
+1159046-08-171,1075188,Thomas & Paula Yee,574 38th Ave.,574 38th Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1930 36th Ave
+1159056-08-171,1075197,"Professionals Network Group, Inc.",Provisors,135 Main St Fl 9th,San Francisco,CA,94105,1999-02-28T00:00:00.000,,2015-11-01T00:00:00.000,,15260 Ventura Blvd Ste 1700
+1159059-08-171,1075199,Kionin Inc.,Kionin Inc.,548 Market St 50931,San Francisco,CA,94104,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,548 Market St Ste 50931
+1159063-08-171,1075203,Jacobs Cm Pros - A Joint Venture,Jacobs Cm Pros - A Joint Venture,160 Spear St Ste 1200,San Francisco,CA,94111,2017-08-23T00:00:00.000,,2017-08-23T00:00:00.000,,4 Embarcadero Ctr Ste 3800
+1159065-08-171,1075204,530 Eighth Avenue LLC,530 Eighth Avenue LLC,530 Eighth Ave,San Francisco,CA,94118,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,2595 Mission St Ste 200
+1159072-08-171,1075208,County Wine Group,Howells,2373 Chestnut St,San Francisco,CA,94123,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,3600 21st St Apt 104
+1159082-08-171,1075213,J.R. Electric And General Contracting,J.R. Electric And General Contracting,2643 Mayfair Ave,Concord,CA,94520,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,2643 Mayfair Ave
+1159088-08-171,1075216,Kenneth Poudrier,Kenneth Poudrier,220 Castro St,San Francisco,CA,94114,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,220 Castro St
+1159090-08-171,1075217,Phillips & Associates,Phillips & Associates,1383 11th Ave,San Francisco,CA,94122,2006-07-01T00:00:00.000,,2006-07-01T00:00:00.000,,1383 11th Ave
+1159096-08-171,1075220,Pilates Story,Pilates Story,183 West Portal Ave,San Francisco,CA,94127,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,183 West Portal Ave
+1159102-08-171,1075223,"Brilliant Worldwide, Inc.","Brilliant Worldwide, Inc.",15 Butte Pl,San Francisco,CA,94103,2013-11-01T00:00:00.000,,2013-11-01T00:00:00.000,,550 Montgomery St Ste 800
+1159110-08-171,1075227,Second Label LLC,The Bee Hive SF,842 Valencia St,San Francisco,CA,94110,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,850 Shotwell St
+1159128-08-171,1073940,Bowfin Lane Inc.,Brickhouse,426 Brannan St,San Francisco,CA,94107,2017-07-27T00:00:00.000,,2017-08-24T00:00:00.000,,426 Brannan St
+1159129-08-171,1073940,Bowfin Lane Inc.,Vagabond,426 Brannan St,San Francisco,CA,94107,2017-07-27T00:00:00.000,,2017-08-24T00:00:00.000,,426 Brannan St
+1159131-08-171,434866,Meril Cheryl,24/7 Notary Public,1245 California St Apt 303,San Francisco,CA,94109,2011-03-07T00:00:00.000,,2017-08-24T00:00:00.000,,1245 California St Apt 303
+1159132-08-171,434866,Meril Cheryl,Nob Hill Notary 24/7,50 California St Ste 1500,San Francisco,CA,94111,2011-03-07T00:00:00.000,,2017-08-24T00:00:00.000,,1245 California St Apt 303
+1159141-08-171,1075232,"Wme Img Holdings, LLC","International Merchandising Company, LLC",1360 E 9th St Ste 100,Cleveland,OH,44114,2014-05-07T00:00:00.000,,2014-05-07T00:00:00.000,,9601 Wilshire Blvd Fl 3
+1159158-08-171,1075240,"Christian Brothers Lining, Co.","Christian Brothers Lining, Co.",700 Webster St,Fairfield,CA,94533,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,1250 Oliver Rd
+1159162-08-171,1075241,"Matko Group, Inc.",Matko,1 Market Plz Spc Pl24,San Francisco,CA,94105,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,440 Pointe Pacific Apt 2
+1159168-08-171,1075244,"1050 Lake Street, LLC","1050 Lake Street, LLC",220 Montgomery St,San Francisco,CA,94104,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,0000 Undeliverable Mail
+1159176-08-171,1075248,Lombard St. LLC,Lombard St. LLC,Lombard St,San Francisco,CA,94123,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,308 Jessie St
+1159178-08-171,1075249,Construction America,Construction America,1325 Edmonton Court,Tracy,CA,95376,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,1325 Edmonton Ct
+1159180-08-171,1075250,Wang Guanying,Guanying,1851 27th Ave,San Francisco,CA,94122,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,1851 27th Ave
+1159184-08-171,1075252,Richard P. Koch,Richard P. Koch,268 Bush St 3237,San Francisco,CA,94104,2016-12-01T00:00:00.000,,2016-12-01T00:00:00.000,,268 Bush St # 3237
+1159193-08-171,1075258,James Forrest Jr & Cindy Tuala,Goodgrabbers,77 Van Ness Ave Ste 101 1716,San Francisco,CA,94102,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,77 Van Ness Ave Ste 1011716
+1159203-08-171,1075264,Professional Contracting Inc,Professional Contracting Inc,2350 Marinship Way,Sausalito,CA,94966,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,Po Box 877
+1159207-08-171,1075266,Michael Ta,Uodora,1607 23rd Ave,San Francisco,CA,94122,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,1607 23rd Ave
+1159225-08-171,1031460,"West Monroe Partners, LLC",West Monroe Partners,100 First St Ste 355,San Francisco,CA,94105,2015-10-24T00:00:00.000,,2017-08-21T00:00:00.000,,311 W Monroe St 14 Fl
+1159230-08-171,943750,Intel Corporation,Intel Corporation,150 Chestnut St,San Francisco,CA,94111,2007-10-20T00:00:00.000,,2015-12-28T00:00:00.000,,2200 Mission College Blvd
+1159231-08-171,378348,The Postal Chase Inc,The Postal Chase #4,530 Divisadero St,San Francisco,CA,94117,2004-03-10T00:00:00.000,,2017-07-01T00:00:00.000,,58 West Portal Ave
+1159243-08-171,473627,Hk Vineyard Holdings LLC,Twisting Turns Wines/Sonoma View Vineyard,1808 Vallejo St Apt 6,San Francisco,CA,94123,2011-10-26T00:00:00.000,,2011-10-26T00:00:00.000,,1808 Vallejo St 6 Apt
+1159245-08-171,475736,Fong Christine S,La Tira Wax Studio,2408 Folsom St,San Francisco,CA,94110,2012-12-24T00:00:00.000,,2017-08-27T00:00:00.000,,Po Box 31835
+1159251-08-171,1075280,Small Spot Gardens Inc.,Small Spot Gardens,2675 21st St,San Francisco,CA,94110,2017-08-21T00:00:00.000,,2017-08-21T00:00:00.000,,2675 21st St
+1159253-08-171,1075281,Ninel Liberman,301-307 16th Avenue,16th Ave,San Francisco,CA,94118,1997-12-09T00:00:00.000,,1997-12-09T00:00:00.000,,2331 15th Ave
+1159255-08-171,1075282,Daniel A Sobel,Vacation Rental,216 Cortland Ave,San Francisco,CA,94110,2017-08-27T00:00:00.000,,2017-08-27T00:00:00.000,,216 Cortland Ave
+1159265-08-171,1075287,Calvin Tran,Calvin Tran,7415 Geary Blvd,San Francisco,CA,94121,2015-02-20T00:00:00.000,,2017-01-01T00:00:00.000,,133 Alturas Dr
+1159267-08-171,1075288,Effectus Group LLC,Effectus Group LLC,1735 Technology Dr Ste 820,San Jose,CA,95110,2017-01-30T00:00:00.000,,2017-08-28T00:00:00.000,,1735 Technology Dr Ste 780
+1159277-08-171,1075293,Eva Wexler,"Eva Wexler, Lcsw",999 Sutter St,San Francisco,CA,94109,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,4629 Kolohala St
+1159279-08-171,1075294,"Grey Wall Software, LLC",Veoci.Com,195 Church Street Fl 14,New Haven,CT,6510,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,195 Church St Fl 14
+1159285-08-171,1075297,Igor Feltsman,Park Boutique,5516 Fulton St,San Francisco,CA,94121,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,5516 Fulton St
+1159311-08-171,1075311,"Progistics Distribution, Inc.","Progistics Distribution, Inc",480 Roland Way 102,Oakland,CA,94621,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,2270 Corporate Cir Ste 220
+1159313-08-171,1075312,Albert Gonzalez,202-208 21st Avenue,21st Ave,San Francisco,CA,94121,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,Po Box 27534
+1159320-08-171,1075315,"Earth Mechanics, Inc.","Earth Mechanics, Inc.",17800 Newhope St B,Fountain Valley,CA,92708,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,17800 Newhope St Ste B
+1159329-08-171,1075319,Michael F. Durkan Bypass Trust,Apartment Rental,578 26th Avenue Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,2550 34th Ave
+1159337-08-171,1075323,Magna Chrome LLC,Magna Chrome LLC,5036 Commercial Circle Cir Ste D,Concord,CA,94520,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,5036 Commercial Cir Ste D
+1159339-08-171,1075324,Passage One LLC,Passage One,Sloat Blvd Ste 513,San Francisco,CA,94132,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,1559b Sloat Blvd Ste 513
+1159341-08-171,1075325,John And Trini Artal,447 15th Ave,447 15th Ave,San Francisco,CA,94118,2017-07-26T00:00:00.000,,2017-07-26T00:00:00.000,,1311 Sutter St Ste 200a
+1159343-08-171,1075326,Trini And John Artal,163 17th Ave,163 17th Ave,San Francisco,CA,94121,2017-07-26T00:00:00.000,,2017-07-26T00:00:00.000,,1311 Sutter St Ste 200a
+1159347-08-171,1075328,"Adswerve, Inc.","Adswerve, Inc.",270 Henry St Unit 101,San Francisco,CA,94114,2012-08-01T00:00:00.000,,2012-08-01T00:00:00.000,,999 18th St 2301n
+1159357-08-171,1075333,Elena Polyushko,Lecolet,6216 Antioch St Apt A,Oakland,CA,94611,2017-08-15T00:00:00.000,,2017-08-15T00:00:00.000,,6216 Antioch St Apt A
+1159360-08-171,1075334,Jeremy Mintz,"Jeremy Mintz, Psy.D.",2211 Post St Ste 401,San Francisco,CA,94115,2017-08-23T00:00:00.000,,2017-08-23T00:00:00.000,,2220 Fillmore St
+1159364-08-171,1075336,Bing Jun Lee,511 36th Ave Apts,511 36th Ave. #3,San Francisco,CA,94121,2009-07-01T00:00:00.000,,2009-07-01T00:00:00.000,,511 36th Ave Apt 3
+1159365-08-171,944176,Baker Frances K,W K Baker Co,1605 N Ferrocarril Rd,Atascadero,CA,93422,1996-07-04T00:00:00.000,,2016-04-10T00:00:00.000,,1605 N Ferrocarril Rd
+1159366-08-171,455171,Garfield Beach Cvs LLC,Cvs/Pharmacy #5131,1900 19th Ave,San Francisco,CA,94116,2011-01-23T00:00:00.000,,2017-08-28T00:00:00.000,,1 Cvs Dr
+1159367-08-171,1025554,Mise En Place Sf LLC,The Civic Kitchen,2961 Mission St,San Francisco,CA,94110,2016-02-01T00:00:00.000,,2017-08-28T00:00:00.000,,2961 Mission St
+1159368-08-171,431774,Dowler Ciaran Francis,Edenavow Construction & Design,169 Castro St,San Francisco,CA,94114,2008-08-26T00:00:00.000,,2017-06-01T00:00:00.000,,169 Castro St
+1159372-08-171,1075306,Marlin Hernandez,Marlin Hernandez,724 26th St,Richmond,CA,94804,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,724 26th St
+1159378-08-171,1066462,Brighter Bay Builders Inc,Brighter Bay Builders Inc,374 89th St #11,Daly City,CA,94015,2017-03-01T00:00:00.000,,2017-07-01T00:00:00.000,,10 Altura Way
+1159380-08-171,1029766,Taskus Inc,"Taskus, Inc",880 Harrison St Ste 203,San Francisco,CA,94107,2016-01-01T00:00:00.000,,2017-04-01T00:00:00.000,,1650 Independence Dr # 100ste
+1159386-08-171,75374,Lau Jeffrey & Sophie,716 - 722 Columbus Avenue,716 Columbus St,San Francisco,CA,94133,1972-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1945 Ocean Ave
+1159387-08-171,75374,Lau Jeffrey & Sophie,781 - 785 Columbus,785 Columbus Ave,San Francisco,CA,94133,1972-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1945 Ocean Ave
+1159393-08-171,1075339,Dopple Inc,Dopple Inc,1182 Folsom St,San Francisco,CA,94103,2016-10-01T00:00:00.000,,2016-10-01T00:00:00.000,,0000 Undeliverable Mail
+1159395-08-171,1075340,"Fos Electric, Inc.","Fos Electric, Inc.",2146 Van Ness Ave Unit B,San Francisco,CA,94109,2017-07-14T00:00:00.000,,2017-07-14T00:00:00.000,,1556 Fitzgerald Dr
+1159397-08-171,1075341,Hebert Chan Ching,2 Curtis St,2 Curtis St,San Francisco,CA,94112,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,2 Curtis St
+1159411-08-171,1075347,Michael Vincent Nunes Raposo,Nuno Raposo,555 Innes Ave Apt 206,San Francisco,CA,94124,2017-02-02T00:00:00.000,,2017-02-02T00:00:00.000,,555 Innes Ave Apt 206
+1159415-08-171,1075349,Alice & Wing Ho Lau,Alice & Wing Ho Lau,7333 Geary Blvd,San Francisco,CA,94121,1983-08-30T00:00:00.000,,1983-08-30T00:00:00.000,,7333 Geary Blvd
+1159416-08-171,1005086,Iron Mountain Information Management Services Inc.,Osom,50 Crisp Rd,San Francisco,CA,94124,2013-07-01T00:00:00.000,,2013-07-01T00:00:00.000,,1101 Enterprise Dr
+1159425-08-171,1075353,Basalle Wong,400-27th Avenue,2543 Clement St,San Francisco,CA,94121,1991-07-24T00:00:00.000,,1991-07-24T00:00:00.000,,2543 Clement St
+1159443-08-171,1075363,"Scoot Insights, LLC","Scoot Insights, LLC",3525 Broderick St,San Francisco,CA,94123,2015-07-01T00:00:00.000,,2015-07-01T00:00:00.000,,3525 Broderick St
+1159458-08-171,1075370,Janko Joseph,H Fit,80 San Rafael Ave,San Anselmo,CA,94960,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,80 San Rafael Ave
+1159462-08-171,1075373,Meat By Pete LLC,Meat By Pete,1566 Carroll Ave,San Francisco,CA,94124,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,0000 Undeliverable Mail
+1159464-08-171,1075374,Pixowl Inc,Pixowl Inc,524 Union St Ste 281,San Francisco,CA,94133,2012-10-08T00:00:00.000,,2012-10-08T00:00:00.000,,15 Addison Rd
+1159466-08-171,1075376,Karen Croft,Karen Croft,2048 Golden Gate Ave,San Francisco,CA,94115,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,2048 Golden Gate Ave
+1159471-08-171,1075378,American Eagle Plumbing & Construction,American Eagle Engineering,5441 Victoria Ln,El Sobrante,CA,94803,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,5441 Victoria Ln
+1159475-08-171,1075380,Sonia Van Braden,Sonia Van Braden,608 Andover St,San Francisco,CA,94110,2017-08-28T00:00:00.000,,2017-08-28T00:00:00.000,,608 Andover St
+1159477-08-171,1075381,"Jose Cardona, Cipriano Cardona",Cardona's Food Truck,1390 Mission St Apt 409,San Francisco,CA,94103,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,1390 Mission St Apt 402
+1159487-08-171,1075386,Leong And Dajano,Icicles,829 Mission St,San Francisco,CA,94103,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,829 Mission St
+1159491-08-171,1072426,Ever88 LLC,Cafe Reveille,201 Steiner St,San Francisco,CA,94117,2017-06-27T00:00:00.000,,2017-08-29T00:00:00.000,,610 Long Bridge St
+1159492-08-171,452357,Bay Area Cremation/Funeral Svc,Bay Area Cremation Society Inc,4444 Geary Blvd Ste 305,San Francisco,CA,94118,2010-09-07T00:00:00.000,,2017-01-01T00:00:00.000,,2449 Station Dr
+1159493-08-171,191908,Medela LLC,Medela LLC,1101 Corporate Dr,Mchenry,IL,60050,1995-11-01T00:00:00.000,,2017-01-01T00:00:00.000,,1101 Corporate Dr
+1159494-08-171,454849,Safren Debra J,Safren Psychological Services,1195 Valencia St,San Francisco,CA,94110,2011-01-15T00:00:00.000,,2017-06-01T00:00:00.000,,0000 Undeliverable Mail
+1159495-08-171,372773,Tom Lewis Restoration & Consul,"Tom Lewis Restoration & Consulting, Inc.",135 Quint St,San Francisco,CA,94124,2003-05-16T00:00:00.000,,2016-11-01T00:00:00.000,,135 Quint St
+1159496-08-171,376863,Apa Family Support Services,Apa Family Support Services,10 Nottingham Pl,San Francisco,CA,94133,1992-06-26T00:00:00.000,,2007-05-31T00:00:00.000,,10 Nottingham Pl
+1159499-08-171,387451,Accounting Principals Inc,"Modis, Inc.",135 Main St Ste 1040,San Francisco,CA,94105,2005-07-01T00:00:00.000,,2017-08-29T00:00:00.000,,4800 Deerwood Campus Pkwy Unit 800
+1159503-08-171,1072281,Ito Inc,Kikka At Woodlands Market,203 Folsom Street,San Francisco,CA,94105,2017-06-22T00:00:00.000,,2017-06-22T00:00:00.000,,431 Isis Ave
+1159504-08-171,1035620,Go Nimbly Inc.,Go Nimbly,1550 Bryant St Ste 770,San Francisco,CA,94103,2016-01-14T00:00:00.000,,2017-07-10T00:00:00.000,,4304 18th St Unit 14760
+1159505-08-171,472777,Hsu Saiman,Sima Consultancy LLC,206 Nevada Street,Nevada City,CA,95959,2012-09-12T00:00:00.000,,2013-01-29T00:00:00.000,,206 Nevada St
+1159515-08-171,1075393,Jane Dinh,Jdinh Rentals,55 9th St Apt 1616,San Francisco,CA,94103,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,55 9th St Apt 1616
+1159519-08-171,1075396,Howard Jow,Howard Jow,385 7th Ave,San Francisco,CA,94118,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1964 10th Ave
+1159545-08-171,1075409,Build America Mutual Assurance Company,Build America Mutual Assurance Company,101 California St,San Francisco,CA,94111,2012-10-05T00:00:00.000,,2012-10-05T00:00:00.000,,200 Liberty St
+1159548-08-171,1039436,Reliable Rexall Sunset Pharmacy,Reliable Rexall Sunset Pharmacy,801 Irving St,San Francisco,CA,94122,2016-07-06T00:00:00.000,,2016-07-06T00:00:00.000,,801 Irving St
+1159555-08-171,463142,Ansa Consulting Group LLC,Hyphen Human Development,660 4th St #146,San Francisco,CA,94107,2011-09-01T00:00:00.000,,2011-09-01T00:00:00.000,,660 4th St # 146
+1159560-08-171,1075419,Dge Investment Co,Liberty Safes Of San Jose,2897 South Bascom Ave.,Campbell,CA,95008,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,817 Jeffeson Blvd.
+1159564-08-171,1075421,Warren Li Associates,Warren Li Associates,3170 16th St,San Francisco,CA,94103,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,3170 16th St
+1159572-08-171,1075425,"All New Glass Of California, Inc.","All New Glass Of California, Inc.",319 D St Nw Unit 104,Auburn,WA,98001,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,319 D St Nw Ste 104
+1159578-08-171,1075428,Steve Loft,Dynamic Solutions,101 Vassar St,Half Moon Bay,CA,94019,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Vassar St
+1159582-08-171,1075430,Jk Gangnam Inc,Odumak,733 Taraval St,San Francisco,CA,94116,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,733 Taraval St
+1159595-08-171,12721,Hertz Corp The,The Hertz Corporation,3911 Alemany Blvd Ste 1003,San Francisco,CA,94132,1968-10-01T00:00:00.000,,2017-08-01T00:00:00.000,,8501 Williams Rd
+1159599-08-171,1024165,Kuma Restaurants LLC,Kuma Sushi + Sake,1040 Polk St,San Francisco,CA,94109,2016-01-26T00:00:00.000,,2017-08-01T00:00:00.000,,1040 Polk St
+1159602-08-171,1058205,Golden Gate Solar,Green-Tech Developers,5 Wellington Ave,Daly City,CA,94014,2016-09-26T00:00:00.000,,2016-09-30T00:00:00.000,,5 Wellington Ave
+1159604-08-171,1068410,Vanessa Harasin,Hair By Harasin,633 Battery St Ste 117,San Francisco,CA,94111,2017-04-09T00:00:00.000,,2017-08-30T00:00:00.000,,6404 Dijon Way
+1159605-08-171,192054,Ma John W,Jm Trading Co,838 Grant Ave #402,San Francisco,CA,94108,1989-10-10T00:00:00.000,,2017-08-30T00:00:00.000,,838 Grant Ave Ste 402
+1159606-08-171,192054,Ma John W,Chan & Ma Cpa,838 Grant Ave #402,San Francisco,CA,94108,1989-10-10T00:00:00.000,,2017-08-30T00:00:00.000,,838 Grant Ave Ste 402
+1159611-08-171,459472,Merker Architectural Group Inc,Merker Architects,54 54 Terry Francois Blvd,San Francisco,CA,94158,2009-07-24T00:00:00.000,,2013-09-01T00:00:00.000,,0000 Undeliverable Mail
+1159613-08-171,369229,Marx Jean Z,Cove,206 Fillmore St,San Francisco,CA,94117,2003-08-25T00:00:00.000,,2017-08-04T00:00:00.000,,206 Fillmore St
+1159620-08-171,1075439,John Botts,Johnny Botts,584 Castro St 244,San Francisco,CA,94114,2017-08-31T00:00:00.000,,2017-08-31T00:00:00.000,,584 Castro St # 244
+1159623-08-171,942490,Japanese Community Youth Cncl,Chibi Chan Too Preschool,800 Presidio Ave,San Francisco,CA,94115,1970-05-25T00:00:00.000,,2017-08-15T00:00:00.000,,2012 Pine St
+1159627-08-171,1075446,Nestorius Owner,Blast,447 Sutter St Ste 417,San Francisco,CA,94108,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,447 Sutter St Ste 417
+1159635-08-171,1075450,Yu Ping Lee And Jennifer Lien,"539 28th Avenue, Apts",539 28th Avenue,San Francisco,CA,94121,1989-09-25T00:00:00.000,,1989-09-25T00:00:00.000,,Po Box 6126
+1159658-08-171,1075461,"Sunset Medical Transport, LLC","Sunset Medical Transport, LLC",2014 22nd Ave,San Francisco,CA,94116,2017-08-31T00:00:00.000,,2017-08-31T00:00:00.000,,2014 22nd Ave
+1159662-08-171,1075463,Michael & Mary Cohen,Michael & Mary Cohen,1236 Francisco St,San Francisco,CA,94123,2015-03-18T00:00:00.000,,2015-03-18T00:00:00.000,,8080 Warren Ct
+1159668-08-171,1075466,East Oakland Youth Development Center,East Oakland Youth Development Center,8200 International Blvd,Oakland,CA,94621,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,8200 International Blvd
+1159684-08-171,1075476,Live Fit Gym & Wellness Spa,Live Fit Gym & Wellness Spa,950 California St Bldg,San Francisco,CA,94108,2017-08-31T00:00:00.000,,2017-08-31T00:00:00.000,,950 California St Bldg
+1159690-08-171,1075480,Tyrone Chin,305 23rd Ave,759 18th Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,759 18th Ave
+1159692-08-171,1075481,Tyrone Chin,2201 - 2205 Clement St,759 18th Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,759 18th Ave
+1159694-08-171,1075482,Uche Nchekwube,"Uche Nchekwube, M.B.A.",1825 Civic Center Dr 17,Santa Clara,CA,95050,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,690 Saratoga Ave Ste 100
+1159701-08-171,134460,Waterfront Automobili Inc,Waterfront Automobile Service,1301 17th St,San Francisco,CA,94107,1981-01-01T00:00:00.000,,2017-08-31T00:00:00.000,,1301 17th St
+1159705-08-171,945971,Hemphill Robert J,Neverland,241 Columbus Ave,San Francisco,CA,94133,1995-10-10T00:00:00.000,,2017-07-26T00:00:00.000,,Po Box 471114
+1159706-08-171,440700,W & R Inc,Win Company,543 2nd Ave,San Francisco,CA,94118,2009-07-06T00:00:00.000,,2017-08-30T00:00:00.000,,543 2nd Ave
+1159707-08-171,333920,Gary Hutton Design,Gary Hutton Design,2015 Polk St,San Francisco,CA,94109,2000-01-01T00:00:00.000,,2017-08-31T00:00:00.000,,2015 Polk St
+1159712-08-171,1074407,"Golden Gateidence Opco, LLC",Victorian Post Acute,2121 Pine St,San Francisco,CA,94115,2017-07-17T00:00:00.000,,2017-08-04T00:00:00.000,,2121 Pine St
+1159722-08-171,1075487,"Pokhrel, Dds, Inc.",Zen Dental Studio,254 5th St,San Francisco,CA,94103,2017-07-15T00:00:00.000,,2017-07-15T00:00:00.000,,3057 Mariposa Dr
+1159726-09-171,1075489,"Tiffany And Company U.S. Sales, LLC",Tiffany & Co,350 Post St,San Francisco,CA,94108,2017-02-01T00:00:00.000,,2017-02-01T00:00:00.000,,15 Sylvan Way
+1159729-09-171,1075491,Wah Lew,577 27th Ave,577 27th Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,951 Duncan St
+1159731-09-171,1075492,Ehson Mortezaie,Home Hosting,39 Reed St Unit 39,San Francisco,CA,94109,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,39 Reed St Unit 39
+1159735-09-171,1075494,"Comcast Otr 1, LLC","Comcast Otr 1, LLC",1701 John F Kennedy Blvd Fl 32,Philadelphia,PA,19103,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1701 John F Kennedy Blvd 32 Fl
+1159741-09-171,1075497,Specialized Electrical Contractor Inc.,Specialized Electrical Contractor Inc.,772 Walnut Street Unit 17,San Carlos,CA,94070,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,Po Box 162
+1159743-09-171,1075498,"Concord Foods, Inc",Concord Foods Inc,4601 Guasti Rd,Ontario,CA,91761,2009-10-02T00:00:00.000,,2009-10-02T00:00:00.000,,4601 E Guasti Rd
+1159747-09-171,1075500,Dana Tam,336 Eighth Ave Apartments,336 Eighth Ave Apt 3,San Francisco,CA,94118,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1352 22nd Ave
+1159749-09-171,1075501,Gurung & Family Food Inc,Tilak Indian Cuisine,3501 Mission St,San  Francisco,CA,94110,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,3501 Mission St
+1159765-09-171,1075514,Vladimir Skorokhod,Action Urgent Care Inc.,735 7th St,San Francisco,CA,94118,2017-06-01T00:00:00.000,,2017-08-22T00:00:00.000,,1375 Blossom Hill Rd Ste 49
+1159771-09-171,1075517,Daniel Yee,West Portal Floral Company,51 West Portal Ave,San Franciscco,CA,94127,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,51 West Portal Ave
+1159777-09-171,1075520,Jorge L. Guerzon,Jguerzonpictorials,228 9th Avenue Ave,San Francisco,CA,94118,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,228 9th Ave
+1159787-09-171,1075529,Yaroslav Gavrilyuk,Yyy General Contractor,8605 Morning Skye Way,Antelope,CA,95843,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,8605 Morning Skye Way
+1159803-09-171,1075541,Columbia Mission Bay LLC,Mission Bay By Windsor,360 Berry St,San Francisco,CA,94158,2017-08-08T00:00:00.000,,2017-08-08T00:00:00.000,,360 Berry St
+1159805-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2015 Steiner St Fl A,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1159808-09-171,1075544,Boston Hotel 140 Turk LLC,Boston Hotel,140 Turk St,San Francisco,CA,94102,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,140 Turk St
+1159810-09-171,1075545,Weixiong Huang,H W X Construction,770 Joost Ave,San Francisco,CA,94127,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,770 Joost Ave
+1159812-09-171,1075546,Good Food For Good,Learnup Centers,2325 Pine St,San Francisco,CA,94115,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,2325 Pine St
+1159826-09-171,439439,Bryan Gregory J,Global Immigration & Inv Services,825 Portola Dr,San Francisco,CA,94127,2009-06-01T00:00:00.000,,2017-04-01T00:00:00.000,,1614 Hudson St Apt 302
+1159827-09-171,439439,Bryan Gregory J,Gb And Associates,825 Portola Dr,San Francisco,CA,94127,2009-06-01T00:00:00.000,,2017-04-01T00:00:00.000,,1614 Hudson St Apt 302
+1159834-09-171,1074754,"David S. Isaac, Solomon H. Isaac",Mayfair Apartments,524 30th Ave Apt N,San Francisco,CA,94121,1991-11-01T00:00:00.000,,2017-09-01T00:00:00.000,,1 Skylark Dr
+1159835-09-171,1075534,Phuong Tran & Long Luu,Nail Pretty,3315 Sacramento St,San Francisco,CA,94118,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,3315 Sacramento St
+1159837-09-171,1067467,National University Corporation Kagoshima University,Kogoshima University North American Center,201 Spear St 11003027,San Francisco,CA,94105,2017-01-01T00:00:00.000,,2017-09-01T00:00:00.000,,201 Spear St Ste 11003028
+1159842-09-171,1075554,Wah Lew,207 Valencia St Rstrnt,207 Valencia St,San Francisco,CA,94103,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,951 Duncan St
+1159854-09-171,1075560,Gio Gelato Italiano Originale Inc,Gio Gelati,1998 Union St Unit,San Francisco,CA,94123,2017-03-01T00:00:00.000,,2017-03-01T00:00:00.000,,315 Main St Apt 1
+1159861-09-171,374561,Khanna Ruchika M,Ruchika M Khanna,5062 Carducci Dr,Pleasanton,CA,94588,2010-06-16T00:00:00.000,,2017-09-02T00:00:00.000,,5062 Carducci Dr
+1159873-09-171,1075569,Karma Yoga San Francisco,"Karma Yoga San Francisco, LLC",1906 Union St,San Francisco,CA,94123,2016-12-01T00:00:00.000,,2016-12-01T00:00:00.000,,3625 Buchanan St
+1159881-09-171,1075573,Francesca Mari,Filbert,865 Filbert St 1a,San Francisco,CA,94133,2017-09-03T00:00:00.000,,2017-09-03T00:00:00.000,,0000 Undeliverable Mail
+1159886-09-171,1075575,Fiverr Inc,Fiverr Inc,1600 Broadway,New York,NY,10013,2015-12-01T00:00:00.000,,2015-12-01T00:00:00.000,,38 Greene St
+1159901-09-171,1075582,Virginia Chin,441 Linden,441 Linden St,San Francisco,CA,94102,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,441 Linden St
+1159903-09-171,1075583,Verlaine Wong,348 19th Ave.,348 19th Ave,San Francisco,CA,94121,1999-04-01T00:00:00.000,,1999-04-01T00:00:00.000,,3240 S White Rd # 238
+1159916-09-171,1075590,Arroyo Realty And Development LLC,Arroyo Realty And Development LLC,1974 Lincoln Ave,Pasadena,CA,91103,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,1974 Lincoln Ave
+1159918-09-171,1075592,Annie Yuen,Win Yen Company,2747 Mission St,San Francisco,CA,94110,2017-09-05T00:00:00.000,,2017-09-05T00:00:00.000,,1168 Broadway
+1159924-09-171,1075595,"Sutton Pierce, LLC","Suuton Pierce, LLC",660 4th St 716,San Francisco,CA,94107,2017-08-31T00:00:00.000,,2017-09-05T00:00:00.000,,660 4th St # 716
+1159930-09-171,1075599,"Worksmart Systems, Inc.","Worksmart Systems, Inc.",233 Harold Ave,San Francisco,CA,94112,2017-05-01T00:00:00.000,,2017-05-01T00:00:00.000,,8531 Bash St Ste 200
+1159936-09-171,1075605,Jose A. Lara,Anton's Pizza,1196 Folsom St,San Francisco,CA,94103,2017-09-05T00:00:00.000,,2017-09-05T00:00:00.000,,1196 Folsom St
+1159965-09-171,1075619,Safety First Consulting Group LLC,"Safety Consulting Group LLC, Cannabis Management Operations",1579 Wallace Ave,San Francisco,CA,94124,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,1579 Wallace Ave
+1160002-09-171,173585,"Chandler Properties, Inc.",Chandler Properties,3475 California St,San Francisco,CA,94118,1985-01-01T00:00:00.000,,2017-09-05T00:00:00.000,,3475 California St
+1160003-09-171,341643,Martinez Julio,Julios,315 Seneca Ave,San Francisco,CA,94112,2000-12-07T00:00:00.000,,2017-09-05T00:00:00.000,,315 Seneca Ave
+1160005-09-171,314355,Levine Marc A,Marc A Levine Md,404 Lombard St,San Francisco,CA,94133,1997-09-01T00:00:00.000,,2017-01-01T00:00:00.000,,404 Lombard St
+1160009-09-171,436963,Feldman Architecture Inc,Feldman Architecture Inc,1648 Pacific Ave B,San Francisco,CA,94109,2008-12-31T00:00:00.000,,2017-09-05T00:00:00.000,,1648 Pacific Ave # B
+1160011-09-171,1075634,R.T.B. Fillmore LLC,R.T.B. Fillmore LLC,1552 Fillmore St,San Francisco,CA,94115,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,1552 Fillmore St
+1160019-09-171,1075638,"Nexstar Broadcasting, Inc.",Nexstar Broadcasting Kron,900 Front St,San Francisco,CA,94111,2017-04-01T00:00:00.000,,2017-04-01T00:00:00.000,,545 E John Carpenter Fwy Ste 700
+1160025-09-171,1075641,Mighty Capital Management LLC,Mighty Capital Management LLC,419 14th Street,San Francisco,CA,94103,2017-06-05T00:00:00.000,,2017-06-05T00:00:00.000,,419 14th St
+1160027-09-171,1075642,Jennifer Jiyun Bae,Jennifer Bae,625 9th Ave,San Francisco,CA,94118,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,625 9th Ave
+1160031-09-171,1075646,Tsiala Petrosyan,Apsis Cosulting,63 Escondido Ave,San Francisco,CA,94132,2017-09-05T00:00:00.000,,2017-09-05T00:00:00.000,,63 Escondido Ave
+1160048-09-171,1075655,Huang Zhao Wei,Cyber Max Warehouse,420 Berry St Unit 439,San Francisco,CA,94158,2017-09-03T00:00:00.000,,2017-09-03T00:00:00.000,,420 Berry St 439 Apt
+1160052-09-171,1075659,"A. Tamam Construction, Inc.","A. Tamam Construction, Inc.",3909 Washington Blvd Ste 206,Fremont,CA,94538,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,41060 High St H Ste
+1160058-09-171,1075662,Denise Shields,Shields Resource Group,24040 Camino Del Avion Ste A294,Monarch Beach,CA,92629,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,24040 Camino Del Avion Ste Monarch
+1160066-09-171,1075668,Todd Ahlberg,Ahlberg Bnb,534 Castro St Apt,San Francisco,CA,94114,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,534 Castro St Apt
+1160072-09-171,1075671,"Kk Fong,Inc.",My Cup Of Tea,2666 Ocean Ave,San Francisco,CA,94132,2017-09-05T00:00:00.000,,2017-09-05T00:00:00.000,,2666 Ocean Ave
+1160076-09-171,1075673,Veredus Corporation,Veredus Corporation,4300 W Cypress St Ste 900,Tampa,FL,33607,2016-07-01T00:00:00.000,,2016-07-01T00:00:00.000,,0000 Undeliverable Mail
+1160079-09-171,424316,690 Market Master Assoc Inc,690 Market Master Assoc Inc,690 Market St,San Francisco,CA,94104,2007-11-01T00:00:00.000,,2007-11-01T00:00:00.000,,690 Market St
+1160092-09-171,460081,Modesto Ventures LLC,Charleys Philly Steaks,865 Market St Fe-8,San Francisco,CA,94103,2011-07-01T00:00:00.000,,2011-07-01T00:00:00.000,,5000 Arlington Centre Blvd Ste 5300
+1160096-09-171,1075682,Mega Protect Services LLC,Mega Lab Services,1321 Evans Ave Ste E,San Francisco,CA,94124,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,1321 Evans Ave Ste E
+1160121-09-171,1075698,Lace And Liberty Inc.,Lace & Liberty,973 Valencia Street,San Francisco,CA,94110,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,1301 Castro St
+1160131-09-171,1075703,John O'connor,,1772 Golden Gate Ave,San Francisco,CA,94115,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1772 Golden Gate Ave
+1160135-09-171,1075705,"Deerbird Sparkling Spirits, LLC",Deerbird Sparkling Spirits,1542 38th Ave,San Francisco,CA,94122,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,1542 38th Ave
+1160143-09-171,1075709,Eric Smith,Eric Smith,4421 20th St Bldg,San Francisco,CA,94114,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,4421 20th St Bldg
+1160147-09-171,1075711,"First Solar Electric (California), Inc.","First Solar Electric (California), Inc.",135 Main St,San Francisco,CA,94105,2015-01-01T00:00:00.000,,2015-01-01T00:00:00.000,,350 W Washington St
+1160155-09-171,1075715,Wat Yick Trust & Wat Helen T Trust,391-397 18th Avenue,391 397 28th Ave,San Francisco,CA,94101,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1254 Meadowlark Way
+1160165-09-171,1075720,John Eggert,John Eggert Residence,1550 Plymouth Ave,San Francisco,CA,94112,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,1550 Plymouth Ave
+1160171-09-171,452905,Osborne Matthew,Glass Key Photo,1230 Sutter St,San Francisco,CA,94117,2010-10-01T00:00:00.000,,2017-08-15T00:00:00.000,,1230 Sutter St
+1160172-09-171,490228,Szeto Gordon/Osborne Matt,Glass Key Camera,1230 Sutter St,San Francisco,CA,94109,2014-07-01T00:00:00.000,,2017-08-15T00:00:00.000,,1230 Sutter St
+1160173-09-171,1075320,Uni.Ca LLC,Uni.SF,214 California St Ste 203,San Francisco,CA,94111,2017-08-28T00:00:00.000,,2017-09-06T00:00:00.000,,0000 Undeliverable Mail
+1160175-09-171,1075320,Uni.Ca LLC,Kure.SF,214 California St #203,San Francisco,CA,94111,2017-08-28T00:00:00.000,,2017-09-06T00:00:00.000,,0000 Undeliverable Mail
+1160185-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,1580 Valencia St Ste 801,San Francisco,CA,94110,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160186-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,1580 Valencia St Ste 802,San Francisco,CA,94110,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160188-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,1580 Valencia St Ste 803,San Francisco,CA,94110,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160189-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,1625 Van Ness Ave Fl 3,San Francisco,CA,94109,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160199-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2100 Webster St Ste 511,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160200-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2100 Webster St Ste 516,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160201-09-171,445674,One Medical Group Inc,One Medical Group,1823 Union St,San Francisco,CA,94123,2010-01-01T00:00:00.000,,2017-09-05T00:00:00.000,,1 Embarcadero Ctr Ste 1900
+1160202-09-171,445674,One Medical Group Inc,One Medical,1823 Union St,San Francisco,CA,94123,2010-01-01T00:00:00.000,,2017-09-05T00:00:00.000,,1 Embarcadero Ctr Ste 1900
+1160203-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2300 California St Ste 202,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160210-09-171,1071852,Bend Yoga Fitness Inc,Body Temp Yoga,2425 Chestnut St,San Francisco,CA,94123,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,2425 Chestnut St
+1160211-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2300 California St Ste 103,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160212-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2300 California St Fl 2,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160214-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2324 Sacramento St Ste 110,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160215-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2324 Sacramento St Ste 111,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160219-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,2351 Clay St Ste 110,San Francisco,CA,94115,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160220-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,350 Rhode Island St Ste 200,San Francisco,CA,94103,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160233-09-171,1075680,Luis Mario Preciado,L M Preciado Construction,520 Ross Cir,Martinez,CA,94553,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,520 Ross Cir
+1160240-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,3838 California St Ste 805,San Francisco,CA,94118,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160241-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,45 Castro St Ste 125,San Francisco,CA,94114,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160242-09-171,366755,Amadeus Airport It Americas Inc,Amadeus Airport It Americas Inc,5950 Hazeltine National Dr Ste 210,Orlando,FL,32822,2003-03-18T00:00:00.000,,2017-04-11T00:00:00.000,,501 W Church St Ste 300
+1160243-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,45 Castro St Ste 175a,San Francisco,CA,94114,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160244-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,45 Castro St Ste 402,San Francisco,CA,94114,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160246-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,45 Castro St Ste 432,San Francisco,CA,94114,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160247-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,55 2nd St Ground,San Francisco,CA,94105,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160251-09-171,1075540,Sutter Bay Medical Foundation,Sutter Pacific Medical Foundation,899 Valencia St Ground,San Francisco,CA,94114,2017-08-30T00:00:00.000,,2017-08-30T00:00:00.000,,101 Rowland Way 101 Ste
+1160275-09-171,1075735,Nancy E Moran - Cruz,The Cosmic Rabbit,655 Pacific Ave Apt 510,San Francisco,CA,94133,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,655 Pacific Ave Apt 510
+1160286-09-171,1075740,John Harris,Techboogie Media,425 Lee St Apt 26,Oakland,CA,94610,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,425 Lee St 26 Apt
+1160288-09-171,1075741,Julie Giannini,Julie Giannini,330 Avila St,San Francisco,CA,94123,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,330 Avila St
+1160306-09-171,1075749,Goldfire Corporation,Metro Caseworks,4882 Davenport Pl,Fremont,CA,94538,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,4882 Davenport Pl
+1160322-09-171,1075757,Waukeen Mccoy (Mccoy Law Firm),Mccoy Law Firm,"111 Maiden Lane, 6th Fl.",San Francisco,CA,94108,2015-09-29T00:00:00.000,,2015-09-29T00:00:00.000,,251 Post St Ste 301
+1160324-09-171,1075758,City Produce Market Inc,City Produce,174 6th St,San Francisco,CA,94103,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,174 6th St
+1160328-09-171,1075760,Julio Cesar Moreno,One Touch Electric,1566 151st Ave,San Leandro,CA,94578,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,1201 Coral Reef Pl
+1160332-09-171,1075762,Alyssa Aviles,Suavecita Press,315 San Jose Ave,San Francisco,CA,94110,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,315 San Jose Ave
+1160338-09-171,1075765,Maria Cristina Tejeda,Uchi Tejeda,60 Danvers,San Francisco,CA,94114,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,60 Danvers St
+1160340-09-171,1075766,Euro Plumbing Inc,Epi General Contractor,1523 32nd Ave,San Francisco,CA,94122,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,720 Pine St
+1160346-09-171,1075769,"Wpxii,LLC","Wpxii, LLC",171 3rd Ave,San Francisco,CA,94118,2015-02-20T00:00:00.000,,2015-02-20T00:00:00.000,,Po Box P O Box 2056
+1160354-09-171,1075773,Jolie Ginsburg,Jolie Ginsburg,552 Waller St,San Francisco,CA,94117,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,552 Waller St
+1160362-09-171,1075777,"Maker City Project, Inc.","Maker City Project, Inc.",233 Franklin St Ste 308,San Francisco,CA,94102,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,Po Box 1646
+1160363-09-171,1075777,"Maker City Project, Inc.","Maker City, Inc.",233 Franklin St Ste 308,San Francisco,CA,94102,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,Po Box 1646
+1160364-09-171,1075777,"Maker City Project, Inc.",Maker City,233 Franklin St Ste 308,San Francisco,CA,94102,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,Po Box 1646
+1160368-09-171,1075779,"Coinme, Inc.","Coinme, Inc.","500 Yale Avenue North, First Floor",Seattle,WA,98109,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,113 Cherry St
+1160374-09-171,1075782,Tamara J Michels,Honeydew Concierge,720 York St Unit 221,San Francisco,CA,94110,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,720 York St 221unit #
+1160376-09-171,1075783,Vitaliy Denysov,Certified Court Interpreter Of Russian Language Vitaliy Denysov,1755 O'farrell St Apt 1609,San Francisco,CA,94115,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,1755 Ofarrell St Apt 1609
+1160401-09-171,1075797,"Pantoll Advisors, LLC","Pantoll Advisors, LLC",15 Heyman Ave,San Francisco,CA,94110,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,15 Heyman Ave
+1160409-09-171,1075801,Yamei May Pang,Yamei May Pang,160 Paraiso Pl,San Francisco,CA,94132,2017-02-28T00:00:00.000,,2017-02-28T00:00:00.000,,160 Paraiso Pl
+1160410-09-171,97683,Wong Bessie P,7829 Geary Blvd.,7829 Geary Blvd,San Francisco,CA,94121,1972-05-10T00:00:00.000,,2017-09-07T00:00:00.000,,1175 Wyatt Ave
+1160415-09-171,454871,Beck & Bloom LLC,Wise Sons Delicatessen,537 Octavia St,San Francisco,CA,94102,2010-12-25T00:00:00.000,,2017-09-07T00:00:00.000,,1520 Fillmore St
+1160416-09-171,391972,Navarro Mario A,J&M Drywall,6597 Santero Way,Cotati,CA,94931,2005-09-29T00:00:00.000,,2017-06-01T00:00:00.000,,6597 Santero Way
+1160417-09-171,458168,Huang Yue Rong,Yrc Construction,20 John Glenn Cir,Daly City,CA,94015,2011-04-01T00:00:00.000,,2017-05-01T00:00:00.000,,20 John Glenn Cir
+1160418-09-171,1071712,"She's Got Goals, LLC","She's Got Goals, LLC",1390 Market St Ste 200,San Francisco,CA,94102,2017-06-10T00:00:00.000,,2017-09-07T00:00:00.000,,20 Dedman Ct
+1160437-09-171,1075808,Bay Cleaning LLC,Bay Cleaning LLC,72 Meda Ave,San Francisco,CA,94112,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,72 Meda Ave
+1160439-09-171,1075809,Cvs Distribution Center,Cvs Distribution Center,1 Cvs Drive,Woonsocket,RI,2895,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,1 Cvs Dr
+1160461-09-171,1075819,Imj Plumbing Inc,Imj Plumbing Inc,5315 Lowell St,Emeryville,CA,94608,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,5315 Lowell St
+1160498-09-171,1075836,The City Eats,The City Eats,739 Bryant St,San Francisco,CA,94107,2015-05-13T00:00:00.000,,2015-05-13T00:00:00.000,,739 Bryant St
+1160504-09-171,1075839,Parkmerced Owner LLC / 7343-001 / Bldg 93,Parkmerced Owner LLC / 7343-001 /  Bldg 93,345 Vidal Drive,San Francisco,CA,94132,2014-10-01T00:00:00.000,,2014-10-01T00:00:00.000,,345 Vidal Dr
+1160506-09-171,1075840,Bloomberg Index Services Limited,Bloomberg Index Services Limited,3 Pier Ste 101,San Francisco,CA,94111,2017-06-01T00:00:00.000,,2017-06-01T00:00:00.000,,909 3rd Ave Fl 16
+1160514-09-171,1075844,Dayton Superior Corporation,Dayton Superior Corporation,1125 Byers Rd,Miamisburg,OH,45342,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1125 Byers Rd
+1160518-09-171,1075846,Guangliang Chen,Guangliang Chen,42 Vernon St,San Francisco,CA,94132,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,42 Vernon St
+1160528-09-171,1075851,"Peninsula Custom Homes, Inc.","Peninsula Custom Homes, Inc.",1401 Old County Rd,San Carlos,CA,94070,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,1401 Old County Rd
+1160530-09-171,1075852,Wcas Management Corp,Wcas Management Corp,580 California St Ste 1700,San Francisco,CA,94104,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,599 Lexington Ave Ste 1800
+1160532-09-171,1075853,Callidus Software Inc.,Calliduscloud,180 Sansome St,San Francisco,CA,94104,2016-11-07T00:00:00.000,,2016-11-07T00:00:00.000,,0000 Undeliverable Mail
+1160536-09-171,1075855,Bernardini Enterprises Inc,Jd Services,745 Kevin Ct,Oakland,CA,94621,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,745 Kevin Ct
+1160544-09-171,1075859,Bgps,Mansoori,720 York St 227,San Francisco,CA,94110,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,720 York St Unit 227
+1160546-09-171,1075860,Paul Byron Roache,Paul Byron Roache,2044 Jefferson St,San Francisco,CA,94123,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,2044 Jefferson St
+1160551-09-171,1016174,Logik Systems Inc,Logikcull,201 Post St Fl Ph,San Francisco,CA,94108,2015-06-08T00:00:00.000,,2015-06-08T00:00:00.000,,0000 Undeliverable Mail
+1160567-09-171,1011783,Bread & Butter Public Relations Inc,Bread & Butter Public Relations Inc,2137 Lombard St Floor 2,San Francisco,CA,94123,2015-01-01T00:00:00.000,,2015-01-01T00:00:00.000,,Po Box 26385
+1160594-09-171,1075872,Amanda Hart Richardson,Amanda Hart Richardson,2336 Castro St,San Francisco,CA,94131,2017-09-10T00:00:00.000,,2017-09-10T00:00:00.000,,2336 Castro St
+1160604-09-171,1075877,Hang T Nguyen,Thuy Nguyen,219 Lisbon St,San Francisco,CA,94112,2016-05-01T00:00:00.000,,2016-05-01T00:00:00.000,,219 Lisbon St
+1160626-09-171,1075888,"Skyline Scaffold, Inc.",Skyline Scaffold. Inc.,3131 52nd Ave,Sacramento,CA,95823,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,3131 52nd Ave
+1160631-09-171,1075890,"Capital Commercial Flooring, Inc.","Capital Commercial Flooring, Inc.",3709 Bradview Dr,Sacramento,CA,95827,2017-08-15T00:00:00.000,,2017-08-15T00:00:00.000,,3709 Bradview Dr
+1160644-09-171,1075898,Periodontal Dental Practice Of Dr Christina Gasper Inc,Periodontal Dental Practice Of Dr Christina Gasper Inc,450 Sutter St Ste 2336,San Francisco,CA,94108,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1755 10th Ave
+1160646-09-171,1075899,Pauline Irawan,Same As Ownership,1234 43rd Ave,San Francisco,CA,94122,2017-09-07T00:00:00.000,,2017-09-07T00:00:00.000,,1234 43rd Ave
+1160652-09-171,1075903,Yg2d,Yg2d,Po Box 720040,San Francisco,CA,94110,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,Po Box 720040
+1160656-09-171,1075905,Marina Trumbull,Marina Trumbull,679 Lisbon St,San Francisco,CA,94112,2017-04-01T00:00:00.000,,2017-04-01T00:00:00.000,,679 Lisbon St
+1160662-09-171,1075908,Yaniv Shafir,P&P Towing,1355 Fairfax Ave Ste B4,San Francisco,CA,94124,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,5801 Doyle St
+1160711-09-171,1075933,Solutions For At Risk Youth,Solutions For At Risk Youth,579 Willow Ct,Benicia,CA,94510,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,579 Willow Ct
+1160717-09-171,1075936,Malibiran Alan,365 Plumbing & Rooter,96 Woodland Ave,Daly City,CA,94015,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,Po Box 2243
+1160729-09-171,1075942,Installation Services Inc. Dba Bay Area Sign Installations,Bay Area Sign Installations,3881 Carmel Way,San Leandro,CA,94578,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,14469 Juniper St
+1160741-09-171,1061306,Willard Capital Partners LLC,Junior,2545 24th St,San Francisco,CA,94110,2016-11-17T00:00:00.000,,2017-09-11T00:00:00.000,,62 Jordan Ave
+1160742-09-171,446211,Gaucho's Table LLC,Gaucho's Table LLC,601 601 Mission Bay Boulevard North,San Francisco,CA,94158,2010-02-05T00:00:00.000,,2017-09-11T00:00:00.000,,24 Fairmont Dr
+1160747-09-171,385340,Hickman Helen A,Helen Hickman Bodywork,3150 18th St #532,San Francisco,CA,94110,2005-02-03T00:00:00.000,,2017-09-11T00:00:00.000,,414 23rd Ave Apt 2
+1160752-09-171,1015647,Exygy Inc,Exygy Inc.,2601 Mission St Ste 300,San Francisco,CA,94110,2015-01-02T00:00:00.000,,2015-01-02T00:00:00.000,,Po Box 7775
+1160769-09-171,1075950,"Guardicore, Inc.","Guardicore, Inc.","650 California Street, 7th Floor St",San Francisco,CA,94108,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,0000 Undeliverable Mail
+1160782-09-171,1075958,Brian Cook,"Dr. Brian Cook, Dc",776 Serena Dr,Pacifica,CA,94044,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1047 Valencia Way
+1160795-09-171,1075965,Happy Face Family Pre School Inc,Happy Face Family Pre School Inc,631 Hearst Ave,San Francisco,CA,94112,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,631 Hearst Ave
+1160798-09-171,1075966,Lee Chow,Charlie's Hair Design,2539 Balboa St,San Francisco,CA,94121,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,2539 Balboa St
+1160807-09-171,1075627,Capriece Batchelor,The Culture Of Hair / The Coh,305 Grant Ave Fl 4,San Francisco,CA,94108,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,305 Grant Ave Fl 4
+1160809-09-171,1075973,Lizette Bruckstein,Lizette's Place,977 Guerrero St,San Francisco,CA,94110,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,360 Langton St 300 Ste
+1160810-09-171,398221,Green Couch Staging & Design,Jeff Schlarb Design Studio,636 Potrero Ave,San Francisco,CA,94110,2012-01-01T00:00:00.000,,2012-01-01T00:00:00.000,,636 Potrero Ave
+1160811-09-171,413714,Kulikov Alex A,Domus And Domus Group,1645 Mission St,San Francisco,CA,94103,2006-12-01T00:00:00.000,,2015-06-01T00:00:00.000,,4899 Colchester Ct
+1160829-09-171,1075982,Dazzling Lashes,Dazzling Lashes,1523 Ocean Ave,San Francisco,CA,94112,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1523 Ocean Ave
+1160832-09-171,1075983,Julia Ruth Wallace,"Julia Wallace, Lcsw",110 Gough St Ste 401,San Francisco,CA,94102,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1251 Masonic Ave
+1160838-09-171,1075986,Eckersley O'callaghan & Partners LLC,Eckersley O'callaghan & Partners LLC,450 Geary St Ste 500,San Francisco,CA,94102,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,26 Broadway Ste 1306
+1160840-09-171,1075987,James Stolich,James Stolich,1373 Masonic W Ave Apt,San Francisco,CA,94117,2016-09-01T00:00:00.000,,2016-09-01T00:00:00.000,,1373 Masonic Ave Apt
+1160874-09-171,1076005,Nora Vitaliani,Just Eat It,223 Guerrero St,San Francisco,CA,94103,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,223 Guerrero St
+1160875-09-171,1005115,Avila & Wadlington Contractors Inc,Avila & Wadlington Contractors Inc,10 Rockridge Rd,Woodacre,CA,94973,2014-10-20T00:00:00.000,,2017-09-12T00:00:00.000,,0000 Undeliverable Mail
+1160877-09-171,413400,Chicken Pot Pie LLC,Orange Bird,564 Hayes St,San Francisco,CA,94102,2007-01-11T00:00:00.000,,2017-09-12T00:00:00.000,,540 Hayes St
+1160885-09-171,360972,Gallagher Benefit Services Inc,Gallagher Benefit Svcs - Cis,100 Pine St Ste 1050,San Francisco,CA,94111,2013-06-30T00:00:00.000,,2017-01-01T00:00:00.000,,2850 Golf Rd
+1160886-09-171,1075345,Marco De Leon,Marco Deleon Plumbing,4547 Callan Blvd,Daly City,CA,94015,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,4547 Callan Blvd
+1160898-09-171,1076009,Kiarash Edraki,Goettingen Property,1020 Goettingen St,San Francisco,CA,94134,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1020 Goettingen St
+1160908-09-171,1076015,Vivian Sun,Vivian Sun,556 25th Ave,San Francisco,CA,94121,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,556 25th Ave
+1160910-09-171,1076017,John Durst,Jd Durst Enterprises/Foremast Jack Creations,989 Chenery St,San Francisco,CA,94131,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,989 Chenery St
+1160924-09-171,1076027,Diza Hospitality Golden State Subs,Subway,2847 Forest Creek Ln Ct,Naperville,IL,60565,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,170 Ofarrell St
+1160928-09-171,1076029,"Twenty Five 17th Avenue, LLC","Twenty Five 17th Avenue, LLC",256 16th Ave,San Francisco,CA,94118,2015-08-26T00:00:00.000,,2015-08-26T00:00:00.000,,256 16th Ave
+1160934-09-171,1076032,Aaron Hopkins,Travel Visa Plus,580 California St 1246,San Francisco,CA,94104,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,851 34th Ave
+1160944-09-171,1076037,Ching Ho Cheung,Chingho,311 4th Ave Ave Apt A,San Francisco,CA,94118,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,311 4th Ave Apt A
+1160948-09-171,1076039,Louie Sisneros,"414 23rd Avenue, Apartment",414 23rd Avenue,San Francisco,CA,94121,1969-10-07T00:00:00.000,,1969-10-07T00:00:00.000,,1250 40th Ave
+1160954-09-171,1076042,Peter Zottolo,Urban Composition,2240 Bay St Apt 101,San Francisco,CA,94123,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,2240 Bay St Apt 101
+1160963-09-171,1076046,Amy Dratz,Addy For Hair,531 Geary St,San Francisco,CA,94102,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1145 Ozbourn Ct Unit D
+1160965-09-171,1076047,Louie Sisneros,"418 23rd Ave, Apartment",418 23rd Ave,San Francisco,CA,94121,2003-03-25T00:00:00.000,,2003-03-25T00:00:00.000,,1250 40th Ave
+1160969-09-171,1076050,Arturo Medina Reyes,Medina's Cleaning  Janitorial Services,1868 Alemany Blvd,San Francisco,CA,94112,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,1868 Alemany Blvd
+1160977-09-171,1076055,"Ip Renewable Energy Holdings, LLC",Intersect Power,548 Market St 68743,San Francisco,CA,94104,2017-07-07T00:00:00.000,,2017-07-07T00:00:00.000,,548 Market St # 68743
+1160981-09-171,1076057,469 Stevenson Venture,469 Stevenson Venture LLC,315 Linden St,San Francisco,CA,94102,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,315 Linden St
+1160995-09-171,311905,Donner Rose Anne Ph D,Rose-Anne Donner,1204 Vicente,San Francisco,CA,94116,1997-12-01T00:00:00.000,,2015-06-30T00:00:00.000,,1204 Vicente St
+1160998-09-171,1016673,Box Clever Inc,Box Clever Inc.,285 7th St,San Francisco,CA,94103,2015-04-01T00:00:00.000,,2017-03-24T00:00:00.000,,285 7th St
+1161003-09-171,421880,Hebrew Home For Aged Disabled,San Francisco Campus For Jewish Living,302 Silver Ave,San Francisco,CA,94112,2007-07-25T00:00:00.000,,2017-09-13T00:00:00.000,,302 Silver Ave
+1161004-09-171,445553,Chacon Jairo G,Jairo G Chacon,161 Sutter St,San Francisco,CA,94104,2010-01-20T00:00:00.000,,2017-09-13T00:00:00.000,,420 Berry St Apt 33
+1161008-09-171,479581,Properfood LLC,Proper Food,2 Embarcadero Ctr R-2106,San Francisco,CA,94111,2013-05-17T00:00:00.000,,2017-09-13T00:00:00.000,,350 Townsend St # 682
+1161033-09-171,1076076,Pure Air Filtration LLC,Pureair Filtration,6050 Peachtree Parkway 240187,Norcross,GA,30092,2017-08-10T00:00:00.000,,2017-08-10T00:00:00.000,,6050 Peachtree Pkwy # 240187
+1161037-09-171,1076078,Loren Swanson,Loren Swanson Airbnb,605 San Bruno Ave,San Francisco,CA,94107,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,605 San Bruno Ave
+1161060-09-171,1076093,Barbary Coast Consulting LLC,Barbary Coast Consulting LLC,857 Montgomery St,San Francisco,CA,94133,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,23 S Knoll Rd
+1161072-09-171,1076099,Judith Mcrae,Chez Sanchez Design,1315 Sanchez St,San Francisco,CA,94131,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,1315 Sanchez St
+1161074-09-171,1076100,Laura Cuda,Laura Uda,1694 40th Ave,San Francisco,CA,94122,2017-06-11T00:00:00.000,,2017-06-11T00:00:00.000,,1694 40th Ave
+1161083-09-171,1076107,Chun Yu,445 22nd Ave,445 22nd Ave Apt#3,San Francisco,CA,94080,1987-08-11T00:00:00.000,,1987-08-11T00:00:00.000,,445 22nd Ave Apt 3
+1161091-09-171,1076112,Yang Ma,Yang Ma,1870 36th Ave,San Francisco,CA,94122,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,1870 36th Ave
+1161093-09-171,1076113,Denim Lab LLC,Frame Retail,2142 Fillmore St,San Francisco,CA,94115,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,3578 Hayden Ave Ste N1
+1161094-09-171,1076113,Denim Lab LLC,Frame,2142 Fillmore St,San Francisco,CA,94115,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,3578 Hayden Ave Ste N1
+1161095-09-171,1076113,Denim Lab LLC,Frame-Denim,2142 Fillmore St,San Francisco,CA,94115,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,3578 Hayden Ave Ste N1
+1161102-09-171,1076116,"Marugame Udon Usa, LLC",Marugame Udon,3251 20th Ave Op184,San Francisco,CA,94132,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,8821 Aviation Blvd Unit 91138
+1161106-09-171,1076118,Gautam R Mehta,Manuel Montt Properties,382 Green St Apt 4,San Francisco,CA,94133,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,382 Green St Apt 4
+1161111-09-171,389559,Zara Usa Inc,Zara,3251 20th Ave Ste 104,San Francisco,CA,94132,2005-07-05T00:00:00.000,,2017-07-24T00:00:00.000,,500 5th Ave Ste 400
+1161112-09-171,414346,Lisa Bradbury Skincare LLC,Lisa Bradbury Skincare LLC,2425 Fillmore St #100&200,San Francisco,CA,94115,2007-03-05T00:00:00.000,,2017-08-11T00:00:00.000,,2425 Fillmore St Ste 200
+1161119-09-171,304275,Ashby Jennifer L,"Jennifer Ashby, Daom",417 S Van Ness Ave,San Francisco,CA,94103,1997-01-06T00:00:00.000,,2017-06-01T00:00:00.000,,417 S Van Ness Ave
+1161120-09-171,343653,Tsapayev Yuriy G,Yourbest Construction,2107 Van Ness Ave #308,San Francisco,CA,94109,2001-03-01T00:00:00.000,,2017-09-14T00:00:00.000,,5432 Geary Blvd Unit 167
+1161135-09-171,1076125,Elliptic Laboratories Inc.,Elliptic Laboratories Inc.,575 Market St 3950,San Francisco,CA,94105,2014-04-17T00:00:00.000,,2014-04-17T00:00:00.000,,0000 Undeliverable Mail
+1161141-09-171,1076128,Rudolf Lupo-Dorut,Rudolf Lupo-Dorut,2289 15th St,San Francisco,CA,94114,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,2289 15th St
+1161143-09-171,1076129,"Prevent - A Fire And Safety Consulting Firm, LLC",Prevent LLC,350 Townsend St 810,San Francisco,CA,94107,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,350 Townsend St # 810
+1161144-09-171,1076129,"Prevent - A Fire And Safety Consulting Firm, LLC",Prevent,350 Townsend St 810,San Francisco,CA,94107,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,350 Townsend St # 810
+1161145-09-171,1076129,"Prevent - A Fire And Safety Consulting Firm, LLC",Prevent A Fire And Safety Consulting Firm,350 Townsend St 810,San Francisco,CA,94107,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,350 Townsend St # 810
+1161175-09-171,1076146,Bay Area Intactivists,Bay Area Intactivists,776 14th St,San Francisco,CA,94114,2016-04-11T00:00:00.000,,2016-04-11T00:00:00.000,,154 Delmar St
+1161197-09-171,1076158,Sharon Goldstone,Sharon Goldstone,74 Douglass Street St,San Francisco,CA,94114,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,74 Douglass St
+1161229-09-171,1076175,Jeremias O Hernandez,Jerry's Recovery & Transport,3507 17th St,San Francisco,CA,94110,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,3507 17th St
+1161237-09-171,1076179,Ariel De La Quintana,Great Metal Designs,3523 Haven Ave C,Menlo Park,CA,94025,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,120 Kennedy Ave
+1161241-09-171,1057533,Shelfflip,Usergems,2443 Fillmore St #3803416,San Francisco,CA,94115,2016-09-16T00:00:00.000,,2017-09-15T00:00:00.000,,2443 Fillmore St # 3803416
+1161245-09-171,1071978,Nawid Rahimi,Donna's Tamales,3251 20th Ave,San Francisco,CA,94132,2017-06-01T00:00:00.000,,2017-09-15T00:00:00.000,,2059 Marazzani Dr
+1161246-09-171,1071978,Nawid Rahimi,Donna's Tamales,1 Ferry Building,San Francisco,CA,94111,2017-06-01T00:00:00.000,,2017-09-15T00:00:00.000,,2059 Marazzani Dr
+1161247-09-171,916726,Go West Tours,North America Your Way,790 Eddy St,San Francisco,CA,94109,1992-10-29T00:00:00.000,,2017-09-15T00:00:00.000,,790 Eddy St
+1161268-09-171,1076188,Catherine Sullivan,Grizwald Gardens,812 Russia Ave,San Francisco,CA,94112,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,812 Russia Ave
+1161286-09-171,1076196,Shannon Kehoe,Srkstyles,1517 California St,San Francsico,CA,94110,2017-09-16T00:00:00.000,,2017-09-16T00:00:00.000,,1202 Hampshire St Apt 9
+1161290-09-171,1076198,Nashat Abdelghani,A1 Hauling,443 Gateway Dr 101,Pacifica,CA,94044,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,213 Lavender Ln
+1161294-09-171,1076200,"Wen And Associates, Inc.",Wen And Associates,271 Vernon St,San Francisco,CA,94132,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,90 Woodacre Dr 102 Ste
+1161296-09-171,414735,Suchada LLC,Suchada Thai Massage,38 Bryant St Ste 2,San Francisco,CA,94105,2007-04-01T00:00:00.000,,2017-09-18T00:00:00.000,,38 Bryant St Ste 2
+1161308-09-171,1076209,Arash Shahvali,Subway #51109,177 Townsend St,San Francisco,CA,94107,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,177 Townsend St Unit 200
+1161312-09-171,1076211,"Camc Enterprise, LLC",Swagish,690 Cayuga Ave,San Francisco,CA,94112,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,690 Cayuga Ave
+1161316-09-171,1076213,Chi Sin Buddhist And Taoist Association,"419 19th Avenue, San Francisco, Ca 94121",1051 Powell St,San Francisco,CA,94108,1977-02-15T00:00:00.000,,2012-04-01T00:00:00.000,,2305 Judah St
+1161329-09-171,1076219,Logitech Inc,Logitech,340 Bryant St,San Francisco,CA,94107,2017-08-11T00:00:00.000,,2017-08-11T00:00:00.000,,3930 N 1st St
+1161334-09-171,430103,Queens Louisiana Po-Boy Cafe L,"Queen's Louisiana Po-Boy Cafe, LLC",Pier 33 North The Embarcadero 101,San Francisco,CA,94134,2008-11-01T00:00:00.000,,2017-09-18T00:00:00.000,,3026 San Bruno Ave
+1161341-09-171,338402,Ojn Inc,Golden Gate Pharmacy,1836 Noriega St,San Francisco,CA,94122,1999-11-15T00:00:00.000,,2017-04-22T00:00:00.000,,1836 Noriega St
+1161343-09-171,1076227,Frederic C. Kairuz,F.C. Kairuz Construction,936 Autumn Oak Circle,Concord,CA,94521,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,936 Autumn Oak Cir
+1161361-09-171,1076236,Last Call Media,Last Call Medai,136 West St 01,Northampton,MA,1060,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,6 Liberty Sq # 401
+1161365-09-171,1076238,Incline Gallery,Incline Gallery,766 Valencia Street St,San Francisco,CA,94110,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,766 Valencia St
+1161371-09-171,1076241,Descript Inc,Descript Inc,385 Grove St,San Francisco,CA,94102,2017-09-06T00:00:00.000,,2017-09-06T00:00:00.000,,385 Grove St
+1161377-09-171,1076244,Arben Gjoni,Aaa Tile,6917 Pin Oak Ct,Fair Oaks,CA,95628,2017-09-11T00:00:00.000,,2017-09-18T00:00:00.000,,6917 Pin Oak Ct
+1161385-09-171,1076248,Bella Rubin,Bella Rubin,1943 Cabrillo St Fl,San Francisco,CA,94121,2017-05-20T00:00:00.000,,2017-05-20T00:00:00.000,,1943 Cabrillo St
+1161388-09-171,478408,Jand Inc,Warby Parker,357 Hayes St,San Francisco,CA,94102,2013-04-12T00:00:00.000,,2014-11-02T00:00:00.000,,233 Spring St
+1161393-09-171,1065263,"Mangal, LLC",Borsch Mobile,235 Montgomery St Ste 600,San Francisco,CA,94104,2016-12-16T00:00:00.000,,2017-09-18T00:00:00.000,,753 39th Ave
+1161396-09-171,933587,Paul Jeremy S,Quickdraw Permit Consulting,584 Castro St St 466,San Francisco,CA,94114,1994-08-18T00:00:00.000,,2017-01-01T00:00:00.000,,584 Castro St Ste 466
+1161397-09-171,933587,Paul Jeremy S,Quickdraw Permit Consulting,584 Castro St Ste 466,San Francisco,CA,94114,1994-08-18T00:00:00.000,,2017-01-01T00:00:00.000,,584 Castro St Ste 466
+1161399-09-171,490584,Citizen Film Inc,Citizen Film Inc,1426 Fillmore St Ste 201,San Francisco,CA,94115,2008-01-15T00:00:00.000,,2015-04-06T00:00:00.000,,22 Richland Ave
+1161401-09-171,1028575,"Good.Iware, Inc.","Good.Iware, Inc.",201 Spear St 1100,San Francisco,CA,94105,2015-08-12T00:00:00.000,,2017-09-18T00:00:00.000,,201 Spear St 1100 Ste
+1161402-09-171,433951,Nextaxiom Technology Inc,"Nextaxiom Technology, Inc.",600 Montgomery St Ste 2720,San Francisco,CA,94111,2008-11-17T00:00:00.000,,2017-04-01T00:00:00.000,,Po Box 375
+1161409-09-171,1074121,343 21st Ave LLC,343 21st Ave LLC,343 21st Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,5017 California St Apt 3
+1161410-09-171,1074122,1235 46th Ave LLC,1235 46th Ave LLC,1235 46th Ave,San Francisco,CA,94122,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,5017 California St Apt 3
+1161414-09-171,1076252,"Sofia Yousef Beesen Investment, Inc.",Chez Beesen,200 Pine St,San Francisco,CA,94104,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,0000 Undeliverable Mail
+1161418-09-171,1076254,The Pacific Center For Oculofacial And Aesthetic Plastic Surgery Pc,Pacific Oculofacial Plastic Surgery,2100 Webster St Ste 212,San Francisco,CA,94115,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,2100 Webster St Ste 212
+1161425-09-171,1076257,Swoon LLC,Swoon,829 Haight St Apt,San Francisco,CA,94117,2017-01-11T00:00:00.000,,2017-01-11T00:00:00.000,,829 Haight St
+1161433-09-171,1076264,Joshua Teitelbaum,Joshua Teitelbaum,2219 47th Ave,San Francisco,CA,94116,2017-09-19T00:00:00.000,,2017-09-19T00:00:00.000,,2219 47th Ave
+1161439-09-171,1076268,Isaia Corp.,Isaia Corp,140 Maiden Lane,San Francisco,CA,94108,2017-08-22T00:00:00.000,,2017-08-22T00:00:00.000,,257 Park Ave S Fl 10
+1161457-09-171,1076279,Heroic Imagination Project,Heroic Imagination Project,25 Montclair Terr,San Francisco,CA,94109,2010-01-26T00:00:00.000,,2010-01-26T00:00:00.000,,2021 Fillmore St
+1161463-09-171,1076282,Heco International LLC,Heco International LLC,567 Pine St Ste 201,San Francisco,CA,94108,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,567 Pine St Ste 201
+1161476-09-171,1076288,"Winder Construction, Inc.",Winder Construction Inc,267 Louisburg St,San Francisco,CA,94112,2017-09-18T00:00:00.000,,2017-09-19T00:00:00.000,,267 Louisburg St
+1161484-09-171,1076293,Stanly Wong,423 23rd Ave,5758 Geary Blvd Unit 430,San Francisco,CA,94121,2012-04-25T00:00:00.000,,2012-04-25T00:00:00.000,,279 22nd Ave
+1161488-09-171,1076295,Annabelle Taubl,Annabelle Taubl Music Lessons,1033 Revere Ave,San Francisco,CA,94124,2017-09-22T00:00:00.000,,2017-09-22T00:00:00.000,,1033 Revere Ave
+1161490-09-171,1076296,Justin Yonan,Neptune & Co.,3620 Fillmore St Apt 101,San Francisco,CA,94123,2017-09-04T00:00:00.000,,2017-09-04T00:00:00.000,,3620 Fillmore St Apt 101
+1161508-09-171,1076305,Ross Fubini,200-204 Funston Ave Sf Ca,Funston Ave,San Francisco,CA,94118,2009-07-31T00:00:00.000,,2009-07-31T00:00:00.000,,2910 Lake St
+1161512-09-171,1076307,Megan Bovis,Megan Bovis,2426 24th Ave,San Francisco,CA,94116,2017-09-19T00:00:00.000,,2017-09-19T00:00:00.000,,2426 24th Ave
+1161532-09-171,1076317,Wayman Dea,431 22nd Ave,431 22nd Ave,San Francisco,CA,94121,2002-06-26T00:00:00.000,,2002-06-26T00:00:00.000,,155 Taraval St
+1161537-09-171,1073984,Park Tower Owner LLC,Park Tower Owner LLC,250 Howard St,San Francisco,CA,94105,2015-12-16T00:00:00.000,,2015-12-16T00:00:00.000,,101 California St Ste 1900
+1161538-09-171,1073984,Park Tower Owner LLC,Park Tower Owner LLC,250 Howard St,San Francsico,CA,94105,2015-12-16T00:00:00.000,,2015-12-16T00:00:00.000,,101 California St Ste 1900
+1161539-09-171,201404,Altshuler Eric,Ea Electric,351 Olema Rd #3,Fairfax,CA,94930,1990-12-04T00:00:00.000,,2017-09-19T00:00:00.000,,351 Olema Rd Apt 3
+1161541-09-171,424419,Charles De Lisle Corp,Charles De Lisle,60 Gate 5 Road Unit D,Sausalito,CA,94965,2007-07-01T00:00:00.000,,2017-09-19T00:00:00.000,,60 Gate 5 Rd Unit D
+1161546-09-171,1061492,"Carlisle Wide Plank Floors, Inc.","Carlisle Wide Plank Floors, Inc.",101 Henry Adams St Unit 206,San Francisco,CA,94103,2016-10-10T00:00:00.000,,2017-01-01T00:00:00.000,,1676 Route 9
+1161551-09-171,309074,Chabad Of S Francisco Inc,Chabad Of SF,496 Natoma St,San Francisco,CA,94103,1986-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,496 Natoma St
+1161552-09-171,397584,Anfel Enterprises Inc,Sfoptics.Com,2244 Chestnut St,San Francisco,CA,94123,2006-04-01T00:00:00.000,,2017-09-19T00:00:00.000,,122 15th St 280
+1161553-09-171,1042434,710 Sf Inc,Pure 710sf,49 Kearny St,San Francisco,CA,94108,2016-08-15T00:00:00.000,,2017-09-19T00:00:00.000,,53 Wilder St Unit 201
+1161558-09-171,1008198,Mattox-Matterson Loris A,Mattersons Jamaican Cuisine/Scotch Bonnet,101 Spear St Ste A13,SF,CA,94105,2015-01-27T00:00:00.000,,2017-09-01T00:00:00.000,,2304 Redwood Rd
+1161563-09-171,1067097,Thomas Obrien,Tko Properties,161 Ashbury St,San Francisco,CA,94117,1999-03-17T00:00:00.000,,1999-03-17T00:00:00.000,,2996 Eaton Ave
+1161579-09-171,329140,Imperial Parking (Us) LLC,Impark 0374,1234 Pine St,San Francisco,CA,94109,1999-08-18T00:00:00.000,,1999-08-18T00:00:00.000,,1740 Cesar Chavez St Ste 2w
+1161584-09-171,1076329,Jeff Wong,Jeff Wong,1693 Alemany Blvd,San Francisco,CA,94112,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,1693 Alemany Blvd
+1161585-09-171,329140,Imperial Parking (Us) LLC,Impark 0373,1199 Bush St,San Francisco,CA,94109,1999-08-18T00:00:00.000,,1999-08-18T00:00:00.000,,1740 Cesar Chavez St Ste 2w
+1161586-09-171,329140,Imperial Parking (Us) LLC,Impark,1345 Pine St,San Francisco,CA,94109,1999-08-18T00:00:00.000,,1999-08-18T00:00:00.000,,1740 Cesar Chavez St Ste 2w
+1161594-09-171,1076333,Andrew Vogt,Andrew Vogt,261 Chenery St,San Francisco,CA,94131,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,261 Chenery St
+1161602-09-171,1076337,Nicholas Snyder,Nicholas Snyder Jewelry,300 16th Ave Apt 504,San Francisco,CA,94118,2017-09-19T00:00:00.000,,2017-09-19T00:00:00.000,,5654 Geary Blvd 210263 Unit
+1161619-09-171,1076345,Us Phoenix Management Inc,Us Phoenix Management Inc,915 Randolph St,San Francisco,CA,94132,2017-09-16T00:00:00.000,,2017-09-16T00:00:00.000,,915 Randolph St
+1161621-09-171,1076347,Essa Shatara & Raida Shatara & Remzi Shatara,Oxbridge Market,790 Silver Ave,San Francisco,CA,94134,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,645 Silver Ave
+1161627-09-171,1076351,"4wall Entertainment, Inc.","4wall Entertainment, Inc.",5435 W San Fernando Rd,Los Angeles,CA,90039,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,3165 W Sunset Rd Ste 100
+1161635-09-171,1076355,"Kantinesf, LLC",Kantine,1906 Market St,San Francisco,CA,94102,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,187 Upper Ter
+1161649-09-171,1076367,"View Avenue Group, LLC","View Avenue Group, LLC",393 7th Ave Ste 301,San Francisco,CA,94118,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,393 7th Ave Ste 301
+1161657-09-171,1076371,Nina Dobner,Nina Dobner,2525 19th Rd,San Francisco,CA,94110,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,2525 19th St
+1161659-09-171,1076373,A1 Hydraulics LLC,Utility Aerial,2801 Giant Road Rd Unit J,Richmond,CA,94806,2017-09-19T00:00:00.000,,2017-09-19T00:00:00.000,,0000 Undeliverable Mail
+1161677-09-171,416529,Paychex North America Inc,"Paychex North America, Inc.",701 Gateway Blvd Ste 200,San Francisco,CA,94080,2003-01-01T00:00:00.000,,2017-08-28T00:00:00.000,,911 Panorama Trl S
+1161680-09-171,1030440,"Citrine Capital, LLC",Citrine Capital,535 Mission Street Fl 14,San Francisco,CA,94105,2016-04-14T00:00:00.000,,2016-06-01T00:00:00.000,,292 Via La Cumbre
+1161681-09-171,1028923,"The Woodlands Store, Inc",Woodlands Market,203 Folsom St,San Francisco,CA,94105,2016-03-11T00:00:00.000,,2017-09-20T00:00:00.000,,636 College Ave
+1161685-09-171,1076340,Richard B Raskin,Raskin Real Estate,1300 25th Ave 300,San Francisco,CA,94122,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,1300 25th Ave Ste 300
+1161686-09-171,428837,Rana Creek Habitat Restoration,Rana Creek Habitat Restoration,"27875 Berwick Drive, Suite A",Carmel,CA,93923,2010-11-24T00:00:00.000,,2017-06-30T00:00:00.000,,26382 Carmel Rancho Ln Fl 2
+1161693-09-171,1061269,Sl Environmental Law Group Pc,Sl Environmental Law Group Pc,201 Filbert St Ste 401,San Francisco,CA,94133,2015-01-01T00:00:00.000,,2015-01-01T00:00:00.000,,175 Chestnut St
+1161701-09-171,1076385,Mev Group Inc.,Milkbean,881 Post St,San Francisco,CA,94109,2017-05-15T00:00:00.000,,2017-05-15T00:00:00.000,,881 Post St
+1161721-09-171,1076400,Ross Eppler,Light Ray Electric,170 Rainbow Rd,Lakeport,CA,95453,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,170 Rainbow Rd
+1161725-09-171,1076402,Joe T P Sung,4 Unit Apartments,461 25th Ave,San Francisco,CA,94121,1987-04-03T00:00:00.000,,1987-04-03T00:00:00.000,,463 25th Ave Apt C
+1161755-09-171,1076420,Mary Binsfeld,Mitzi Collection,1852 28th Ave,San Francisco,CA,94122,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,1852 28th Ave
+1161759-09-171,1076426,Cindy Mariana Zeidan,Haight & Cole Liquor,1699 Haight St,San Francisco,CA,94117,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,1699 Haight St
+1161761-09-171,1076423,Americans For Responsible Foundation,American For Responsible Solutions Foundation,268 Bush St 555,San Francisco,CA,94104,2016-02-01T00:00:00.000,,2016-02-01T00:00:00.000,,268 Bush St #555
+1161768-09-171,1076430,Evelyn Hayes Vosti,Caprice Antiques And Designs,145 Laurel St Apt 4,San Francisco,CA,94118,2017-09-01T00:00:00.000,,2017-09-02T00:00:00.000,,55 Rodeo Ave # 32
+1161772-09-171,1076432,So Brothers LLC,So Brothers LLC,155 Laguna St Apt 475,San Francisco,CA,94102,2016-08-10T00:00:00.000,,2016-08-11T00:00:00.000,,538 Natoma St
+1161780-09-171,1076436,Usa Limo LLC,Usa Limo LLC,2566 Montgomery Ave,Concord,CA,94519,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,2566 Montgomery Ave
+1161798-09-171,1076445,Jianhua Zhang,"Ashbury Tommy, LLC.",930 Ashbury St,San Francisco,CA,94117,2017-01-02T00:00:00.000,,2017-01-02T00:00:00.000,,930 Ashbury St
+1161806-09-171,463492,Encarnacion William S,Psalm Res Cfe,565 Grove St,San Francisco,CA,94102,2011-10-18T00:00:00.000,,2017-08-18T00:00:00.000,,170 Aptos Ave
+1161808-09-171,1076398,"Thanh Thanh Ha, Inc",Thanh Thanh Cafe,2205 Clement St,Sn Francisco,CA,94121,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,1780 Bancroft Ave Unit 326
+1161812-09-171,345243,San Francisco Beautiful,San Francisco Beautiful,100 Bush St Ste 1812,San Francisco,CA,94104,1972-01-01T00:00:00.000,,2017-09-21T00:00:00.000,,2269 Chestnut St 437 #
+1161813-09-171,1066379,"Parabola Labs, Inc.","Parabola Labs, Inc.",188 King St Unit 609,San Francisco,CA,94107,2015-01-23T00:00:00.000,,2017-09-01T00:00:00.000,,228 Grant Ave Fl 4
+1161814-09-171,477884,Gomez Jr Trinidad,Mighty Plumbing,501 Hillside Blvd,Daly City,CA,94014,2013-03-27T00:00:00.000,,2017-09-21T00:00:00.000,,Po Box 1078
+1161822-09-171,1076450,"Mcs Opco, LLC",Quality Uptime Services,9 Parklawn Dr,Bethel,CT,6801,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,9 Park Lawn Dr
+1161824-09-171,1076451,"Epic City Government, LLC","Epic City Government, LLC",1979 Milky Way,Verona,WI,53593,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1979 Milky Way
+1161825-09-171,1073433,"Howard Street Partners, LLC",The Apothecarium,527 Howard St,San Francisco,CA,94105,2017-07-17T00:00:00.000,,2017-07-17T00:00:00.000,,2455 Bennett Valley Rd Ste C106
+1161831-09-171,1076455,"Employco Usa II, Inc.","Employco Usa II, Inc.",350 E Ogden Ave,Westemont,IL,60559,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,350 E Ogden Ave
+1161839-09-171,1076459,"Ow Investors, LLC",Mars Company,3925 Sw 13th St,Ocala,FL,34474,2017-09-22T00:00:00.000,,2017-09-22T00:00:00.000,,3925 Sw 13th St
+1161859-09-171,1076470,Elizabeth Donoghue,Elizabeth Donoghue,425 Divisadero St Ste 206,San Francisco,CA,94117,2017-09-11T00:00:00.000,,2017-09-11T00:00:00.000,,425 Divisadero St 206 Ste
+1161867-09-171,1076474,Gary Costello Jr,Costello's Plumbing,3826 Anza Way,San Leandro,CA,94578,2017-09-20T00:00:00.000,,2017-09-22T00:00:00.000,,3826 Anza Way
+1161871-09-171,1076476,Shaun Chan,2050 31st Ave,2050 31st Ave,San Francisco,CA,94116,2017-09-22T00:00:00.000,,2017-09-22T00:00:00.000,,2050 31st Ave
+1161873-09-171,1076477,Mark Baldry,Baldry Brothers Drilling,9111 Willow Ave,Cotati,CA,94931,2017-07-21T00:00:00.000,,2017-07-21T00:00:00.000,,Po Box 1055
+1161879-09-171,1076480,"Ghc Of San Fran 68, LLC",Lawton Skilled Nursing And Rehabilitation Center,1575 7th Ave,San Francisco,CA,94122,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,6 Hutton Centre Dr 400 Ste
+1161891-09-171,1076488,Carroll Street Partners,Carroll Street Partners,1786 Carroll Ave,San Francisco,CA,94124,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,1786 Carroll Ave
+1161898-09-171,1076494,501 Management LLC,501 Management LLC,501 41st. Ave,San Francisco,CA,94121,2017-09-22T00:00:00.000,,2017-09-22T00:00:00.000,,Po Box 591463
+1161912-09-171,1076499,Chi Sin Buddhist And Taoist Association,"1043 Powell Street, San Francisco",1051 Powell St,San Francisco,CA,94108,1977-02-15T00:00:00.000,,2012-04-01T00:00:00.000,,2305 Judah St
+1161916-09-171,1076501,"Xpansiv Data Systems, Inc.","Xpansiv Data Systems, Inc.",89 De Boom St,San Francisco,CA,94107,2016-10-03T00:00:00.000,,2016-10-03T00:00:00.000,,500 5th Ave Fl 55
+1161941-09-171,1028055,Poke Bar Rjs Inc,I'a Poke,1515 Fillmore St,San Francisco,CA,94115,2016-03-03T00:00:00.000,,2017-09-01T00:00:00.000,,314 Church St
+1161944-09-171,922982,Cheng Chin,Win's Hair Design,727 Geary St,San Francisco,CA,94109,1996-10-03T00:00:00.000,,2017-09-22T00:00:00.000,,681 Geary St
+1161947-09-171,403201,Cogent Communications Inc,"Cogent Communicatins, Inc",100 Bush St,San Francisco,CA,94014,2000-01-01T00:00:00.000,,2016-09-01T00:00:00.000,,2450 N St Nw
+1161951-09-171,1076472,American Kitchen Company Inc,American Kitchen Company Inc,2045 Mount Diablo St #203,Concord,CA,94524,2017-09-22T00:00:00.000,,2017-09-22T00:00:00.000,,Po Box 5247
+1161955-09-171,1076512,John Degaetano,John Degaetano,117 Marvin Ct,Petaluma,CA,94954,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,117 Marvin Ct
+1161973-09-171,1076521,Min Xu,Min Xu,1048 Crestview Dr,Millbrae,CA,94030,2012-10-26T00:00:00.000,,2012-10-26T00:00:00.000,,1048 Crestview Dr
+1161981-09-171,1076525,Ke Li Tuan,Ke Tuan,470 20th Ave Apt 3,San Francisco,CA,94121,1989-10-17T00:00:00.000,,1989-10-17T00:00:00.000,,470 20th Ave Apt 3
+1161983-09-171,1076526,Nicola Quilligan,"1219 Rhode Island Street, San Francisco, Ca 94107",1219 Rhode Island St,San Francisco,CA,94107,2017-03-01T00:00:00.000,,2017-03-01T00:00:00.000,,1219 Rhode Island St
+1161984-09-171,1018782,Rayter Alex,Ruah,491 30th Ave Apt 1,San Francisco,CA,94121,2015-09-01T00:00:00.000,,2017-03-03T00:00:00.000,,81 Rockford Ave
+1162001-09-171,1076534,Denis Osullivan,Denis Osullivan,2139 15th Avenue Ave,San Francisco,CA,94116,2017-07-21T00:00:00.000,,2017-07-21T00:00:00.000,,2139 15th Ave
+1162007-09-171,1076537,Abacus Row LLC,Abacus Row LLC,1256 Mason St,San Francisco,CA,94108,2017-01-09T00:00:00.000,,2017-01-09T00:00:00.000,,1256 Mason St
+1162009-09-171,1076538,Jonathan Carter,Kintsugi,83 Sharon Street,San Francisco,CA,94114,2017-09-23T00:00:00.000,,2017-09-23T00:00:00.000,,83 Sharon St
+1162032-09-171,1076550,Buchanan Summerwood Partners,Summerwood Apartments,1 Daniel Burnham Ct 412,San Francisco,CA,94109,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1 Daniel Burnham Ct Apt 412
+1162037-09-171,1076553,Alvin Woodside Partners,Woodside Apartments,1 Daniel Burnham Court 412,San Francisco,CA,94109,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1 Daniel Burnham Ct Apt 412
+1162041-09-171,1076555,Et Al. LLC,Et Al.,2831 Mission St,San Francisco,CA,94110,2017-09-04T00:00:00.000,,2017-09-25T00:00:00.000,,4128 Howe St
+1162053-09-171,1076561,Facial Plus Ma Beauty Inc,Facial Plus Ma Beauty Inc,2033 Irving St,San Francisco,CA,94122,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1151 Taraval St
+1162064-09-171,1076568,Saffron Investments Inc,Subway #12181,423 Bush St,San Francisco,CA,94108,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,38721 Farwell Dr
+1162074-09-171,1076571,Marcus Cooper,Cooper Marcus,808 Douglass St,San Francisco,CA,94114,2017-09-24T00:00:00.000,,2017-09-24T00:00:00.000,,808 Douglass St
+1162079-09-171,1076575,Kenneth Shawnkirby,Kirbys Pools,1200 Clayton St Unit 11,San Francisco,CA,94114,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,Po Box 4085
+1162101-09-171,1076586,Edmond Kwok,Edmond Kwok,4th Ave,San Francisco,CA,94118,2014-02-13T00:00:00.000,,2014-02-13T00:00:00.000,,170 Eucalyptus Dr
+1162107-09-171,1076588,Mypath,Mypath,2430 Mission St,San Francisco,CA,94110,1989-05-10T00:00:00.000,,1989-05-10T00:00:00.000,,2430 Mission St
+1162115-09-171,1076593,American Chinese International Cultural Exchange Council,American Chinese International Cultural Exchange Council,2501 Taraval St,San Francisco,CA,94116,2017-09-24T00:00:00.000,,2017-09-24T00:00:00.000,,2501 Taraval St
+1162119-09-171,1076595,Mclaughlin Sanchez Llp,Mclaughlin Sanchez Llp,605 Market St Ste 300,San Francisco,CA,94105,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,177 Post St Ste 650
+1162123-09-171,1076597,Scout Security Inc,Scout Alarm,210 N Racine Ave Ste 3s,Chicago,IL,60607,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,210 N Racine Ave 3s Ste
+1162129-09-171,1076600,Cary Limsico,Cary Limsico,1375 Tartan Trail Road,Hillsborough,CA,94010,2006-11-17T00:00:00.000,,2006-11-17T00:00:00.000,,1375 Tartan Trail Rd
+1162131-09-171,1076601,Andre Sequin,Dahu,1125 Filbert St Apt 2,San Francisco,CA,94109,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1125 Filbert St Apt 2
+1162137-09-171,1076604,Wilson Chu,"467 08th Avenue, San Francisco, Ca",467 08th Ave,San Francisco,CA,94118,1990-02-20T00:00:00.000,,1990-02-20T00:00:00.000,,1806 Funston Ave
+1162146-09-171,417741,Ace Mailing Corporation,Ace Mailing Corporation,2736 16th St,San Francisco,CA,94103,2007-04-01T00:00:00.000,,2015-08-01T00:00:00.000,,2736 16th St
+1162149-09-171,461238,Pelzner Claire,Claire Pelzner,2915 Sacramento St,San Francisco,CA,94115,2011-07-26T00:00:00.000,,2017-04-01T00:00:00.000,,2915 Sacramento St
+1162150-09-171,1032804,"Dominique Price Architects, Inc","Dominique Price Architects, Inc",1254 Mason St,San Francisco,CA,94108,2016-04-27T00:00:00.000,,2016-04-29T00:00:00.000,,1254 Mason St
+1162153-09-171,1060211,Victory Capital Management Inc,Victory Capital Management Inc,1 Bush Street Fl 9th,San Francisco,CA,94104,2016-07-30T00:00:00.000,,2016-07-30T00:00:00.000,,4900 Tiedeman Rd Fl 4
+1162154-09-171,1063232,"55 Hawthorne (Sf) Owner, LLC","55 Hawthorne (Sf) Owner, LLC",55 Hawthorne St,San Francisco,CA,94105,2016-12-22T00:00:00.000,,2016-12-22T00:00:00.000,,4700 Wilshire Blvd
+1162156-09-171,465213,Sparky's Global LLC,Ravot,115 Clement St,San Francisco,CA,94118,2012-01-03T00:00:00.000,,2017-09-25T00:00:00.000,,584 Castro St # 110
+1162159-09-171,330228,Luz Inc,Rws Life Sciences Inc,555 Montgomery St 720,San Francisco,CA,94111,1999-07-15T00:00:00.000,,2017-09-25T00:00:00.000,,101 E River Dr
+1162161-09-171,1076608,Island Lake Investments LLC,Island Lake Investments LLC,61 Parnassus Ave,San Francisco,CA,94117,2017-07-03T00:00:00.000,,2017-07-03T00:00:00.000,,Po Box 2656
+1162175-09-171,1076618,Primafelicitas LLC,Primafelicitas LLC,3739 Balboa St 1166,San Francisco,CA,94121,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,3739 Balboa St Ste 1166
+1162179-09-171,1076620,Bala Life,That's My Jam,324 Divisadero St,San Francisco,CA,94117,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,324 Divisadero St
+1162185-09-171,1076623,Noreen O'neill,535 Arguello Blvd Sf Ca,1586 15th Ave,San Francisco,CA,94122,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1586 15th Ave
+1162187-09-171,1076624,Carroll Creek Builders,Carroll Creek Builders,227 North Main St,Lone Pine,CA,93545,2017-09-09T00:00:00.000,,2017-09-09T00:00:00.000,,Po Box 753
+1162191-09-171,1076626,O'pro Construction Inc,O'pro Construction Inc,229 Cloverbrook Cir,Pittsburg,CA,94565,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,229 Cloverbrook Cir
+1162193-09-171,1076627,Hand Job Nails & Spa,Hand Job Nails & Spa,565 Castro St,San Francisco,CA,94114,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,565 Castro St
+1162197-09-171,1076631,Daniel Fence Co,Daniel Fence Co,8125 Monterey Rd,Coyote,CA,95013,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,Po Box 13074
+1162203-09-171,1076635,Steve Old Elk,Dedushka Tours,1859 Powell Street St Unit 229,San Francisco,CA,94133,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,1859 Powell St Unit 229
+1162219-09-171,1076643,Brock Solutions Us Systems LLC,Brock Solutions Us Systems LLC,8080 Tristar Dr Ste 126,Irving,TX,75063,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,8080 Tristar Dr 126 Ste
+1162257-09-171,1076664,Smoky Man,Smoky Man,1310 Noriega St,San Francisco,CA,94122,2017-07-26T00:00:00.000,,2017-09-26T00:00:00.000,,259 Seneca Ave
+1162261-09-171,1076666,Stacey Thoyre-Runde,2tonk Productions,6434 California St,San Francisco,CA,94121,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,6434 California St
+1162263-09-171,1076668,The Potrero View,The Potrero View,296 Liberty St,San Francisco,CA,94114,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1459 18th St 214
+1162271-09-171,1076672,Actual Agency LLC,Actual Agency LLC,755 Sansome St Ste 360,San Francisco,CA,94111,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,1428 Shotwell St
+1162273-09-171,1076673,Anderson Goncalves Claudino,Agc Constructions & Services,826 Antoinette Ln B,South San Francisco,CA,94080,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,4009 Luneta Dr
+1162277-09-171,1076675,Aviva Kanoff,Aviva's Room,3415 3415 Cesar Chavez St Apt C,San Francisco,CA,94110,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,770 Shotwell St
+1162290-09-171,1067380,Bre Quad Holdings LLC,Connections San Francisco,424 Clay St,San Franciscco,CA,94111,2016-02-11T00:00:00.000,,2017-09-26T00:00:00.000,,333 Ludlow St Fl 3
+1162293-09-171,1076644,United Restaurant Corp,Wasabi Bistro,524 Castro St,San Francisco,CA,94114,2017-09-26T00:00:00.000,,2017-09-26T00:00:00.000,,4134 Geary Blvd
+1162295-09-171,208741,Karkar Issa George,"Issa G. Karkar, Dds",2172 Mission Street,San Francisco,CA,94110,1991-10-16T00:00:00.000,,2017-08-25T00:00:00.000,,490 Post St Ste 808
+1162299-09-171,473043,Metric Theory LLC,Metric Theory LLC,311 California St Ste 200,San Francisco,CA,94104,2014-05-01T00:00:00.000,,2017-09-01T00:00:00.000,,1517 Blake St 250 Ste
+1162301-09-171,1011935,Howard Ali,Ali Howard,2456 Bush St,San Francisco,CA,94115,2015-03-23T00:00:00.000,,2017-09-26T00:00:00.000,,4342 Bakman Ave
+1162302-09-171,1028459,Alessandra Cavallero,Spa Bem-Ti-Vi,3150 18th St #262,San Francisco,CA,94110,2016-03-06T00:00:00.000,,2017-09-26T00:00:00.000,,2849 Fruitvale Ave
+1162303-09-171,1067699,Melissa Modanlou,Modanlou Rental Unit,2541 Washington St Bldg,San Francisco,CA,94115,2017-01-15T00:00:00.000,,2017-09-26T00:00:00.000,,2541 Washington St
+1162308-09-171,1040576,Ajb Health And Wellness LLC,A Joyful Start,2682 17th Ave,San Francisco,CA,94116,2016-07-26T00:00:00.000,,2017-09-25T00:00:00.000,,2682 17th Ave
+1162318-09-171,1076687,Jing Xu And David Edward Lee,Jing Xu And David Edward Lee,434 8th Ave,San Francisco,CA,94118,2008-08-01T00:00:00.000,,2008-08-01T00:00:00.000,,1708 Clement St
+1162324-09-171,1076690,Emrom Electric Inc,Emrom Electric Inc,5000 Georgia St,Vallejo,CA,94591,2017-09-27T00:00:00.000,,2017-09-27T00:00:00.000,,5000 Georgia St
+1162328-09-171,1076692,Papenhausen Partners,Papenhausen Partners,3105 Woodside Rd,Woodside,CA,94062,1998-01-01T00:00:00.000,,1998-01-01T00:00:00.000,,3105 Woodside Rd
+1162344-09-171,1076702,Andrew Michael Harbin,Elevate Fitness,864 Folsom St,San Francisco,CA,94103,2017-09-27T00:00:00.000,,2017-09-27T00:00:00.000,,0000 Undeliverable Mail
+1162348-09-171,1076703,Kogatch Design Co. LLC,Kogatch Design Co.,1728 Ocean Ave Unit 285,San Francisco,CA,94112,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,1728 Ocean Ave Unit 285
+1162372-09-171,1076717,Tara Lockhart,Tara Lockhart,172 Connecticut St Apt A,San Francisco,CA,94107,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,172 Connecticut St Apt A
+1162391-09-171,1076726,"Capulus Therapeutics, LLC","Capulus Therapeutics, LLC",535 Mission St Fl 14,San Francisco,CA,94105,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,535 Mission St 14 Fl
+1162396-09-171,1035745,Kiepe Electric Inc,Kiepe Electric Inc,359 Curie Dr,Alpharetta,GA,30005,2016-05-27T00:00:00.000,,2017-02-01T00:00:00.000,,359 Curie Dr
+1162401-09-171,1061480,Reliable Services Group Inc,City Rent-A-Car,349 Mason St,San Francisco,CA,94102,2014-10-02T00:00:00.000,,2017-09-27T00:00:00.000,,349 Mason St
+1162403-09-171,467391,Salimi Management LLC,Scm,1 Avenue Of The Palms 2c,San Francisco,CA,94130,2012-03-15T00:00:00.000,,2017-09-15T00:00:00.000,,1 Avenue Of The Palms Ave 301
+1162404-09-171,467391,Salimi Management LLC,Salimi Cm,1 Avenue Of The Palms 2c,San Francisco,CA,94130,2012-03-15T00:00:00.000,,2017-09-15T00:00:00.000,,1 Avenue Of The Palms Ave 301
+1162405-09-171,417550,Scripps Networks LLC,Scripps Networks,201 Mission St Ste 500,San Francisco,CA,94105,2006-04-01T00:00:00.000,,2016-11-01T00:00:00.000,,265 Brookview Centre Way Ste 401
+1162428-09-171,1076738,Engage Holdings LLC Dba Iqventures,Engage Holdings LLC Dba Iqventures,278 N Fifth St,Columbus,OH,43215,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,151 Southhall Ln Ste 450
+1162432-09-171,1076740,"Burlington Medical, LLC","Burlington Medical, LLC",3 Elmhurst St,Newport News,VA,23603,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,3 Elmhurst St
+1162434-09-171,1076741,Qebot Inc,Qebot Inc,2574 15th Ave,San Francisco,CA,94127,2017-03-24T00:00:00.000,,2017-03-24T00:00:00.000,,2574 15th Ave
+1162448-09-171,1076748,Mohammadreza Foroughi,Aie Appliance,1719 32nd Ave,San Francisco,CA,94122,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,1719 32nd Ave
+1162450-09-171,1076749,Cal Preserving Inc,Cal Preserving Inc,1906 Plymouth St,Mountain View,CA,94043,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,1906 Plymouth St
+1162452-09-171,1076751,Stephen Schneider,Property Renovations Unlimited,14 Precita Ave,San Francisco,CA,94110,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,122 Muir Cir
+1162458-09-171,1076754,Jill Mcgee,Jill Mcgee Interiors,1932 Great Hwy,SF,CA,94116,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,Po Box 591581
+1162464-09-171,1076757,All Season Market,All Season Market,401 Capp St,San Francisco,CA,94110,2017-09-27T00:00:00.000,,2017-09-27T00:00:00.000,,401 Capp St
+1162468-09-171,1076759,Access Bryant Spc,Access Bryant Spc,761 Bryant St,San Francisco,CA,94107,2017-03-08T00:00:00.000,,2017-03-08T00:00:00.000,,321 Billerica Rd Ste 204
+1162470-09-171,1076760,James M Steere,Steere Building And Woodworking,28 Lomita Dr,Mill Valley,CA,94941,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,28 Lomita Dr
+1162474-09-171,1076762,Juv Inc,Juv Inc,7901 Oakport St Ste 2700,Oakland,CA,94621,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,7901 Oakport St 2700 Ste
+1162476-09-171,1076763,Luis Ulloa,Luis Ulloa,88 Guy Pl Apt 205,San Francisco,CA,94105,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,88 Guy Pl Apt 205
+1162480-09-171,1076765,Yanika Schneider Angelo Festin & Louis Cortez,Periodic Table,1325 Indiana St,San Francisco,CA,94107,2017-09-19T00:00:00.000,,2017-09-19T00:00:00.000,,1325 Indiana St Unit 308
+1162504-09-171,1076778,Crestwood Behavioral Health Inc,San Francisco Healing Center,450 Stanyan St Fl 5,San Francisco,CA,94117,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,Po Box 7877
+1162516-09-171,1076785,Rob Rowe,Cal Coast Window & Door,3015 Hopyard Rd N,Pleasanton,CA,94588,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,5673 W Las Positas Blvd Ste 203
+1162528-09-171,1076791,Anita Joyce Butler,Tyche Business Solutions,510 Fulton St Apt J,San Francisco,CA,94102,2017-08-24T00:00:00.000,,2017-08-24T00:00:00.000,,1275 Fairfax Ave 203tb Ste
+1162542-09-171,350419,Akamai Technologies Inc,"Akamai Technologies, Inc.",799 Market St Fl 4 & 6,San Francisco,CA,94103,2000-04-01T00:00:00.000,,2013-08-12T00:00:00.000,,150 Broadway
+1162544-09-171,471471,Jay's Auto Body Center Inc,Jay's Auto Body Center Inc,53 Maynard St,San Francisco,CA,94112,2012-07-01T00:00:00.000,,2017-09-28T00:00:00.000,,53 Maynard St
+1162547-09-171,1015195,Adachi Mai,Mai Adachi,1005 Market St Unit 303,San Francisco,CA,94103,2015-06-16T00:00:00.000,,2017-09-22T00:00:00.000,,1005 Market St 303 Unit
+1162555-09-171,1076794,Wing Y Wang,Wing Y Wang,1062 Ingerson Ave,San Francisco,CA,94124,2017-09-29T00:00:00.000,,2017-09-29T00:00:00.000,,1062 Ingerson Ave
+1162561-09-171,1076800,Natasha Saravanja,Natasha Saravanja Photography,3827 Cesar Chavez St,San Francisco,CA,94131,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,3827 Cesar Chavez St
+1162567-09-171,1076804,Metro Hong Kong Dessert,Metro Hong Kong Dessert,928 Stockton St,San Francisco,CA,94108,2017-09-29T00:00:00.000,,2017-09-29T00:00:00.000,,928 Stockton St
+1162587-09-171,1076815,"Bay Cities Diesel Machining, Inc.","Bay Cities Diesel Machining, Inc.",4072 Teal Ct Unit A,Benicia,CA,94510,2017-09-12T00:00:00.000,,2017-09-12T00:00:00.000,,21738 Liberal Ave
+1162589-09-171,1076816,Kelly Nguyen,Kelly Nguyen,295 11th Ave,San Francisco,CA,94127,2009-04-29T00:00:00.000,,2017-04-29T00:00:00.000,,Po Box 347300
+1162593-09-171,1076818,Jason D Serafino-Agar,Mybikeskills.Com,431 Ellington Ave,San Francisco,CA,94112,2017-09-29T00:00:00.000,,2017-09-29T00:00:00.000,,431 Ellington Ave
+1162599-09-171,1076822,Eric Soli,Eric Soli,3972 19th St,San Francisco,CA,94114,2016-05-12T00:00:00.000,,2016-05-12T00:00:00.000,,3972 19th St
+1162605-09-171,1076825,"Security Source Alarms, LLC","Security Source Alarms, LLC",187 Ballardvale St A225,Wilmington,MA,1887,2017-09-29T00:00:00.000,,2017-09-29T00:00:00.000,,0000 Undeliverable Mail
+1162622-09-171,1076833,"Clean Cut Concrete, Inc.","Clean Cut Concrete, Inc.",242 Phelan Ave C,San Jose,CA,95112,2017-07-05T00:00:00.000,,2017-07-05T00:00:00.000,,242 Phelan Ave
+1162624-09-171,1076834,Howard Jow,727-729 Leavenworth St Building,727 Leavenworth St,San Francisco,CA,94109,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1964 10th Ave
+1162625-09-171,1076834,Howard Jow,2250-2254 Taraval St Building,2250 Taraval St,San Francisco,CA,94116,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,1964 10th Ave
+1162631-09-171,1076839,Maria Low,Maria Low,499 20th Ave,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-10-10T00:00:00.000,,499 20th Ave
+1162644-09-171,67170,Justin W Shek Dds Inc,Justin W Shek Dds Inc,3400 California St #200,San Francisco,CA,94118,1971-10-01T00:00:00.000,,2014-02-01T00:00:00.000,,3400 California St Ste 200
+1162646-09-171,329137,Gibson Jeanne S,Sales Assistance Extraordinaire,1393 23rd Ave,San Francisco,CA,94122,2009-06-30T00:00:00.000,,2017-09-29T00:00:00.000,,1393 23rd Ave
+1162647-09-171,329137,Gibson Jeanne S,Saextraordinaire,1393 23rd Ave,San Francisco,CA,94122,2009-06-30T00:00:00.000,,2017-09-29T00:00:00.000,,1393 23rd Ave
+1162649-09-171,490639,Hongzhi Trading Inc,Ts Cafe,4754 Mission St,San Francisco,CA,94112,2014-06-01T00:00:00.000,,2017-09-29T00:00:00.000,,1030 Irving St
+1162650-09-171,376673,Community Initiatives,Castro Country Club,4058 18th St,San Francisco,CA,94114,2008-07-11T00:00:00.000,,2017-05-01T00:00:00.000,,1000 Broadway Ste 480
+1162655-09-171,1072977,San Francisco Sound,San Francisco Music Walk Of Fame,1353 Bush St #112,San Francisco,CA,94109,2007-04-27T00:00:00.000,,2017-07-20T00:00:00.000,,1353 Bush St Ste 112
+1162657-09-171,1075455,Hidden Star Orchards,Hidden Star Orchards,1 Ferry Building Unit 50,San Fransisco,CA,94111,2017-08-31T00:00:00.000,,2017-09-30T00:00:00.000,,1235 Phoenix Way
+1162661-09-171,1076844,Peter Wenner,434 23rd Avenue,434 23rd Ave,San Francisco,CA,94121,2007-08-03T00:00:00.000,,2007-08-03T00:00:00.000,,315 Dorantes Ave
+1162673-09-171,1076850,Elizabeth Power,Elizabeth Power,30 Miguel St,San Francisco,CA,94131,2017-09-30T00:00:00.000,,2017-09-30T00:00:00.000,,30 Miguel St
+1162687-10-171,1076857,Christine Barnett,Brisa Tours,3322 Buchanan St Unit 308,San Francisco,CA,94123,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,3322 Buchanan St 308 Apt
+1162701-10-171,1076864,"Health Leads, Inc.","Health Leads, Inc.",24 School St,Boston,MA,2108,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,24 School St
+1162742-10-171,1076884,Eagan Patrick M,Security Partners LLC,241 N Plum St,Lancaster,PA,17608,2017-09-21T00:00:00.000,,2017-09-21T00:00:00.000,,Po Box 1706
+1162752-10-171,1076889,Aerc Acquisition Corporation,Aerc Recycling Solutions,334 S Warminster Rd,Hatboro,PA,19040,2017-03-23T00:00:00.000,,2017-03-23T00:00:00.000,,933 1st Ave Ste 200
+1162762-10-171,1076894,"Embolx, Inc.","Embolx, Inc.",530 Lakeside Dr Ste 200,Sunnyvale,CA,94085,2016-04-14T00:00:00.000,,2016-04-14T00:00:00.000,,530 Lakeside Dr 200 Ste
+1162776-10-171,1076902,"Italfoods, Inc.","Italfoods, Inc.",205 Shaw Road,South San Francisco,CA,94080,2001-01-01T00:00:00.000,,2001-01-01T00:00:00.000,,205 Shaw Rd
+1162786-10-171,1076907,Kelly Nguyen,Kelly Nguyen,Clement/11th,San Francisco,CA,94127,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,Po Box 347300
+1162788-10-171,1076908,Sullivan Enterprises Inc,Sullivan Enterprises Inc Nationwide,870 Sarra Ln,Poolville,TX,76487,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,870 Sarra Ln
+1162802-10-171,475906,City College Of San Francisco,Ep Cafe,88 4th Street,San Francisco,CA,94103,2012-02-14T00:00:00.000,,2017-10-02T00:00:00.000,,50 Frida Kahlo Way
+1162804-10-171,461307,El Tomate Inc,Double Shot Coffee,4587 Mission St,San Francisco,CA,94112,2011-08-01T00:00:00.000,,2017-10-02T00:00:00.000,,2916 24th St
+1162807-10-171,359104,Da Costa Francisco N,Environmental Justice Advocacy,5021 Third St,San Francisco,CA,94124,2002-09-01T00:00:00.000,,2017-10-02T00:00:00.000,,5021 3rd St
+1162808-10-171,364549,Southeast Sector Community Dev,Southeast Sector Cdc,5021 Third St,San Francisco,CA,94124,2003-03-01T00:00:00.000,,2017-10-02T00:00:00.000,,5021 3rd St
+1162816-10-171,1076915,Jonathan Garvey,942 Divisadero St 401,942 Divisadero St Unit 401,San Francisco,CA,94115,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,942 Divisadero St 401 Apt
+1162824-10-171,1076919,Mitchell Montoya,Mitchell Montoya,1138 Gilman Ave,San Francisco,CA,94124,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,1138 Gilman Ave
+1162830-10-171,1076922,"Engineered Monitoring Systems, Inc.","Engineered Monitoring Systems, Inc.",11290 Trade Center Dr,Rancho Cordova,CA,95742,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,11290 Trade Center Dr
+1162832-10-171,1076923,The Good Chocolate LLC,The Good Chocolate,25 Leland Ave,San Francisco,CA,94134,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,25 Leland Ave
+1162836-10-171,1076925,Lacey Barbara A,Barbara A Lacey,1096 Eddy St Apt 405,San Francisco,CA,94109,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,1096 Eddy St Apt 405
+1162848-10-171,1076931,Muse Beauty LLC,Muse Beauty.Pro,762 Clementina St,San Francisco,CA,94103,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,762 Clementina St
+1162858-10-171,1076936,Kathy Joyce,The Kathleen P Joyce Revocable Trust,Mission St Bldg,San Francisco,CA,94112,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,Po Box 6535
+1162872-10-171,1076945,Dylan C. Hosey,"Skiff, LLC",1629 Florida St Apt,San Francisco,CA,94110,2017-09-08T00:00:00.000,,2017-09-08T00:00:00.000,,1629 Florida St Apt
+1162881-10-171,1076949,"Telescope Press, LLC","Telescope Press, LLC",77 Van Ness Ave 1011035,San Francisco,CA,94102,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,0000 Undeliverable Mail
+1162883-10-171,1076950,"Cuso Financial Services, L.P.","Cuso Financial Services, L.P.",1390 Market Street,San Francisco,CA,94102,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,10150 Meanley Dr Fl 1
+1162885-10-171,1076951,Mauricio F Zanipatin & Kimberly B Radavero,World Team Usa,445 Judah St,San Francisco,CA,94122,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,58 West Portal Ave # 109ste
+1162903-10-171,1076960,"Petite Explorer Day School, Inc",Petite Explorer Preschool,722 S Van Ness Ave,San Francisco,CA,94110,2017-10-03T00:00:00.000,,2017-10-03T00:00:00.000,,367 Teresita Blvd
+1162909-10-171,1076963,Bl 227 Front LLC,Bluestone Lane,227 Front St,San Francisco,CA,94111,2017-08-25T00:00:00.000,,2017-08-25T00:00:00.000,,Po Box 8000
+1162923-10-171,1076970,Hudson D And Terry R Lanier,Hudson And Terry Lanier,Noe St,San Francisco,CA,94114,2017-03-21T00:00:00.000,,2017-03-21T00:00:00.000,,4343 Cesar Chavez St
+1162933-10-171,1076975,Darrell Williams,Strobespace,530 Hampshire St Ste 306,San Francisco,CA,94110,2017-04-18T00:00:00.000,,2017-04-18T00:00:00.000,,530 Hampshire St Ste 306
+1162941-10-171,1076979,Luk Fook Jewellery Trading (Usa) Company Limited,Luk Fook Jewellery Trading (Usa) Company Limited,857 Washington St,San Francisco,CA,94108,2017-09-20T00:00:00.000,,2017-09-20T00:00:00.000,,857 Washington St
+1162962-10-171,1067503,Acme Bay Area Backflow Inc,$110 Backflow Testing,2912 Diamond St 342,San Francisco,CA,94131,2017-03-21T00:00:00.000,,2017-10-03T00:00:00.000,,2912 Diamond St Ste 342
+1162963-10-171,448531,Cat Builders Inc,1 Backflow Plumbing,5635 Anza St 3,San Francisco,CA,94121,2010-04-20T00:00:00.000,,2017-10-03T00:00:00.000,,5635 Anza St Apt 3
+1162965-10-171,154724,Jewelry Direct,Jewelry Direct,833 Market St Fl 10th,San Francisco,CA,94103,1985-09-01T00:00:00.000,,2016-02-01T00:00:00.000,,0000 Undeliverable Mail
+1162969-10-171,1071597,"Hanley Wood Media, Inc","Hanley Wood Media, Inc",845 Market St 450,San Francisco,CA,94103,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,1152 Nw 15th St Nw Ste 850
+1162971-10-171,479963,Workshop Cafe Inc,"Workshop Cafe, Inc",1 Market St Ste A,San Francisco,CA,94105,2013-07-15T00:00:00.000,,2017-10-03T00:00:00.000,,19800 Macarthur Blvd Ste 820
+1162976-10-171,460844,Yes Variety Inc,Seven,2345 Irving St,San Francisco,CA,94122,2011-07-15T00:00:00.000,,2017-10-03T00:00:00.000,,2345 Irving St
+1162983-10-171,1076992,"Marine Taxonomic Services, Ltd.","Marine Taxonomic Services, Ltd",2834 Nw Pineview Dr,Albany,OR,97321,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,2834 Nw Pineview Dr
+1162987-10-171,1076995,Louie Bing Shou Construction,Louie Bing Shou Construction,1835 26th Ave,San Francisco,CA,94122,2017-09-18T00:00:00.000,,2017-09-18T00:00:00.000,,1835 26th Ave
+1162997-10-171,1077000,Anastasia Sonkin Taylor Pollack,Talc Studio,1351 44th Ave,San Francisco,CA,94122,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,211 Frustuck Ave
+1163015-10-171,1077009,Vgm Realty LLC,Vgm Realty LLC,280 Brighton Ave,San Francisco,CA,94112,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,509 Poplar Ave
+1163017-10-171,1077010,Momo Textiles LLC,Goat Suits,75 Noe St Unit B,San Francisco,CA,94114,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,75 Noe St Unit B
+1163023-10-171,1077013,Spark Sf Public Schools,Spark*Sfusd,555 Franklin St Ste 300,San Francisco,CA,94102,2015-01-02T00:00:00.000,,2015-01-02T00:00:00.000,,555 Franklin St Ste
+1163033-10-171,1077018,"Kalyani Holdings, LLC",Gusto Mediterraneo,1000 Bush St,San Francisco,CA,94109,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,0000 Undeliverable Mail
+1163049-10-171,1077027,Bernice Hueylee,Bblee Porperties,832 Lombard St,San Francisco,CA,94133,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,832 Lombard St
+1163051-10-171,1077028,"Cold Storage Manufacturing, Inc.","Cold Storage Manufacturing, Inc.",740 Bradford Way,Union City,CA,94587,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,740 Bradford Way
+1163068-10-171,1077037,Kimberly Silva,Kim Silva,56 Patton St,San Francisco,CA,94110,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,56 Patton St
+1163079-10-171,1076923,The Good Chocolate LLC,Good Chocolate,25 Leland Ave,San Francisco,CA,94134,2017-10-03T00:00:00.000,,2017-10-04T00:00:00.000,,25 Leland Ave
+1163087-10-171,1071978,Nawid Rahimi,Donna's Tamales,700 Divisadero St,San Francisco,CA,94117,2017-06-01T00:00:00.000,,2017-10-04T00:00:00.000,,2059 Marazzani Dr
+1163092-10-171,1031585,Clara Medical Group P.C.,Clara Medical Group Pc Dba Forward,180 Sutter St Ste 100s,San Francisco,CA,94104,2016-04-07T00:00:00.000,,2017-01-25T00:00:00.000,,660 4th St # 202
+1163093-10-171,1063755,Mahaffy Joanna,Jojoy Fitness,1281 14th Ave,San Francisco,CA,94122,2017-01-11T00:00:00.000,,2017-07-01T00:00:00.000,,405 Esplanade Ave Apt 1
+1163094-10-171,438240,Ford Quentin & Ford Lionel,Ford Janitorial Services,1407 Oakdale,San Francisco,CA,94124,2009-04-20T00:00:00.000,,2017-10-01T00:00:00.000,,8007 W Samuel Ct
+1163119-10-171,1077052,Manuel Garcia,The Last Detail Roofing,36 Bayview Ave 1,Bay Point,CA,94565,2017-10-05T00:00:00.000,,2017-10-05T00:00:00.000,,36 Bayview Ave
+1163127-10-171,1077056,Kristen Moore,Kristen Moore Mft,1197 Valencia St,San Francisco,CA,94110,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,3993 24th St F Apt
+1163129-10-171,1077057,Sustainable Conservation,Sustainable Conservation,98 Battery St #302,San Francisco,CA,94111,1995-10-06T00:00:00.000,,1995-10-06T00:00:00.000,,98 Battery St Ste 302
+1163134-10-171,1077059,"Dalt Hotel, L.P.","Dalt Hotel, L.P.",201 Eddy St,San Francisco,CA,94102,2017-10-05T00:00:00.000,,2017-10-05T00:00:00.000,,201 Eddy St
+1163138-10-171,1077061,"Daktronics, Inc.","Daktronics, Inc.",201 Daktronics Dr,Brookings,SD,57006,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,201 Daktronics Dr
+1163146-10-171,1077068,Hyland Software Inc.,Hyland Software Inc.,28500 Clemens Rd,Westlake,OH,44145,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,28501 Clemens Rd
+1163148-10-171,1077069,"B&K Valves & Equipment, Inc.","B&K Valves & Equipment, Inc.",7040 Avenida Encinas Ste 104,Carlsbad,CA,92011,2017-10-04T00:00:00.000,,2017-10-05T00:00:00.000,,7040 Avenida Encinas 104 Ste
+1163159-10-171,1077076,Justin Hovsepian,Hozapps Electric,441 Alameda De La Loma,Novato,CA,94949,2017-10-05T00:00:00.000,,2017-10-05T00:00:00.000,,2426 Center Rd
+1163169-10-171,1077081,Allinvestment Inc,Massageluxe,1581 Sloat Blvd,San Francisco,CA,94132,2016-02-16T00:00:00.000,,2017-03-01T00:00:00.000,,525 Chateau Dr
+1163173-10-171,1077083,Sffit Fd LLC,Orangetheory Fitness Financial District,343 Sansome St Ste 125,San Francisco,CA,94104,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,270 E Baker St Ste 300
+1163177-10-171,1077085,Sffit Mb LLC,Orangetheory Fitness - San Francisco - Mission Bay,215 King St,San Francisco,CA,94107,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,270 E Baker St Ste 300
+1163185-10-171,1077089,"Bay Care Delivery, Inc.",Bay Care Delivery Cooperative,2200 Cesar Chavez Ste 7,San Francisco,CA,94124,2013-04-11T00:00:00.000,,2013-05-03T00:00:00.000,,2200 Cesar Chavez Ste 7
+1163192-10-171,1077048,Kobukson Inc,Native Burger,3420 Geary Blvd,San Francisco,CA,94118,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,168 Collins St
+1163206-10-171,1044333,Adal Saif Altahami,Ed Market,153 Turk St,San Francisco,CA,94102,2016-01-02T00:00:00.000,,2017-10-05T00:00:00.000,,153 Turk St
+1163215-10-171,1077095,Caitlin Moore,Caitlin Moore,703 San Bruno Ave,San Francisco,CA,94107,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,703 San Bruno Ave
+1163231-10-171,1077103,Serena Saeed Winn,Momumental,30 Steiner,San Francisco,CA,94117,2017-09-30T00:00:00.000,,2017-09-30T00:00:00.000,,30 Steiner St
+1163239-10-171,1077107,Tang Ziling,Zeng's Massage Therapy,4565 Mission St,San Francisco,CA,94112,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,4565 Mission St
+1163243-10-171,1077109,Tyler Vu,"1530 York Street, Unit 2 - Airbnb",1530 York St Unit 2,San Francisco,CA,94110,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,1530 York St Unit 2
+1163253-10-171,1077115,Lauren Kivowitz,Inclusive Arts,628 Clarendon Ave,San Francisco,CA,94131,2017-10-04T00:00:00.000,,2017-10-04T00:00:00.000,,29318 Oakpath Dr
+1163259-10-171,1077117,Norbert Schatz,Norbert Schatz,2132 Folsom St Ste 4,San Francisco,CA,94110,2013-01-01T00:00:00.000,,2013-01-01T00:00:00.000,,2132 Folsom St 4 Ste
+1163261-10-171,1077118,Light Speed Systems LLC,Light Speed Systems LLC,942 Morello Ave,Martinez,CA,94553,2012-01-01T00:00:00.000,,2012-01-01T00:00:00.000,,Po Box 7775-80440
+1163270-10-171,1077124,Stephen Moore,Stephen Moore Home,3845 24th St,San Francisco,CA,94114,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,3845 24th St
+1163274-10-171,1077126,Haaker Equipment Compnay,Haaker Equipment,2070 N White Ave,La Verne,CA,91750,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,2070 N White Ave
+1163276-10-171,1077127,Jin Qing Construction Corp,Jin Qing Construction Corp,735 Clearfield Dr,Millbrae,CA,94030,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,1534 Plaza Ln # 263
+1163278-10-171,1077128,Anna Noetzel,614 Monterey Blvd.,614 Monterey Blvd,San Francisco,CA,94112,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,112 Julia Loop
+1163282-10-171,1077130,The 2002 Gursky Family Trust,2150 Balboa St,2150 Balboa St,San Francisco,CA,94121,2010-10-20T00:00:00.000,,2010-10-20T00:00:00.000,,958 Randy Way
+1163284-10-171,1077131,Unity Care Group,Unity Care Group,1400 Parkmoor Ave Ste 115,San Jose,CA,95126,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,1400 Parkmoor Ave Ste 115
+1163313-10-171,1077144,The Storybook School Inc.,The Storybook School,2149 Taraval Street,San Francisco,CA,94116,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,2149 Taraval St
+1163316-10-171,1070633,Generation Investment Management Us Llp,New Main Office,555 Mission Street Ste 3400,San Francisco,CA,94105,2017-01-06T00:00:00.000,,2017-10-02T00:00:00.000,,555 Mission St Ste 3400
+1163320-10-171,382614,Golden State Legal Copy LLC,Golden State Legal,381 Bush St #200,San Francisco,CA,94104,2004-08-09T00:00:00.000,,2016-03-01T00:00:00.000,,381 Bush St Ste 200
+1163322-10-171,358709,San Francisco Soup Company,Ladle & Leaf,451 6th St,San Francisco,CA,94103,2002-01-01T00:00:00.000,,2017-10-01T00:00:00.000,,451 6th St
+1163323-10-171,1064054,Soap Box Cleaners,On Track Cleaners,716 La Playa St,San Francisco,CA,94121,2017-01-01T00:00:00.000,,2017-10-06T00:00:00.000,,3526 Geary Blvd
+1163331-10-171,1077148,"Wai Fun, Inc",Subway Sandwiches #53761,160 Broadway,San Francisco,CA,94111,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,2434 24th Ave
+1163333-10-171,1077149,"Benton-Clayton, Inc",Subway Sandwiches #61240,425 Battery St,San Francisco,CA,94111,2017-10-07T00:00:00.000,,2017-10-07T00:00:00.000,,3674 Deer Trail Dr
+1163361-10-171,1077163,Jay Davidson,Jay Davidson,3422 16th St Apt,San Francisco,CA,94114,2017-10-08T00:00:00.000,,2017-10-08T00:00:00.000,,3422 16th St Apt
+1163365-10-171,1077165,Yasmin Mawaz-Khan,Yasimak Tours,643 Precita Ave,San Francisco,CA,94110,2017-10-05T00:00:00.000,,2017-10-05T00:00:00.000,,643 Precita Ave
+1163385-10-171,1077175,"Charles G. Harb, Kristin M.Harb",Harb House,2712 Bryant Stre W Apt,San Francisco,CA,94110,2017-10-09T00:00:00.000,,2017-10-09T00:00:00.000,,2712 Bryant St
+1163389-10-171,1077177,Guardian Protection Security Inc,Guardian Protection Security,6200 Stoneridge Mall Rd Ste 300,Plesanton,CA,94588,2017-10-09T00:00:00.000,,2017-10-09T00:00:00.000,,6200 Stoneridge Mall Rd 300 Ste
+1163395-10-171,1077180,Elizabeth Sarah Kwan,"Dr. Sarah Kwan, Phd",1730 Divisadero St Ste 5,San Francisco,CA,94115,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,1730 Divisadero St Ste 5
+1163407-10-171,1077186,"Catalent Pharma Solutions, Inc.","Catalent Pharma Solutions, Inc.",14 Schoolhouse Rd,Somerset,NJ,8873,2016-07-01T00:00:00.000,,2016-07-01T00:00:00.000,,14 Schoolhouse Rd
+1163411-10-171,1077188,"B.N.T. Tile, Inc.",Bnt Tile Inc.,3516 Rancho Rd,Wheatland,CA,95692,2017-10-09T00:00:00.000,,2017-10-09T00:00:00.000,,502 Main St
+1163413-10-171,1077189,David Chan,473 Tenth Ave Apts,50 Teresita Blvd,San Francisco,CA,94127,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,50 Teresita Blvd
+1163426-10-171,433765,Law Office Gali Schaham Gordan,Gordon Law Group Pc,461 2nd St C301,San Francisco,CA,94107,2008-07-01T00:00:00.000,,2016-12-01T00:00:00.000,,461 2nd St C301 Apt
+1163428-10-171,415078,Bynd LLC,Beyond,100 Montgomery St Ste 1102,San Francisco,CA,94104,2003-09-01T00:00:00.000,,2015-02-17T00:00:00.000,,0000 Undeliverable Mail
+1163429-10-171,460052,Designmind Business Solutions,Designmind Business Solutions,268 Bush St 2823,San Francisco,CA,94104,2011-06-01T00:00:00.000,,2014-12-15T00:00:00.000,,268 Bush St # 2823
+1163435-10-171,1077197,The Coca-Cola Company,The Coca-Cola Company,3099 Washington St Unit 26,San Francisco,CA,94115,2016-01-01T00:00:00.000,,2016-01-01T00:00:00.000,,Po Box 1734
+1163437-10-171,1077198,"Dude Solutions, Inc.",Facility Dude,11000 Regency Parkway 110,Cary,NC,27518,1999-01-01T00:00:00.000,,1999-01-01T00:00:00.000,,11000 Regency Pkwy Ste 110
+1163459-10-171,1077210,Bare With Me: A Mother-Daughter Doula & Maternity Consultant Duo,Bare With Me: A Mother-Daughter Doula & Maternity Consultant Duo,1910 Keith,San Francisco,CA,94124,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,1910 Keith St
+1163463-10-171,1077213,Yakov Puhachevsky,Music Adventures,1678 39th Ave,San Francisco,CA,94122,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,1678 39th Ave
+1163469-10-171,1077216,Dcopper+ LLC,Dcopper+,1017 Valencia St,San Francisco,CA,94110,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,1017 Valencia St
+1163471-10-171,1077217,Cicc Us Securities Inc,Cicc Us Securities Inc,1 Embarcadero Ctr Ste 2350,San Francisco,CA,94111,2017-05-04T00:00:00.000,,2017-05-04T00:00:00.000,,280 Park Ave Fl 32
+1163490-10-171,1030317,"Kyle Minor Design, LLC",Kmd Heavy Metals,1408 Yosemite Ave,San Francisco,CA,94124,2016-01-08T00:00:00.000,,2017-05-19T00:00:00.000,,1408 Yosemite Ave
+1163494-10-171,1077227,Amir Makleff,2721-2725 Harrison Street,220 Jackson St,San Francisco,CA,94111,2012-11-21T00:00:00.000,,2012-11-21T00:00:00.000,,220 Jackson St 3 Fl
+1163501-10-171,1077230,"Matriscope Engineering Laboratories, Inc","Matriscope Engineering Laboratories, Inc.",601 Bercut Dr,Sacramento,CA,95811,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,601 Bercut Dr
+1163504-10-171,1076743,"Rainfocus, Inc",Oracle Openworld,357 S 670 W Ste 150,Lindon,UT,84042,2017-09-28T00:00:00.000,,2017-09-28T00:00:00.000,,1633 W Innovation Way 100 Ste
+1163508-10-171,1077233,Lopez Alvarez & Olvera LLC,Flor De Cafe,1020 Valencia St,San Francisco,CA,94110,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,1020 Valencia St
+1163511-10-171,1076036,Consultative Group On Biological Diversity,Biodiversity Funders Group,1016 Torney Ave #216,San Francisco,CA,94129,2017-09-13T00:00:00.000,,2017-09-13T00:00:00.000,,Po Box 29361
+1163512-10-171,491037,Rena Bransten Gallery LLC,Rena Bransten Gallery,1275 Minnesota St #210,San Francisco,CA,94107,2014-07-01T00:00:00.000,,2016-03-18T00:00:00.000,,1275 Minnesota St # 210
+1163523-10-171,1077238,Alfred Adler,Alfred Adler,531 24th Ave Apt 6,San Francisco,CA,94121,2008-07-30T00:00:00.000,,2008-07-30T00:00:00.000,,Po Box 3382
+1163525-10-171,1077239,Barbara Delaney,Belle Maison,1279 44th Ave,San Francisco,CA,94122,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,1279 44th Ave
+1163529-10-171,1077241,Dung Anh Thoi,Dt Cleanup,1964 20th Ave,San Francisco,CA,94116,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,1964 20th Ave
+1163539-10-171,1077246,Michael Friis,633 Waller St,633 Waller St,San Francisco,CA,94117,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,633 Waller St
+1163541-10-171,1077247,Edmond Lee,Elm-R,Diamond St,San Francisco,CA,94114,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,822 Diamond St # 820
+1163542-10-171,424570,Radar Productions Inc,Radar Productions,1215 45th Ave,San Francisco,CA,94122,2008-01-09T00:00:00.000,,2017-10-10T00:00:00.000,,0000 Undeliverable Mail
+1163545-10-171,1035198,Plaid Inc.,Plaid Inc.,85 2nd St Ste 400,San Francisco,CA,94105,2012-07-20T00:00:00.000,,2017-09-11T00:00:00.000,,1098 Harrison St
+1163546-10-171,1014960,Loungebuddy Inc,Loungebuddy Inc.,615 Grant Ave Fl 4,San Francisco,CA,94108,2014-08-01T00:00:00.000,,2017-10-10T00:00:00.000,,200 Vesey Street St 46 Fl
+1163547-10-171,1077210,Bare With Me: A Mother-Daughter Doula & Maternity Consultant Duo,Bare With Me,1910 Keith St,San Francisco,CA,94124,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,1910 Keith St
+1163548-10-171,1012327,Endoha LLC,Endoha LLC,2961 Sacramento St,San Francisco,CA,94115,2015-01-01T00:00:00.000,,2016-10-10T00:00:00.000,,2961 Sacramento St
+1163551-10-171,1077218,Metcon,Metcon,7060 Koll Center Parkway #334,Pleasanton,CA,94566,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,7060 Koll Center Pkwy Ste 334
+1163558-10-171,366344,Fh Video Inc,Fh Video Inc,6139 Geary Blvd,San Francisco,CA,94121,2002-10-01T00:00:00.000,,2017-10-10T00:00:00.000,,6139 Geary Blvd
+1163560-10-171,1077249,Deanna Wardin,Graphicward,526 Green St Apt 4,San Francisco,CA,94133,2017-10-10T00:00:00.000,,2017-10-11T00:00:00.000,,528 Green St
+1163568-10-171,1077254,Gladys Lopez,Las Palmas On SF,5251 3rd St,San Francisco,CA,94124,2017-10-11T00:00:00.000,,2017-10-11T00:00:00.000,,5251 3rd St
+1163573-10-171,1077256,Aliece Grein,Flowers By Aliece,1835 9th Ave,San Francisco,CA,94122,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,5332 21st Ave
+1163598-10-171,1077270,Via Us Construction Inc.,Via Us Construction Inc.,224 Glenwood Ave,Daly City,CA,94015,2017-10-11T00:00:00.000,,2017-10-11T00:00:00.000,,Po Box 3633
+1163627-10-171,1077285,Leung Chuk Ming & Eileen Lin,Chuk Ming & Eileen Leung,1743 Anza Street,San Francisco,CA,94118,1998-12-01T00:00:00.000,,1998-12-01T00:00:00.000,,1743 Anza St
+1163637-10-171,1077289,"Hassell Girls, Inc.",Society Jane,300 Cresta Vista Dr,San Francisco,CA,94127,2015-12-07T00:00:00.000,,2015-12-07T00:00:00.000,,1278 Indiana St Unit 301
+1163643-10-171,1077292,Yutaka And Toshiye Handa Living Trust U/A Dtd 11/6/02,1100-1104 Fell Street,1100 Fell St,San Francisco,CA,94117,2014-10-10T00:00:00.000,,2014-10-10T00:00:00.000,,220 Jackson St Ste 300
+1163655-10-171,1077295,Lauren Nguyen,175 Boutwell,175 Boutwell St,San Francisco,CA,94124,2017-10-11T00:00:00.000,,2017-10-11T00:00:00.000,,175 Boutwell St
+1163662-10-171,1076311,Palmira Investments LLC,Palmira Investments LLC,104 Caledonia St Ste C,Sausalito,CA,94965,2017-08-09T00:00:00.000,,2017-08-09T00:00:00.000,,104 Caledonia St Ste 101
+1163665-10-171,445948,Axogen Corporation,Axogen Corporation,13631 Progress Blvd #400,Alachua,FL,32615,2010-01-10T00:00:00.000,,2017-10-10T00:00:00.000,,13631 Progress Blvd Ste 400
+1163669-10-171,430823,Bay Grove Capital Group LLC,Bay Grove Capital,801 Montgomery St Fl 5,San Francisco,CA,94133,2008-07-23T00:00:00.000,,2017-09-22T00:00:00.000,,801 Montgomery St Fl 5
+1163671-10-171,1076441,Michael Fan,375 Euclid Ave,375 Euclid Ave,San Francisco,CA,94118,2017-09-21T00:00:00.000,,2017-10-11T00:00:00.000,,2930 Dolores Way
+1163674-10-171,1077296,Shane O'connor Katherine Berg,Gardenville Station,1667 Jerrold Ave,San Francisco,CA,94124,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,124 Holladay Ave
+1163684-10-171,1077305,Carol Jacinto,635 Athens St,Athens St St,San Francisco,CA,94112,2017-10-12T00:00:00.000,,2017-10-12T00:00:00.000,,635 Athens St
+1163692-10-171,1077310,Cathy Simon,Cathy Simon Architecture And Urban Design,265 Jersey Street,San Francisco,CA,94114,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,265 Jersey St
+1163700-10-171,1077314,Lauren Machado,Lauren Machado,39 Oakwood St,San Francisco,CA,94110,2017-10-12T00:00:00.000,,2017-10-12T00:00:00.000,,834 31st Ave
+1163718-10-171,1077326,Sunshine Wheatfield Dim Sum Inc.,Sunshine Wheatfield Dim Sum,2668 San Bruno St,San Francisco,CA,94134,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,2668 San Bruno Ave
+1163742-10-171,1077338,T. & A. Drolapas & Sons L.P.,T & A Drolapas & Sons L.P.,595 22nd Ave,San Francisco,CA,94121,2011-05-31T00:00:00.000,,2011-05-31T00:00:00.000,,611 Santa Florita Ave
+1163746-10-171,1077340,Jorge Robert,Jorge Robert,178 Bridgeview Dr,San Francisco,CA,94124,2017-10-07T00:00:00.000,,2017-10-07T00:00:00.000,,178 Bridgeview Dr
+1163759-10-171,189294,Rogers Bruce,Bruce Rogers Orchids,1587 Treat Ave,San Francisco,CA,94110,1986-01-01T00:00:00.000,,2012-12-01T00:00:00.000,,1587 Treat Ave
+1163762-10-171,1077342,Ines Betancourt,Ines Betancourt,351 Vienna Street,San Francisco,CA,94112,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,351 Vienna St
+1163787-10-171,1077354,Glassdot,Glassdot,234 Bennington St,San Francisco,CA,94110,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,39 Craig Ave
+1163809-10-171,1077365,Butter Love Bakeshop Inc.,Butter Love Bakeshop,3717 Balboa St,San Francisco,CA,94121,2017-10-10T00:00:00.000,,2017-10-10T00:00:00.000,,3717 Balboa St
+1163828-10-171,1077377,Gabriel May,Gvbriel Handpokes,530 Stockton St Apt 208,San Francisco,CA,94108,2017-10-13T00:00:00.000,,2017-10-13T00:00:00.000,,1137 Hyde St 8 Apt
+1163900-10-171,1077411,John Jian Zhen Mai,538 5th Ave,538 5th Ave Apt,San Francisco,CA,94118,2008-06-02T00:00:00.000,,2008-06-02T00:00:00.000,,538 5th Ave Apt 2
+1163907-10-171,448850,Alamia Jaiya,The Organic Stylist,4111 19th St,San Francisco,CA,94114,2010-05-01T00:00:00.000,,2017-10-01T00:00:00.000,,115 Bronte St
+1163915-10-171,1077417,5537 Mission Street Homeowners Association,5537 Mission Street Homeowners Association,5537 Mission St Apt 201,San Francisco,CA,94112,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,5537 Mission St Apt 201
+1163927-10-171,1077423,Mark Jeffreys,Space Age,647 Everglades Ln,Livermore,CA,94551,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,647 Everglades Ln
+1163942-10-171,419594,Auspicious Peace LLC,Lakelight Terrace,1025 Market St,San Francisco,CA,94103,2007-09-01T00:00:00.000,,2009-12-18T00:00:00.000,,180 S Arroyo Blvd
+1163949-10-171,1077431,Juan Cano,Cano's Painting,245 S 19th St,San Jose,CA,95116,2017-03-01T00:00:00.000,,2017-03-01T00:00:00.000,,245 S 19th St
+1163957-10-171,1077433,Istorage Po LLC,Istorage Ingleside Heights,4050 19th Ave,San Francisco,CA,94132,2016-10-04T00:00:00.000,,2016-10-04T00:00:00.000,,8400 E Prentice Ave 900 Ste
+1163971-10-171,1077440,Grayson Group Inc,Grayson Group,215 Clara St,San Francisco,CA,94107,2017-04-06T00:00:00.000,,2017-04-06T00:00:00.000,,5111 Telegraph Ave # 329
+1163982-10-171,1077445,Simon Barber,Everybody Wins,9 Ignacio Ave,San Francisco,CA,94124,2016-07-01T00:00:00.000,,2016-07-01T00:00:00.000,,9 Ignacio Ave
+1163984-10-171,1077446,Jesse Kerr,Pur Water LLC,4885 Fulton Rd. B,Fairfield,CA,94534,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,5055 Business Center Dr 108 Ste
+1163988-10-171,1077448,Nuannoi Murphy,Douglass Street,4153 24th St,San Francisco,CA,94114,2017-10-10T00:00:00.000,,2017-10-15T00:00:00.000,,4153 24th St
+1163996-10-171,1077452,"Techtu Business Solutions, Inc.","Techtu Business Solutions, Inc.",4900 Hopyard Rd Ste 100,Pleasanton,CA,94588,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,4900 Hopyard Rd 100 Ste
+1164002-10-171,1077455,Nina Boyle,Speckled Finch Studios,2179 46th Ave,San Francisco,CA,94116,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,2179 46th Ave
+1164006-10-171,1077457,Gum Lan Ow Young,Young Family Trust,560 7th Ave Apt 3,San Francisco,CA,94118,1994-05-02T00:00:00.000,,1994-05-02T00:00:00.000,,560 7th Ave 3 Apt
+1164014-10-171,1077461,Fira Targan,Apartment Building,3rd Ave,San Francisco,CA,94118,2014-12-19T00:00:00.000,,2014-12-19T00:00:00.000,,763 28th Ave
+1164017-10-171,1016774,Sf Super Cab Corporation,Sf Super Cab,1407 Irving St,San Francisco,CA,94122,2015-07-11T00:00:00.000,,2017-10-10T00:00:00.000,,1407 Irving St
+1164025-10-171,1077462,"Chau Chiropractic And Wellness, Inc.",Balanced Family Chiropractic,1200 Vicente St,San Francisco,CA,94116,2017-10-16T00:00:00.000,,2017-10-16T00:00:00.000,,28 Cityview Way
+1164027-10-171,436579,Hpm Of America LLC,Hpm Of America LLC,127 Ellis St,San Francisco,CA,94102,2009-02-02T00:00:00.000,,2017-10-01T00:00:00.000,,222 Mason St
+1164029-10-171,436579,Hpm Of America LLC,Hpm Of America LLC,140 Ellis St,San Francisco,CA,94102,2009-02-02T00:00:00.000,,2017-10-01T00:00:00.000,,222 Mason St
+1164046-10-171,1072715,El Aji LLC,El Aji Peruvian Restaurant,3015 Mission St,San Francisco,CA,94110,2017-07-03T00:00:00.000,,2017-07-03T00:00:00.000,,3015 Mission St
+1164066-10-171,1077489,Golden Hour Restoration Institute,Golden Hour Restoration Institute,2150 Allston Way Ste 320,Berkeley,CA,94704,2017-10-13T00:00:00.000,,2017-10-13T00:00:00.000,,0000 Undeliverable Mail
+1164070-10-171,1077491,Paula Cathey,722 Shotwell Street,1524 Olive 2,Santa Barbara,CA,93101,2017-10-12T00:00:00.000,,2017-06-06T00:00:00.000,,1596 Church St
+1164076-10-171,1077494,"Vgw Us, Inc.",,442 Post St Fl 9,San Francisco,CA,94102,2017-09-01T00:00:00.000,,2017-09-01T00:00:00.000,,0000 Undeliverable Mail
+1164092-10-171,1077503,Christina L Peretz Md Md,Christina L Peretz Md Ms,1286 Sanchez St Ste A,San Francisco,CA,94114,2017-10-17T00:00:00.000,,2017-10-17T00:00:00.000,,1286 Sanchez St Aste #
+1164104-10-171,1077509,David Chan,465 10th Ave Apts,50 Teresita Blvd,San Francisco,CA,94127,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,50 Teresita Blvd
+1164110-10-171,1077512,"Hillard Heintze, LLC","Hillard Heintze, LLC",30 S Wacker Dr Ste 1400,Chicago,IL,60606,2017-10-17T00:00:00.000,,2017-10-17T00:00:00.000,,3610 Commerce Dr Ste 817
+1164118-10-171,1077516,Deepti Vyas,Deepti Vyas,24 Mirabel Ave,San Francisco,CA,94110,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,24 Mirabel Ave
+1164122-10-171,1077519,Mint Partners Inc,The Mint,1942 Market St,San Francisco,CA,94102,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,1942 Market St
+1164132-10-171,1077524,Express Careworks Inc,Express Careworks Inc,729 Sacramento St Rm 6,San Francisco,CA,94108,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,729 Sacramento St Rm 6
+1164138-10-171,1077527,"Crown Hotel, LLC",Crown Hotel,626 27th Ave,San Francisco,CA,94121,2016-11-01T00:00:00.000,,2016-11-01T00:00:00.000,,626 27th Ave
+1164142-10-171,1077529,Lai Ha Chan,Candy Chan,2215 32 Ave,San Francisco,CA,94116,2017-10-17T00:00:00.000,,2017-10-17T00:00:00.000,,2215 32nd Ave
+1164148-10-171,1077533,Carbonic Service Inc,Carbonic Service Inc,1920 De La Cruz Blvd,Santa Clara,CA,95050,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,1920 De La Cruz Blvd
+1164173-10-171,414162,Palmer Danial E,Ohana,3150 18th St Ste 225,San Francisco,CA,94110,2007-03-01T00:00:00.000,,2017-10-06T00:00:00.000,,655 Steiner St Apt 303
+1164174-10-171,1041282,"Pro.Com Home Services California, Inc",Pro.Com Home Services California Inc,2033 6th Ave 236,Seattle,WA,98121,2016-07-01T00:00:00.000,,2017-10-17T00:00:00.000,,2033 6th Ave Ste 236
+1164181-10-171,166098,Mccauley Gary Etal,"Mccauley, Wilson, & Butterfield",1320 Green St Ste 100,San Francisco,CA,94109,1987-10-08T00:00:00.000,,2017-10-17T00:00:00.000,,1320 Green St # 100
+1164182-10-171,1069980,A & A Healthcare Facility Services Jv,A & A Health Care Facility Services,300 California St #600,San Francisco,CA,94104,2017-05-09T00:00:00.000,,2017-09-28T00:00:00.000,,4840 Cox Rd 600 Ste
+1164185-10-171,468046,Xie Yongheng,Juan Zhu,116 Winter Harbor Pl,Vallejo,CA,94591,2012-04-06T00:00:00.000,,2017-10-17T00:00:00.000,,116 Winter Harbor Pl
+1164191-10-171,1077545,Qualio,Qualio,156 2nd St,San Francisco,CA,94105,2016-01-14T00:00:00.000,,2016-01-14T00:00:00.000,,268 Bush St # 3334
+1164195-10-171,1077547,Pillib Corporation,Ebony Beauty Supply,4820 Third St,San Francisco,CA,94124,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,4820 3rd St
+1164205-10-171,1077552,Duct Care Services,Duct Care Services,2977 Cherish Ct,Brentwood,CA,94513,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,1461 Pinegrove Way
+1164209-10-171,1077555,Cej Construction LLC,"Cej Construction, LLC",2240 Delvin Way,South San Francisco,CA,94080,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,2240 Delvin Way
+1164211-10-171,1077556,Instrument Technology Corporation,Instrument Technology Corporation,"646 Portal Street, Unit A",Cotati,CA,94931,2017-09-01T00:00:00.000,,2017-10-04T00:00:00.000,,Po Box 1944
+1164217-10-171,1077559,Wallace Tan,Blue Sky Wallace Construction,90 Watt Ave,San Francisco,CA,94112,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,90 Watt Ave
+1164225-10-171,1077563,Good Post LLC,Good Post LLC,1230 Stockton St,San Francisco,CA,94133,2008-03-01T00:00:00.000,,2008-03-01T00:00:00.000,,1230 Stockton St
+1164233-10-171,1077567,Good Grant 239 LLC,Good Grant 239 LLC,1230 Stockton St,San Francisco,CA,94133,2009-06-18T00:00:00.000,,2009-06-18T00:00:00.000,,1230 Stockton St
+1164235-10-171,1077568,Good Grant LLC,Good Grant LLC,1230 Stockton St,San Francisco,CA,94133,2009-03-01T00:00:00.000,,2009-03-01T00:00:00.000,,1230 Stockton St
+1164237-10-171,1077569,Good Lake LLC,Good Lake LLC,1230 Stockton St,San Francisco,CA,94133,2013-06-01T00:00:00.000,,2013-06-01T00:00:00.000,,1230 Stockton St
+1164255-10-171,1077579,Lou Kee Tom,2605 - 2611 Anza Street Apartments,1806 Lake Street,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,1806 Lake St
+1164261-10-171,1077583,"Rothy's, Inc.",Rothy's,501 Pacific Ave,San Francisco,CA,94133,2015-12-31T00:00:00.000,,2017-04-25T00:00:00.000,,901 Battery St
+1164285-10-171,1077595,One Mission Bay Owners Association,One Mission Bay Owner Association,1000 3rd St,San Francisco,CA,94158,2016-08-25T00:00:00.000,,2017-10-18T00:00:00.000,,110 Channel St
+1164293-10-171,1077599,Daniel Gimpelevich,Daniel Gimpelevich,224 Ridgewood Ave,San Francisco,CA,94127,2017-10-15T00:00:00.000,,2017-10-15T00:00:00.000,,224 Ridgewood Ave
+1164295-10-171,1077600,Lake Research Partners Inc.,Lake Research Partners Inc.,1101 17th Nw St Ste 301,Washington,DC,20036,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,1101 17th St Nw 301 Ste
+1164297-10-171,1077601,Union Square 117 Project LLC,Union Square 117 Project LLC,"2880 Lakeside Dr., Suite 112",Santa Clara,CA,95054,2012-10-25T00:00:00.000,,2012-10-25T00:00:00.000,,1 Sutter St 225 Ste
+1164303-10-171,1077604,Roberta Mindich-Fink,Roberta Mindich-Fink,1289 6th Ave Bldg,San Francisco,CA,94122,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,1289 6th Ave Bldg
+1164308-10-171,1077535,"Equator Coffees, LLC",Equator Coffees,222 2nd St,San Francisco,CA,94105,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,115 Jordan St
+1164310-10-171,1077535,"Equator Coffees, LLC",Equator Coffees,2 Marina Blvd,San Francisco,CA,94123,2017-08-01T00:00:00.000,,2017-08-01T00:00:00.000,,115 Jordan St
+1164311-10-171,1029017,"Crunchbase, Inc.","Crunchbase, Inc.",564 Market St 700,San Francisco,CA,94104,2015-09-22T00:00:00.000,,2017-09-29T00:00:00.000,,564 Market St 700 Ste
+1164313-10-171,1062043,Ditzler Nevin/Seshadri Aravinda,Ndas Consulting,26 Genebern Way,San Francisco,CA,94112,2016-12-06T00:00:00.000,,2017-10-13T00:00:00.000,,26 Genebern Way
+1164319-10-171,450632,First Republic Bank,First Republic Bank,6001 Geary Blvd,San Francisco,CA,94121,2010-06-30T00:00:00.000,,2012-04-01T00:00:00.000,,111 Pine St
+1164320-10-171,450632,First Republic Bank,First Republic Bank,1355 Market Square Ste 140,San Francisco,CA,94103,2010-06-30T00:00:00.000,,2014-10-01T00:00:00.000,,111 Pine St
+1164321-10-171,450632,First Republic Bank,First Republic Bank,558 Presidio Blvd,San Francisco,CA,94129,2010-06-30T00:00:00.000,,2016-06-20T00:00:00.000,,111 Pine St
+1164323-10-171,450632,First Republic Bank,First Republic Bank,405 Howard Ste 110,San Francisco,CA,94105,2010-06-30T00:00:00.000,,2016-04-01T00:00:00.000,,111 Pine St
+1164324-10-171,450632,First Republic Bank,First Republic Bank,1699 Van Ness,San Francisco,CA,94109,2010-06-30T00:00:00.000,,2017-02-27T00:00:00.000,,111 Pine St
+1164327-10-171,1077606,Coleman Lai,Coleman Lai,567 5th Ave,San Francisco,CA,94118,2012-01-03T00:00:00.000,,2012-01-03T00:00:00.000,,680 33rd Ave
+1164341-10-171,1077613,Deaf Counseling Advocacy & Referral Agency,Dcara,14895 E 14th St Ste 200,San Leandro,CA,94578,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,14895 E 14th St Ste 200
+1164347-10-171,1077616,"Cimtechniques, Inc","Cimtechniques, Inc",1215 Prince Street,Beaufort,SC,29902,2017-10-19T00:00:00.000,,2017-10-19T00:00:00.000,,2201 Boundary St Ste 115
+1164351-10-171,1077618,Fg-Force Construction.Inc,Construction,125 Del Prado Dr,Daly City,CA,94015,2017-10-19T00:00:00.000,,2017-10-19T00:00:00.000,,1428 El Camino Real
+1164353-10-171,1077619,Harry Winston & Subsidiary,"Harry Winston, Inc.",200 Post St,San Francisco,CA,94108,2015-03-30T00:00:00.000,,2015-03-30T00:00:00.000,,718 5th Ave
+1164377-10-171,1077631,821 Leavenworth Street LLC,821 Leavenworth Street LLC,72 Landers St,San Francisco,CA,94114,2017-02-22T00:00:00.000,,2017-02-22T00:00:00.000,,72 Landers St
+1164382-10-171,1037538,Bayarea Crane Inc,Bayarea Crane Inc,1228 Underwood St,San Francisco,CA,94116,2015-06-16T00:00:00.000,,2015-06-17T00:00:00.000,,Po Box 24066
+1164385-10-171,1075232,"Wme Img Holdings, LLC",Intl Merchandising Company LLC,1360 E 9th St Ste 100,Cleveland,OH,44114,2014-05-07T00:00:00.000,,2014-05-07T00:00:00.000,,9601 Wilshire Blvd Fl 3
+1164417-10-171,1077651,Knowland Ng And Lika Ng,631 - 41st Ave. Apt.,246 21st Ave,San Francisco,CA,94121,2007-06-28T00:00:00.000,,2007-06-28T00:00:00.000,,246 21st Ave
+1164421-10-171,1077653,Bowen Tan,Tx Socks,758 41st Ave,San Francisco,CA,94121,2017-08-23T00:00:00.000,,2017-08-23T00:00:00.000,,758 41st Ave
+1164426-10-171,1012219,Westwater Painting Inc,"Westwater Painting, Inc.",101 N. Brand Blvd Fl 11th,Glendale,CA,91203,2015-03-20T00:00:00.000,,2015-03-20T00:00:00.000,,7427 Geary Blvd Apt 3
+1164427-10-171,450632,First Republic Bank,First Republic Bank,388 Market St,San Francisco,CA,94111,2010-06-30T00:00:00.000,,2010-07-01T00:00:00.000,,111 Pine St
+1164428-10-171,365027,First Republic Investment Mgmt,First Republic Investment Management,101 Pine St,San Francisco,CA,94111,2007-06-04T00:00:00.000,,2010-07-01T00:00:00.000,,111 Pine St
+1164429-10-171,365027,First Republic Investment Mgmt,First Republic Investment Management,388 Market St,San Francisco,CA,94111,2007-06-04T00:00:00.000,,2010-07-01T00:00:00.000,,111 Pine St
+1164431-10-171,347932,Dewinter Christopher G,Luminous Darlings,1521 Golden Gate Ave,San Francisco,CA,94115,2012-06-05T00:00:00.000,,2017-10-16T00:00:00.000,,1521 Golden Gate Ave
+1164433-10-171,1007398,A Plus Garage Door Corp,A Plus Garage Door Corp,3133 Balboa St,San Francisco,CA,94121,2014-12-31T00:00:00.000,,2017-09-01T00:00:00.000,,3133 Balboa St
+1164438-10-171,1077656,"796 Brannan Street, LLC","796 Brannan Street, LLC",798 Brannan St,San Francisco,CA,94103,2004-03-15T00:00:00.000,,2017-06-01T00:00:00.000,,798 Brannan St
+1164442-10-171,1077658,Sandell Management LLC,Sandell Management,485 Justin Dr,San Francisco,CA,94112,2017-04-01T00:00:00.000,,2017-04-01T00:00:00.000,,485 Justin Dr
+1164464-10-171,1077672,Ermenson Stella .Zelkin Anatole,Anatole Zelkin,746 46avenue Ave,San Francisco,CA,94121,2003-04-19T00:00:00.000,,2003-04-19T00:00:00.000,,746 46th Ave
+1164490-10-171,1077685,Prospect Silicon Valley,Prospect Silicon Valley,1608 Las Plumas Avenue,San Jose,CA,95133,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,1608 Las Plumas Ave
+1164492-10-171,1077686,James Olson,Ons,550 Congo St,San Francisco,CA,94131,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,550 Congo St
+1164514-10-171,1077700,Jordana Heinke & Emily Travis,Spruced Co.,603 Fell St,San Francisco,CA,94102,2017-10-19T00:00:00.000,,2017-10-19T00:00:00.000,,121 Randall St
+1164522-10-171,1077704,Roman Linares,R&D,350 Townsend St 324,San Francisco,CA,94107,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,2072 Salice Way
+1164524-10-171,1077705,"Janet Gennai-Rizzi, Carole Taormina, Vicki Gennai",London,5200 Mission St,San Francisco,CA,94112,2017-08-07T00:00:00.000,,2017-08-07T00:00:00.000,,118 Morningside Dr
+1164535-10-171,1077710,Minna Robles,Minna Robles Occupational Therapy,596 Monterey Blvd.,San Francisco,CA,94127,2017-10-06T00:00:00.000,,2017-10-06T00:00:00.000,,832 N Mayfair Ave
+1164541-10-171,1056776,Mena Gabriel,Gm Construction,2843 Webster St 105,San Francisco,CA,94123,2016-09-08T00:00:00.000,,2017-10-20T00:00:00.000,,2843 Webster St Apt 105
+1164543-10-171,348722,Guan Daniel X/Lei Johnny S,L & G Construction Co,1742 21st Ave,San Francisco,CA,94122,2001-08-28T00:00:00.000,,2017-10-20T00:00:00.000,,1742 21st Ave
+1164551-10-171,1076113,Denim Lab LLC,Frame-Store,2142 Fillmore St,San Francisco,CA,94115,2017-09-14T00:00:00.000,,2017-09-14T00:00:00.000,,3578 Hayden Ave Ste N1
+1164565-10-171,1077719,Chris Mufarreh,Cabrillo Apartments,4726 Cabrillo St,San Francisco,CA,94122,1994-01-14T00:00:00.000,,1994-01-14T00:00:00.000,,1589 17th Ave
+1164571-10-171,1077722,Chu Lee,"4725 Balbao Street, San Francisco Rental",85 Forest Side Ave,San Francisco,CA,94127,2012-09-28T00:00:00.000,,2012-09-28T00:00:00.000,,85 Forest Side Ave
+1164578-10-171,1077725,Orion Vega LLC,Orion Vega LLC,4411 Cabrillo St,San Francisco,CA,94121,2017-02-21T00:00:00.000,,2017-02-21T00:00:00.000,,4411 Cabrillo St
+1164582-10-171,1077727,Brian Goodwin,Goodwin Potrero Hill Rental,1096 Rhode Island St,San Francisco,CA,94107,2017-10-22T00:00:00.000,,2017-10-22T00:00:00.000,,1096 Rhode Island St
+1164613-10-171,1077742,D&I Janitorial Company LLC,D&I Janitorial Company LLC,27 Duboce Ave Apt 31a,San Francisco,CA,94103,2017-10-22T00:00:00.000,,2017-10-22T00:00:00.000,,1671 Peach Pl
+1164622-10-171,1077748,Todd Nystul,Todd Nystul And Supryia Ray,1274 24th Ave,San Francisco,CA,94122,2017-10-22T00:00:00.000,,2017-10-22T00:00:00.000,,1274 24th Ave
+1164640-10-171,1077757,San Jose Mothers' Milk Bank,San Jose Mothers' Milk Bank,1887 Monterey Rd Ste 110,San Jose,CA,95112,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,1887 Monterey Hwy Ste 110
+1164646-10-171,1077760,"Kelly & Iribarren Insurance Services, LLC","Kelly & Iribarren Insurance Services, LLC",1294 9th Ave 1,San Francisco,CA,94122,2013-01-13T00:00:00.000,,2013-01-15T00:00:00.000,,1294 9th Ave Ste 1
+1164654-10-171,1077764,Julia Hecker,Room Rental,822 39th Ave Bldg,San Francisco,CA,94121,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,822 39th Ave Bldg
+1164660-10-171,1077767,Stanley R Gee,"3805 - 3811 Anza Street, San Francisco, Ca",Anza St,San Francisco,CA,94121,2000-08-01T00:00:00.000,,2000-08-01T00:00:00.000,,231 23rd Ave
+1164670-10-171,1077773,Brindissy Garcia,Pikitos,2336 Mission St,San Francisco,CA,94110,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,2336 Mission St
+1164697-10-171,1077788,Dwm Accountancy Corporation,Duan Wei-Maynez Cpa,870 Market St Ste 723,San Francisco,CA,94102,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,870 Market St Ste 723
+1164699-10-171,1077789,"Kathleen A. Mchale, Trustee",5625 Anza St.,5625 Anza St,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,5785 Thousand Oaks Dr
+1164701-10-171,1077790,"Kathlen A. Mchale, Trustee",271-6th Ave,271 6th Ave,San Francisco,CA,94118,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,5785 Thousand Oaks Dr
+1164705-10-171,1077792,Jalil And Elaine Monsef,Lainie And Charlie Monsef,2030 Santiago St,San Francisco,CA,94116,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,2030 Santiago St
+1164717-10-171,445674,One Medical Group Inc,One Medical,3885 24th St,San Francisco,CA,94114,2010-01-01T00:00:00.000,,2012-10-15T00:00:00.000,,1 Embarcadero Ctr Ste 1900
+1164722-10-171,1072761,Gilbert Street Unit 2 LLC,Gilbert Express,160 Gilbert St Unit 2,San Francisco,CA,94103,2017-07-03T00:00:00.000,,2017-07-20T00:00:00.000,,0000 Undeliverable Mail
+1164723-10-171,1072761,Gilbert Street Unit 2 LLC,Cannabis Express,160 Gilbert St Unit 2,San Francisco,CA,94103,2017-07-03T00:00:00.000,,2017-07-20T00:00:00.000,,0000 Undeliverable Mail
+1164725-10-171,320678,Kline Edward Alex,Alex Kline Investigation & Research Service,2077 Broadway St,San Francisco,CA,94115,1998-05-16T00:00:00.000,,2014-02-01T00:00:00.000,,2077 Broadway St
+1164727-10-171,1017918,Alto Pharmacy LLC,Alto Pharmacy,1400 Tennessee St 4,San Francisco,CA,94107,2015-09-04T00:00:00.000,,2017-10-23T00:00:00.000,,645 Harrison St Ste 200
+1164730-10-171,341934,Lopez Jr Salomon,Al Lopez Carpet Cleaning Service,2580 Maywood Dr,San Bruno,CA,94066,2000-08-25T00:00:00.000,,2012-07-20T00:00:00.000,,2580 Maywood Dr
+1164733-10-171,1008843,Asian Artwork Investment Inc,Asian Artwork Investment Inc,210 Sutter St,San Francisco,CA,94108,2015-01-25T00:00:00.000,,2017-09-01T00:00:00.000,,210 Sutter St
+1164736-10-171,1031582,Goforward Inc,Uncreative Labs,660 4th St Unit 202,San Francisco,CA,94107,2015-11-24T00:00:00.000,,2016-04-08T00:00:00.000,,660 4th St 202 #
+1164737-10-171,1031582,Goforward Inc,Forward,180 Sutter St 110s,San Francisco,CA,94104,2015-11-24T00:00:00.000,,2017-01-01T00:00:00.000,,660 4th St 202 #
+1164738-10-171,1031582,Goforward Inc,Uncreative Labs,180 Sutter St 100s,San Francisco,CA,94104,2015-11-24T00:00:00.000,,2017-01-01T00:00:00.000,,660 4th St 202 #
+1164739-10-171,1031582,Goforward Inc,Uncreative Labs,250 Montgomery St Unit 500,San Francisco,CA,94104,2015-11-24T00:00:00.000,,2017-04-01T00:00:00.000,,660 4th St 202 #
+1164740-10-171,1031582,Goforward Inc,Forward,250 Montgomery St Unit 500,San Francisco,CA,94104,2015-11-24T00:00:00.000,,2017-04-01T00:00:00.000,,660 4th St 202 #
+1164763-10-171,1077812,"Mosser Capital Management IV, LLC","Mosser Capital Management IV, LLC",308 Jessie St,San Francisco,CA,94103,2015-03-02T00:00:00.000,,2015-03-02T00:00:00.000,,220 Montgomery St Ste 2000
+1164765-10-171,1077813,"Mosser Capital Management Vi, LLC","Mosser Capital Management Vi, LLC",308 Jessie St,San Francisco,CA,94103,2015-08-25T00:00:00.000,,2015-08-25T00:00:00.000,,220 Montgomery St Ste 2000
+1164767-10-171,1077814,"Mosser Capital Management V, LLC","Mosser Capital Management V, LLC",308 Jessie St,San Francisco,CA,94103,2015-07-20T00:00:00.000,,2017-07-20T00:00:00.000,,220 Montgomery St Ste 2000
+1164769-10-171,1077815,Ariella Tanzer,Ariella Tanzer Psychotherapy & Art Therapy,310 3rd Ave,San Francisco,CA,94118,2017-10-24T00:00:00.000,,2017-10-24T00:00:00.000,,Po Box 225311
+1164773-10-171,1077817,Mary Yang,Mary Yang,675 S 25th Ave S St Unit 9,San Franciso,CA,94121,2008-07-01T00:00:00.000,,2008-07-01T00:00:00.000,,675 25th Ave 101 Ste
+1164775-10-171,1077818,"Karat, Inc.","Karat, Inc.",156 2nd St,San Francisco,CA,94105,2016-08-01T00:00:00.000,,2016-08-01T00:00:00.000,,113 Cherry St
+1164777-10-171,1077819,"Mosser Capital Management Ix, LLC","Mosser Capital Management Ix, LLC",308 Jessie St,San Francisco,CA,94103,2016-07-12T00:00:00.000,,2016-07-12T00:00:00.000,,220 Montgomery St Ste 2000
+1164779-10-171,1077820,"Mosser Capital Management Viii, LLC","Mosser Capital Management Viii, LLC",308 Jessie St,San Francisco,CA,94103,2015-12-16T00:00:00.000,,2015-12-16T00:00:00.000,,220 Montgomery St Ste 2000
+1164781-10-171,1077821,"Mosser Capital Management X, LLC","Mosser Capital Management X, LLC",308 Jessie St,San Francisco,CA,94103,2016-08-23T00:00:00.000,,2016-08-23T00:00:00.000,,220 Montgomery St 20 Fl
+1164783-10-171,1077822,"Mosser Capital Management Vii, LLC","Mosser Capital Management Vii, LLC",308 Jessie St,San Francisco,CA,94103,2015-10-16T00:00:00.000,,2015-10-16T00:00:00.000,,220 Montgomery St # 20
+1164789-10-171,1077825,John And Trini Artal,519 28th Ave,519 28th Ave,San Francisco,CA,94121,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,1311 Sutter St Ste 200a
+1164791-10-171,1077826,Birgit Finkbeiner,Birgit Finkbeiner,90 Alvarado St,San Francisco,CA,94110,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,90 Alvarado St
+1164801-10-171,1077832,Boos Voni LLC,Boos Voni,5170 Mission St,San Francisco,CA,94112,2017-03-01T00:00:00.000,,2017-03-01T00:00:00.000,,5170 Mission St
+1164807-10-171,1077835,"Jue Lee, Lp",150 Sutro Heights Avenue,30 Yerba Buena Avenue,San Francisco,CA,94127,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,30 Yerba Buena Ave
+1164809-10-171,1077836,Christine Recinos,Pacific Heights Auto Body Shop,1675 Pacific Ave,San Francisco,CA,94109,2017-10-24T00:00:00.000,,2017-10-24T00:00:00.000,,0000 Undeliverable Mail
+1164811-10-171,1077837,Clint Ladine,Ladine Sports,955 Brussels St,San Francisco,CA,94134,2017-10-24T00:00:00.000,,2017-10-24T00:00:00.000,,955 Brussels St
+1164821-10-171,1077843,G.I.T.T.D Private Organization,Smilehouse,3450 3rd St 5f,San Francisco,CA,94124,2016-02-01T00:00:00.000,,2016-02-01T00:00:00.000,,0000 Undeliverable Mail
+1164833-10-171,1077849,Michelle Wong,At Her Best,56 Natick Street,San Francisco,CA,94131,2017-10-24T00:00:00.000,,2017-10-24T00:00:00.000,,56 Natick St
+1164845-10-171,1077855,Gregory Stein,Gregory Stein,1490 39th Ave,San Francisco,CA,94122,2017-10-24T00:00:00.000,,2017-10-24T00:00:00.000,,1490 39th Ave
+1164848-10-171,432934,Brunswick Group LLC,Brunswick Group LLC,1 Bush St Ste 1400,San Francisco,CA,94104,2007-11-01T00:00:00.000,,2007-11-01T00:00:00.000,,245 Park Ave 14 Fl
+1164852-10-171,341511,Lara Jaime E Jr,K Doving,1165 Folsom St,San Francisco,CA,94103,2001-01-01T00:00:00.000,,2017-10-24T00:00:00.000,,1165 Folsom St
+1164853-10-171,1033910,"Visceral Physical Therapy, Inc.","Visceral Physical Therapy, Inc",3121 20th St 4,San Francisco,CA,94110,2016-05-01T00:00:00.000,,2017-10-24T00:00:00.000,,3121 20th St Apt 4
+1164858-10-171,1063937,Liang Ru Hai,Hai Feng Tradition Chinese Med,858 Clay St,San Francisco,CA,94108,2017-01-09T00:00:00.000,,2017-09-29T00:00:00.000,,858 Clay St
+1164859-10-171,1031582,Goforward Inc,Forward,660 4th St Unit 202,San Francisco,CA,94107,2015-11-24T00:00:00.000,,2016-04-08T00:00:00.000,,660 4th St 202 #
+1164866-10-171,1077857,William B. Crossman,"2835 Anza Street, San Francisco, Ca 94121",102 Hamilton Place Pl,Oakland,CA,94612,2014-03-01T00:00:00.000,,2014-03-01T00:00:00.000,,102 Hamilton Pl
+1164888-10-171,1077871,Melander Architects,Melander Architects,Church St,San Francisco,CA,94131,2017-08-08T00:00:00.000,,2017-08-08T00:00:00.000,,1677a Church St
+1164892-10-171,1077873,C & C Culinary Resources LLC,C & C Culinary Resources LLC,61 Elsie St,San Francisco,CA,94110,2017-09-15T00:00:00.000,,2017-09-15T00:00:00.000,,61 Elsie St
+1164903-10-171,1077701,Sushi View,Goemon,1524 Irving St,San Francisco,CA,94122,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,1524 Irving St
+1164913-10-171,1077883,Rattasart Chunhachotianun & Noppakarn Buranakosol,Ocean Thai,2545 Ocean Ave,San Francisco,CA,94116,2017-10-25T00:00:00.000,,2017-10-25T00:00:00.000,,2419 31st Ave
+1164919-10-171,1077887,Hung Tran,Tran Apartment,280 San Pedro Rd,Daly City,CA,94014,2017-04-01T00:00:00.000,,2017-04-01T00:00:00.000,,280 San Pedro Rd
+1164920-10-171,1076517,Charanita Banks,Professional Charanita-King Project Administration Consultant Etc Outreach Service Jonkiya-Jahnita E,1819 Keith St,San Francisco,CA,94124,2017-09-23T00:00:00.000,,2017-09-23T00:00:00.000,,1819 Keith St A-B
+1164922-10-171,1077889,Cdxx LLC,Cdxx,4526 3rd St,San Francisco,CA,94124,2016-10-19T00:00:00.000,,2016-10-19T00:00:00.000,,Po Box 460815
+1164930-10-171,1077893,Chan Ying Yung Family Association,Chan Ying Yung Family Association,840 Washington St Fl 2,San Francisco,CA,94108,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,1486 42nd Ave
+1164948-10-171,1077906,Emi Grannis,Emi Grannis,1426 Minnesota St,San Francisco,CA,94107,2017-10-22T00:00:00.000,,2017-10-22T00:00:00.000,,1070 Maryland St Ste 245
+1164966-10-171,1077915,Rock The Walls Drywall,Rock The Walls Drywall,2 Bonview,San Francisco,CA,94110,2017-10-25T00:00:00.000,,2017-10-25T00:00:00.000,,787 Beryl Pl
+1164967-10-171,1077915,Rock The Walls Drywall,Rock The Walls Drywll,720 5th Ave,San Francisco,CA,94118,2017-10-25T00:00:00.000,,2017-10-25T00:00:00.000,,787 Beryl Pl
+1164968-10-171,1077915,Rock The Walls Drywall,Rock The Walls Drywall,1463 Haight,San Francisco,CA,94117,2017-10-25T00:00:00.000,,2017-10-25T00:00:00.000,,787 Beryl Pl
+1164972-10-171,1077917,Bruce L Colton,Oasis On Noe,1769 Noe St,San Francisco,CA,94131,2017-10-25T00:00:00.000,,2017-10-25T00:00:00.000,,1769 Noe St
+1164979-10-171,435052,Mg-301 Mission LLC,International Smoke,301 Mission St,San Francisco,CA,94105,2009-02-01T00:00:00.000,,2017-10-01T00:00:00.000,,244 California St Ste
+1164982-10-171,474938,Old Jerusalem Restaurant Inc,Old Jerusalem Restaurant Inc,2966 Mission St,San Francisco,CA,94110,2013-01-01T00:00:00.000,,2017-10-25T00:00:00.000,,2966 Mission St
+1164992-10-171,953521,Wurzweiler Elizabeth M,20th Avenue Suite,45 20th Ave,San Francisco,CA,94121,1996-06-21T00:00:00.000,,2017-10-25T00:00:00.000,,45 20th Ave
+1165000-10-171,1077924,"Kapsch Trafficcom Usa, Inc.","Kapsch Trafficcom Usa, Inc.",2885 Premiere Park Ste F,Duluth,GA,30097,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,2885 Premiere Park F Ste
+1165001-10-171,953521,Wurzweiler Elizabeth M,Eamd,45 20th Ave,San Francisco,CA,94121,1996-06-21T00:00:00.000,,1996-06-21T00:00:00.000,,45 20th Ave
+1165005-10-171,1077926,Webmd Health Services Group Inc.,Na,"669 River Drive, Center 2",Elmwood Park,NJ,7407,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,121 Chanlon Rd 110 Ste
+1165014-10-171,1040189,Baycrest H O A,Baycrest H O A,201 Harrison St,San Francisco,CA,94105,2002-02-26T00:00:00.000,,2002-02-26T00:00:00.000,,201 Harrison St
+1165020-10-171,1077933,Applied Air Filters,Applied Air Filters,38424 Cedar Blvd,Newark,CA,94560,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,980 N 11th St #
+1165034-10-171,1077940,Teerut Corp.,Home Plate,2150 Lombard St,San Francisco,CA,94123,2017-10-26T00:00:00.000,,2017-10-26T00:00:00.000,,2150 Lombard St
+1165046-10-171,1077948,Xanadu Construction Inc,Xanadu Construction Inc,13931 Damon Ln,Saratoga,CA,95070,2017-10-26T00:00:00.000,,2017-10-26T00:00:00.000,,15559 Union Ave # 5006
+1165048-10-171,1077949,Sang Tom And Wai Fong Tom,454 22nd Avenue,454 22nd Ave,San Francisco,CA,94121,2017-10-26T00:00:00.000,,2017-10-26T00:00:00.000,,454 22nd Ave Apt 4
+1165050-10-171,1077950,Wayne & Barbara Gin,1463 - 10th Ave Apts,348 17th Avenue,San Francisco,CA,94121,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,348 17th Ave
+1165054-10-171,1077952,Gross & Belsky P. C.,Gross & Belsky P. C.,201 Spear St Ste 1100,San Francisco,CA,94105,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,201 Spear St Ste 1100
+1165059-10-171,1077955,Omfs Kang D.D.S. Corp,Pacific Oral & Maxillofacial Surgery Center,1682 Pine St,San Francisco,CA,94109,2016-08-11T00:00:00.000,,2016-10-26T00:00:00.000,,0000 Undeliverable Mail
+1165061-10-171,1077956,Pete Fields,Pete And Sons SF,175 Farallones St,San Francisco,CA,94112,2017-10-26T00:00:00.000,,2017-10-26T00:00:00.000,,175 Farallones St
+1165067-10-171,1077959,Tolma Us Inc,Tolma Us Inc,169 11th Street,San Francisco,CA,94103,2017-05-12T00:00:00.000,,2017-05-12T00:00:00.000,,0000 Undeliverable Mail
+1165083-10-171,1077968,Malvin Cheng,Malvin Cheng,2231 37th Ave,San Francisco,CA,94116,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,2231 37th Ave
+1165085-10-171,1077969,Morgan Ruzzo,Morgancandoit,166 Wool Street St Bldg,San Francisco,CA,94110,2017-03-05T00:00:00.000,,2017-03-05T00:00:00.000,,166 Wool St Bldg
+1165092-10-171,375383,Gca Savvian Advisors LLC,Gca Advisors LLC,1 Maritime Plaza 25th Fl,San Francisco,CA,94111,2008-04-28T00:00:00.000,,2016-12-01T00:00:00.000,,1 Maritime Plz Fl 25
+1165096-10-171,1077731,Heather Mcgill,Physical Therapt,290 Division St #200,San Francisco,CA,94103,2017-10-20T00:00:00.000,,2017-10-26T00:00:00.000,,270 Ewing Ter
+1165098-10-171,447370,Twilio Inc,Twilio Inc,375 Beale St 300,San Francisco,CA,94105,2009-01-01T00:00:00.000,,2016-11-15T00:00:00.000,,101 Spear St Ste 500
+1165103-10-171,1004989,Jobscore Inc,Jobscore. Inc,353 Sacramento Ste 1816,San Francisco,CA,94111,2014-08-01T00:00:00.000,,2017-10-23T00:00:00.000,,353 Sacramento St Ste 1816
+1165111-10-171,1077973,Luis Lopez,Luis's Garden,3673 Georgetown Court Ct,South San Francisco,CA,94080,2017-10-26T00:00:00.000,,2017-10-26T00:00:00.000,,3673 Georgetown Ct
+1165121-10-171,1077978,Sean Gilmore,Elegance Preserved,600 The Embarcadero Ste A,San Francisco,CA,94107,2017-01-01T00:00:00.000,,2017-01-01T00:00:00.000,,600 The Embarcadero Ste A
+1165127-10-171,1077982,Mary Frances Ryan,Mary Frances Ryan,10th St,San Francisco,CA,94103,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,2532 24th Ave
+1165129-10-171,1077983,Timothy Toye Moses,Global Konnect,66 Venus St Ste B,San Francisco,CA,94124,2017-10-27T00:00:00.000,,2017-10-27T00:00:00.000,,1485 Bay Shore Blvd 427158 Ste
+1165137-10-171,1077987,Alice De Young,Resilient Roots Acupuncture,519 Dolores St Apt 519,San Francisco,CA,94110,2017-10-27T00:00:00.000,,2017-10-27T00:00:00.000,,519 Dolores St Apt 519
+1165151-10-171,1077991,"Vomar Products, Inc.","Vomar Products, Inc.",7800 Deering Avenue,Canoga Park,CA,91304,2017-10-20T00:00:00.000,,2017-10-20T00:00:00.000,,7800 Deering Ave
+1165159-10-171,1077993,Japantown Community Benefit District Inc.,Japantown Community Benefit District Inc.,1765 Sutter St Fl 3rd,San Francisco,CA,94115,2017-07-26T00:00:00.000,,2017-07-26T00:00:00.000,,1674 Post St Ste 2
+1165167-10-171,1078001,The Energy Foundation,Energy Foundation,301 Battery St Fl 5th,San Francisco,CA,94111,1991-06-01T00:00:00.000,,1991-06-01T00:00:00.000,,301 Battery St Fl 5
+1165177-10-171,1078006,Voila Juice,Voila Juice,510 Derby Ave,Oakland,CA,94601,2017-10-27T00:00:00.000,,2017-10-27T00:00:00.000,,510 Derby Ave
+1165186-10-171,1078011,"Craft & Commerce, Llp","Craft & Commerce, Llp",314 N. Hyer Ave,Orlando,FL,32803,2017-10-27T00:00:00.000,,2017-10-27T00:00:00.000,,714 N Hyer Ave
+1165188-10-171,1078008,Equilibrium Dynamics,Equilibrium Dynamics,1670 Plymouth Ave,San Francisco,CA,94127,2006-04-05T00:00:00.000,,2006-04-05T00:00:00.000,,1670 Plymouth Ave
+1165190-10-171,1078012,Philipp Berner,Philipp Berner,1117 Hampshire St,San Francisco,CA,94110,2017-09-25T00:00:00.000,,2017-09-25T00:00:00.000,,1117 Hampshire St
+1165196-10-171,1078015,"Five Point Operating Company, Lp",Five Point Operating Company,25 Enterprise Ste 300,Aliso Viejo,CA,92656,2016-05-02T00:00:00.000,,2016-05-02T00:00:00.000,,2000 Fivepoint Fl 4
+1165222-10-171,1078030,First Class 26th Avenue LLC,First Class 26th Avenue LLC,505 26th Ave,San Francisco,CA,94121,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,Po Box 489
+1165226-10-171,1078032,"Putnam Associates, LLC","Putnam Associates, LLC",77 Geary St Fl 5,San Francisco,CA,94108,2015-05-01T00:00:00.000,,2015-05-01T00:00:00.000,,501 Boylston St Ste 5102
+1165230-10-171,1078034,The Shipyard Communities LLC,Shipyard Communities,25 Enterprise Ste 300,Aliso Viejo,CA,92656,2016-05-02T00:00:00.000,,2016-05-02T00:00:00.000,,2000 Fivepoint Fl 4
+1165234-10-171,1078036,Chs/Hotel G LLC,Chs/Hotel G LLC,398 Geary St,San Francisco,CA,94102,2017-05-05T00:00:00.000,,2017-05-05T00:00:00.000,,0000 Undeliverable Mail
+1165246-10-171,1078043,"Fee Title, Inc.",Jennifer Rosdail Real Estate Sales,1624 California Street,San Francisco,CA,94109,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,1443 47th Ave
+1165252-10-171,1078047,First Class 26th Avenue LLC,First Class 26th Avenue LLC - Comm.,6201 Geary,San Francisco,CA,94121,2017-10-18T00:00:00.000,,2017-10-18T00:00:00.000,,Po Box 489
+1165254-10-171,1078048,Jeff Hipon,Hipontech,370 London St,San Francisco,CA,94112,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,370 London St
+1165260-10-171,1078051,Charles J Englert,Charles Englert,480 Fillmore St Unit 2,San Francisco,CA,94117,2017-10-27T00:00:00.000,,2017-10-27T00:00:00.000,,480 Fillmore St Unit 2
+1165268-10-171,1077738,Jeremy & Chloe Lukins,Jcl,3039 Anza St,San Francisco,CA,94118,2014-11-05T00:00:00.000,,2014-11-05T00:00:00.000,,647 2nd Ave
+1165273-10-171,920852,Win Kee Food Products Inc,Win Kee Food Products Inc,1052 Revere Ave,San Francisco,CA,94124,1993-01-01T00:00:00.000,,2017-04-01T00:00:00.000,,1054 Revere Ave
+1165274-10-171,920852,Win Kee Food Products Inc,168 Fortune Cookies,1052 Revere Ave,San Francisco,CA,94124,1993-01-01T00:00:00.000,,2017-04-01T00:00:00.000,,1054 Revere Ave
+1165276-10-171,945918,M Lee Corporation,M Lee Corporation,601 Montgomery St Ste 2040,San Francisco,CA,94111,1995-03-01T00:00:00.000,,2017-10-14T00:00:00.000,,601 Montgomery St Ste 2040
+1165277-10-171,345612,Canaleti Tony,Sf Renaissance Ptg & Restor,5 Edgewater Ct,San Rafael,CA,94903,2001-05-04T00:00:00.000,,2016-05-15T00:00:00.000,,530 Divisadero St Dept 150
+1165281-10-171,1078055,Glen M. Kling,Glen M.Kling,315 Parker Ave,San Francisco,CA,94118,2017-10-28T00:00:00.000,,2017-10-28T00:00:00.000,,315 Parker Ave
+1165297-10-171,1078063,Karen Henderson,Karen Henderson,1257 Armistead Rd B,San Francisco,CA,94129,2017-10-23T00:00:00.000,,2017-10-23T00:00:00.000,,2400 Greenwich St
+1165305-10-171,1078067,Dina Redman,Dina Redman,582 Market Street Ste 312,San Francisco,CA,94104,2017-10-15T00:00:00.000,,2017-10-15T00:00:00.000,,45 Brosnan St Apt 12
+1165311-10-171,1078070,Jeffrey Moore Holloman,Jeffrey Holloman,286 2nd Ave,San Francisco,CA,94118,2017-05-01T00:00:00.000,,2017-05-01T00:00:00.000,,286 2nd Ave
+1165317-10-171,1078073,Marcia Madrigal,Airbnb,5110 Anza St,San Francisco,CA,94121,2017-10-29T00:00:00.000,,2017-10-29T00:00:00.000,,5110 Anza St
+1165329-10-171,1078079,Maria Shankel,Maria Shankel,3376 23rd St,San Francisco,CA,94110,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,3376 23rd St
+1165333-10-171,1078081,Banejad & Haddad Properties,Banejad & Haddad Properties,695 33rd Ave,San Francisco,CA,94124,2002-10-01T00:00:00.000,,2002-10-01T00:00:00.000,,3716 Oakes Dr
+1165347-10-171,1078088,"Sensemakers, LLC",Sensemakers LLC,6808 Shearwaters Drive,Carlsbad,CA,92011,2017-10-29T00:00:00.000,,2017-10-29T00:00:00.000,,2401 E Katella Ave Ste 610
+1165351-10-171,1078089,Dennis J. Breen,815 Pierce Street,815 Pierce St,San Francisco,CA,94117,2017-10-11T00:00:00.000,,2017-10-11T00:00:00.000,,614 Steiner St
+1165363-10-171,1078097,Fresenius Medical Care North America,Fresenius Kidney Care Potrero Avenue,920 Winter St,Waltham,MA,2451,2015-03-01T00:00:00.000,,2015-05-01T00:00:00.000,,920 920 Winter Street St
+1165365-10-171,1078099,"Magicjack Smb, Inc.","Magicjack Smb, Inc.",560 Village Blvd Ste 120,West Palm Beach,FL,33409,2017-10-01T00:00:00.000,,2017-10-01T00:00:00.000,,931 Village Blvd Ste 905 Box 386
+1165373-10-171,1078103,Edgar Melgar & Suguey Melgar,Gfp,1455 Donner Ave,San Francisco,CA,94124,2016-11-01T00:00:00.000,,2016-11-01T00:00:00.000,,1200 Dore Ave Ste 202
+1165377-10-171,1078106,"Growth Street Management, LLC",Growth Street Partners,185 Berry St. St Ste 1510,San Francisco,CA,94107,2017-08-29T00:00:00.000,,2017-08-29T00:00:00.000,,185 Berry St Ste 170
+1165381-10-171,1078109,Evercore Lp,Evercore Lp,55 E. 52nd St,New York,NY,10055,2014-01-01T00:00:00.000,,2014-01-01T00:00:00.000,,55 E 52nd St
+1165387-10-171,1078114,Miracle Spa,Miracle Spa,1411 Clement St,San Francisco,CA,94118,2017-07-01T00:00:00.000,,2017-07-01T00:00:00.000,,1411 Clement St
+1165389-10-171,1078115,Mohammed Ali,Can-Am Construction Cleanup,29480 Sal Ct,Hayward,CA,94544,2017-10-02T00:00:00.000,,2017-10-02T00:00:00.000,,Po Box 6247
+1165403-10-171,1078122,"Royal Blue, Inc.","Royal Blue, Inc.",9025 Wilshire Blvd. Blvd 301,Beverly Hills,CA,90211,2017-10-30T00:00:00.000,,2017-10-30T00:00:00.000,,90025 Wilshire Blvd. 301
+1165409-10-171,1078127,Pavel Gleyzer,Pavel Gleyzer,3745 Anza St,San Francisco,CA,94121,2004-04-16T00:00:00.000,,2004-04-16T00:00:00.000,,3745 Anza St Apt 3
+1165421-10-171,1078133,Janell Umemoto,Janell's Happy Dogs,140 S Van Ness Ave 1005,San Francisco,CA,94103,2017-10-30T00:00:00.000,,2017-10-30T00:00:00.000,,140 S Van Ness Ave Unit 1005
+1165423-10-171,1078134,"When Labs, Inc.","When Labs, Inc.",Riley Ave,San Francisco,CA,94129,2016-03-01T00:00:00.000,,2016-03-01T00:00:00.000,,128 Riley Ave A
+1165433-10-171,1078142,Roofing By Dan,Roofing By Dan Gerrity,18600 Colima Rd U204,Rowland Heights,CA,91748,2017-10-30T00:00:00.000,,2017-10-30T00:00:00.000,,18600 Colima Rd Apt U204
+1165446-10-171,1078149,Aram Ayrapetian,Aram Ayrapetian,515 Powhattan Ave,San Francisco,CA,94110,2017-08-31T00:00:00.000,,2017-08-31T00:00:00.000,,515 Powhattan Ave
