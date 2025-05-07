@@ -140,3 +140,4 @@ def transform_registered_business_locs_in_san_francisco_datasets(staged_datafram
         transformed_data['is_business_paying_transient_occupancy_tax'].append(bool(row.get('is_business_paying_transient_occupancy_tax')))
         transformed_data['life_insurance_corporation_code'].append(str(row.get('life_insurance_corporation_code'), str(renamed_dataframe['life_insurance_corporation_code'].mode()[0])))
         transformed_data['lic_code_description'].append(str(row.get('lic_code_description'), str(renamed_dataframe['lic_code_description'].mode()[0])))
+        
