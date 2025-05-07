@@ -4,8 +4,7 @@
 import os
 import pandas as pd
 from glob import glob
-from transform.transform import transform_active_business_locs_in_san_francisco_datasets
-from transform.transform import transform_registered_business_locs_in_san_francisco_datasets
+from transform.field_name_modification import modify_field_names_of_active_business_locs_in_sf_dataset
 
 def processing_staged_datasets(staged_datasets_dir_path: str) -> None:
     '''
@@ -32,12 +31,4 @@ def processing_staged_datasets(staged_datasets_dir_path: str) -> None:
         staged_dataframe = pd.read_csv(filepath, encoding='ISO-8859-1')
 
         if base_filename == 'active_business_locs_in_san_francisco':
-            transformed_dataframe = transform_active_business_locs_in_san_francisco_datasets(staged_dataframe)
-            target_filepath = f'{target_subdir_path}/{base_filename}({dataset_num}).csv'
-            transformed_dataframe.to_csv(target_filepath, index=False)
-            
-            print(f'Successfully transformed {base_filename}({dataset_num}) dataset from stage datasets directory path')
-
-        else:
-            transformed_dataframe = transform_registered_business_locs_in_san_francisco_datasets(staged_dataframe)
-            
+            staged_dataframe = modify_field_names_of_active_business_locs_in_sf_dataset(staged_dataframe)
