@@ -5,6 +5,8 @@ import os
 import pandas as pd
 from glob import glob
 from transform.field_name_modification import modify_field_names_of_active_business_locs_in_sf_dataset
+from transform.data_imputation import impute_data_of_active_business_locs_in_sf_dataset
+from transform.format_revision import revise_format_of_active_business_locs_in_sf_dataset
 
 def processing_staged_datasets(staged_datasets_dir_path: str) -> None:
     '''
@@ -32,3 +34,5 @@ def processing_staged_datasets(staged_datasets_dir_path: str) -> None:
 
         if base_filename == 'active_business_locs_in_san_francisco':
             staged_dataframe = modify_field_names_of_active_business_locs_in_sf_dataset(staged_dataframe)
+            staged_dataframe = impute_data_of_active_business_locs_in_sf_dataset(staged_dataframe)
+            transformed_dataframe = revise_format_of_active_business_locs_in_sf_dataset(staged_dataframe)
