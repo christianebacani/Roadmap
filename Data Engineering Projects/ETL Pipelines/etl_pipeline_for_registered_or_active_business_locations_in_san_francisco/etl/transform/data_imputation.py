@@ -1,9 +1,10 @@
 '''
-    Data Imputation
+    Data Imputation Module
 '''
 import pandas as pd
+from datetime import datetime
 
-def impute_data_from_active_business_locs_in_sf_dataset(staged_dataframe: pd.DataFrame) -> pd.DataFrame:
+def impute_data_of_active_business_locs_in_sf_dataset(staged_dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Impute Data function to impute data
         if the value consist of null/none/nan value
@@ -16,59 +17,57 @@ def impute_data_from_active_business_locs_in_sf_dataset(staged_dataframe: pd.Dat
         'location_id',
         'ownership_name',
         'doing_business_as_name',
-        'busines_loc_street_address',
+        'business_loc_street_address',
         'business_loc_city',
         'business_loc_state',
         'mailing_address'
     ]
-    columns_with_integer_value = [
-        'business_account_number',
-        'business_loc_zipcode'
+    columns_with_date_value = [
+        'start_date_of_business',
+        'end_date_of_business',
+        'start_date_at_the_loc',
+        'end_date_at_the_loc'
     ]
 
+    # Initializing dictionary that maps to a imputed value because it is much faster to call a key with a correspoding imputed value
     column_and_imputed_value = {}
     
     for i in range(len(columns)):
         column_and_imputed_value[columns[i]] = None
-
+    
     for column in columns:
         values = []
 
         for value in staged_dataframe[column]:
-            if str(value).lower() != 'nan':
-                values.append(value)
+            if str(value).lower() == 'nan':
+                continue
+
+            if (column in columns_with_string_value) or (column in columns_with_date_value):
+                values.append(str(value))
+            
+            else:
+                values.append(int(value))
         
-        if column in columns_with_string_value:
+        if len(values) == 0:
+            continue
+
+        if (column in columns_with_string_value) or (column in columns_with_date_value):
             column_and_imputed_value[column] = str(pd.Series(values).mode()[0])
-        
-        elif column in columns_with_integer_value:
-            column_and_imputed_value[column] = int(pd.Series(values).median())
 
         else:
-            pass
-
+            column_and_imputed_value[column] = int(pd.Series(values).median())
+    
+    # Initializing a dictionary to store data that is imputed for faster processing of large data
     data = {}
 
     for i in range(len(columns)):
         data[columns[i]] = []
-
+    
     for _, row in staged_dataframe.iterrows():
-        location_id = str(row.get('location_id')).lower()
-        location_id = location_id.replace('nan', column_and_imputed_value['location_id'])
-        data['location_id'].append(location_id)
-        
-        business_account_number = str(row.get('business_account_number')).lower()
-        business_account_number = int(business_account_number.replace('nan', str(column_and_imputed_value['business_account_number'])))
-        data['business_account_number'].append(business_account_number)
+        for column in columns:
+            value = row.get(column, column_and_imputed_value[column])
+            data[column].append(value)
 
-        ownership_name = str(row.get('ownership_name')).lower()
-        ownership_name = ownership_name.replace('nan', column_and_imputed_value['ownership_name'])
-        data['ownership_name'].append(ownership_name)
-
-        doing_business_as_name = str(row.get('doing_business_as_name')).lower()
-        doing_business_as_name = doing_business_as_name.replace('nan', column_and_imputed_value['doing_business_as_name'])
-        data['doing_business_as_name'].append(doing_business_as_name)
-
-        business_loc_street_address = str(row.get('business_loc_street_address')).lower()
-        business_loc_street_address = business_loc_street_address.replace('nan', column_and_imputed_value['business_loc_street_address'])
-        data['business_loc_street_address'].append(business_loc_street_address)
+    df = pd.DataFrame(data)
+    
+    return df
