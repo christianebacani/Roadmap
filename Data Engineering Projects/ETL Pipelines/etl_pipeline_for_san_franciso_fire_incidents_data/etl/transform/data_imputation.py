@@ -8,40 +8,22 @@ def impute_data(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Data Imputation Function
     '''
-    # Initializing dictionary to map dataframe after data imputation rather than in-place modification
+    # Initializing a dictionary to store imputed values per column for data imputation process
     columns = list(dataframe.keys())
-    data = {}
+    column_and_imputed_value = {}
 
-    for i in range(len(columns)):
-        data[columns[i]] = []
-    
-    # Initializing a list to store columns names with same data type for imputation purposes
-    columns_with_integer_value, columns_with_datetime_value, columns_with_string_value = [], [], []
+    for column in columns:
+        column_and_imputed_value[column] = None
 
-    for i in range(len(columns)):
-        # Checking their data type
-        if isinstance(dataframe[columns[i]][0], int):
-            columns_with_integer_value.append(columns[i])
+    # Checking every data type to implement the imputations according to the datatype (Integer = median, Datetime and string = mode)
+    for column in columns:
+        values = []
+
+        for value in dataframe[column]:
+            if str(value).lower() != 'nan':
+                values.append(value)
+        
+        if values == []:
             continue
-
-        try:
-            datetime.strptime(dataframe[columns[i]][0], '%Y-%m-%dT%H:%M:%S.%f')
-            columns_with_datetime_value.append(columns[i])
-
-        except ValueError:
-            columns_with_string_value.append(columns[i])
-
-    # Using set to remove duplicate column names
-    columns_with_integer_value, columns_with_datetime_value, columns_with_string_value = list(set(columns_with_integer_value)), list(set(columns_with_datetime_value)), list(set(columns_with_string_value))
-
-    # Debugging purposes
-    print('Columns with integer value:')
-    print(columns_with_integer_value)
-    print()
-
-    print('Columns with datetime value:')
-    print(columns_with_datetime_value)
-    print()
-
-    print('Columns with string value:')
-    print(columns_with_string_value)
+        
+        
