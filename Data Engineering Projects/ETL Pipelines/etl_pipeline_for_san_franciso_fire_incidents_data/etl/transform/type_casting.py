@@ -20,6 +20,7 @@ def cast_datatype(dataframe: pd.DataFrame) -> pd.DataFrame:
         for column in columns:
             value = row.get(column)
 
+            # Did not need to type cast a None value
             if value is None:
                 data[column].append(value)
                 continue
