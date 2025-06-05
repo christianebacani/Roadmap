@@ -33,8 +33,10 @@ def processing_extracted_data(subdirectory_path: str) -> None:
         imputed_dataframe = impute_data(dataframe)
         type_casted_dataframe = cast_datatype(imputed_dataframe)
         revised_dataframe = revise_data_format(type_casted_dataframe)
+
         transformed_dataframe = revised_dataframe
 
         target_filepath = f'{target_subdirectory_path}/{dataset_name}({dataset_number}).csv'
         transformed_dataframe.to_csv(target_filepath, index=False)
-        break
+
+        print(f'Successfully transformed {dataset_name}({dataset_number}).csv')
