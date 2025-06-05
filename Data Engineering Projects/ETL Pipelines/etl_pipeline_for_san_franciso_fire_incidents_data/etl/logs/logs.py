@@ -7,6 +7,7 @@ from datetime import datetime
 from ingest.ingest import ingest_raw_data
 from extract.extract import extract_ingested_data
 from transform.data_processing import processing_extracted_data
+from load.load import load_to_postgresql_db
 
 def log_messages(message: str) -> None:
     '''
@@ -32,11 +33,17 @@ log_messages('Ingestion Phase Ended')
 # Extraction/Staging Phase
 log_messages('Initiating Extraction/Staging Phase')
 extract_ingested_data('data/raw/san_francisco_fire_incidents_data')
-log_messages('Extraction/Staging Phase')
+log_messages('Extraction/Staging Phase Ended')
 
 # Transformation Phase
 log_messages('Initiating Transformation Phase')
 processing_extracted_data('data/stage/san_francisco_fire_incidents_data')
 log_messages('Transformation Phase Ended')
+
+# Loading Phase
+log_messages('Initiating Loading Phase. Initiating PostgreSQL Database Connection')
+load_to_postgresql_db('data/processed/san_francisco_fire_incidents_data')
+log_messages('PostgreSQL Database Connection Ended')
+log_messages('Loading Phase Ended')
 
 log_messages('ETL Pipeline for San Francisco Fire Incidents Data Ended')
