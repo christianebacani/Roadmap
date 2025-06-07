@@ -36,12 +36,18 @@ def revise_data_format(dataframe: pd.DataFrame) -> pd.DataFrame:
                     'Tpke.': 'Turnpike',
                     'Expy.': 'Expressway',
                     'Sq.': 'Square',
-                    'Bl.': 'Block'
+                    'Bl': 'Block'
                 }
                 for abbreviation, street_type in street_type_abbreviations.items():
                     value = str(value).replace(abbreviation, street_type)
                 
+                value = value.split()
                 
+                for i in range(len(value)):
+                    value[i] = value[i].capitalize()
+                
+                value = ' '.join(value)
+
             elif column == 'city':
                 abbreviations = {
                     'SFO': 'San Francisco International Airport area',
