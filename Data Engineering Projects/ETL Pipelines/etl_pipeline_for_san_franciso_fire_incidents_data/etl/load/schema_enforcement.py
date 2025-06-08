@@ -52,4 +52,31 @@ def enforce_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
             facts_data['id'] = []
             dimensions_data.append({
                 'id': []
-            })        
+            })
+        
+        else:
+            foreign_key = column + '_id'
+            facts_data[foreign_key] = []
+
+            primary_key = foreign_key
+            dimensions_data.append({
+                primary_key: [],
+                column: []
+            })
+
+    for column in columns:
+        if columns in list_of_facts_data:
+            facts_data[column] = []
+
+    # Schema Enforcement Process
+    for _, row in dataframe.iterrows():
+        for column in columns:
+            value = row.get(column)
+            
+            if column in list_of_facts_data:
+               continue
+            
+            # Store the values of the dimensions data
+            for i in range(len(dimensions_data)):
+                if column in list(dimensions_data[i].keys()):
+                    dimensions_data[i][column].append(value)
