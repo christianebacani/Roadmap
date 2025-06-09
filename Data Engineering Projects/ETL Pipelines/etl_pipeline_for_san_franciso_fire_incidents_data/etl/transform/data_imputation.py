@@ -33,8 +33,8 @@ def impute_data(dataframe: pd.DataFrame) -> pd.DataFrame:
                 break
         
         if value_is_digit:
-            column_and_imputed_value[column] = round(pd.Series(values).median(), 0)
-        
+            column_and_imputed_value[column] = int(pd.Series(values).median())
+
         else:
             column_and_imputed_value[column] = pd.Series(values).mode()[0]
     
