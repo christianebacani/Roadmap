@@ -2,7 +2,6 @@
     Data Format Revision Module
 '''
 import pandas as pd
-from datetime import datetime
 
 def revise_data_format(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
@@ -61,10 +60,7 @@ def revise_data_format(dataframe: pd.DataFrame) -> pd.DataFrame:
                 value = str(value).replace('POINT (', '')
                 value = str(value).replace(')', '')
                 value = ', '.join(value.split())
-            
-            elif isinstance(value, str) and '-' in value:
-                value = str(value).replace('-', ' - ')
-            
+
             else:
                 pass
 
