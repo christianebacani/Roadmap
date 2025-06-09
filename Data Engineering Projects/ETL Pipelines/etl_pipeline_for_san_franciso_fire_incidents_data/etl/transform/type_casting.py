@@ -15,35 +15,4 @@ def cast_datatype(dataframe: pd.DataFrame) -> pd.DataFrame:
     for column in columns:
         data[column] = []
 
-    # Type casting
-    for _, row in dataframe.iterrows():
-        for column in columns:
-            value = row.get(column)
-
-            # Did not need to type cast a None value
-            if value is None:
-                data[column].append(value)
-                continue
-
-            try:
-                datetime_value = datetime.strptime(value, '%Y-%m-%dT%H:%M:%S.%f')
-                data[column].append(datetime_value)
-                continue
-
-            except:
-                pass
-
-            if str(value).isdigit():
-                value = int(value)
-                data[column].append(value)
-                continue
-
-            try:
-                value = float(value)
-
-            except:
-                value = str(value)
-            
-            data[column].append(value)
-    
-    return pd.DataFrame(data)
+   # TODO : Refactor the type casting process from the function
