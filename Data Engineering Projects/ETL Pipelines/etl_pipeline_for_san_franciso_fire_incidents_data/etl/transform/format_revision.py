@@ -3,7 +3,7 @@
 '''
 import pandas as pd
 
-def revive_format(dataframe: pd.DataFrame) -> pd.DataFrame:
+def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Data Format Revision Function
     '''
@@ -19,3 +19,23 @@ def revive_format(dataframe: pd.DataFrame) -> pd.DataFrame:
 
             if isinstance(value, (int, float)):
                 continue
+            
+            # TODO: Implementing a format revisioning functionality depending on the variable/field name
+
+            if column == 'address':
+                # TODO : Implement more format revisioning functionalities for the variable 'address'
+
+                value = str(value).split()
+                
+                for i in range(len(value)):
+                    value[i] = value[i].capitalize()
+                
+                value = ' '.join(value)
+
+                street_abbreviations = {
+                    'St.': 'Street',
+                    'Av.': 'Avenue',
+                    'Bl.': 'Block'
+                }
+            
+    return dataframe
