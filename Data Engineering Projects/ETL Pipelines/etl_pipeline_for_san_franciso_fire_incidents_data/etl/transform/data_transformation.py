@@ -3,8 +3,8 @@
 '''
 import pandas as pd
 from transform.data_imputation import impute_values_from_the_integrated_datasetr
-
 from transform.type_casting import cast_data_type
+from transform.format_revision import revise_format
 
 def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
@@ -26,8 +26,10 @@ def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> pd.DataFrame:
     for dataset_number in range(1, 707):
         filepath = f'data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
         
-        dataframe = cast_data_type(pd.read_csv(filepath))
-        
-        dataframe.to_csv(filepath, index=False)
+        type_casted_dataframe = cast_data_type(pd.read_csv(filepath))
+        format_revised_dataframe = revise_format(type_casted_dataframe)
 
-        print(f'Successfully type casted san_francisco_fire_incidents_data({dataset_number}).csv')
+        transformed_dataframe = format_revised_dataframe
+        transformed_dataframe.to_csv(filepath, index=False)
+
+        print(f'Successfully transformed the dataset san_francisco_fire_incidents_data({dataset_number}).csv')
