@@ -16,10 +16,6 @@ def extract_ingested_data(subdirectory_path: str) -> None:
     if not os.path.exists(target_subdirectory_path):
         os.makedirs(target_subdirectory_path)
     
-    # We can check the data if it's already extracted and integrated/staged, return None if yes
-    if len(glob(f'{target_subdirectory_path}/*.csv')) > 0:
-        return
-
     integrated_dataframe = pd.read_csv(f'{subdirectory_path}/san_francisco_fire_incidents_data(1).csv')
     total_datasets = len(glob(f'{subdirectory_path}/*.csv'))
 
