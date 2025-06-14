@@ -3,6 +3,38 @@
 '''
 import pandas as pd
 
+def return_the_list_of_columns_that_has_a_code_and_message_value_pattern() -> str:
+    '''
+        Return function to return the lit of columns
+        that has a code and message value pattern
+    '''
+    return [
+        'primary_situation',
+        'action_taken_primary',
+        'action_taken_secondary',
+        'action_taken_other',
+        'detector_alerted_occupants',
+        'property_use',
+        'area_of_fire_origin',
+        'ignition_cause',
+        'ignition_factor_primary',
+        'ignition_factor_secondary',
+        'heat_source',
+        'item_first_ignited',
+        'human_factors_associated_with_ignition',
+        'structure_type',
+        'structure_status',
+        'fire_spread',
+        'detectors_present',
+        'detector_type',
+        'detector_operation',
+        'detector_effectiveness',
+        'detector_failure_reason',
+        'automatic_extinguishing_system_present',
+        'automatic_extinguishing_sytem_type',
+        'automatic_extinguishing_sytem_perfomance'
+    ]
+
 def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Data Format Revision Function
@@ -20,11 +52,8 @@ def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
             if isinstance(value, (int, float)):
                 continue
             
-            # TODO: Implementing a format revisioning functionality depending on the variable/field name
-
+            # Revising the format of the values by checking the variable/field name
             if column == 'address':
-                # TODO : Implement more format revisioning functionalities for the variable 'address'
-
                 value = str(value).split()
                 
                 for i in range(len(value)):
@@ -33,9 +62,37 @@ def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
                 value = ' '.join(value)
 
                 street_abbreviations = {
-                    'St.': 'Street',
-                    'Av.': 'Avenue',
-                    'Bl.': 'Block'
+                    'ST': 'Street',
+                    'AW': 'Avenue',
+                    'BL': 'Block',
+                    'HW': 'Hi-way'
                 }
-            
+
+                for abbreviation, street_name in street_abbreviations.items():
+                    value = value.replace(abbreviation, street_name)
+                
+                dataframe.at[index, 'address'] = value
+
+            elif column in return_the_list_of_columns_that_has_a_code_and_message_value_pattern():
+                value = str(value).replace('-', ' ')
+                value = ' '.join(value.split())
+                dataframe.at[index, column] = value
+
+            elif column == 'no_flame_spread':
+                dataframe.at[index, 'no_flame_spread'] = str(value).capitalize()
+
+            elif column == 'neighborhood_district':
+                value = str(value).replace('/', ', ')
+                dataframe.at[index, 'neighborhood_district'] = value
+
+            elif column == 'point':
+                value = str(value)
+                value = value.replace('POINT (', '')
+                value = value.replace(')', '')
+                value = ', '.join(value.split())
+                dataframe.at[index, 'point'] = value
+
+            else:
+                pass
+    
     return dataframe
