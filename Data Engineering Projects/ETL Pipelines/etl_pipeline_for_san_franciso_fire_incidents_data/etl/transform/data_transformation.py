@@ -28,7 +28,7 @@ def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> pd.DataFrame:
         
         type_casted_dataframe = cast_data_type(pd.read_csv(filepath))
         format_revised_dataframe = revise_format(type_casted_dataframe)
-
+        
         transformed_dataframe = format_revised_dataframe
         transformed_dataframe.to_csv(filepath, index=False)
 
