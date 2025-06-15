@@ -3,7 +3,7 @@
 '''
 import pandas as pd
 
-def return_the_list_of_columns_that_has_a_code_and_message_value_pattern() -> str:
+def return_the_list_of_columns_that_has_code_and_message_value_pattern() -> str:
     '''
         Return function to return the list of columns
         that has a code and message value pattern
@@ -73,7 +73,7 @@ def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
                 
                 dataframe.at[index, 'address'] = value
 
-            elif column in return_the_list_of_columns_that_has_a_code_and_message_value_pattern():
+            elif column in return_the_list_of_columns_that_has_code_and_message_value_pattern():
                 value = str(value).replace('-', ' ')
                 value = ' '.join(value.split())
                 dataframe.at[index, column] = value
