@@ -5,7 +5,7 @@ import pandas as pd
 
 def return_the_list_of_columns_that_has_a_code_and_message_value_pattern() -> str:
     '''
-        Return function to return the lit of columns
+        Return function to return the list of columns
         that has a code and message value pattern
     '''
     return [
