@@ -8,7 +8,6 @@ def return_the_list_of_columns_for_facts_data() -> str:
         Return function to return the list of columns
         facts data
     '''
-    # TODO: Needs to be refactored
     return [
         'suppression_units',
         'suppression_personnel',
@@ -37,4 +36,31 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
     # Using .keys() method to get all the variable/field names
     columns = list(dataframe.keys())
     facts_data = {}
-    dimensions_data = {}
+    dimensions_data = []
+    
+    for column in columns:
+        if column == 'id':
+            dimensions_data.append({
+                f'dim_id': []
+            })
+            continue
+        
+        if column not in return_the_list_of_columns_for_facts_data():
+            dimensions_data.append({
+                f'{column}_id': [],
+                f'dim_{column}': []
+            })
+
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        if column == 'id':
+            facts_data['id'] = []
+            continue
+
+        facts_data[f'{column}_id'] = []
+    
+    for column in columns:
+        if columns in return_the_list_of_columns_for_facts_data():
+            facts_data[column] = []
