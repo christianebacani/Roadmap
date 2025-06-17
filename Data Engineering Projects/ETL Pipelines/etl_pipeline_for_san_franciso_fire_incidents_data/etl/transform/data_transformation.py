@@ -40,13 +40,13 @@ def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> None:
 
         print(f'Successfully integrated san_francisco_fire_incidents_data({dataset_number}).csv transformed dataset')
     
-    # Remove the partitioned dataset from the directorty path for optimization purposes
+    # Remove the partitioned datasets from the directory path
     for dataset_number in range(1, 707):
         filepath = f'data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
 
         if os.path.exists(filepath):
             os.remove(filepath)
-            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv')        
+            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset')
     
     # Deduplicate the integrated dataset using function from other modules
     integrated_dataframe = deduplicate_integrated_dataset(integrated_dataframe)
