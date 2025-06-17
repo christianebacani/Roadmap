@@ -22,7 +22,7 @@ def impute_values_from_the_integrated_datasetr(dataframe: pd.DataFrame) -> pd.Da
 
         for row_number in range(0, 705909, 1000):
             values.extend(list(dataframe[column][row_number : row_number + 1000]))
-            print(f'Extracting the values of column: {column} from {row_number}-{row_number} rows for data imputation')
+            print(f'Extracting the values of column: {column} from {row_number}-{row_number} rows for data imputation process')
 
         data = pd.Series(values)
 
