@@ -2,6 +2,7 @@
     Data Schema Revision Module
 '''
 import pandas as pd
+import os
 
 def return_the_list_of_columns_for_facts_data() -> str:
     '''
@@ -38,24 +39,25 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
     
     # Using .keys() method to get all the variable/field names
     columns = list(dataframe.keys())
+
     facts_data = {}
     dimensions_data = []
 
-    # Initialize the dimensions data    
+    # Initialize the dimensions data consisting of primary keys and non-key attributes
     for column in columns:
         if column == 'id':
             dimensions_data.append({
-                'dim_id': []
+                'id': []
             })
             continue
         
         if column not in return_the_list_of_columns_for_facts_data():
             dimensions_data.append({
                 f'{column}_id': [],
-                f'dim_{column}': []
+                column: []
             })
-
-    # Get the foreign key of every keys of dimensions data
+    
+    # Initialize the foreign key for the facts data
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
@@ -64,66 +66,50 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
             facts_data['id'] = []
             continue
 
-        facts_data[f'{column}_id'] = []
-    
-    # Initialize the facts data
+        foreign_key = f'{column}_id'
+        facts_data[foreign_key] = []
+
+    # Initialize the numeric columns for the facts data    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             facts_data[column] = []
-
-    # Extracting the values of dimensions data
+    
+    # Initialize the values of non-key attributes of the dimension data
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
-        
+
         values = []
 
         for row_number in range(0, 705909, 1000):
-            values.extend(list(dataframe[column][row_number : row_number + 1000]))
-            print(f'Successfully extracted the values that consist {row_number}-{row_number + 1000} rows from {column} column for data schema revision process')
-
-        values = list(set(values))
-
-        for i in range(len(dimensions_data)):
-            if f'dim_{column}' in dimensions_data[i]:
-                dimensions_data[i][f'dim_{column}'] = values
-
-    # Initializing primary key values of every dimension data
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
+            group_of_values = list(dataframe[column][row_number : row_number + 1000])
+            values.extend(group_of_values)
+            print(f'Successfully extracted the values of column: {column} for initializing the dimension data')
         
-        if column == 'id':
-            continue
-
+        values = list(set(values))
+        
         for i in range(len(dimensions_data)):
-            if f'dim_{column}' not in dimensions_data[i]:
+            if column not in dimensions_data[i]:
                 continue
 
-            total_number_of_primary_key_values = len(dimensions_data[i][f'dim_{column}'])
-            primary_key_values = []
-
-            for primary_key_value in range(1, total_number_of_primary_key_values + 1):
-                primary_key_values.append(primary_key_value)
-                print(f'Successfully initializes a primary key value: {primary_key_value} from dim_{column} column of dimension data for data schema revision process')
-
-            dimensions_data[i][f'{column}_id'] = primary_key_values
-
-    target_subdirectory_path = 'data/processed/san_francisco_fire_incidents_data'
-
-    # Stage the dimensions data as a dataframe
-    # NOTE: For debugging purposes only
-
+            dimensions_data[i][column] = values
+            break
+        
+    # Initialize the values of key attributes of the dimension data
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
         for i in range(len(dimensions_data)):
-            if f'dim_{column}' not in dimensions_data[i]:
+            if column not in dimensions_data[i]:
                 continue
             
-            target_filepath = f'{target_subdirectory_path}/dim_{column}.csv'
-            dimension_dataframe = pd.DataFrame(dimensions_data[i])
-            dimension_dataframe.to_csv(target_filepath, index=False)
+            total_number_of_values = len(dimensions_data[i][column])
+            primary_key_values = []
 
-            print(f'Successfully staged dim_{column}.csv dimension dataset for debugging purposes')
+            for primary_key_value in range(1, total_number_of_values + 1):
+                primary_key_values.append(primary_key_value)
+                print(f'Successfully extracted the primary key value: {primary_key_value} from {column} column for initializing the dimension data')
+            
+            primary_key = f'{column}_id'
+            dimensions_data[i][primary_key] = primary_key_values
