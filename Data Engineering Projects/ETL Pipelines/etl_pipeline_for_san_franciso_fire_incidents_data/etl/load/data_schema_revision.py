@@ -100,6 +100,9 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
+        if column == 'id':
+            continue
+
         for i in range(len(dimensions_data)):
             if column not in dimensions_data[i]:
                 continue
@@ -113,3 +116,30 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
             
             primary_key = f'{column}_id'
             dimensions_data[i][primary_key] = primary_key_values
+    
+    # Initialize the dimension data dictionary as a dimension dataframe using the columns of integrated dataset
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        for i in range(len(dimensions_data)):
+            if column not in dimensions_data[i]:
+                continue
+
+            filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
+            dimension_dataframe = pd.DataFrame(dimensions_data[i])
+            dimension_dataframe.to_csv(filepath, index=False)
+
+            print(f'Successfully initialize dim_{column} dimension table')
+    
+    subdirectory_path = 'data/processed/san_francisco_fire_incidents_data'
+
+    # Partition integrated processed dataset for faster processing of initialization of facts data
+    for dataset_number, row_number in enumerate(range(0, 705909, 1000)):
+        dataset_number += 1
+        partitioned_dataframe = dataframe[row_number : row_number + 1000]
+
+        filepath = f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
+        partitioned_dataframe.to_csv(filepath, index=False)
+
+        print(f'Successfully partitioned {row_number}-{row_number + 1000} rows from the integrated processed dataset for data schema revision')
