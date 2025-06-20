@@ -37,109 +37,125 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
     # Remove unnecessary columns
     dataframe.drop(columns=['data_as_of', 'data_loaded_at'], inplace=True)
     
-    # Using .keys() method to get all the variable/field names
+    subdirectory_path = 'data/processed/san_francisco_fire_incidents_data'
+
+    # Partitioned the integrated processed dataset for faster processing time
+    for dataset_number, row_number in enumerate(range(0, 705909, 1000)):
+        dataset_number += 1
+        
+        target_filepath = f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
+        partitioned_dataframe = dataframe[row_number : row_number + 1000]
+        partitioned_dataframe.to_csv(target_filepath, index=False)
+
+        print(f'Successfully partitioned integrated processed dataset of {row_number}-{row_number + 999} rows')
+    
+    # Remove integrated processed dataset after partitioning
+    if os.path.exists(f'{subdirectory_path}/san_francisco_fire_incidents_processed_data.csv'):
+        os.remove(f'{subdirectory_path}/san_francisco_fire_incidents_processed_data.csv')
+    
+    # Initialize a dictionary and array to store the values of facts and dimension data
+    facts_data, dimension_data = {}, []
+
     columns = list(dataframe.keys())
 
-    facts_data = {}
-    dimensions_data = []
-
-    # Initialize the dimensions data consisting of primary keys and non-key attributes
-    for column in columns:
-        if column == 'id':
-            dimensions_data.append({
-                'id': []
-            })
-            continue
-        
-        if column not in return_the_list_of_columns_for_facts_data():
-            dimensions_data.append({
-                f'{column}_id': [],
-                column: []
-            })
-    
-    # Initialize the foreign key for the facts data
+    # Initialize primary key and non-key attributes of dimension data
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
         if column == 'id':
-            facts_data['id'] = []
+            dimension_data.append({
+                'id': []
+            })
+        
+        else:
+            primary_key = f'{column}_id'
+            dimension_data.append(({
+                primary_key: [],
+                column: [] 
+            }))
+
+    # Initialize foreign keys of facts data
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
             continue
+        
+        if column == 'id':
+            facts_data['id'] = []
+        
+        else:
+            foreign_key = f'{column}_id'
+            facts_data[foreign_key] = []
 
-        foreign_key = f'{column}_id'
-        facts_data[foreign_key] = []
-
-    # Initialize the numeric columns for the facts data    
+    # Initialize the numeric values of facts data
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             facts_data[column] = []
-    
-    # Initialize the values of non-key attributes of the dimension data
+
+    # Initialization of the non-key attributes of the dimension data    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
-
+        
         values = []
 
-        for row_number in range(0, 705909, 1000):
-            group_of_values = list(dataframe[column][row_number : row_number + 1000])
-            values.extend(group_of_values)
-            print(f'Successfully extracted the values of column: {column} for initializing the dimension data')
+        for dataset_number in range(1, 706 + 1):
+            filepath = f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
+            partitioned_dataframe = pd.read_csv(filepath)
+
+            values.extend(list(partitioned_dataframe[column]))
+            
+            print(f'Sucessfully extracted the values of column: {column} from san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of dimension data')
         
         values = list(set(values))
-        
-        for i in range(len(dimensions_data)):
-            if column not in dimensions_data[i]:
+
+        for i in range(len(dimension_data)):
+            if column not in dimension_data[i]:
                 continue
 
-            dimensions_data[i][column] = values
-            break
-        
-    # Initialize the values of key attributes of the dimension data
+            dimension_data[i][column] = values
+
+    # Initialization of the key attributes of the dimension data    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
         if column == 'id':
             continue
-
-        for i in range(len(dimensions_data)):
-            if column not in dimensions_data[i]:
+        
+        for i in range(len(dimension_data)):
+            if column not in dimension_data[i]:
                 continue
-            
-            total_number_of_values = len(dimensions_data[i][column])
+
+            total_number_of_values = len(dimension_data[i][column])
             primary_key_values = []
 
             for primary_key_value in range(1, total_number_of_values + 1):
                 primary_key_values.append(primary_key_value)
-                print(f'Successfully extracted the primary key value: {primary_key_value} from {column} column for initializing the dimension data')
+                
+                print(f'Successfully initialized the primary key value: {primary_key_value} column: {column} for the initialization of dimension data')
             
             primary_key = f'{column}_id'
-            dimensions_data[i][primary_key] = primary_key_values
+            dimension_data[i][primary_key] = primary_key_values
+
+    # Initialize the dimension data dictionary as a dataframe    
+    for i in range(len(dimension_data)):
+        filepath = f'{subdirectory_path}/dim_{column}.csv'
+        dimension_dataframe = pd.DataFrame(dimension_data[i])
+        dimension_dataframe.to_csv(filepath, index=False)
+
+        print(f'Sucessfully initialize dim_{column} dimension dataset')
     
-    # Initialize the dimension data dictionary as a dimension dataframe using the columns of integrated dataset
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-
-        for i in range(len(dimensions_data)):
-            if column not in dimensions_data[i]:
-                continue
-
-            filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
-            dimension_dataframe = pd.DataFrame(dimensions_data[i])
-            dimension_dataframe.to_csv(filepath, index=False)
-
-            print(f'Successfully initialize dim_{column} dimension table')
-    
-    subdirectory_path = 'data/processed/san_francisco_fire_incidents_data'
-
-    # Partition integrated processed dataset for faster processing of initialization of facts data
-    for dataset_number, row_number in enumerate(range(0, 705909, 1000)):
-        dataset_number += 1
-        partitioned_dataframe = dataframe[row_number : row_number + 1000]
-
+    for dataset_number in range(1, 706 + 1):
         filepath = f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
-        partitioned_dataframe.to_csv(filepath, index=False)
+        partitioned_dataframe = pd.read_csv(filepath)
 
-        print(f'Successfully partitioned {row_number}-{row_number + 1000} rows from the integrated processed dataset for data schema revision')
+        for _, row in partitioned_dataframe.iterrows():
+            for column in columns:
+                value = row.get(column)
+
+                if column in return_the_list_of_columns_for_facts_data():
+                    facts_data[column].append(value)
+                    continue
+
+                # TODO: Implement more functionalities for initialization of facts data
