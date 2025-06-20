@@ -19,4 +19,4 @@ def partition_integrated_dataset(dataframe: pd.DataFrame) -> None:
         
         target_filepath = f'{target_subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
         partitioned_dataframe.to_csv(target_filepath, index=False)
-        print(f'Successfully partitioned {row_number}-{row_number + 1000} rows from the integrated staged dataset for data transformation phase')
+        print(f'Successfully partitioned {row_number}-{row_number + 999} rows from the integrated staged dataset for data transformation phase')
