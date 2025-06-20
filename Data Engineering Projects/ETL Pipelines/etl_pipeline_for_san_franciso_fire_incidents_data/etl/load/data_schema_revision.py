@@ -146,6 +146,7 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
 
         print(f'Sucessfully initialize dim_{column} dimension dataset')
     
+    # Initialize the foreign key attributes and numeric values of facts data
     for dataset_number in range(1, 706 + 1):
         filepath = f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv'
         partitioned_dataframe = pd.read_csv(filepath)
@@ -157,5 +158,35 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
                 if column in return_the_list_of_columns_for_facts_data():
                     facts_data[column].append(value)
                     continue
+                
+                if column == 'id':
+                    foreign_key_value = value
+                    facts_data['id'].append(foreign_key_value)
+                
+                else:
+                    dimension_dataframe = pd.read_csv(f'{subdirectory_path}/dim_{column}.csv')
+                    target_index = dimension_dataframe.index[dimension_dataframe[column] == value].to_list()[0]
 
-                # TODO: Implement more functionalities for initialization of facts data
+                    primary_key = f'{column}_id'
+                    foreign_key_value = dimension_dataframe.iloc[target_index][primary_key]
+
+                    foreign_key = primary_key
+                    facts_data[foreign_key].append(foreign_key_value)
+        
+        print(f'Successfully initialized the values of facts data from san_francisco_fire_incidents_data({dataset_number}).csv')
+    
+    # Initialize facts data dictionary as a dataframe
+    target_filepath = f'{subdirectory_path}/facts_san_francisco_fire_incidents.csv'
+    facts_dataframe = pd.DataFrame(facts_data)
+    facts_dataframe.to_csv(target_filepath, index=False)
+
+    print('Successfully initialize facts_san_francisco_fire_incidents facts dataset')
+
+    # Remove the partitioned datasets after the schema revision process
+    for dataset_number in range(1, 706 + 1):    
+        filepath = f'{subdirectory_path}/san_francisco_fire_incidents({dataset_number}).csv'
+
+        if os.path.exists(filepath):
+            os.remove(filepath)
+
+            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset')
