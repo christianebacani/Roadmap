@@ -4,7 +4,7 @@
 import pandas as pd
 from scipy.stats import skew
 
-def impute_values_from_the_integrated_datasetr(dataframe: pd.DataFrame) -> pd.DataFrame:
+def impute_values_from_the_integrated_dataset(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Data Imputation Function
     '''
