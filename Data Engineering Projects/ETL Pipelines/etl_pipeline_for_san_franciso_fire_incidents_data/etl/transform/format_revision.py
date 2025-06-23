@@ -35,7 +35,7 @@ def return_the_list_of_columns_that_has_code_and_message_value_pattern() -> str:
         'automatic_extinguishing_sytem_perfomance'
     ]
 
-def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
+def revise_format(dataframe: pd.DataFrame, dataset_name: str) -> pd.DataFrame:
     '''
         Data Format Revision Function
     '''
@@ -94,5 +94,7 @@ def revise_format(dataframe: pd.DataFrame) -> pd.DataFrame:
 
             else:
                 pass
+
+    print(f'Successfully perform revise format operation to {dataset_name} partitioned dataset')
     
     return dataframe
