@@ -142,7 +142,7 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
 
             print(f'Successfully initialize dim_{column} dimension table')
 
-    # Initialize the foreign key attributes of facts data
+    # Initialize the foreign key attributes and numeric attributes of facts data
     for dataset_number in range(1, 706 + 1):
         filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_({dataset_number}).csv'
         partitioned_dataframe = pd.read_csv(filepath)
