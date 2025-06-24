@@ -144,7 +144,7 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
 
     # Initialize the foreign key attributes and numeric attributes of facts data
     for dataset_number in range(1, 706 + 1):
-        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_({dataset_number}).csv'
+        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents({dataset_number}).csv'
         partitioned_dataframe = pd.read_csv(filepath)
 
         for _, row in partitioned_dataframe.iterrows():
@@ -182,4 +182,7 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
     for dataset_number in range(1, 706 + 1):
         filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
         
-        # TODO: Add more functionalities...
+        if os.path.exists(filepath):
+            os.remove(filepath)
+
+            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset after transformation phase')
