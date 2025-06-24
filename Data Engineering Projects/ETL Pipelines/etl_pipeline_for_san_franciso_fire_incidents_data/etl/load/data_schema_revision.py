@@ -142,9 +142,44 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
 
             print(f'Successfully initialize dim_{column} dimension table')
 
-    # Initialize the foreign key attributes of facts data    
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
+    # Initialize the foreign key attributes of facts data
+    for dataset_number in range(1, 706 + 1):
+        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_({dataset_number}).csv'
+        partitioned_dataframe = pd.read_csv(filepath)
 
-        # TODO: Implement more functionalities here...
+        for _, row in partitioned_dataframe.iterrows():
+            for column in columns:
+                value = row.get(column)
+
+                if column in return_the_list_of_columns_for_facts_data():
+                    facts_data[column].append(value)
+                    continue
+
+                if column == 'id':
+                    foreign_key_value = value
+                    facts_data['id'].append(foreign_key_value)
+                
+                else:
+                    dimension_dataframe = pd.read_csv(f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv')
+
+                    primary_key = f'{column}_id'
+                    target_index = dimension_dataframe.index[dimension_dataframe[column] == value].to_list()[0]
+                    foreign_key_value = dimension_dataframe.iloc[target_index][primary_key]
+                    
+                    foreign_key = primary_key
+                    facts_data[foreign_key].append(foreign_key_value)
+        
+        print(f'Successfully initialized the foreign key attributes of facts data in san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of facts data')
+    
+    # Initialize the facts data dictionary as a dataframe
+    target_filepath = 'data/processed/san_francisco_fire_incidents_data/facts_fire_incidents_data.csv'
+    facts_dataframe = pd.DataFrame(facts_data)
+    facts_dataframe.to_csv(target_filepath, index=False)
+
+    print(f'Successfully initialize facts_fire_incidents_data facts table')
+
+    # Remove partitioned dataset after data schema revision process
+    for dataset_number in range(1, 706 + 1):
+        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
+        
+        # TODO: Add more functionalities...
