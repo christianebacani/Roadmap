@@ -34,6 +34,9 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
         Data Schema Revision Function
     '''
+    # Remove unnecessary columns
+    dataframe.drop(columns=['data_as_of', 'data_loaded_at'], inplace=True)
+
     # Get the columns
     columns = list(dataframe.keys())
 
@@ -144,7 +147,7 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
 
     # Initialize the foreign key attributes and numeric attributes of facts data
     for dataset_number in range(1, 706 + 1):
-        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents({dataset_number}).csv'
+        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
         partitioned_dataframe = pd.read_csv(filepath)
 
         for _, row in partitioned_dataframe.iterrows():
