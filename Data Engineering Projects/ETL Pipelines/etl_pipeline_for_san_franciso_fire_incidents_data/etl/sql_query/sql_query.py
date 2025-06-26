@@ -14,7 +14,7 @@ def query(query_command: str) -> None:
     hostname = '<HOSTNAME>'
     port = '<PORT_NUMBER>'
     database = 'san_francisco_fire_incidents_db'
-
+    
     # Initialize the query engine to test sql queries
     engine = create_engine(f'postgresql://{username}:{password}@{hostname}:{port}/{database}')
 
