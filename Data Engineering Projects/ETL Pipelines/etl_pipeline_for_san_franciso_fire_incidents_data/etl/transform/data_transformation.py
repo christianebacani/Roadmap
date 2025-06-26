@@ -8,7 +8,10 @@ from transform.data_partition import partition_integrated_staged_dataset
 from transform.type_casting import get_the_data_type_of_every_column
 from transform.type_casting import cast_data_type
 from transform.format_revision import revise_format
+from transform.data_integration import integrate_datasets
 from transform.data_deduplication import deduplicate_integrated_dataset
+from transform.remove_datasets import remove_partitioned_and_integrated_datasets
+from transform.load_processed_dataset import load_processed_integrated_dataset
 
 def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> None:
     '''
@@ -36,34 +39,13 @@ def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> None:
         transformed_dataframe.to_csv(filepath, index=False)
     
     # Integrate partitioned dataset after type casting and format revision process
-    integrated_dataframe = pd.read_csv('data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data(1).csv')
+    integrated_dataframe = integrate_datasets('data/stage/san_francisco_fire_incidents_data')
 
-    for dataset_number in range(2, 706 + 1):
-        filepath = f'data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
-        integrated_dataframe = pd.concat([integrated_dataframe, pd.read_csv(filepath)], ignore_index=True)
-
-        print(f'Successfully integrated san_francisco_fire_incidents_data({dataset_number}).csv dataset')
-    
     # Data deduplication
     integrated_dataframe = deduplicate_integrated_dataset(integrated_dataframe)
     
-    # Store the integrated processed dataset to the processed directory path for loading phase
-    target_subdirectory_path = 'data/processed/san_francisco_fire_incidents_data'
-
-    if not os.path.exists(target_subdirectory_path):
-        os.makedirs(target_subdirectory_path)
-    
-    target_filepath = f'{target_subdirectory_path}/san_francisco_fire_incidents_processed_data.csv'
-    integrated_dataframe.to_csv(target_filepath, index=False)
+    # Load the integrated processed dataset to the processed directory path for loading phase
+    load_processed_integrated_dataset(integrated_dataframe)
 
     # Remove partitioned and integrated dataset after transformation phase
-    for dataset_number in range(1, 706 + 1):
-        filepath = f'data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
-
-        if os.path.exists(filepath):
-            os.remove(filepath)
-            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset')
-    
-    if os.path.exists('data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_integrated_data.csv'):
-        os.remove('data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_integrated_data.csv')
-        print('Successfully remove san_francisco_fire_incidents_integrated_data.csv')
+    remove_partitioned_and_integrated_datasets('data/stage/san_francisco_fire_incidents_data')    
