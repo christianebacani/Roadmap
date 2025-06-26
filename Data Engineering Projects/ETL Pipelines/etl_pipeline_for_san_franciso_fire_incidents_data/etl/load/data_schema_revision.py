@@ -3,6 +3,7 @@
 '''
 import pandas as pd
 import os
+from datetime import datetime
 
 def return_the_list_of_columns_for_facts_data() -> str:
     '''
@@ -29,6 +30,38 @@ def return_the_list_of_columns_for_facts_data() -> str:
         'number_of_floors_with_extreme_damage',
         'number_of_sprinkler_heads_operating'
     ]
+
+def get_the_foreign_key_value(dim_dataframe: pd.DataFrame, target_column: str, target_value: datetime | int | float | str) -> str | int | datetime | float:
+    '''
+        Get function to get the foreign key value
+    '''
+    for _, row in dim_dataframe.iterrows():
+        primary_key = f'{target_column}_id'
+        primary_key_value = row.get(primary_key)
+        value = row.get(target_column)
+            
+        if target_column == 'incident_date':
+            value = datetime.strptime(str(value), '%Y-%m-%d')
+            target_value = datetime.strptime(str(target_value), '%Y-%m-%d')
+
+        elif isinstance(target_value, datetime):
+            value = datetime.strptime(str(value), '%Y-%m-%dT%H:%M:%S.%f')
+            target_value = datetime.strptime(str(target_value), '%Y-%m-%dT%H:%M:%S.%f')
+
+        elif str(target_value).isdigit():
+            value = int(value)
+            target_value = int(target_value)
+        
+        elif isinstance(target_value, float):
+            value = float(value)
+            target_value = float(value)
+        
+        else:
+            value = str(value)
+            target_value = str(target_value)
+        
+        if target_value == value:
+            return primary_key_value
 
 def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
     '''
@@ -164,14 +197,11 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
                 
                 else:
                     dimension_dataframe = pd.read_csv(f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv')
-
-                    primary_key = f'{column}_id'
-                    target_index = dimension_dataframe.index[dimension_dataframe[column] == value].to_list()[0]
-                    foreign_key_value = dimension_dataframe.iloc[target_index][primary_key]
+                    foreign_key_value = get_the_foreign_key_value(dimension_dataframe, column, value)
                     
-                    foreign_key = primary_key
-                    facts_data[foreign_key].append(foreign_key_value)
-        
+                    primary_key = f'{column}_id'
+                    facts_data[primary_key].append(foreign_key_value)
+
         print(f'Successfully initialized the foreign key attributes of facts data in san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of facts data')
     
     # Initialize the facts data dictionary as a dataframe
