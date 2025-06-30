@@ -83,7 +83,7 @@ def cast_data_type(dataframe: pd.DataFrame, column_and_data_type: dict[str, str]
     for column in columns:
         data[column] = []
     
-    for index, row in dataframe.iterrows():
+    for _, row in dataframe.iterrows():
         for column in columns:
             value = row.get(column)
 
