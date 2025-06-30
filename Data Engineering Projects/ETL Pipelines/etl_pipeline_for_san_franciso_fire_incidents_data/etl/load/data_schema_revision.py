@@ -3,7 +3,6 @@
 '''
 import pandas as pd
 import os
-from datetime import datetime
 
 def return_the_list_of_columns_for_facts_data() -> str:
     '''
@@ -31,98 +30,32 @@ def return_the_list_of_columns_for_facts_data() -> str:
         'number_of_sprinkler_heads_operating'
     ]
 
-def get_the_foreign_key_value(dim_dataframe: pd.DataFrame, target_column: str, target_value: datetime | int | float | str) -> str | int | datetime | float:
+def initialize_dimension_tables() -> None:
     '''
-        Get function to get the foreign key value
+        Initialize Dimension Tables Function
     '''
-    for _, row in dim_dataframe.iterrows():
-        primary_key = f'{target_column}_id'
-        primary_key_value = row.get(primary_key)
-        value = row.get(target_column)
-            
-        if target_column == 'incident_date':
-            value = datetime.strptime(str(value), '%Y-%m-%d')
-            target_value = datetime.strptime(str(target_value), '%Y-%m-%d')
+    # Initialize the columns
+    columns = list(pd.read_csv('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data(1).csv').keys())
+    dimension_tables = []
 
-        elif isinstance(target_value, datetime):
-            value = datetime.strptime(str(value), '%Y-%m-%dT%H:%M:%S.%f')
-            target_value = datetime.strptime(str(target_value), '%Y-%m-%dT%H:%M:%S.%f')
-
-        elif str(target_value).isdigit():
-            value = int(value)
-            target_value = int(target_value)
-        
-        elif isinstance(target_value, float):
-            value = float(value)
-            target_value = float(value)
-        
-        else:
-            value = str(value)
-            target_value = str(target_value)
-        
-        if target_value == value:
-            return primary_key_value
-
-def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
-    '''
-        Data Schema Revision Function
-    '''
-    # Remove unnecessary columns
-    dataframe.drop(columns=['data_as_of', 'data_loaded_at'], inplace=True)
-
-    # Get the columns
-    columns = list(dataframe.keys())
-
-    # Partition the integrated processed dataset
-    for dataset_number, row_number in enumerate(range(0, 705908 + 1, 1000)):
-        dataset_number += 1
-        target_filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
-
-        partitioned_dataframe = dataframe[row_number : row_number + 1000]
-        partitioned_dataframe.to_csv(target_filepath, index=False)
-
-        print(f'Successfully partitioned integrated processed dataset of {row_number}-{row_number + 999} rows for data schema revision process')
-
-    # Remove the integrated processed dataset after data partitioning
-    if os.path.exists('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv'):
-        os.remove('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv')
-
-    dimension_data, facts_data = [], {}
-
-    # Initialize the structure of dimension data
+    # Initialize the structure of the dimension tables
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
         if column == 'id':
-            dimension_data.append({
+            dimension_tables.append({
                 'id': []
             })
-
+        
         else:
             primary_key = f'{column}_id'
-            dimension_data.append({
+            dimension_tables.append({
                 primary_key: [],
                 column: []
             })
 
-    # Initialize the structure of facts data
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-
-        if column == 'id':
-            facts_data['id'] = []
-        
-        else:
-            foreign_key = f'{column}_id'
-            facts_data[foreign_key] = []
-    
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            facts_data[column] = []
-
-    # Initialize the non-key attributes of dimension data
+    # Initialize the non-key attributes of dimension tables    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
@@ -134,88 +67,74 @@ def revise_schema(dataframe: pd.DataFrame) -> pd.DataFrame:
             partitioned_dataframe = pd.read_csv(filepath)
 
             values.extend(list(partitioned_dataframe[column]))
-            print(f'Successfully extracted the non-key attributes of column: {column} from san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of dimension data')
-        
-        values = list(set(values))
+            print(f'Successfully initialize the non-key attributes of column: {column} from san_francisco_fire_incidents_data({dataset_number}).csv for initialization of dimension tables')
 
-        for i in range(len(dimension_data)):
-            if column not in dimension_data[i]:
+        for i in range(len(dimension_tables)):
+            if column not in dimension_tables[i]:
                 continue
 
-            dimension_data[i][column] = values
-    
-    # Initialize the key-attributes of dimension data
+            dimension_tables[i][column] = list(set(values))
+
+    # Initialize the key attributes of dimension tables    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data() or column == 'id':
             continue
 
-        for i in range(len(dimension_data)):
-            if column not in dimension_data[i]:
+        for i in range(len(dimension_tables)):
+            if column not in dimension_tables[i]:
                 continue
+            
+            total_number_of_values = len(dimension_tables[i][column])
+            primary_key_values = []
 
-            total_number_of_key_attributes = len(dimension_data[i][column])
-            key_attributes = []
-
-            for key_attribute in range(1, total_number_of_key_attributes + 1):
-                key_attributes.append(key_attribute)
-                print(f'Successfully initialized the key attribute: {key_attribute} for column: {column} for initialization of dimension data')
-                
+            for primary_key_value in range(1, total_number_of_values + 1):
+                primary_key_values.append(primary_key_value)
+                print(f'Successfully initialize primary key value: {primary_key_value} from column: {column} for initialization of dimension tables')
+            
             primary_key = f'{column}_id'
-            dimension_data[i][primary_key] = key_attributes
-    
-    # Initialize the dimension data dictionary as a dataframe
+            dimension_tables[i][primary_key] = primary_key_values
+
+    # Initialize the dimension tables as a dataframe    
     for column in columns:
         if column in return_the_list_of_columns_for_facts_data():
             continue
 
-        for i in range(len(dimension_data)):
-            if column not in dimension_data[i]:
+        for i in range(len(dimension_tables)):
+            if column not in dimension_tables[i]:
                 continue
-
+            
             target_filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
-            dimension_dataframe = pd.DataFrame(dimension_data[i])
+            dimension_dataframe = pd.DataFrame(dimension_tables[i])
             dimension_dataframe.to_csv(target_filepath, index=False)
+            
+            print(f'Successfully initialize dim_{column} dimension tables')
 
-            print(f'Successfully initialize dim_{column} dimension table')
+def initialize_facts_table() -> None:
+    '''
+        Initialize Facts Table Function
+    '''
+    # TODO: Implement more functionalities here...
 
-    # Initialize the foreign key attributes and numeric attributes of facts data
-    for dataset_number in range(1, 706 + 1):
-        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
-        partitioned_dataframe = pd.read_csv(filepath)
+def revise_schema(dataframe: pd.DataFrame) -> None:
+    '''
+        Revise schema Function
+    '''
+    # Remove unnecessary columns
+    dataframe.drop(columns=['data_as_of', 'data_loaded_at'], inplace=True)
 
-        for _, row in partitioned_dataframe.iterrows():
-            for column in columns:
-                value = row.get(column)
-
-                if column in return_the_list_of_columns_for_facts_data():
-                    facts_data[column].append(value)
-                    continue
-
-                if column == 'id':
-                    foreign_key_value = value
-                    facts_data['id'].append(foreign_key_value)
-                
-                else:
-                    dimension_dataframe = pd.read_csv(f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv')
-                    foreign_key_value = get_the_foreign_key_value(dimension_dataframe, column, value)
-                    
-                    primary_key = f'{column}_id'
-                    facts_data[primary_key].append(foreign_key_value)
-
-        print(f'Successfully initialized the foreign key attributes of facts data in san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of facts data')
-    
-    # Initialize the facts data dictionary as a dataframe
-    target_filepath = 'data/processed/san_francisco_fire_incidents_data/facts_fire_incidents_data.csv'
-    facts_dataframe = pd.DataFrame(facts_data)
-    facts_dataframe.to_csv(target_filepath, index=False)
-
-    print(f'Successfully initialize facts_fire_incidents_data facts table')
-
-    # Remove partitioned dataset after data schema revision process
-    for dataset_number in range(1, 706 + 1):
-        filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
+    # Data partitioning for faster processing of initialization of dimension and facts table/s
+    for dataset_number, row_number in enumerate(range(0, 705908 + 1, 1000)):
+        dataset_number += 1
         
-        if os.path.exists(filepath):
-            os.remove(filepath)
+        target_filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
+        partitioned_dataframe = dataframe[row_number : row_number + 1000]
+        partitioned_dataframe.to_csv(target_filepath, index=False)
 
-            print(f'Successfully removed san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset after transformation phase')
+        print(f'Successfully partitioned integrated processed dataset from {row_number}-{row_number + 999} rows for data schema revision process')
+
+    # Remove the processed dataset after partitioning
+    if os.path.exists('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv'):
+        os.remove('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv')
+    
+    # Initialize the dimension tables
+    initialize_dimension_tables()
