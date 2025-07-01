@@ -113,8 +113,27 @@ def initialize_facts_table() -> None:
     '''
         Initialize Facts Table Function
     '''
-    # TODO: Implement more functionalities here...
+    columns = list(pd.read_csv('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data(1).csv').keys())
+    facts_data = {}
 
+    # Initialize the structure of the facts table
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        if column == 'id':
+            facts_data['id'] = []
+
+        else:
+            foreign_key = f'{column}_id'
+            facts_data[foreign_key] = []
+
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            facts_data[column] = []
+        
+    # TODO: Implement more functionalities here to initialize the facts table
+    
 def revise_schema(dataframe: pd.DataFrame) -> None:
     '''
         Revise schema Function
@@ -132,9 +151,12 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
 
         print(f'Successfully partitioned integrated processed dataset from {row_number}-{row_number + 999} rows for data schema revision process')
 
-    # Remove the processed dataset after partitioning
+    # Remove the integrated processed dataset after partitioning
     if os.path.exists('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv'):
         os.remove('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv')
     
     # Initialize the dimension tables
     initialize_dimension_tables()
+
+    # Initialize the facts table
+    initialize_facts_table()
