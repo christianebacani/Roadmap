@@ -24,7 +24,7 @@ def extract_ingested_data(subdirectory_path: str) -> None:
         ingested_dataframe = pd.read_csv(f'{subdirectory_path}/san_francisco_fire_incidents_data({dataset_number}).csv', encoding='cp1252')
         integrated_dataframe = pd.concat([integrated_dataframe, ingested_dataframe], ignore_index=True)
 
-        print(f'Successfully integrated san_francisco_fire_incidents_data({dataset_number})')
+        print(f'Successfully extracted san_francisco_fire_incidents_data({dataset_number})')
     
     target_filepath = f'{target_subdirectory_path}/san_francisco_fire_incidents_integrated_data.csv'
     integrated_dataframe.to_csv(target_filepath, index=False)
