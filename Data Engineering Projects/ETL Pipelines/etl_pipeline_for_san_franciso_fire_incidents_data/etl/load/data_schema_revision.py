@@ -30,110 +30,6 @@ def return_the_list_of_columns_for_facts_data() -> str:
         'number_of_sprinkler_heads_operating'
     ]
 
-def initialize_dimension_tables() -> None:
-    '''
-        Initialize Dimension Tables Function
-    '''
-    # Initialize the columns
-    columns = list(pd.read_csv('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data(1).csv').keys())
-    dimension_tables = []
-
-    # Initialize the structure of the dimension tables
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-
-        if column == 'id':
-            dimension_tables.append({
-                'id': []
-            })
-        
-        else:
-            primary_key = f'{column}_id'
-            dimension_tables.append({
-                primary_key: [],
-                column: []
-            })
-
-    # Initialize the non-key attributes of dimension tables    
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-        
-        values = []
-
-        for dataset_number in range(1, 706 + 1):
-            filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
-            partitioned_dataframe = pd.read_csv(filepath)
-
-            values.extend(list(partitioned_dataframe[column]))
-            print(f'Successfully initialize the non-key attributes of column: {column} from san_francisco_fire_incidents_data({dataset_number}).csv for initialization of dimension tables')
-
-        for i in range(len(dimension_tables)):
-            if column not in dimension_tables[i]:
-                continue
-
-            dimension_tables[i][column] = list(set(values))
-
-    # Initialize the key attributes of dimension tables    
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data() or column == 'id':
-            continue
-
-        for i in range(len(dimension_tables)):
-            if column not in dimension_tables[i]:
-                continue
-            
-            total_number_of_values = len(dimension_tables[i][column])
-            primary_key_values = []
-
-            for primary_key_value in range(1, total_number_of_values + 1):
-                primary_key_values.append(primary_key_value)
-                print(f'Successfully initialize primary key value: {primary_key_value} from column: {column} for initialization of dimension tables')
-            
-            primary_key = f'{column}_id'
-            dimension_tables[i][primary_key] = primary_key_values
-
-    # Initialize the dimension tables as a dataframe    
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-
-        for i in range(len(dimension_tables)):
-            if column not in dimension_tables[i]:
-                continue
-            
-            target_filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
-            dimension_dataframe = pd.DataFrame(dimension_tables[i])
-            dimension_dataframe.to_csv(target_filepath, index=False)
-            
-            print(f'Successfully initialize dim_{column} dimension tables')
-
-def initialize_facts_table() -> None:
-    '''
-        Initialize Facts Table Function
-    '''
-    columns = list(pd.read_csv('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data(1).csv').keys())
-    facts_data = {}
-
-    # Initialize the structure of the facts table
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            continue
-
-        if column == 'id':
-            facts_data['id'] = []
-
-        else:
-            foreign_key = f'{column}_id'
-            facts_data[foreign_key] = []
-
-    for column in columns:
-        if column in return_the_list_of_columns_for_facts_data():
-            facts_data[column] = []
-        
-    # TODO: Implement more functionalities here to initialize the facts table
-    
 def revise_schema(dataframe: pd.DataFrame) -> None:
     '''
         Revise schema Function
@@ -155,8 +51,92 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
     if os.path.exists('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv'):
         os.remove('data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_processed_data.csv')
     
-    # Initialize the dimension tables
-    initialize_dimension_tables()
+    columns = list(dataframe.keys())
+    dimension_data = []
 
-    # Initialize the facts table
-    initialize_facts_table()
+    # Initialize the structure of dimension tables
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        if column == 'id':
+            dimension_data.append({
+                'id': []
+            })
+        
+        else:
+            primary_key = f'{column}_id'
+            dimension_data.append({
+                primary_key: [],
+                column: []
+            })
+
+    # Initializing the non-key attributes of the dimension tables    
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+        
+        values = []
+
+        for dataset_number in range(1, 706 + 1):
+            filepath = f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
+            partitioned_dataframe = pd.read_csv(filepath)
+            values.extend(list(partitioned_dataframe[column]))
+
+            print(f'Successfully initialized non-key attributes of column: {column} from san_francisco_fire_incidents_data({dataset_number}).csv partitioned dataset for initialization of dimension tables')
+        
+        for i in range(len(dimension_data)):
+            if column not in dimension_data[i]:
+                continue
+
+            dimension_data[i][column] = list(set(values))
+    
+    # Initializingf the key attributes of dimension tables
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        if column == 'id':
+            continue
+
+        for i in range(len(dimension_data)):
+            if column not in dimension_data[i]:
+                continue
+
+            total_number_of_values = len(dimension_data[i][column])
+            primary_key_values = []
+
+            for primary_key_value in range(1, total_number_of_values + 1):
+                primary_key_values.append(primary_key_value)
+                print(f'Successfully initialized key attribute: {primary_key_value} from column: {column} for initialization of dimension tables')
+            
+            primary_key = f'{column}_id'
+            dimension_data[i][primary_key] = primary_key_values
+    
+    # Initialize the dimension tables as a dataframe
+    for i in range(len(dimension_data)):
+        target_filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
+        dimension_dataframe = pd.DataFrame(dimension_data[i])
+        dimension_dataframe.to_csv(target_filepath, index=False)
+
+        print(f'Successfully initialized dim_{column} dimension table')
+    
+    facts_data = {}
+
+    # Initialize the structure of facts table
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        if column == 'id':
+            facts_data['id'] = []
+        
+        else:
+            foreign_key = f'{column}_id'
+            facts_data[foreign_key] = []
+
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
+
+        facts_data[column] = []
