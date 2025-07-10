@@ -114,13 +114,20 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
             dimension_data[i][primary_key] = primary_key_values
     
     # Initialize the dimension tables as a dataframe
-    for i in range(len(dimension_data)):
-        target_filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
-        dimension_dataframe = pd.DataFrame(dimension_data[i])
-        dimension_dataframe.to_csv(target_filepath, index=False)
+    for column in columns:
+        if column in return_the_list_of_columns_for_facts_data():
+            continue
 
-        print(f'Successfully initialized dim_{column} dimension table')
-    
+        for i in range(len(dimension_data)):
+            if column not in dimension_data[i]:
+                continue
+
+            dimension_dataframe = pd.DataFrame(dimension_data[i])
+            target_filepath = f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv'
+            dimension_dataframe.to_csv(target_filepath, index=False)
+
+            print(f'Successfully initialize dim_{column} dimension table')
+
     facts_data = {}
 
     # Initialize the structure of facts table
@@ -140,3 +147,38 @@ def revise_schema(dataframe: pd.DataFrame) -> None:
             continue
 
         facts_data[column] = []
+    
+    # Initialize foreign key and numeric values of facts table
+    for dataset_number in range(1, 706 + 1):
+        partitioned_dataframe = pd.read_csv(f'data/processed/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv')
+
+        for _, row in partitioned_dataframe.iterrows():
+            for column in columns:
+                value = row.get(column)
+
+                if column in return_the_list_of_columns_for_facts_data():
+                    facts_data[column].append(value)
+                    continue
+
+                if column == 'id':
+                    facts_data['id'].append(value)
+                    continue
+
+                dimension_dataframe = pd.read_csv(f'data/processed/san_francisco_fire_incidents_data/dim_{column}.csv')
+
+                try:
+                    target_index = dimension_dataframe.index[dimension_dataframe[column] == value].tolist()[0]
+                
+                except IndexError:
+                    target_index = dimension_dataframe.index[dimension_dataframe[column] == str(value)].tolist()[0]
+                
+                primary_key = f'{column}_id'
+                foreign_key_value = dimension_dataframe.iloc[target_index][primary_key]
+                facts_data[primary_key].append(foreign_key_value)
+        
+        print(f'Successfully initialized numeric and foreign key values for initializing facts table')
+    
+    # Display the values of every column in facts table for debugging purposes
+    for column, value in facts_data.items():
+        print(f'{column}: {value}')
+        print()
