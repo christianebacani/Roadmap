@@ -55,7 +55,7 @@ def transform_staged_dataset(staged_dataframe: pd.DataFrame) -> None:
     # Remove unnecessary datasets and subdirectory path after transformation phase
     if os.path.exists('data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_integrated_data.csv'):
         os.remove('data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_integrated_data.csv')
-        print(f'Successfully remove san_francisco_fire_incidents_integrateed_data.csv after transformation phase')
+        print(f'Successfully remove san_francisco_fire_incidents_integrated_data.csv after transformation phase')
 
     for dataset_number in range(1, 706 + 1):
         filepath = f'data/stage/san_francisco_fire_incidents_data/san_francisco_fire_incidents_data({dataset_number}).csv'
