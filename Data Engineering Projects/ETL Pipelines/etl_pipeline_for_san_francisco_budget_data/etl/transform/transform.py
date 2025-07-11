@@ -4,6 +4,7 @@
 import os
 from glob import glob
 import pandas as pd
+from transform.data_imputation import impute_missing_values
 
 def transform_extracted_datasets(subdirectory_path: str) -> None:
     '''
@@ -28,3 +29,14 @@ def transform_extracted_datasets(subdirectory_path: str) -> None:
     target_filepath = f'{subdirectory_path}/san_francisco_integrated_budget_data.csv'
     integrated_dataframe.to_csv(target_filepath, index=False)
     print(f'Successfully perform data integration')
+
+    # Remove staged datasets after data integration phase
+    for dataset_number in range(1, total_number_of_datasets + 1):
+        filepath = f'data/staged/san_francisco_budget_data/san_francisco_budget_data({dataset_number}).csv'
+
+        if os.path.exists(filepath):
+            os.remove(filepath)
+            print(f'Successfully removed san_francisco_budget_data({dataset_number}).csv staged dataset')
+
+    # Perform data imputation phase
+    impute_missing_values(pd.read_csv(f'{subdirectory_path}/san_francisco_integrated_budget_data.csv'))    
