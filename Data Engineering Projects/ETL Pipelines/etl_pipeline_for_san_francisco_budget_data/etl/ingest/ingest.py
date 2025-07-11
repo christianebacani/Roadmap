@@ -14,6 +14,7 @@ def ingest_raw_data(api_endpoint: str, total_rows: int) -> None:
     if not os.path.exists(target_subdirectory_path):
         os.makedirs(target_subdirectory_path)
     
+    # Perform data ingestion process
     for dataset_number, offset in enumerate(range(0, total_rows + 1, 1000)):
         dataset_number += 1
         target_filepath = f'{target_subdirectory_path}/san_francisco_budget_data({dataset_number}).csv'
