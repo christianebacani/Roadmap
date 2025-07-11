@@ -10,7 +10,7 @@ def extract_ingested_datasets(subdirectory_path: str) -> None:
         Extract Function
     '''
     # Create the target subdirectory path if it's not existed before data ingestion phase
-    target_subdirectory_path = 'data/stage/san_francisco_budget_data'
+    target_subdirectory_path = 'data/staged/san_francisco_budget_data'
 
     if not os.path.exists(target_subdirectory_path):
         os.makedirs(target_subdirectory_path)
@@ -26,3 +26,14 @@ def extract_ingested_datasets(subdirectory_path: str) -> None:
         ingested_dataframe.to_csv(target_filepath, index=False)
         
         print(f'Successfully extracted san_francisco_fire_incidents_data({dataset_number}).csv ingested dataset')
+    
+    # Remove ingested datasets and subdirectory path after extraction process
+    for dataset_number in range(1, total_number_of_datasets + 1):
+        filepath = f'{subdirectory_path}/san_francisco_budget_data({dataset_number}).csv'
+        
+        if os.path.exists(filepath):
+            os.remove(filepath)
+            print(f'Successfully removed san_francisco_budget_data({dataset_number}).csv ingested dataset')
+    
+    if os.path.exists(subdirectory_path):
+        os.rmdir(subdirectory_path)
