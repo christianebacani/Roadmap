@@ -2,8 +2,8 @@
     Extract Module
 '''
 import os
-from glob import glob
 import pandas as pd
+from glob import glob
 
 def extract_ingested_datasets(subdirectory_path: str) -> None:
     '''
