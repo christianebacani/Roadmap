@@ -35,4 +35,3 @@ def transform_extracted_datasets(subdirectory_path: str) -> None:
     integrated_dataframe = impute_missing_values(pd.read_csv(f'{subdirectory_path}/san_francisco_integrated_budget_data.csv', low_memory=False))
     integrated_dataframe.to_csv(target_filepath, index=False)
     print(f'Successfully perform data imputation')
-
