@@ -23,7 +23,7 @@ def ingest_raw_data(api_endpoint: str, total_rows: int) -> None:
         dataset_number += 1
         target_filepath = f'{target_subdirectory_path}/san_francisco_budget_data({dataset_number}).csv'
 
-        response = requests.get(url=f'{api_endpoint}?$limit=1000&$offset={offset}', timeout=250)
+        response = requests.get(url=f'{api_endpoint}?$limit=1000&$offset={offset}', timeout=500)
 
         with open(target_filepath, 'w', encoding='utf-8') as f:
             f.write(response.text)
