@@ -3,6 +3,7 @@
 '''
 import os
 import requests
+from glob import glob
 
 def ingest_raw_data(api_endpoint: str, total_rows: int) -> None:
     '''
@@ -14,6 +15,9 @@ def ingest_raw_data(api_endpoint: str, total_rows: int) -> None:
     if not os.path.exists(target_subdirectory_path):
         os.makedirs(target_subdirectory_path)
     
+    if len(glob(f'{target_subdirectory_path}/*.csv')) > 0:
+        return
+
     # Perform data ingestion process
     for dataset_number, offset in enumerate(range(0, total_rows + 1, 1000)):
         dataset_number += 1
