@@ -4,7 +4,7 @@
 import pandas as pd
 from datetime import datetime
 
-def impute_missing_values(integrated_dataframe: pd.DataFrame) -> pd.DataFrame:
+def impute_missing_values(integrated_dataframe: pd.DataFrame) -> None:
     '''
         Data Imputation Function
     '''
@@ -92,4 +92,6 @@ def impute_missing_values(integrated_dataframe: pd.DataFrame) -> pd.DataFrame:
         imputed_value = column_and_imputed_value[column]
         integrated_dataframe[column] = integrated_dataframe[column].fillna(imputed_value)
 
-    return integrated_dataframe
+    target_filepath = f'data/staged/san_francisco_budget_data/san_francisco_integrated_budget_data.csv'
+    integrated_dataframe.to_csv(target_filepath, index=False)
+    print(f'Successfully perform data imputation')
