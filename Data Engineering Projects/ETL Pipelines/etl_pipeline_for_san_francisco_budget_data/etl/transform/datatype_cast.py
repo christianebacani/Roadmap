@@ -24,7 +24,33 @@ def cast_datatype() -> None:
             data[column] = []
 
         for _, row in partitioned_dataframe.iterrows():
-            # TODO: Implement more functionalities here...
+            for column in columns:
+                value = row.get(column)
+
+                if str(value).lower() == 'nan':
+                    data[column].append(pd.NA)
+                    continue
+
+                try:
+                    value = datetime.strptime(str(value), '%Y-%m-%dT%H:%M:%S.%f')
+                    data[column].append(value)
+                    continue
+
+                except ValueError:
+                    pass
+
+                if str(value).isdigit():
+                    value = int(value)
+                    data[column].append(value)
+                    continue
+
+                try:
+                    value = float(value)
+                    data[column].append(value)
+                
+                except ValueError:
+                    value = str(value)
+                    data[column].append(value)
 
         target_filepath = filepath
         datatype_casted_dataframe = pd.DataFrame(data)
