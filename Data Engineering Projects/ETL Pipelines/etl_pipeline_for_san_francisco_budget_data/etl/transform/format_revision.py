@@ -33,7 +33,7 @@ def revise_dataset_format() -> None:
                     data[column].append(pd.NA)
                     continue
 
-                if column not in ['department', 'object']:
+                if column not in ['department', 'object', 'sub_object']:
                     data[column].append(value)
                     continue
 
