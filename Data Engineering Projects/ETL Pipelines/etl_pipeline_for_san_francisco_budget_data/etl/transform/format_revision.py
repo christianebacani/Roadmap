@@ -32,12 +32,11 @@ def revise_dataset_format() -> None:
                 if str(value).lower() == 'nan':
                     data[column].append(pd.NA)
                     continue
-                
-                # TODO: Check if the values of the 'object' column was already standardized before to proceed to revise other columns from their format
-                if column not in ['department', 'object']:
+
+                if column not in ['department', 'object', 'sub_object', 'fund']:
                     data[column].append(value)
                     continue
-                
+
                 try:
                     value = sf_budget_datasets_formatted_values[str(value)][0]
                     data[column].append(value)
@@ -50,5 +49,5 @@ def revise_dataset_format() -> None:
         formatted_dataframe.to_csv(target_filepath, index=False)
 
         print(f'Successfully perform format revisioning to san_francisco_budget_data({dataset_number}).csv dataset')
-    
+
     print(f'Successfully perform format revisioning')
