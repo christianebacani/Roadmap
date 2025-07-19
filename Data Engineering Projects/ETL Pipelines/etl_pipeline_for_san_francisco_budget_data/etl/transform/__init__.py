@@ -5,3 +5,4 @@ from . import data_imputation
 from . import data_partition
 from . import datatype_cast
 from . import format_revision
+from . import data_deduplication
