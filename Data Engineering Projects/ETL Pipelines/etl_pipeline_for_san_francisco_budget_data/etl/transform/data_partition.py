@@ -18,5 +18,5 @@ def partition(integrated_dataframe: pd.DataFrame) -> None:
         partitioned_dataframe.to_csv(target_filepath, index=False)
 
         print(f'Successfully partitioned {row_number}-{row_number + 999} rows of data from san_francisco_integrated_budget_data.csv')
-    
+
     print(f'Successfully perform data partitioning')
