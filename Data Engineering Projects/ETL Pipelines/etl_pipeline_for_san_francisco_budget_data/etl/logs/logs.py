@@ -42,5 +42,5 @@ if __name__ == '__main__':
     
     # Loading Phase
     log_progress('Initiating Loading Phase')
-    revise_schema(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_integrated_budget_data.csv'))
+    revise_schema(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_integrated_budget_data.csv', low_memory=False))
     log_progress('Loading Phase Ended')
