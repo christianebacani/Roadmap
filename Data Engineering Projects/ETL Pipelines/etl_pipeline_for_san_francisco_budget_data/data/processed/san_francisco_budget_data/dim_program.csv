@@ -1,0 +1,362 @@
+program_id,program
+1,Capital
+2,Operating
+3,Special Events
+4,Maintenance
+5,Disaster Recovery
+6,Administrative
+7,Capital-CPC Funded
+8,Technology
+9,Maintenance-CPC Funded
+10,Technology-COIT Funded
+11,Unspecified
+12,Health At Home
+13,Laguna Honda - Long Term Care
+14,Laguna Honda Hosp - Acute Care
+15,Central Administration
+16,Children's Baseline
+17,Comm Hlth - Comm Support - Housing
+18,Comm Hlth - Prev - Maternal & Child Hlth
+19,Comm Hlth - Prevention - Aids
+20,Comm Hlth - Prevention - Disease Control
+21,Comm Hlth - Prevention - Hlth Education
+22,Emergency Services Agency
+23,Environmental Health Services
+24,Forensics - Ambulatory Care
+25,General Fund
+26,Occupational Safety & Health
+27,Primary Care - Ambu Care - Health Cntrs
+28,SFGH - Acute Care - Hospital
+29,Substance Abuse - Community Care
+30,Academy Of Sciences
+31,Art Commission-Administration
+32,Civic Collection
+33,Community Arts & Education
+34,Cultural Equity
+35,Gallery
+36,Public Art
+37,Street Artists
+38,Asian Arts Museum
+39,Admissions
+40,Oper & Maint Of Museums
+41,Adult Services
+42,Collection Technical Services
+43,Facilites
+44,Library Administration
+45,Main Program
+46,No Program Defined
+47,Capital Projects
+48,Children's Svcs - Non - Children's Fund
+49,SFGH - Ambu Care - Occupational Health
+50,SFGH - Long Term Care - Rf Psychiatry
+51,Mental Health - Children's Program
+52,Mental Health - Community Care
+53,Rec & Park Administration
+54,Structural Maintenance
+55,Turf Management
+56,Zoo Operations
+57,Operations & Maintenance
+58,Recorder
+59,Clerk Of The Board
+60,Legal Service
+61,Citywide Planning
+62,Current Planning
+63,Environmental Planning
+64,Citywide Facilities
+65,Citywide Services
+66,Development & Planning
+67,Golden Gate Park
+68,Marina Yacht Harbor
+69,Neighborhood Services
+70,Accounting Operations
+71,City Services Auditor
+72,"Management, Budget And Analysis"
+73,Payroll And Personnel Services
+74,Public Finance
+75,Elections
+76,Ethics Commission
+77,311 Call Center
+78,Facilities Mgmt & Operations
+79,Fleet Management
+80,Procurement Services
+81,Real Estate Services
+82,Grants For The Arts
+83,Living Wage / Living Health (Mco/Hcao)
+84,Medical Examiner
+85,Neighborhood Beautification
+86,Animal Welfare
+87,City Administrator - Administration
+88,County Clerk Services
+89,Disability Access
+90,Entertainment Commission
+91,Civil Service Commission
+92,Governance And Outreach
+93,Operations
+94,Reproduction Services
+95,Technology Services:Public Safety
+96,Health Service System
+97,Administration
+98,Risk Management / General
+99,Tourism Events
+100,Treasure Island
+101,Vehicle & Equipment Main & Fueling
+102,Employee Relations
+103,Equal Employment Opportunity
+104,Management Information System
+105,Recruit/ Assess/ Client Services
+106,Workers Compensation
+107,Workforce Development
+108,Affordable Housing
+109,City Administration
+110,Community Investment
+111,Criminal Justice
+112,Homeless Services
+113,Employee Deferred Comp Plan
+114,Business Tax Fund
+115,Delinquent Revenue
+116,General Fund Unallocated
+117,Child Support Services Program
+118,Children and Families Fund
+119,General City Responsibilities
+120,Public Education Fund ( Prop H )
+121,Violence Prevention
+122,Domestic Violence
+123,Clean Air
+124,Climate Change/Energy
+125,Public Ed Fund - Prop H ( March 2004 )
+126,Children's Fund Programs
+127,Investment
+128,Management
+129,Property Tax/Licensing
+130,Taxpayer Assistance
+131,Treasury
+132,Toxics
+133,Urban Forestry
+134,Human Rights Commission
+135,Administrative Support
+136,County Adult Assistance Program
+137,Family And Children's Service
+138,Refugee Resettlement Program
+139,Rent Board
+140,Community Services
+141,Emergency Communications
+142,Environment
+143,Environment-Outreach
+144,Environmental Justice / Youth Employment
+145,Green Building
+146,Recycling
+147,Solid Waste Management
+148,Investigations
+149,Office Of Citizen Complaints
+150,Operations And Administration
+151,Patrol
+152,Work Order Services
+153,Grant Services
+154,Court Security And Process
+155,Custody
+156,Facilities & Equipment
+157,Security Services
+158,Sheriff Administration
+159,Sheriff Field Services
+160,Sheriff Programs
+161,Sheriff Recruitment & Training
+162,Court House Construction
+163,Dispute Resolution Program
+164,"Administration, Business"
+165,Business & Finance
+166,Capital Projects And Grants
+167,Departmental Fund Transfer
+168,Emergency Management - Emsa
+169,Emergency Services
+170,Felony Prosecution
+171,Work Orders & Grants
+172,Administration & Support Services
+173,Fire Airport
+174,Fire General
+175,Fire Port Fireboat
+176,Fire Suppression
+177,Prevention & Investigation
+178,Training
+179,Juvenile Hall
+180,Probation Services
+181,Airport Police
+182,Police Airport Bureau Non-Personnel Cost
+183,Appeals Processing
+184,Administration/Support Services
+185,Inspection Services
+186,Economic Development
+187,Film Services
+188,Workforce Training
+189,Architecture
+190,Building Repair And Maintenance
+191,City Capital Projects
+192,Construction Management Services
+193,Engineering
+194,General Administration
+195,Street And Sewer Repair
+196,Street Environmental Services
+197,Plan Review Services
+198,Parking Garages & Lots
+199,Rail & Bus Services
+200,"Revenue, Transfers & Reserves"
+201,Taxi Services
+202,Hetch Hetchy Capital Projects
+203,Hetchy Water Operations
+204,Power Purchasing/ Scheduling
+205,Power Utility Services
+206,Water Supply & Power Operations
+207,Street Use Management
+208,Agency Wide Expenses
+209,Parking & Traffic
+210,Water Capital Projects
+211,Water Distribution
+212,Water Source Of Supply
+213,Water Transmission/ Distribution
+214,Water Treatment
+215,Engineering & Environmental
+216,Maritime Operations & Marketing
+217,Planning & Development
+218,Real Estate & Management
+219,Retirement Services
+220,Trial Court Services
+221,General Management
+222,Wastewater Operations
+223,Wastewater Treatment
+224,Laguna Honda Hosp - Comm Support Care
+225,Mental Health - Acute Care
+226,Capital Asset Planning
+227,Public Policy & Finance
+228,Immigrant And Language Services
+229,Local Agency Formation
+230,Claims
+231,Economic Analysis
+232,Legal Service-Paying Depts
+233,Administration/Planning
+234,Election Campaign Fund
+235,SFGH - Acute Care - Psychiatry
+236,SFGH - Ambu Care - Adult Med Hlth Cntr
+237,Municipal Symphony Concerts
+238,Law Library
+239,Personal Property
+240,Branch Program
+241,Real Property
+242,Technical Services
+243,Board Of Supervisor
+244,Children's Services
+245,Transfer Tax
+246,Community Partnerships And Programming
+247,Board - Legislative Analysis
+248,SFGH - Ambu Care - Methadone Clinic
+249,Mental Health - Long Term Care
+250,SFGH - Emergency - Emergency
+251,SFGH - Emergency - Psychiatric Services
+252,Information Technology
+253,SFGH - Acute Care - Forensics
+254,Chief Operating Officer
+255,Communications & Marketing
+256,"Continuing Projects, Maint And Renewal"
+257,Facilities
+258,Fire Airport Bureau Non-Personnel Cost
+259,Operations And Security
+260,Criminal And Special Defense
+261,Planning Division
+262,False Alarm Prevention
+263,Outdoor Public Warning System
+264,Administration - Criminal & Civil
+265,District Attorney Child Support Services
+266,Indigent Defense/Grand Jury
+267,Career Criminal Prosecution
+268,Child Abduction
+269,Family Violence Program
+270,Airport Director
+271,Juvenile Hall Replacement Debt Payment
+272,Log Cabin Ranch
+273,Misdemeanor Prosecution
+274,Support Services
+275,Bureau Of Design And Construction
+276,Food Stamps
+277,Commission On Status Of Women
+278,Medi-Cal
+279,Administration - Adult Probation
+280,County Education Services
+281,Pre - Sentencing Investigation
+282,Calworks
+283,Power Infrastructure Development
+284,Finance
+285,Management Information
+286,Strategic Planning/Compliance
+287,Human Resources
+288,"Security, Safety, Training & Enforcement"
+289,Wastewater Collection
+290,Power Utility Field Services
+291,Customer Services
+292,Office Of Small Business
+293,Accessible Services
+294,Customer Service
+295,Development And Planning
+296,Capital Programs & Construction
+297,Debt Service
+298,Non-Grant Construction Projects
+299,Parks
+300,Recreation
+301,DSS Childcare
+302,Diversion And Community Integration Prog
+303,Moscone Expansion Project
+304,In Home Supportive Services
+305,Office On Aging
+306,Welfare to Work
+307,Marina Harbor
+308,Class And Compensation
+309,Integrated Intake
+310,Adult Protective Services
+311,Public Administrator
+312,Public Conservator
+313,Public Guardian
+314,Representative Payee
+315,County Veterans Services
+316,Operating Reserve
+317,Wastewater Capital Projects
+318,Housing Inspection/Code Enforcement Svcs
+319,Retiree Health Care -  Prop B
+320,Hetch Hetchy Project Operations
+321,Zoning Administration And Compliance
+322,Justis Project - City Adm Office
+323,Civic Design
+324,Community Arts & Education-General Admin
+325,Educational Programs
+326,Community Redevelopment
+327,Contract Monitoring
+328,Realignment Services-Post Release Comm.
+329,Community Ambassador Program
+330,Earthquake Safety Program
+331,One Stop Re Entry Services
+332,Financial Systems Project
+333,Gross Receipts Tax
+334,Office Of Strategic Partnerships
+335,Transitions
+336,Sfhn-Managed Care
+337,Committee On Information Technology
+338,Laguna Honda - Non Lhh Program Expenses
+339,Superior Court
+340,Joint Development
+341,Sf Benefits Net
+342,Bio-Diversity
+343,Community Investments
+344,Hiv Health Services
+345,Transitional-Aged Youth Baseline
+346,Mta Development Impact Fee
+347,Pop Growth Gf Alloc Capital Projects
+348,Office Of Short-Term Rentals
+349,Finance And Administration
+350,Outreach & Prevention
+351,Shelter & Housing
+352,Clean Powersf
+353,Transactions
+354,Digital Services Program
+355,Exemptions
+356,Public Service
+357,Administration & Management
+358,Hetch Hetchy Power
+359,Info Systems Ops - Financial & Procuremt
+360,Cannabis Oversight
+361,CHF-Administration
