@@ -37,7 +37,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
     total_number_of_datasets = len(glob(f'data/processed/san_francisco_budget_data/*.csv'))
     columns = list(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_budget_data(1).csv').keys())
 
-    # Initialize the structure of the dimension data
+    # Initialize the structure of all dimension datasets
     dimension_data = []
 
     for column in columns:
@@ -50,7 +50,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             column: []
         })
     
-    # Initialize the non-key attributes of all dimension data
+    # Initialize the non-key attributes of all dimension datasets
     for column in columns:
         if column == 'budget':
             continue
@@ -65,10 +65,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
         distinct_values = []
 
         for i in range(len(values)):
-            if str(values[i]).lower() == 'nan':
-                continue
-
-            if values[i] in distinct_values:
+            if values[i] in distinct_values or str(values[i]).lower() == 'nan':
                 continue
 
             distinct_values.append(values[i])
@@ -81,9 +78,9 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
 
             dimension_data[i][column] = values
 
-        print(f'Successfully initializes non-key attributes of dim_{column} dimension data')
+        print(f'Successfully initializes non-key attributes of dim_{column} dimension dataset')
     
-    # Initialize the key attributes of all dimension data
+    # Initialize the key attributes of all dimension datasets
     for column in columns:
         if column == 'budget':
             continue
@@ -91,7 +88,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
         for i in range(len(dimension_data)):
             if column not in dimension_data[i]:
                 continue
-            
+
             primary_key_values = []
             total_number_of_values = len(dimension_data[i][column])
 
@@ -101,9 +98,9 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             primary_key = f'{column}_id'
             dimension_data[i][primary_key] = primary_key_values
         
-        print(f'Successfully initializes key attributes of dim_{column} dimension data')
+        print(f'Successfully initializes key attributes of dim_{column} dimension dataset')
     
-    # Initialize all dimension data as a dataframe  
+    # Initialize all dimension datasets as a dataframe  
     for column in columns:
         if column == 'budget':
             continue
@@ -116,9 +113,9 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             dimension_dataframe = pd.DataFrame(dimension_data[i])
             dimension_dataframe.to_csv(target_filepath, index=False)
 
-            print(f'Successfully initialize dim_{column} dimension data as a dataframe')
+            print(f'Successfully initialize dim_{column} dimension dataset as a dataframe')
 
-    # Initialize the structure of facts data    
+    # Initialize the structure of facts dataset
     facts_data = {}
 
     for column in columns:
@@ -133,10 +130,60 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             facts_data['budget'] = []
             break
     
-    column_and_dimension_df = {}
+    # Initialize a dictionary that consist of key which is the dimension table name and the value was the corresponding dimension 
+    # table for faster initialization of facts data by referencing the primary keys of dimension table as a foreign key to the facts dataset
+    table_name_and_dim_dataset = {}
 
     for column in columns:
         if column == 'budget':
             continue
 
-        # TODO: Initialize the dimension column as a key and the corresponding dimension dataframe as a value for the dictionary 'column_and_dimension_df'
+        filepath = f'data/processed/san_francisco_budget_data/dim_{column}.csv'
+        dimension_dataframe = pd.read_csv(filepath)
+
+        table_name = f'dim_{column}'
+        table_name_and_dim_dataset[table_name] = dimension_dataframe
+
+    # Initialize foreign key and numeric attributes of facts dataset
+    for dataset_number in range(1, total_number_of_datasets + 1):
+        filepath = f'data/processed/san_francisco_budget_data/san_francisco_budget_data({dataset_number}).csv'
+        partitioned_dataframe = pd.read_csv(filepath)
+
+        for _, row in partitioned_dataframe.iterrows():
+            for column in columns:
+                value = row.get(column)
+
+                if column == 'budget':
+                    facts_data['budget'].append(value)
+                    continue
+
+                # Get the dimension dataframe by referencing it from the dictionary 'table_name_and_dim_dataset' for faster processing time
+                # instead of reading and parsing it as dataframe from the 'processed' directory path every single time
+                table_name = f'dim_{column}'
+                dimension_dataframe = table_name_and_dim_dataset[table_name]
+
+                try:
+                    target_index = dimension_dataframe.index[dimension_dataframe[column] == value].to_list()[0]
+
+                    primary_key = f'{column}_id'
+                    foreign_key_value = dimension_dataframe.iloc[target_index][primary_key]
+
+                    foreign_key = primary_key
+                    facts_data[foreign_key].append(foreign_key_value)
+
+                except IndexError:
+                    foreign_key = f'{column}_id'
+                    facts_data[foreign_key].append(pd.NA)
+
+        print(f'Successfully initialize foreign key and numeric attributes of facts_sf_budget_data facts dataset from san_francisco_budget_data(1).csv partitioned dataset')
+
+    # Display the contents of the initialized facts dataset
+    # NOTE: For debugging purposes only
+    print(f'\nFacts dataset:\n')
+
+    for key, value in facts_data.items():
+        print(f'{key}:')
+        print(value)
+        print()
+
+    # TODO: Implement a functionality to initialize facts dataset as a dataframe and remove the unnecessary datasets after data schema revisioning phase
