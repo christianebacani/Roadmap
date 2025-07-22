@@ -28,9 +28,14 @@ def revise_dataset_format() -> None:
         for _, row in partitioned_dataframe.iterrows():
             for column in columns:
                 value = row.get(column)
-                
+
                 if str(value).lower() == 'nan':
                     data[column].append(pd.NA)
+                    continue
+                
+                if column == 'budget':
+                    value = round(value, 2)
+                    data[column].append(value)
                     continue
 
                 if column not in ['department', 'object', 'sub_object', 'fund']:
