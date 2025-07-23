@@ -18,21 +18,51 @@ def init_snowflake_connection():
     )
     return conn
 
-def load_datasets_to_snowflake(subdirectory_path: str) -> None:
+def create_database_objects(conn):
     '''
-        Load function to load datasets
-        to Snowflake Databases
+        Create function to create
+        necessary database objects
     '''
-    # Initialize a connection to Snowflake
+    # Establish a snowflake connection and use connection cursor
     conn = init_snowflake_connection()
     cursor = conn.cursor()
 
-    # Initialize a dictionary that consist of data types of every column for every table (facts and/or dimension data)
-    column_data_types = {
+    # Initialize a dictionary for necessary column constraints of column datatypes for object creation
+    column_datatypes = {
         'object': 'VARCHAR(255)',
         'int64': 'INTEGER',
         'float64': 'NUMBER(11, 2)'
     }
 
+    # Initialize a dictionary to store the table name and their corresponding columns and data types
+    table_name_with_list_of_columns_and_datatypes = {}
+
+    for csv_file in glob(f'data/processed/san_francisco_budget_data/*.csv'):
+        base_filename = str(csv_file).replace('data/processed/san_francisco_budget_data\\', '')
+        table_name = str(base_filename).replace('.csv', '')
+
+        dataframe = pd.read_csv(csv_file)
+        list_of_columns = list(dataframe.columns)
+
+        list_of_columns_and_datatypes = []
+
+        for column in list_of_columns:
+            if 'id' in column:
+                list_of_columns_and_datatypes.append(f'{column} INTEGER')
+                continue
+            
+            datatype = str(dataframe[column].dtype)
+            list_of_columns_and_datatypes.append(f'{column} {column_datatypes[datatype]}')
+
+        table_name_with_list_of_columns_and_datatypes[table_name] = list_of_columns_and_datatypes
+
+    # TODO: Add functionality to initialize the primary keys, foreign keys, and establish a query for transaction for database object creation
+
     # Close the established snowflake connection
-    cursor.close()
+    conn.close()
+
+def load_datasets_to_snowflake(subdirectory_path: str) -> None:
+    '''
+        Load function to load datasets
+        to Snowflake Databases
+    '''
