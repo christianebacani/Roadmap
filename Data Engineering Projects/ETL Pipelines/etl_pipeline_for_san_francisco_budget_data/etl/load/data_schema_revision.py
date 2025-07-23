@@ -175,15 +175,18 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
                     foreign_key = f'{column}_id'
                     facts_data[foreign_key].append(pd.NA)
 
-        print(f'Successfully initialize foreign key and numeric attributes of facts_sf_budget_data facts dataset from san_francisco_budget_data(1).csv partitioned dataset')
+        print(f'Successfully initialize foreign key and numeric attributes of facts_sf_budget_data facts dataset from san_francisco_budget_data({dataset_number}).csv partitioned dataset')
+    
+    # Initialize facts dataset as a dataframe
+    target_filepath = f'data/processed/san_francisco_budget_data/facts_sf_budget_data.csv'
+    facts_dataframe = pd.DataFrame(facts_data)
+    facts_dataframe.to_csv(target_filepath, index=False)
+    print(f'Successfully initialize facts_sf_budget_data facts dataset as a dataframe')
 
-    # Display the contents of the initialized facts dataset
-    # NOTE: For debugging purposes only
-    print(f'\nFacts dataset:\n')
+    # Remove unnecessary datasets after successfully performing data schema revisioning phase
+    for dataset_number in range(1, total_number_of_datasets + 1):
+        filepath = f'data/processed/san_francisco_budget_data/san_francisco_budget_data({dataset_number}).csv'
 
-    for key, value in facts_data.items():
-        print(f'{key}:')
-        print(value)
-        print()
-
-    # TODO: Implement a functionality to initialize facts dataset as a dataframe and remove the unnecessary datasets after data schema revisioning phase
+        if os.path.exists(filepath):
+            os.remove(filepath)
+            print(f'Successfully removed san_francisco_budget_data({dataset_number}).csv')
