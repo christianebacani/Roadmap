@@ -10,6 +10,7 @@ from ingest.ingest import ingest_raw_data
 from extract.extract import extract_ingested_datasets
 from transform.transform import transform_extracted_datasets
 from load.data_schema_revision import revise_schema
+from load.load_datasets import load_datasets_to_snowflake
 
 def log_progress(message: str) -> None:
     '''
@@ -43,4 +44,5 @@ if __name__ == '__main__':
     # Loading Phase
     log_progress('Initiating Loading Phase')
     revise_schema(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_integrated_budget_data.csv', low_memory=False))
+    load_datasets_to_snowflake('data/processed/san_francisco_budget_data')    
     log_progress('Loading Phase Ended')
