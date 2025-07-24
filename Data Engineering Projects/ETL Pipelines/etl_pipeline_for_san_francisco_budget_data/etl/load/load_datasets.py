@@ -106,9 +106,17 @@ def create_database_objects():
         print(ddl)
         print()
 
-    # TODO: Implement a functionality to create the necessary database objects using the initialized DDLs
+    # Create the necessary database objects using snowflake cursor
+    for table_name, ddl in table_name_and_ddl.items():
+        try:
+            cursor.execute(f"""CREATE OR REPLACE TABLE {table_name}{ddl};""")
+            print(f'Successfully created table: {table_name}')
 
-    # Close the established snowflake connection
+        except Exception as error_message:
+            print(f'Error creating table: {table_name}, error message: {error_message}')
+
+    # Close the established snowflake connection and cursor    
+    cursor.close()
     conn.close()
 
 def load_datasets_to_snowflake(subdirectory_path: str) -> None:
