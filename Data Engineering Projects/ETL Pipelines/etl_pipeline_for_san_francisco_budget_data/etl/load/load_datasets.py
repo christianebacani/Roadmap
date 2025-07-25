@@ -3,6 +3,7 @@
 '''
 import pandas as pd
 import snowflake.connector
+from snowflake.connector.pandas_tools import write_pandas
 from glob import glob
 
 def init_snowflake_connection():
@@ -13,18 +14,19 @@ def init_snowflake_connection():
     conn = snowflake.connector.connect(
         user='<SNOWFLAKE_USERNAME>',
         password='<SNOWFLAKE_PASSWORD>',
-        account='<SNOWFLAKE_ACCOUNT_IDENTIFIER>',
-        database='san_francisco_budget_db'
+        account='<SNOWFLAKE_ACCOUNT_IDENTIFIER_>',
+        warehouse='san_francisco_budget_data_warehouse',
+        database='san_francisco_budget_data',
+        schema='san_francisco_budget_data_star_schema'
     )
     return conn
 
-def create_database_objects():
+def create_database_objects(conn):
     '''
         Create function to create
         necessary database objects
     '''
-    # Establish a snowflake connection and use connection cursor
-    conn = init_snowflake_connection()
+    # Initialize a snowflake connection cursor
     cursor = conn.cursor()
 
     # Initialize a dictionary for necessary column constraints of column datatypes for object creation
@@ -93,23 +95,17 @@ def create_database_objects():
         list_of_columns_and_datatypes.extend(list_of_foreign_keys)
 
     table_name_with_columns_metadata = table_name_with_list_of_columns_and_datatypes
-    table_name_and_ddl = {}
+    table_name_and_ddl_command = {}
 
-    # Finalizing the DDL for creating the necessary database objects
+    # Finalizing the DDL commands for creating the necessary database objects
     for table_name, columns_metadata in table_name_with_columns_metadata.items():
-        columns_metadata = '(' + ', '.join(columns_metadata) + ')'
-        table_name_and_ddl[table_name] = columns_metadata
-
-    # Display the table name and DDL for debugging purposes only    
-    for table_name, ddl in table_name_and_ddl.items():
-        print(f'{table_name}')
-        print(ddl)
-        print()
+        ddl_command = '(' + ', '.join(columns_metadata) + ')'
+        table_name_and_ddl_command[table_name] = ddl_command
 
     # Create the necessary database objects using snowflake cursor
-    for table_name, ddl in table_name_and_ddl.items():
+    for table_name, ddl_command in table_name_and_ddl_command.items():
         try:
-            cursor.execute(f"""CREATE OR REPLACE TABLE {table_name}{ddl};""")
+            cursor.execute(f"""CREATE OR REPLACE TABLE {table_name}{ddl_command};""")
             print(f'Successfully created table: {table_name}')
 
         except Exception as error_message:
@@ -117,12 +113,11 @@ def create_database_objects():
 
     # Close the established snowflake connection and cursor    
     cursor.close()
-    conn.close()
 
 def load_datasets_to_snowflake(subdirectory_path: str) -> None:
     '''
         Load function to load datasets
         to Snowflake Databases
     '''
-    # Create database objects if necessary
-    create_database_objects()
+    # Create the necessary database objects using snowflake connection as a parameter
+    create_database_objects(init_snowflake_connection())
