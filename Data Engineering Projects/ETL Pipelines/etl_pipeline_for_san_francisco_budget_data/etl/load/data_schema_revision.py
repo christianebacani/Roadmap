@@ -190,3 +190,5 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
         if os.path.exists(filepath):
             os.remove(filepath)
             print(f'Successfully removed san_francisco_budget_data({dataset_number}).csv')
+    
+    print(f'Successfully perform data schema revisioning')
