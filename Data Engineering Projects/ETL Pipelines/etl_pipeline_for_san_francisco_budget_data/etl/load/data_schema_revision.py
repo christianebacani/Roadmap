@@ -78,7 +78,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
 
             dimension_data[i][column] = values
 
-        print(f'Successfully initializes non-key attributes of dim_{column} dimension dataset')
+        print(f'Successfully initializes non-key attributes of dim_{column}s dimension dataset')
     
     # Initialize the key attributes of all dimension datasets
     for column in columns:
@@ -98,7 +98,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             primary_key = f'{column}_id'
             dimension_data[i][primary_key] = primary_key_values
         
-        print(f'Successfully initializes key attributes of dim_{column} dimension dataset')
+        print(f'Successfully initializes key attributes of dim_{column}s dimension dataset')
     
     # Initialize all dimension datasets as a dataframe  
     for column in columns:
@@ -109,11 +109,11 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
             if column not in dimension_data[i]:
                 continue
 
-            target_filepath = f'data/processed/san_francisco_budget_data/dim_{column}.csv'
+            target_filepath = f'data/processed/san_francisco_budget_data/dim_{column}s.csv'
             dimension_dataframe = pd.DataFrame(dimension_data[i])
             dimension_dataframe.to_csv(target_filepath, index=False)
 
-            print(f'Successfully initialize dim_{column} dimension dataset as a dataframe')
+            print(f'Successfully initialize dim_{column}s dimension dataset as a dataframe')
 
     # Initialize the structure of facts dataset
     facts_data = {}
@@ -138,10 +138,10 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
         if column == 'budget':
             continue
 
-        filepath = f'data/processed/san_francisco_budget_data/dim_{column}.csv'
+        filepath = f'data/processed/san_francisco_budget_data/dim_{column}s.csv'
         dimension_dataframe = pd.read_csv(filepath)
 
-        table_name = f'dim_{column}'
+        table_name = f'dim_{column}s'
         table_name_and_dim_dataset[table_name] = dimension_dataframe
 
     # Initialize foreign key and numeric attributes of facts dataset
@@ -159,7 +159,7 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
 
                 # Get the dimension dataframe by referencing it from the dictionary 'table_name_and_dim_dataset' for faster processing time
                 # instead of reading and parsing it as dataframe from the 'processed' directory path every single time
-                table_name = f'dim_{column}'
+                table_name = f'dim_{column}s'
                 dimension_dataframe = table_name_and_dim_dataset[table_name]
 
                 try:
@@ -175,13 +175,13 @@ def revise_schema(transformed_dataframe: pd.DataFrame) -> None:
                     foreign_key = f'{column}_id'
                     facts_data[foreign_key].append(pd.NA)
 
-        print(f'Successfully initialize foreign key and numeric attributes of facts_sf_budget_data facts dataset from san_francisco_budget_data({dataset_number}).csv partitioned dataset')
+        print(f'Successfully initialize foreign key and numeric attributes of facts_san_francisco_budgets dataset from san_francisco_budget_data({dataset_number}).csv partitioned dataset')
     
     # Initialize facts dataset as a dataframe
-    target_filepath = f'data/processed/san_francisco_budget_data/facts_sf_budget_data.csv'
+    target_filepath = f'data/processed/san_francisco_budget_data/facts_san_francisco_budgets.csv'
     facts_dataframe = pd.DataFrame(facts_data)
     facts_dataframe.to_csv(target_filepath, index=False)
-    print(f'Successfully initialize facts_sf_budget_data facts dataset as a dataframe')
+    print(f'Successfully initialize facts_san_francisco_budgets facts dataset as a dataframe')
 
     # Remove unnecessary datasets after successfully performing data schema revisioning phase
     for dataset_number in range(1, total_number_of_datasets + 1):
