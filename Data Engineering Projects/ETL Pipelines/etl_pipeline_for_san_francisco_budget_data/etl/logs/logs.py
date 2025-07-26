@@ -40,9 +40,9 @@ if __name__ == '__main__':
     log_progress('Initiating Transformation Phase')
     transform_extracted_datasets('data/staged/san_francisco_budget_data')
     log_progress('Transformation Phase Ended')
-    
+
     # Loading Phase
     log_progress('Initiating Loading Phase')
     revise_schema(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_integrated_budget_data.csv', low_memory=False))
-    load_datasets_to_snowflake('data/processed/san_francisco_budget_data')    
+    load_datasets_to_snowflake('data/processed/san_francisco_budget_data')
     log_progress('Loading Phase Ended')
