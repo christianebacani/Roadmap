@@ -3,8 +3,6 @@
 '''
 import pandas as pd
 import snowflake.connector
-from sqlalchemy import create_engine
-from snowflake.sqlalchemy import URL
 from glob import glob
 
 def init_snowflake_connection() -> None:
@@ -22,15 +20,11 @@ def init_snowflake_connection() -> None:
     )
     return conn
 
-def create_database_objects() -> None:
+def create_database_objects(cursor) -> None:
     '''
         Create function to create
         necessary database objects
     '''
-    # Established a snowflake connection and cursor
-    conn = init_snowflake_connection()
-    cursor = conn.close()
-
     # Initialize a dictionary for necessary column constraints of column datatypes for object creation
     column_datatypes = {
         'object': 'VARCHAR(255)',
@@ -107,29 +101,44 @@ def create_database_objects() -> None:
             print(f'Successfully created a a table: {table_name}')
 
         except Exception as error_message:
-            print(f'Error creating table: {table_name}')
-
-    # Close the established snowflake connection and cursor
-    cursor.close()
-    conn.close()
+            print(f'Error creating table: {table_name}. Error message: {error_message}')
 
 def load_datasets_to_snowflake(subdirectory_path: str) -> None:
     '''
         Load function to load datasets
         to Snowflake Databases
     '''
-    # Create necessary database objects before loading processed datasets to snowflake
-    create_database_objects()
+    # Established a snowflake connection and cursor
+    conn = init_snowflake_connection()
+    cursor = conn.cursor()
 
-    engine = create_engine(URL(
-        user='<SNOWFLAKE_USERNAME>',
-        password='<SNOWFLAKE_PASSWORD>',
-        account='<SNOWFLAKE_ACCOUNT_IDENTIFIER>',
-        database='san_francisco_budget_data',
-        schema='san_francisco_budget_data_star_schema',
-        warehouse='san_francisco_budget_data_warehouse'
-    ))
+    # Create necessary database objects using cursor parameter
+    create_database_objects(cursor)
 
-    # TODO: Implement more functionality to load processed datasets to snowflake and remove processed datasets to the directory path after loading phase
+    # Create temporary stage to store processed datasets before loading it to snowflake tables
+    try:
+        cursor.execute("""CREATE OR REPLACE TEMPORARY STAGE processed_datasets
+                          FILE_FORMAT = (TYPE = 'CSV' FIELD_OPTIONALLY_ENCLOSED_BY = '"');""")
+    
+    except Exception as error_message:
+        print(f'Error creating temporary stage: processed_datasets. Error message: {error_message}')
 
-    print(f'Successfully perform loading phase')
+    # Load processed datasets to temporary stage
+    for csv_file in glob(f'{subdirectory_path}/*.csv'):
+        csv_file = str(csv_file).replace('\\', '/')
+        base_filename = str(csv_file).replace('data/processed/san_francisco_budget_data/', '')
+
+        try:
+            cursor.execute(f"""PUT file://{csv_file} @processed_datasets OVERWRITE = TRUE;""")
+            print(f'Successfully loaded data: {base_filename} to temporary stage: processed_datasets')
+
+        except Exception as error_message:
+            print(f'Error loading data: {base_filename} to temporary stage: processed_datasets')    
+
+    # TODO: Implement more functionalities like loading datasets from temporary stage to snowflake tables and removing processed datasets from 'processed' directory path
+
+    # Close established snowflake connection and cursor
+    cursor.close()
+    conn.close()
+
+    print(f'Successfully perform data loading phase')
