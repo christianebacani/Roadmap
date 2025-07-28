@@ -57,8 +57,9 @@ def transform_extracted_datasets(subdirectory_path: str) -> None:
     # Load transformed dataset to the processed directory
     target_filepath = f'{target_subdirectory_path}/san_francisco_integrated_budget_data.csv'
     sf_integrated_budget_dataset.to_csv(target_filepath, index=False)
-    print(f'Successfully perform transformation logic to san francisco budget datasets and load to the processed directory')
-
+    
     # Remove integrated dataset from the directory
     if os.path.exists('data/staged/san_francisco_budget_data/san_francisco_integrated_budget_data.csv'):
         os.remove('data/staged/san_francisco_budget_data/san_francisco_integrated_budget_data.csv')
+    
+    print(f'Successfully perform transformation logic to san francisco budget datasets and load to the processed directory')
