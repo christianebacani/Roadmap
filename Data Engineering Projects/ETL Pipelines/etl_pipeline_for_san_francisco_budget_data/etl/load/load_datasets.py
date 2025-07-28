@@ -2,6 +2,7 @@
     Load Datasets Module
 '''
 import pandas as pd
+import os
 import snowflake.connector
 from glob import glob
 
@@ -29,7 +30,7 @@ def create_database_objects(cursor) -> None:
     column_datatypes = {
         'object': 'VARCHAR(255)',
         'int64': 'INTEGER',
-        'float64': 'NUMBER(11,2)'
+        'float64': 'NUMBER(38,2)'
     }
 
     # Initialize a dictionary to store table name with their corresponding columns and columns datatype for initializing DDL commands
@@ -48,7 +49,7 @@ def create_database_objects(cursor) -> None:
         for column in list_of_columns:
             if 'id' in column:
                 list_of_columns_datatype.append(f'{column} INTEGER')
-            
+
             else:
                 datatype = str(dataframe[column].dtype)
                 list_of_columns_datatype.append(f'{column} {column_datatypes[datatype]}')
@@ -135,10 +136,33 @@ def load_datasets_to_snowflake(subdirectory_path: str) -> None:
         except Exception as error_message:
             print(f'Error loading data: {base_filename} to temporary stage: processed_datasets')    
 
-    # TODO: Implement more functionalities like loading datasets from temporary stage to snowflake tables and removing processed datasets from 'processed' directory path
+    # Load datasets from temporary stage to snowflake tables
+    for csv_file in glob(f'{subdirectory_path}/*.csv'):
+        csv_file = str(csv_file).replace('\\', '/')
+        base_filename = str(csv_file).replace(f'{subdirectory_path}/', '')
+        table_name = str(csv_file).replace(f'{subdirectory_path}/', '').replace('.csv', '').upper()
+
+        try:
+            cursor.execute(f"""COPY INTO {table_name}
+                               FROM @processed_datasets/{base_filename}
+                               FILE_FORMAT = (TYPE = 'CSV' FIELD_OPTIONALLY_ENCLOSED_BY = '"' SKIP_HEADER = 1);""")
+
+            print(f'Successfully loaded data: {base_filename} from temporary stage: processed_datasets to table: {table_name}')
+
+        except Exception as error_message:
+            print(f'Error loading data: {base_filename} from temporary stage: processed_datasets to table: {table_name}')
 
     # Close established snowflake connection and cursor
     cursor.close()
     conn.close()
+    
+    # Remove datasets after performing data loading phase
+    for csv_file in glob(f'{subdirectory_path}/*.csv'):
+        csv_file = str(csv_file).replace('\\', '/')
+        base_filename = str(csv_file).replace(f'{subdirectory_path}/', '')
+
+        if os.path.exists(csv_file):
+            os.remove(csv_file)
+            print(f'Successfully removed {base_filename}') 
 
     print(f'Successfully perform data loading phase')
