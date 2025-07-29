@@ -11,6 +11,7 @@ from extract.extract import extract_ingested_datasets
 from transform.transform import transform_extracted_datasets
 from load.data_schema_revision import revise_schema
 from load.load_datasets import load_datasets_to_snowflake
+from sql_query.sql_query import test_sql_query
 
 def log_progress(message: str) -> None:
     '''
@@ -46,3 +47,10 @@ if __name__ == '__main__':
     revise_schema(pd.read_csv('data/processed/san_francisco_budget_data/san_francisco_integrated_budget_data.csv', low_memory=False))
     load_datasets_to_snowflake('data/processed/san_francisco_budget_data')
     log_progress('Loading Phase Ended')
+
+    # Testing SQL Queries Phase
+    log_progress('Initiating Testing SQL Query Phase')
+    test_sql_query('SELECT * FROM facts_san_francisco_budgets')
+    test_sql_query('SELECT * FROM dim_character_codes') 
+    test_sql_query('SELECT * FROM dim_fiscal_year') 
+    log_progress('Testing SQL Query Phase Ended') 
