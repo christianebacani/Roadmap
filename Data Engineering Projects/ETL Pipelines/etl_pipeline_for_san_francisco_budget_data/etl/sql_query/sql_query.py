@@ -2,21 +2,26 @@
     SQL Query Module
 '''
 import pandas as pd
-import snowflake.connector
+from sqlalchemy import create_engine
+from snowflake.sqlalchemy import URL
 
-def test_sql_query(query: str) -> pd.DataFrame:
+def test_sql_query(query: str) -> pd.DataFrame | str:
     '''
         Test SQL Query Function
     '''
-    conn = snowflake.connector.connect(
+    # Perform SQL Query Testing using SQL Alchemy Engine
+    engine = create_engine(URL(
         user='<SNOWFLAKE_USERNAME>',
         password='<SNOWFLAKE_PASSWORD>',
         account='<SNOWFLAKE_ACCOUNT_IDENTIFIER>',
-        warehouse='san_francisco_budget_data_warehouse',
         database='san_francisco_budget_data',
-        schema='san_francisco_budget_data_star_schema'
-    )
-    # Initialize a snowflake cursor for executing SQL queries
-    cursor = conn.cursor()
+        schema='san_francisco_budget_data_star_schema',
+        warehouse='san_francisco_budget_data_warehouse'
+    ))
+    
+    try:
+        dataframe = pd.read_sql(query, engine)
+        return dataframe
 
-    # TODO: Implement more functionalities here...
+    except Exception as error_message:
+        return f'Error message: {error_message}'
