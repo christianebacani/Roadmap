@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     # Testing SQL Queries Phase
     log_progress('Initiating Testing SQL Query Phase')
-    test_sql_query('SELECT * FROM facts_san_francisco_budgets')
-    test_sql_query('SELECT * FROM dim_character_codes') 
-    test_sql_query('SELECT * FROM dim_fiscal_year') 
-    log_progress('Testing SQL Query Phase Ended') 
+    print(test_sql_query('SELECT * FROM facts_san_francisco_budgets'))
+    print(test_sql_query('SELECT * FROM dim_characters'))
+    print(test_sql_query('SELECT * FROM dim_object_codes'))
+    log_progress('Testing SQL Query Phase Ended')
