@@ -2,13 +2,27 @@
 
 ![San Francisco](docs/images/san_francisco.jpg)  
 
-A modular ETL pipeline for processing and analyzing San Francisco's budget data, with Snowflake as the target data warehouse.
+A modular ETL pipeline for processing and analyzing San Francisco's budget data from the [San Francisco Open Data APIs](https://datasf.org/opendata/), with Snowflake as the target data warehouse.
 
 ## 📌 Features
-- **Batch Processing**: Scheduled or on-demand data ingestion
+- **Batch Processing**: Scheduled or on-demand data ingestion from [SF Open Data Portal](https://data.sfgov.org/)
 - **Data Validation**: Automated quality checks at each stage
 - **Snowflake Integration**: Optimized for cloud data warehousing
 - **Reproducible Workflows**: Version-controlled transformations
+
+## 🛠️ Pipeline Architecture  
+
+### Data Sources
+- Primary API: [SF Budget Datasets](https://data.sfgov.org/City-Management-and-Ethics/Budget/xdgd-c79v)
+- Secondary API: [SF Financial Reports](https://data.sfgov.org/City-Management-and-Ethics/Financial-Reports/7j6h-6b2q)
+
+### Core Components
+| Component               | Purpose                                                                      | Documentation |
+|-------------------------|------------------------------------------------------------------------------|---------------|
+| **ETL Jobs**            | Orchestrates end-to-end pipeline execution                                   | -             |
+| **Requests**            | Fetches raw data from [SF Open Data APIs](https://dev.socrata.com/foundry/data.sfgov.org) | [Docs](https://requests.readthedocs.io/) |
+| **Pandas**              | Performs data cleaning and transformation                                    | [Docs](https://pandas.pydata.org/docs/) |
+| **Snowflake Connector** | Handles secure data loading to Snowflake                                     | [Docs](https://docs.snowflake.com/en/user-guide/python-connector.html) |
 
 ## 🛠️ Pipeline Architecture  
 
@@ -16,7 +30,7 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data,
 | Component               | Purpose                                                                      |
 |-------------------------|------------------------------------------------------------------------------|
 | **ETL Jobs**            | Orchestrates end-to-end pipeline execution                                   |
-| **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/] using Request Librart                                       |
+| **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/] using Request Library                                       |
 | **Pandas**              | Performs data cleaning and transformation                                    |
 | **Snowflake Connector** | Handles secure data loading to Snowflake                                     |
 | **SQLAlchemy**          | Manages database schema and SQL operations                                   |
