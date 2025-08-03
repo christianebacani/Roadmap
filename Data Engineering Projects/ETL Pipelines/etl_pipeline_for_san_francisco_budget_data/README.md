@@ -6,9 +6,8 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ## 📌 Features
 - **Batch Processing**: Scheduled or on-demand data ingestion from [SF Open Data Portal](https://data.sfgov.org/)
-- **Data Validation**: Automated quality checks at each stage
 - **Snowflake Integration**: Optimized for cloud data warehousing
-- **Reproducible Workflows**: Version-controlled transformations
+- **Reproducible Workflows**: Version-controlled transformations with different phases
 
 ## 🛠️ Pipeline Architecture  
 
@@ -33,32 +32,55 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 | **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/] using Request Library                                       |
 | **Pandas**              | Performs data cleaning and transformation                                    |
 | **Snowflake Connector** | Handles secure data loading to Snowflake                                     |
-| **SQLAlchemy**          | Manages database schema and SQL operations                                   |
+| **SQLAlchemy**          | Manages SQL Operation                                                        |
 
 ## 🔄 Workflow Overview
+1. **Ingest**
+   - Raw API data → `data/raw/` (CSV/JSON)
+   - Ingested using [Request Module](https://requests.readthedocs.io/)
+   - Paginated for faster processing
+
 1. **Extract**  
-   - API data → `data/raw/` (CSV/JSON)
-   - Initial quality validation
+   - CSV/JSON data → `data/staged`
+   - Extracted using [Pandas](https://pandas.pydata.org/docs/)
 
 2. **Transform**  
-   - Raw → `data/staged/` (structured tables)
+   - `data/staged`→ `data/processed/` (structured tables)
    - Business logic application
-   - Schema standardization
+   - Different transformation phases such as (`Data Imputation`, `DataType Casting`, `Format Revisioning`, `Data Partitioning`, `Data Integration`, and `Data Deduplication`)
 
-3. **Load**  
-   - Processed → `data/processed/` (analysis-ready)
-   - Snowflake staging area → Production tables
-   - Data lineage tracking
+3. **Load**
+   - Perform data schema revisioning before loading to temporary stage of Snowflake
+   - `data/processed` → `@processed_datasets`
+   - Load datasets from temporary stage to corresponding tables
+
+4. **Testing SQL Queries**
+   - Performing SQL Queries using SQL Alchemy Engine
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- Snowflake account with proper privileges
-- API access to SF budget data
+
+#### System Requirements
+- Python 3.8 or higher
+- pip package manager
+- Git version control
+
+#### Accounts & Credentials
+- Active Snowflake account with:
+  - Warehouse privileges
+  - Database create/modify permissions
+  - Stage access
+- Access to [SF Open Data Portal](https://data.sfgov.org/) (no account needed)
 
 ### Installation
-```bash
-git clone https://github.com/your-repo/sf-budget-pipeline.git
-cd sf-budget-pipeline
-pip install -r requirements.txt
+
+1.**Create and activate a virtual environment (recommended):**
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+2. **Install required Python packages:**
+   pip install requests pandas snowflake-connector-python sqlalchemy snowflake-sqlalchemy
+
+3. **Verify Installations:**
+   python -c "import requests, pandas, snowflake.connector, sqlalchemy; print('All packages installed successfully')"
