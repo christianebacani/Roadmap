@@ -1,3 +1,3 @@
 # San Francisco Budgets Data Pipeline
 
-<img src="docs/images/san_franciso.jpg" align="center">
+![San Francisco](docs/images/san_francisco.jpg)
