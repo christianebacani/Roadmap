@@ -16,7 +16,7 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data,
 | Component               | Purpose                                                                      |
 |-------------------------|------------------------------------------------------------------------------|
 | **ETL Jobs**            | Orchestrates end-to-end pipeline execution                                   |
-| **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/]                                         |
+| **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/] using Request Librart                                       |
 | **Pandas**              | Performs data cleaning and transformation                                    |
 | **Snowflake Connector** | Handles secure data loading to Snowflake                                     |
 | **SQLAlchemy**          | Manages database schema and SQL operations                                   |
