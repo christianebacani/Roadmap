@@ -41,7 +41,7 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
    - Paginated for faster processing
 
 1. **Extract**  
-   - CSV/JSON data → `data/staged`
+   - `data/raw/` → `data/staged`
    - Extracted using [Pandas](https://pandas.pydata.org/docs/)
 
 2. **Transform**  
@@ -75,12 +75,18 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ### Installation
 
-1.**Create and activate a virtual environment (recommended):**
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+1.**Create and activate a virtual environment (recommended):**\
+   ```
+      python -m venv venv
+      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 2. **Install required Python packages:**
+   ```
    pip install requests pandas snowflake-connector-python sqlalchemy snowflake-sqlalchemy
+   ```
 
 3. **Verify Installations:**
+   ```
    python -c "import requests, pandas, snowflake.connector, sqlalchemy; print('All packages installed successfully')"
+   ```
