@@ -92,5 +92,5 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 1. **Execution of San Francisco Budget Data Pipeline**
    ```
-      py etl/logs/logs.py
+   py etl/logs/logs.py
    ```
