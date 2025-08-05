@@ -87,3 +87,10 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
    ```
    python -c "import requests, pandas, snowflake.connector, sqlalchemy; print('All packages installed successfully')"
    ```
+
+### Execution of Data Pipeline
+
+**Execution of San Francisco Budget Data Pipeline**
+```
+   py etl/logs/logs.py
+```
