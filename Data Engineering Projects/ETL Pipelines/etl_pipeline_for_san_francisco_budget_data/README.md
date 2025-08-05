@@ -5,7 +5,7 @@
 A modular ETL pipeline for processing and analyzing San Francisco's budget data from the [San Francisco Open Data APIs](https://datasf.org/opendata/), with Snowflake as the target data warehouse.
 
 ## 📌 Features
-- **Batch Processing**: Scheduled or on-demand data ingestion from [SF Open Data Portal](https://data.sfgov.org/)
+- **Batch Processing**: Manually executing data using data ingestion processes from [SF Open Data Portal](https://data.sfgov.org/)
 - **Snowflake Integration**: Optimized for cloud data warehousing
 - **Reproducible Workflows**: Version-controlled transformations with different phases
 
@@ -18,21 +18,11 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 ### Core Components
 | Component               | Purpose                                                                      | Documentation |
 |-------------------------|------------------------------------------------------------------------------|---------------|
-| **ETL Jobs**            | Orchestrates end-to-end pipeline execution                                   | -             |
 | **Requests**            | Fetches raw data from [SF Open Data APIs](https://dev.socrata.com/foundry/data.sfgov.org) | [Docs](https://requests.readthedocs.io/) |
 | **Pandas**              | Performs data cleaning and transformation                                    | [Docs](https://pandas.pydata.org/docs/) |
 | **Snowflake Connector** | Handles secure data loading to Snowflake                                     | [Docs](https://docs.snowflake.com/en/user-guide/python-connector.html) |
-
-## 🛠️ Pipeline Architecture  
-
-### Core Components
-| Component               | Purpose                                                                      |
-|-------------------------|------------------------------------------------------------------------------|
-| **ETL Jobs**            | Orchestrates end-to-end pipeline execution                                   |
-| **Requests**            | Fetches raw data from (San Francisco Open Data Rest APIs)[https://data.sfgov.org/] using Request Library                                       |
-| **Pandas**              | Performs data cleaning and transformation                                    |
-| **Snowflake Connector** | Handles secure data loading to Snowflake                                     |
-| **SQLAlchemy**          | Manages SQL Operation                                                        |
+| **SQL Alchemy**         | Initializing engine for SQL Queries to Snowflake Data Warehouse              | [Docs](https://docs.sqlalchemy.org/en/20/intro.html) |
+| **Snowflake SQL Alchemy** | Creating URL for converting SQL Alchemy engine parameters to URL           | [Docs](https://docs.snowflake.com/en/developer-guide/python-connector/sqlalchemy) |
 
 ## 🔄 Workflow Overview
 1. **Ingest**
@@ -75,18 +65,23 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ### Installation
 
-1.**Create and activate a virtual environment (recommended):**\
+1.**Create virtual environment (recommended):**
    ```
       python -m venv venv
       source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-2. **Install required Python packages:**
+2. **Activate Virtual Environment**:
+   ```
+      python .venv/Scripts/Activate
+   ```
+
+3. **Install required Python packages:**
    ```
    pip install requests pandas snowflake-connector-python sqlalchemy snowflake-sqlalchemy
    ```
 
-3. **Verify Installations:**
+4. **Verify Installations:**
    ```
    python -c "import requests, pandas, snowflake.connector, sqlalchemy; print('All packages installed successfully')"
    ```
