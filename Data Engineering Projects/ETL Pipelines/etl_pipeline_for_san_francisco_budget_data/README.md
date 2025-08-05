@@ -13,7 +13,9 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ### Data Sources
 - Primary API: [SF Budget Datasets](https://data.sfgov.org/City-Management-and-Ethics/Budget/xdgd-c79v)
-- Secondary API: [SF Financial Reports](https://data.sfgov.org/City-Management-and-Ethics/Financial-Reports/7j6h-6b2q)
+
+### Data Schema
+![Snowflake Data Warehouse Star Schema](docs/schema/san_francisco_budget_data_data_warehouse_star_schema.png)
 
 ### Core Components
 | Component               | Purpose                                                                      | Documentation |
@@ -65,7 +67,7 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ### Installation
 
-1.**Create virtual environment (recommended):**
+1. **Create virtual environment (recommended):**
    ```
       python -m venv venv
       source venv/bin/activate  # On Windows use `venv\Scripts\activate`
