@@ -90,7 +90,7 @@ A modular ETL pipeline for processing and analyzing San Francisco's budget data 
 
 ### Execution of Data Pipeline
 
-**Execution of San Francisco Budget Data Pipeline**
-```
-   py etl/logs/logs.py
-```
+1. **Execution of San Francisco Budget Data Pipeline**
+   ```
+      py etl/logs/logs.py
+   ```
