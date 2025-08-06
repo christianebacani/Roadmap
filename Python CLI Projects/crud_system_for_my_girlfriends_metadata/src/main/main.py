@@ -4,7 +4,7 @@
 import os
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning)
-from src.main.login import login_page
+from src.crud.crud import crud_page
 from src.main.about import about_page
 
 def main_page() -> None:
@@ -18,14 +18,14 @@ def main_page() -> None:
 
         # Display options
         options = [
-            'Log-in',
+            'Start',
             'About',
             'Exit'
         ]
         for number, option in enumerate(options):
             print(f'\t\t\t{number + 1}.) {option}')
 
-        choice = input('\n\t\tEnter your choice here: ')
+        choice = input('\n\t\tEnter your choice here: ').strip()
 
         if choice not in '123':
             os.system('cls')
@@ -35,13 +35,13 @@ def main_page() -> None:
             
         if choice == '1':
             os.system('cls')
-            login_page()
+            crud_page()
             os.system('cls')
 
         elif choice == '2':
             os.system('cls')
             about_page()
-            os.system('cls')        
+            os.system('cls')
 
         elif choice == '3':
             os.system('cls')
