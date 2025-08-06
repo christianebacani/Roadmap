@@ -15,5 +15,5 @@ def init_engine() -> object:
     port = '<PORT_NUMBER>'
     database = 'rica_metadatas'
 
-    engine = create_engine(f'postgresql+psycopg2://{username}:{password}@{hostname}:{port}/{database}')
+    engine = create_engine(f'postgresql://{username}:{password}@{hostname}:{port}/{database}')
     return engine
