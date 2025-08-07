@@ -2,6 +2,7 @@
     Login Module
 '''
 import os
+from src.crud.create_table import create_table_main_page
 from src.crud.read_table import read_table_main_page
 
 def crud_page() -> None:
@@ -28,6 +29,8 @@ def crud_page() -> None:
 
         if choice == '1':
             os.system('cls')
+            create_table_main_page()
+            continue
 
         elif choice == '2':
             os.system('cls')
