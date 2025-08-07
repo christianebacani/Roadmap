@@ -32,7 +32,8 @@ def main_page() -> None:
             print(f'\t\tInvalid choice! Please try again.')
             input('\t\tPress any key to continue: ')
             os.system('cls')
-            
+            continue
+
         if choice == '1':
             os.system('cls')
             crud_page()
