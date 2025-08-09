@@ -1,6 +1,7 @@
 '''
     Utils Module
 '''
+import psycopg2
 from glob import glob
 from sqlalchemy import create_engine
 
@@ -19,6 +20,13 @@ def init_engine() -> object:
     engine = create_engine(f'postgresql://{username}:{password}@{hostname}:{port}/{database}')
     return engine
 
+def init_cursor() -> object:
+    '''
+        Initialize function to initialize
+        Pyscopgy2 Cursor for executing PostgreSQL
+        Database commands using Python script
+    '''
+    
 def get_table_names() -> list[str]:
     '''
         Get function to extract all table names
