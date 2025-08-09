@@ -11,9 +11,9 @@ def init_engine() -> object:
         SQL Alchemy Engine
     '''
     # Engine Parameters
-    username = '<POSTGRESQL_USERNAME>'
-    password = '<POSTGRSQL_PASSWORD>'
-    hostname = '<HOSTNAME>'
+    username ='<POSTGRESQL_ACCOUNT_USERNAME>',
+    password ='<POSTGRESQL_ACCOUNT_PASSWORD>'
+    hostname ='<HOSTNAME>'
     port = '<PORT_NUMBER>'
     database = 'rica_metadatas'
 
@@ -26,7 +26,16 @@ def init_cursor() -> object:
         Pyscopgy2 Cursor for executing PostgreSQL
         Database commands using Python script
     '''
-    
+    conn = psycopg2.connect(
+        user='<POSTGRESQL_ACCOUNT_USERNAME>',
+        password='<POSTGRESQL_ACCOUNT_PASSWORD>',
+        hostname='<HOSTNAME>',
+        port='<PORT_NUMBER>',
+        database='rica_metadatas'
+    )
+    cursor = conn.cursor()
+    return cursor
+
 def get_table_names() -> list[str]:
     '''
         Get function to extract all table names
