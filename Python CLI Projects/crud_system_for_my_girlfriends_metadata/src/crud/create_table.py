@@ -3,6 +3,7 @@
 '''
 import os
 import re
+from src.utils.utils import init_cursor
 
 def create_table_name() -> str:
     '''
@@ -83,11 +84,75 @@ def initialize_total_number_of_columns(table_name: str) -> int:
             os.system('cls')
             continue
 
-def create_primary_keys(table_name: str, number_of_columns: int) -> list[str]:
+def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, str]:
     '''
         Create function to create
-        primary keys of the table
+        primary keys
     '''
+    def init_primary_keys_with_datatype(number_of_primary_keys: str, available_datatypes: list[str]) -> dict[str, str]:
+        '''
+            Initialize function to
+            initialize primary keys
+            and their data type
+        '''
+        while True:
+            # Display subheader
+            subheader = 'Create Primary Keys'
+            print(f'\n\t\t\t{subheader}\n')
+
+            primary_keys_are_valid = True
+            primary_keys_datatype_are_valid = True
+            result = {}
+
+            for number in range(number_of_primary_keys):
+                number += 1
+                primary_key = input(f'\t\tPrimary Key Name: ')
+
+                # Validate primary key
+                if not re.search(r'^[A-Za-z\_]+[A-Za-z0-9\_]*$', primary_key) or (len(primary_key) < 1 or len(primary_key) > 63):
+                    primary_keys_are_valid = False
+                    break
+
+                print()
+
+                for datatype_number, datatype in enumerate(available_datatypes):
+                    datatype_number += 1
+                    print(f'\t\t\t{datatype_number}.) {datatype}')
+
+                # Validate chosen datatype
+                try:
+                    chosen_datatype = int(input(f'\n\t\tChoose the datatype of {primary_key}: '))
+                    result[primary_key] = available_datatypes[chosen_datatype - 1]
+
+                except:
+                    primary_keys_datatype_are_valid = False
+                    break
+
+            if not primary_keys_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid primary key name! Please try again.')
+                input(f'\t\tPress any key to reload page ')
+                os.system('cls')
+                continue
+
+            if not primary_keys_datatype_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid primary key datatype! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+            
+            os.system('cls')
+            return result
+
+    available_datatypes = [
+        'INTEGER',
+        'CHAR',
+        'VARCHAR',
+        'DATE',
+        'TIMESTAMP'
+    ]
+
     while True:
         # Display header
         header = 'Create Tables'
@@ -95,10 +160,14 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> list[str]:
 
         print(f'\t\tTable Name: {table_name}')
         print(f'\t\tHow many number of columns you want to create?: {number_of_columns}')
-
+        
         try:
-            # Ask for how many primary keys
-            number_of_primary_keys = int(input(f'\t\tHow many primary keys you want to create?: '))
+            number_of_primary_keys = int(input(f'\t\tHow many number of primary keys you want to create?: '))
+
+            # Return immediately if the user does not want any primary keys
+            if number_of_primary_keys == 0:
+                os.system('cls')
+                return {}
 
             # Validate number of primary keys
             if number_of_primary_keys > number_of_columns:
@@ -106,36 +175,34 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> list[str]:
                 print(f'\t\tInvalid number of primary keys! Please try again.')
                 input(f'\t\tPress any key to reload page: ')
                 os.system('cls')
-                continue
 
-            confirm_number_of_primary_keys = input(f'\t\tDid you enter the correct number of primary keys?: ')
+            confirm_number_of_primary_keys = input(f'\t\tDid you enter the correct number of primary keys?: ').strip().lower()
 
             # Validate confirmation message for the number of primary keys
             if confirm_number_of_primary_keys in ['no', 'nope', 'nah', 'n']:
                 os.system('cls')
                 continue
-            
+
             if confirm_number_of_primary_keys not in ['yes', 'yeah', 'yah', 'y']:
                 os.system('cls')
                 print(f'\t\tInvalid choice! Please try again.')
-                input('\t\tPress any key to reload page: ')
+                input(f'\t\tPress any key to reload page: ')
                 os.system('cls')
-                continue
+
+            os.system('cls')
+            primary_keys = init_primary_keys_with_datatype(number_of_primary_keys, available_datatypes)
+
+            # Display subheader
+            subheader = 'Create Primary Keys'
+            print(f'\t\t\t{subheader}\n')
+
+            for primary_key, datatype in primary_keys.items():
+                print(f'\t\tPrimary Key: {primary_key}')
+                print(f'\t\tData Type: {datatype}')
+                print()
             
-            # Return the value if the user don't want to create any primary keys
-            if number_of_primary_keys == 0:
-                os.system('cls')
-                return []
-
-            # Ask for the primary keys
-            primary_keys = []
-
-            for number in range(number_of_primary_keys):
-                number += 1
-                primary_keys.append(input(f'\t\t{number}.) Primary key: '))
-
-            confirm_primary_keys = input(f'\t\tDid you enter the correct primary keys?: ').strip().lower()
-
+            confirm_primary_keys = input(f'\t\tDid you enter the correct primary keys and datatype?: ').strip().lower()
+            
             # Validate confirmation message for primary keys
             if confirm_primary_keys in ['no', 'nope', 'nah', 'n']:
                 os.system('cls')
@@ -144,24 +211,9 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> list[str]:
             if confirm_primary_keys not in ['yes', 'yeah', 'yah', 'y']:
                 os.system('cls')
                 print(f'\t\tInvalid choice! Please try again.')
-                input('\t\tPress any key to reload page: ')
-                os.system('cls')
-
-            # Validate primary key names
-            primary_keys_are_valid = True
-
-            for primary_key in primary_keys:
-                if not re.search(r'^[A-Za-z\_]+[A-Za-z0-9\_]*$', primary_key) or (len(primary_key) < 1 or len(primary_key) > 63):
-                    primary_keys_are_valid = False            
-                    break
-
-            if not primary_keys_are_valid:
-                os.system('cls')
-                print(f'\t\tInvalid name of primary key/s')
                 input(f'\t\tPress any key to reload page: ')
                 os.system('cls')
-                continue
-
+            
             os.system('cls')
             return primary_keys
 
@@ -170,117 +222,12 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> list[str]:
             print(f'\t\tInvalid number of primary keys! Please try again.')
             input(f'\t\tPress any key to reload page: ')
             os.system('cls')
-            continue
 
-def create_columns(table_name: str, number_of_columns: int, primary_keys: list[str]) -> list[str]:
+def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys: dict[str, str]) -> dict[str, str]:
     '''
-        Create function to create columns
+        Create functio to create
+        non-key columns
     '''
-    while True:
-        if len(primary_keys) == number_of_columns:
-            os.system('cls')
-            return []
-
-        # Display header
-        header = 'Create Tables'
-        print(f'\t\t\t{header}\n')
-
-        print(f'\t\tTable Name: {table_name}')
-        print(f'\t\tHow many number of columns you want to create?: {number_of_columns}')
-        print(f'\t\tHow many primary keys you want to create?: {len(primary_keys)}')
-        
-        subheader = 'Creating columns'
-        print(f'\n\t\t\t{subheader}\n')
-
-        # Ask for the column names
-        non_key_columns = []
-
-        for number in range(number_of_columns - len(primary_keys)):
-            number += 1
-            non_key_columns.append(input(f'\t\tColumn Name: '))
-
-        # Validate non key columns
-        if len(primary_keys) == 0 and non_key_columns == []:
-            os.system('cls')
-            print(f'\t\tYou didn\'t create any columns! Please try again.')
-            input(f'\t\tPress any key to reload page: ')
-            os.system('cls')
-            continue
-
-        confirm_non_key_columns = input(f'\t\tDid you enter the correct column names?: ').strip().lower()
-            
-        # Validate confirmation message for non key columns
-        if confirm_non_key_columns in ['no', 'nope', 'nah', 'n']:
-            os.system('cls')
-            continue
-            
-        if confirm_non_key_columns not in ['yes', 'yeah', 'yah', 'y']:
-            os.system('cls')
-            print(f'\t\tInvalid choice! Please try again.')
-            input(f'\t\tPress any key to reload page: ')
-            os.system('cls')
-            continue
-
-        # Validate non key columns
-        non_key_columns_are_valid = True
-    
-        for non_key_column in non_key_columns:
-            if not re.search(r'^[A-Za-z\_]+[A-Za-z0-9\_]*$', non_key_column) or (len(non_key_column) < 1 or len(non_key_column) > 63):
-                non_key_columns_are_valid = False
-                break
-            
-        if not non_key_columns_are_valid:
-            os.system('cls')
-            print(f'\t\tInvalid non key columns! Please try again.')
-            input(f'\t\tPress any key to reload page: ')
-            os.system('cls')
-            continue
-
-        os.system('cls')
-        return non_key_columns
-
-def validate_table(table_metadata: dict[str, int, list[str]]) -> bool:
-    '''
-        Validate function to
-        validate table's metadata (Table name, number of columns, primary keys, non-key columns)
-        before creation
-    '''
-    while True:
-        # Display header
-        header = f'Create table'
-        print(f'\t\t\t{header}\n')
-
-        print(f'\t\tTable Name: {table_metadata['Table Name']}')
-        print(f'\t\tTotal Number of Columns: {table_metadata['Total Number of Columns']}')
-        
-        if table_metadata['Primary Keys'] == []:
-            print(f'\t\tPrimary Keys: None')
-        
-        else:
-            print(f'\t\tPrimary Keys: {', '.join(table_metadata['Primary Keys'])}')
-        
-        if table_metadata['List of Column Names'] == []:
-            print(f'List of Column Names: None')
-        
-        else:
-            print(f'\t\tList of Column Names: None')
-        
-        print()
-        confirm_table = input(f'\t\tDo you want to create this table? ').strip().lower()
-
-        # Validate confirmation message for creating table
-        if confirm_table in ['no', 'nope', 'nah', 'n']:
-            os.system('cls')
-            return False
-
-        if confirm_table not in ['yes', 'yeah', 'yah', 'y']:
-            os.system('cls')
-            print(f'\t\tInvalid choice! Please try again.')
-            input(f'\t\tPress any key to reload page: ')
-            os.system('cls')
-        
-        os.sytem('cls')
-        return True
 
 def create_table_main_page() -> None:
     '''
@@ -306,17 +253,11 @@ def create_table_main_page() -> None:
         table_metadata = {
             'Table Name': '',
             'Total Number of Columns': 0,
-            'Primary Keys': [],
-            'List of Column Names': []
+            'Primary Keys': {},
+            'List of Column Names': {}
         }
 
         os.system('cls')
         table_metadata['Table Name'] = create_table_name()
         table_metadata['Total Number of Columns'] = initialize_total_number_of_columns(table_metadata['Table Name'])
         table_metadata['Primary Keys'] = create_primary_keys(table_metadata['Table Name'], table_metadata['Total Number of Columns'])
-        table_metadata['List of Column Names'] = create_columns(table_metadata['Table Name'], table_metadata['Total Number of Columns'], table_metadata['Primary Keys'])
-
-        os.system('cls')
-        
-        if validate_table(table_metadata) is False:
-            continue
