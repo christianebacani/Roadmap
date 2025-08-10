@@ -236,7 +236,7 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
         print(f'\t\tTable Name: {table_name}')
         print(f'\t\tHow many number of columns you want to create?: {number_of_columns}')
         print(f'\t\tHow many number of primary keys you want to create?: {len(list(primary_keys.keys()))}')
-        
+
         if primary_keys != {}:
             print()
 
@@ -244,8 +244,21 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                 print(f'\t\tPrimary Key: {primary_key}')
                 print(f'\t\tData Type: {data_type}')
                 print()
-            
-        number_of_non_key_columns = int(input(f'\t\tHow many number of non-key columns you want to create?: '))
+
+        try:
+            number_of_non_key_columns = int(input(f'\t\tHow many number of non-key columns you want to create?: '))
+
+            # Validate number of non-key columns
+            if (len(list(primary_keys.keys())) + number_of_non_key_columns) <= 0:
+                os.system('cls')
+                print(f'\t\tInvalid number of non-key columns! Please try again.')
+                print(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+        except:
+            os.system('cls')
+            print(f'\t\tInvalid choice! Please try again.')
+            input(f'\t\tPress any key to reload page: ')
+            os.system('cls')
 
 def create_table_main_page() -> None:
     '''
