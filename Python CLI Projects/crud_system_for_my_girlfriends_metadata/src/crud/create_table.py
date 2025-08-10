@@ -225,9 +225,27 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
 
 def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys: dict[str, str]) -> dict[str, str]:
     '''
-        Create functio to create
+        Create function to create
         non-key columns
     '''
+    while True:
+        # Display header
+        header = 'Create Tables'
+        print(f'\t\t\t{header}\n')
+
+        print(f'\t\tTable Name: {table_name}')
+        print(f'\t\tHow many number of columns you want to create?: {number_of_columns}')
+        print(f'\t\tHow many number of primary keys you want to create?: {len(list(primary_keys.keys()))}')
+        
+        if primary_keys != {}:
+            print()
+
+            for primary_key, data_type in primary_keys.items():
+                print(f'\t\tPrimary Key: {primary_key}')
+                print(f'\t\tData Type: {data_type}')
+                print()
+            
+        number_of_non_key_columns = int(input(f'\t\tHow many number of non-key columns you want to create?: '))
 
 def create_table_main_page() -> None:
     '''
