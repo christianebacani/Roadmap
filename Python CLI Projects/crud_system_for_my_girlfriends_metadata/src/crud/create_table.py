@@ -3,7 +3,7 @@
 '''
 import os
 import re
-from src.utils.utils import init_cursor
+from src.utils.utils import init_connection
 
 def create_table_name() -> str:
     '''
@@ -122,6 +122,11 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
                 # Validate chosen datatype
                 try:
                     chosen_datatype = int(input(f'\n\t\tChoose the datatype of {primary_key}: '))
+                    
+                    if chosen_datatype < 0:
+                        primary_keys_datatype_are_valid = False
+                        break
+
                     result[primary_key] = available_datatypes[chosen_datatype - 1]
 
                 except:
@@ -228,6 +233,74 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
         Create function to create
         non-key columns
     '''
+    def init_non_key_columns_with_datatype(number_of_non_key_columns: int, available_datatypes: list[str]) -> dict[str, str]:
+        '''
+            Initialize function to
+            initialize non-key columns
+            and their datatype
+        '''
+        while True:
+            # Display subheader
+            subheader = 'Create Non-Key Columns'
+            print(f'\n\t\t\t{subheader}\n')
+
+            non_key_columns_are_valid = True
+            non_key_columns_datatype_are_valid = True
+            result = {}
+
+            for number in range(number_of_non_key_columns):
+                number += 1
+                non_key_column = input(f'\t\tNon-Key Column Name: ')
+
+                # Validate non-key column
+                if not re.search(r'^[A-Za-z\_]+[A-Za-z0-9\_]*$', non_key_column) or (len(non_key_column) < 1 or len(non_key_column) > 63):
+                    non_key_columns_are_valid = False
+                    break
+
+                print()
+                for datatype_number, datatype in enumerate(available_datatypes):
+                    datatype_number += 1
+                    print(f'\t\t\t{datatype_number}.) {datatype}')
+
+                # Validate chosen datatype
+                try:
+                    chosen_datatype = int(input(f'\n\t\tChoose the datatype of {non_key_column}: '))
+
+                    if chosen_datatype < 0:
+                        non_key_columns_datatype_are_valid = False
+                        break
+
+                    result[non_key_column] = available_datatypes[chosen_datatype - 1]
+
+                except:
+                    non_key_columns_datatype_are_valid = False
+                    break
+
+            if not non_key_columns_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid non-key column name! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+
+            if not non_key_columns_datatype_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid non-key column datatype! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+            
+            os.system('cls')
+            return result
+
+    available_datatypes = [
+        'INTEGER',
+        'CHAR',
+        'VARCHAR',
+        'DATE',
+        'TIMESTAMP',
+        'BOOLEAN'
+    ]
+
     while True:
         # Display header
         header = 'Create Tables'
@@ -255,12 +328,81 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                 print(f'\t\tInvalid number of non-key columns! Please try again.')
                 print(f'\t\tPress any key to reload page: ')
                 os.system('cls')
+                continue
+
+            if (len(list(primary_keys.keys())) + number_of_non_key_columns) > number_of_columns:
+                os.system('cls')
+                print(f'\t\tInvalid number of non-key columns! Please try again.')
+                input(f'\t\tPress any key to reload pag: ')
+                os.system('cls')
+                continue
+
+            os.system('cls')
+            non_key_columns = init_non_key_columns_with_datatype(number_of_non_key_columns, available_datatypes)
+            
+            # Display subheader
+            subheader = 'Create Non-Key Columns'
+            print(f'\t\t\t{subheader}\n')
+
+            for non_key_column, data_type in non_key_columns.items():
+                print(f'\t\tNon-Key Column: {non_key_column}')
+                print(f'\t\tData Type: {data_type}')
+                print()
+            
+            confirm_non_key_column = input(f'\t\tDid you enter the correct non-key column and type?: ').strip().lower()
+
+            # Validate confirmation message for non-key column
+            if confirm_non_key_column in ['no', 'nope', 'nah', 'n']:
+                os.system('cls')
+                continue
+
+            if confirm_non_key_column not in ['yes', 'yeah', 'yah', 'y']:
+                os.system('cls')
+                print(f'\t\tInvalid choice! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+
+            os.system('cls')
+            return non_key_columns
 
         except:
             os.system('cls')
             print(f'\t\tInvalid choice! Please try again.')
             input(f'\t\tPress any key to reload page: ')
             os.system('cls')
+            continue
+
+def init_ddl_command_for_table_creation(table_metadata: dict[str, str]) -> str:
+    '''
+        Initialize function to initialize
+        DDL (Data Definition Language) 
+        command for creating new table
+    '''
+    column_metadata = []
+
+    if table_metadata['Primary Keys'] != {}:
+        for primary_key, datatype in table_metadata['Primary Keys'].items():
+            column_metadata.append(f'{primary_key} {datatype}')
+        
+        for non_key_column, datatype in table_metadata['Non-Key Columns'].items():
+            column_metadata.append(f'{non_key_column} {datatype}')
+        
+        list_of_primary_keys = ', '.join(list(table_metadata['Primary Keys'].keys()))
+        column_metadata.append(f'PRIMARY KEY({list_of_primary_keys})')
+
+        column_metadata = ', '.join(column_metadata)
+        column_metadata = '(' + column_metadata + ')'
+
+    else:
+        for non_key_column, datatype in table_metadata['Non-Key Columns'].items():
+            column_metadata.append(f'{non_key_column} {datatype}')
+        
+        column_metadata = ', '.join(column_metadata)
+        column_metadata = '(' + column_metadata + ')'
+    
+    result = f'CREATE TABLE {table_metadata['Table Name']}{column_metadata};'
+    return result
 
 def create_table_main_page() -> None:
     '''
@@ -287,10 +429,49 @@ def create_table_main_page() -> None:
             'Table Name': '',
             'Total Number of Columns': 0,
             'Primary Keys': {},
-            'List of Column Names': {}
+            'Non-Key Columns': {}
         }
 
         os.system('cls')
         table_metadata['Table Name'] = create_table_name()
         table_metadata['Total Number of Columns'] = initialize_total_number_of_columns(table_metadata['Table Name'])
         table_metadata['Primary Keys'] = create_primary_keys(table_metadata['Table Name'], table_metadata['Total Number of Columns'])
+        table_metadata['Non-Key Columns'] = create_non_key_columns(table_metadata['Table Name'], table_metadata['Total Number of Columns'], table_metadata['Primary Keys'])
+
+        os.system('cls')
+        # Display header
+        header = 'Create Table'
+        print(f'\t\t\t{header}\n')
+
+        print(f'Table Name: {table_metadata['Table Name']}')
+
+        if table_metadata['Primary Keys'] == {}:
+            print(f'\t\tPrimary Key: None\n')
+        
+        else:
+            subheader = 'Primary Keys'
+            print(f'\n\t\t\t{subheader}\n')
+            
+            for primary_key, datatype in table_metadata['Primary Keys'].items():
+                print(f'\t\tPrimary Key: {primary_key}')
+                print(f'\t\tData Type: {datatype}')
+                print()
+        
+        subheader = 'Non-Key Columns'
+        print(f'\t\t\t{subheader}\n')
+
+        for non_key_column, datatype in table_metadata['Non-Key Columns'].items():
+            print(f'\t\tNon-key Column: {non_key_column}')
+            print(f'\t\tData Type: {datatype}')
+            print()
+
+        input(f'\t\tPress any key to create the table: ')
+        conn = init_connection()
+        cursor = conn.cursor()
+        command = init_ddl_command_for_table_creation(table_metadata)
+        
+        cursor.execute(command)
+        conn.commit()
+
+        cursor.close()
+        conn.close()
