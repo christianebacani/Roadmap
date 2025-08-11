@@ -27,13 +27,6 @@ def main_page() -> None:
 
         choice = input('\n\t\tEnter your choice here: ').strip()
 
-        if choice not in '123':
-            os.system('cls')
-            print(f'\t\tInvalid choice! Please try again.')
-            input('\t\tPress any key to continue: ')
-            os.system('cls')
-            continue
-
         if choice == '1':
             os.system('cls')
             crud_page()
@@ -47,6 +40,13 @@ def main_page() -> None:
         elif choice == '3':
             os.system('cls')
             break
+        
+        else:
+            os.system('cls')
+            print(f'\t\tInvalid choice! Please try again.')
+            input(f'\t\tPress any key to reload page: ')
+            os.system('cls')
+            continue
 
 if __name__ == '__main__':
     os.system('cls')
