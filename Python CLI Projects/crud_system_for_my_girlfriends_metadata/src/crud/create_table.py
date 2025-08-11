@@ -59,7 +59,7 @@ def initialize_total_number_of_columns(table_name: str) -> int:
             number_of_columns = int(input(f'\t\tHow many number of columns you want to create?: '))
 
             # Validate total number of columns
-            if number_of_columns == 0 or number_of_columns > 10:
+            if number_of_columns <= 0 or number_of_columns > 10:
                 os.system('cls')
                 print(f'\t\tInvalid number of columns! Please try again.')
                 input('\t\tPress any key to reload page: ')
@@ -75,7 +75,13 @@ def initialize_total_number_of_columns(table_name: str) -> int:
     
             if confirm_number_of_columns not in ['yes', 'yeah', 'yah', 'y']:
                 os.system('cls')
-                return number_of_columns
+                print(f'\t\tInvalid choice! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+
+            os.system('cls')
+            return number_of_columns
 
         except:
             os.system('cls')
