@@ -20,11 +20,11 @@ def init_engine() -> object:
     engine = create_engine(f'postgresql://{username}:{password}@{hostname}:{port}/{database}')
     return engine
 
-def init_cursor() -> object:
+def init_connection() -> object:
     '''
         Initialize function to initialize
-        Pyscopgy2 Cursor for executing PostgreSQL
-        Database commands using Python script
+        a connection to PostgreSQL Database
+        using Psycopg2 for CRUD Process
     '''
     conn = psycopg2.connect(
         user='<POSTGRESQL_ACCOUNT_USERNAME>',
@@ -33,8 +33,7 @@ def init_cursor() -> object:
         port='<PORT_NUMBER>',
         database='rica_metadatas'
     )
-    cursor = conn.cursor()
-    return cursor
+    return conn
 
 def get_table_names() -> list[str]:
     '''
