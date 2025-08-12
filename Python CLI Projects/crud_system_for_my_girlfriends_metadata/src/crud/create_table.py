@@ -3,7 +3,10 @@
 '''
 import os
 import re
+import pandas as pd
+from glob import glob
 from src.utils.utils import init_connection
+from src.utils.utils import init_engine
 
 def create_table_name() -> str:
     '''
@@ -36,6 +39,20 @@ def create_table_name() -> str:
             os.system('cls')
             print('\t\tInvalid table name!')
             input('\t\tPress any key to reload page: ')
+            os.system('cls')
+            continue
+
+        list_of_table_names_created = []
+
+        for csv_file in glob(f'src/metadata/*.csv'):
+            csv_file = str(csv_file).replace('\\', '/')
+            table_name_created = csv_file.replace('src/metadata/', '').replace('.csv', '')
+            list_of_table_names_created.append(table_name_created)
+        
+        if table_name in list_of_table_names_created:
+            os.system('cls')
+            print(f'\t\tTable name already created! Please try again.')
+            input(f'\t\tPress any key to reload page: ')
             os.system('cls')
             continue
 
@@ -104,10 +121,11 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
         while True:
             # Display subheader
             subheader = 'Create Primary Keys'
-            print(f'\n\t\t\t{subheader}\n')
+            print(f'\t\t\t{subheader}\n')
 
             primary_keys_are_valid = True
             primary_keys_datatype_are_valid = True
+            primary_keys_datatype_constraint_are_valid = True
             result = {}
 
             for number in range(number_of_primary_keys):
@@ -128,12 +146,25 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
                 # Validate chosen datatype
                 try:
                     chosen_datatype = int(input(f'\n\t\tChoose the datatype of {primary_key}: '))
-                    
+    
                     if chosen_datatype < 0:
                         primary_keys_datatype_are_valid = False
                         break
 
-                    result[primary_key] = available_datatypes[chosen_datatype - 1]
+                    if available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']:
+                        number_of_characters = int(input(f'\t\tEnter the number of characters of the {available_datatypes[chosen_datatype - 1].lower()} datatype: '))
+
+
+                    if (available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']) and (number_of_characters <= 0 or number_of_characters > 255):
+                        primary_keys_datatype_constraint_are_valid = False
+                        break
+
+
+                    if available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']:
+                        result[primary_key] = available_datatypes[chosen_datatype - 1] + '(' + str(number_of_characters) + ')'
+
+                    else:
+                        result[primary_key] = available_datatypes[chosen_datatype - 1]
 
                 except:
                     primary_keys_datatype_are_valid = False
@@ -153,6 +184,13 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
                 os.system('cls')
                 continue
             
+            if not primary_keys_datatype_constraint_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid primary key datatype constraint! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+
             os.system('cls')
             return result
 
@@ -248,10 +286,11 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
         while True:
             # Display subheader
             subheader = 'Create Non-Key Columns'
-            print(f'\n\t\t\t{subheader}\n')
+            print(f'\t\t\t{subheader}\n')
 
             non_key_columns_are_valid = True
             non_key_columns_datatype_are_valid = True
+            non_key_columns_datatype_constraint_are_valid = True
             result = {}
 
             for number in range(number_of_non_key_columns):
@@ -275,8 +314,36 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                     if chosen_datatype < 0:
                         non_key_columns_datatype_are_valid = False
                         break
+                    
+                    if available_datatypes[chosen_datatype - 1] == 'DECIMAL':
+                        precision = int(input(f'\t\tEnter the precision of the decimal datatype: '))
+                        scale = int(input(f'\t\tEnter the scale of the decimal datatype: '))
 
-                    result[non_key_column] = available_datatypes[chosen_datatype - 1]
+                    if available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']:
+                        number_of_characters = int(input(f'\t\tEnter the number of characters of the {available_datatypes[chosen_datatype - 1].lower()} datatype: '))
+
+
+                    if (available_datatypes[chosen_datatype - 1]) == 'DECIMAL' and (precision  <= 0 or precision > 20):
+                        non_key_columns_datatype_constraint_are_valid = False
+                        break
+
+                    if (available_datatypes[chosen_datatype - 1] == 'DECIMAL') and (scale <= 0 or scale > 5):
+                        non_key_columns_datatype_constraint_are_valid = False
+                        break
+                    
+                    if (available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']) and (number_of_characters <= 0 or number_of_characters > 255):
+                        non_key_columns_datatype_constraint_are_valid = False
+                        break
+
+
+                    if available_datatypes[chosen_datatype - 1] == 'DECIMAL':
+                        result[non_key_column] = available_datatypes[chosen_datatype - 1] + '(' + str(precision) + ',' + str(scale) + ' )'
+                    
+                    elif available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']:
+                        result[non_key_column] = available_datatypes[chosen_datatype - 1] + '(' + str(number_of_characters) + ')'
+                    
+                    else:
+                        result[non_key_column] = available_datatypes[chosen_datatype - 1]
 
                 except:
                     non_key_columns_datatype_are_valid = False
@@ -295,11 +362,19 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                 os.system('cls')
                 continue
             
+            if not non_key_columns_datatype_constraint_are_valid:
+                os.system('cls')
+                print(f'\t\tInvalid non-key column datatype constraint! Please try again.')
+                input(f'\t\tPress any key to reload page: ')
+                os.system('cls')
+                continue
+
             os.system('cls')
             return result
 
     available_datatypes = [
         'INTEGER',
+        'DECIMAL',
         'CHAR',
         'VARCHAR',
         'DATE',
@@ -390,7 +465,7 @@ def init_ddl_command_for_table_creation(table_metadata: dict[str, str]) -> str:
     if table_metadata['Primary Keys'] != {}:
         for primary_key, datatype in table_metadata['Primary Keys'].items():
             column_metadata.append(f'{primary_key} {datatype}')
-        
+
         for non_key_column, datatype in table_metadata['Non-Key Columns'].items():
             column_metadata.append(f'{non_key_column} {datatype}')
         
@@ -402,13 +477,26 @@ def init_ddl_command_for_table_creation(table_metadata: dict[str, str]) -> str:
 
     else:
         for non_key_column, datatype in table_metadata['Non-Key Columns'].items():
-            column_metadata.append(f'{non_key_column} {datatype}')
-        
+            column_metadata.append(f'{non_key_column} VARCHAR(255)')
+
         column_metadata = ', '.join(column_metadata)
         column_metadata = '(' + column_metadata + ')'
     
     result = f'CREATE TABLE {table_metadata['Table Name']}{column_metadata};'
     return result
+
+def create_file(table_name: str, engine: object) -> None:
+    '''
+        Create function to create
+        file from PostgreSQL Database
+        after table creation using SQL
+        Alchemy Engine
+    '''
+    dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+    filename = f'{table_name}.csv'
+    target_filepath = f'src/metadata/{filename}'
+
+    dataframe.to_csv(target_filepath, index=False)
 
 def create_table_main_page() -> None:
     '''
@@ -449,7 +537,7 @@ def create_table_main_page() -> None:
         header = 'Create Table'
         print(f'\t\t\t{header}\n')
 
-        print(f'Table Name: {table_metadata['Table Name']}')
+        print(f'\t\tTable Name: {table_metadata['Table Name']}')
 
         if table_metadata['Primary Keys'] == {}:
             print(f'\t\tPrimary Key: None\n')
@@ -472,12 +560,32 @@ def create_table_main_page() -> None:
             print()
 
         input(f'\t\tPress any key to create the table: ')
-        conn = init_connection()
-        cursor = conn.cursor()
-        command = init_ddl_command_for_table_creation(table_metadata)
-        
-        cursor.execute(command)
-        conn.commit()
 
-        cursor.close()
-        conn.close()
+        try:
+            conn = init_connection()
+            cursor = conn.cursor()
+            command = init_ddl_command_for_table_creation(table_metadata)
+        
+            cursor.execute(command)
+            conn.commit() # Commit the changes
+
+            cursor.close()
+            conn.close()
+
+            # Save created table to file
+            engine = init_engine()
+            create_file(table_metadata['Table Name'], engine)
+
+            os.system('cls')
+            print(f'\t\tSuccessfully created table: {table_metadata['Table Name']}!')
+            input(f'\t\tPress any key to exit page: ')
+            os.system('cls')
+            break
+
+        except Exception as error_message:
+            os.system('cls')
+            print(f'\t\tError creating table: {table_metadata['Table Name']}')
+            print(f'\t\tError message: {error_message}')
+            input(f'\t\tPress any key to reload page: ')
+            os.system('cls')
+            continue
