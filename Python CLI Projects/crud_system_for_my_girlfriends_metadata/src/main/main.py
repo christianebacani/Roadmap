@@ -40,7 +40,7 @@ def main_page() -> None:
         elif choice == '3':
             os.system('cls')
             break
-        
+
         else:
             os.system('cls')
             print(f'\t\tInvalid choice! Please try again.')
