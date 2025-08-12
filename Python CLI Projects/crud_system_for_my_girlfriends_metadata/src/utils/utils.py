@@ -8,16 +8,17 @@ from sqlalchemy import create_engine
 def init_engine() -> object:
     '''
         Initialize function to initialize
-        SQL Alchemy Engine
+        SQL Alchemy Engine for Reading Data
+        from PostgreSQL Database
     '''
     # Engine Parameters
-    username ='<POSTGRESQL_ACCOUNT_USERNAME>',
-    password ='<POSTGRESQL_ACCOUNT_PASSWORD>'
-    hostname ='<HOSTNAME>'
+    username = '<POSTGRESQL_ACCOUNT_USERNAME>'
+    password = '<POSTGRESQL_ACCOUNT_PASSWORD>'
+    host = '<HOSTNAME>'
     port = '<PORT_NUMBER>'
     database = 'rica_metadatas'
 
-    engine = create_engine(f'postgresql://{username}:{password}@{hostname}:{port}/{database}')
+    engine = create_engine(f'postgresql://{username}:{password}@{host}:{port}/{database}')
     return engine
 
 def init_connection() -> object:
@@ -29,7 +30,7 @@ def init_connection() -> object:
     conn = psycopg2.connect(
         user='<POSTGRESQL_ACCOUNT_USERNAME>',
         password='<POSTGRESQL_ACCOUNT_PASSWORD>',
-        hostname='<HOSTNAME>',
+        host='<HOSTNAME>',
         port='<PORT_NUMBER>',
         database='rica_metadatas'
     )
