@@ -565,7 +565,7 @@ def create_table_main_page() -> None:
             conn = init_connection()
             cursor = conn.cursor()
             command = init_ddl_command_for_table_creation(table_metadata)
-        
+
             cursor.execute(command)
             conn.commit() # Commit the changes
 
