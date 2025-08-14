@@ -30,9 +30,9 @@ def read_table_main_page() -> None:
         # Display options
         options = get_table_names()
         for number, option in enumerate(options):
-            print(f'\t\t\t{number + 1}.) Read {option} table')
+            print(f'\t\t{number + 1}.) Read {option} table')
         
-        print(f'\t\t\t{len(options) + 1}.) Exit')
+        print(f'\t\t{len(options) + 1}.) Exit')
 
         try:
             choice = int(input('\n\t\tEnter your choice here: ').strip())
