@@ -25,23 +25,25 @@ def main_page() -> None:
         for number, option in enumerate(options):
             print(f'\t\t\t{number + 1}.) {option}')
 
-        choice = input('\n\t\tEnter your choice here: ').strip()
+        try:
+            choice = int(input('\n\t\tEnter your choice here: '))
 
-        if choice == '1':
-            os.system('cls')
-            crud_page()
-            os.system('cls')
+            if choice == 1:
+                os.system('cls')
+                crud_page()
+                os.system('cls')
+                continue
 
-        elif choice == '2':
-            os.system('cls')
-            about_page()
-            os.system('cls')
+            elif choice == 2:
+                os.system('cls')
+                about_page()
+                os.system('cls')
+                continue
 
-        elif choice == '3':
             os.system('cls')
             break
 
-        else:
+        except:
             os.system('cls')
             print(f'\t\tInvalid choice! Please try again.')
             input(f'\t\tPress any key to reload page: ')
