@@ -2,9 +2,12 @@
     Insert Data Module
 '''
 import os
+import re
 import pandas as pd
 from glob import glob
+from datetime import datetime
 from src.utils.utils import init_connection
+from src.utils.utils import init_engine
 
 def get_table_names() -> list[str]:
     '''
@@ -34,6 +37,33 @@ def insert_data_to_chosen_table(table_name: str) -> None:
             command for data insertion to the
             chosen table
         '''
+        columns = []
+
+        for column in list(inserted_data.keys()):
+            columns.append(column)
+        
+        columns = ', '.join(columns)
+        result = f'INSERT INTO {table_name} ({columns})'
+
+        values = []
+
+        for value in list(inserted_data.values()):
+            if value is None:
+                values.append(None)
+                continue
+
+            try:
+                int(value)
+                float(value)
+                values.append(value)
+            
+            except:
+                values.append(f'\'{value}\'')
+        
+        values = ', '.join(values)
+        result = result + ' ' + f'VALUES ({values})'
+
+        return result
 
     while True:
         # Display header
@@ -48,17 +78,15 @@ def insert_data_to_chosen_table(table_name: str) -> None:
         valid_confirmation_message = True
     
         for column in list_of_columns:
-            inserted_data[column] = input(f'\t\tEnter new data for {column} column: ')
+            inserted_data[column]= input(f'\t\tEnter new data for {column} column: ')
             confirm_inserted_data = input(f'\t\tDid you enter the correct data?: ').strip().lower()
-
+ 
             # Validate confirmation message for inserted data
             if confirm_inserted_data in ['no', 'nope', 'nah', 'n']:
-                os.system('cls')
                 inserted_is_correct = False
                 break
             
             if confirm_inserted_data not in ['yes', 'yeah', 'yah', 'y']:
-                os.system('cls')
                 valid_confirmation_message = False
                 break
 
@@ -79,7 +107,7 @@ def insert_data_to_chosen_table(table_name: str) -> None:
         for column, data in inserted_data.items():
             if (str(data).strip() == '') or (str(data).strip().lower() in ['none', 'nan', 'n/a']):
                 number_of_missing_values += 1
-        
+
         if number_of_missing_values == len(list_of_columns):
             os.system('cls')
             print(f'\t\tAll columns consist of null values! Please try again.')
@@ -91,6 +119,9 @@ def insert_data_to_chosen_table(table_name: str) -> None:
         # Display header again
         print(f'\t\t\t{header}\n')
 
+        print(f'\t\tTable: {table_name}')
+        print()
+
         for column, data in inserted_data.items():
             if (str(data).strip() == '') or (str(data).strip().lower() in ['none', 'nan', 'n/a']):
                 inserted_data[column] = None
@@ -100,6 +131,32 @@ def insert_data_to_chosen_table(table_name: str) -> None:
             print()
         
         input(f'\t\tPress any key to insert the given data: ')
+        
+        try:
+            conn = init_connection()
+            cursor = conn.cursor()
+
+            command = init_ddl_command_for_data_insertion(table_name, inserted_data)
+            cursor.execute(command)
+            conn.commit() # Commit the changes
+
+            engine = init_engine()
+            dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+            dataframe.to_csv(f'src/metadata/{table_name}.csv', index=False) # Update the csv file
+
+            cursor.close()
+            conn.close()
+
+        except Exception as error_message:
+            os.system('cls')
+            print(f'\t\tError inserting to table: {table_name}')
+            print(f'\t\tError message: {error_message}')
+            input(f'\t\tPress any key to reload page: ')
+            os.system('cls')
+            continue
+        
+        os.system('cls')
+        break
 
 def insert_data_main_page() -> None:
     '''
@@ -134,8 +191,14 @@ def insert_data_main_page() -> None:
                 break
             
             chosen_table_name = list_of_table_names[choice - 1]
+
             os.system('cls')
-            continue
+            insert_data_to_chosen_table(chosen_table_name)
+
+            print(f'\t\tSuccessfully inserted data to table: {table_name}')
+            input(f'\t\tPress any key to exit page: ')
+            os.system('cls')
+            break
 
         except:
             os.system('cls')
