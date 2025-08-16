@@ -3,7 +3,11 @@
 */
 
 
-// School Classes Database
+// Create School Classes Database
+CREATE DATABASE IF NOT EXISTS
+    school_classes_db;
+
+// Use School Classes Database
 USE DATABASE
     school_classes_db;
 
