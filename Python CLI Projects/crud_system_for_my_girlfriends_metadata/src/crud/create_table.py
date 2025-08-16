@@ -159,7 +159,18 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
                         primary_keys_datatype_constraint_are_valid = False
                         break
 
+                    if (available_datatypes[chosen_datatype - 1] == 'DATE') and (not re.search(r'^\d{4}-\d{2}-\d{2}$'), primary_key):
+                        primary_keys_datatype_are_valid = False
+                        break
 
+                    if (available_datatypes[chosen_datatype - 1] == 'TIME') and (not re.search(r'^\d{2}:\d{2}:\d{2}$', primary_key)):
+                        primary_keys_datatype_are_valid = False
+                        break
+
+                    if (available_datatypes[chosen_datatype - 1] == 'TIMESTAMP') and (not re.search(r'^\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}$', primary_key)):
+                        primary_keys_datatype_are_valid = False
+                        break
+                    
                     if available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']:
                         result[primary_key] = available_datatypes[chosen_datatype - 1] + '(' + str(number_of_characters) + ')'
 
@@ -199,6 +210,7 @@ def create_primary_keys(table_name: str, number_of_columns: int) -> dict[str, st
         'CHAR',
         'VARCHAR',
         'DATE',
+        'TIME',
         'TIMESTAMP'
     ]
 
@@ -323,6 +335,23 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                         number_of_characters = int(input(f'\t\tEnter the number of characters of the {available_datatypes[chosen_datatype - 1].lower()} datatype: '))
 
 
+                    if (available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']) and (number_of_characters <= 0 or number_of_characters > 255):
+                        non_key_columns_datatype_are_valid = False
+                        break
+
+                    if (available_datatypes[chosen_datatype - 1] == 'DATE') and (not re.search(r'^\d{4}-\d{2}-\d{2}$'), non_key_column):
+                        non_key_columns_datatype_are_valid = False
+                        break
+
+                    if (available_datatypes[chosen_datatype - 1] == 'TIME') and (not re.search(r'^\d{2}:\d{2}:\d{2}$', non_key_column)):
+                        non_key_columns_datatype_are_valid = False
+                        break
+
+                    if (available_datatypes[chosen_datatype - 1] == 'TIMESTAMP') and (not re.search(r'^\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}$', non_key_column)):
+                        non_key_columns_datatype_are_valid = False
+                        break
+
+
                     if (available_datatypes[chosen_datatype - 1]) == 'DECIMAL' and (precision  <= 0 or precision > 20):
                         non_key_columns_datatype_constraint_are_valid = False
                         break
@@ -331,10 +360,6 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
                         non_key_columns_datatype_constraint_are_valid = False
                         break
                     
-                    if (available_datatypes[chosen_datatype - 1] in ['CHAR', 'VARCHAR']) and (number_of_characters <= 0 or number_of_characters > 255):
-                        non_key_columns_datatype_constraint_are_valid = False
-                        break
-
 
                     if available_datatypes[chosen_datatype - 1] == 'DECIMAL':
                         result[non_key_column] = available_datatypes[chosen_datatype - 1] + '(' + str(precision) + ',' + str(scale) + ' )'
@@ -378,8 +403,8 @@ def create_non_key_columns(table_name: str, number_of_columns: int, primary_keys
         'CHAR',
         'VARCHAR',
         'DATE',
-        'TIMESTAMP',
-        'BOOLEAN'
+        'TIME',
+        'TIMESTAMP'
     ]
 
     while True:
