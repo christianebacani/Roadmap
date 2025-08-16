@@ -52,10 +52,10 @@ def read_table_main_page() -> None:
             display_table(options[int(choice) - 1])
             os.system('cls')
             continue
-
+        
         except:
             os.system('cls')
             print(f'\t\tInvalid choice! Please try again.')
-            input('\t\tPress any key to continue: ')
+            input('\t\tPress any key to reload page: ')
             os.system('cls')
             continue
