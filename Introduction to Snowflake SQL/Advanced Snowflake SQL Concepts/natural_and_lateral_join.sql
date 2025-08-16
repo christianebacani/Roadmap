@@ -265,8 +265,8 @@ INSERT INTO
     last_name
     )
     VALUES
-    ('22-00981', 1, 4, 1, 1, 'Christiane Rhely Joselle', 'Aguibitin', 'Bacani'),
-    ('22-00982', 2, 3, 1, 2, 'Rica Mae', 'Gueco', 'Flores');
+    ('22-00981', 1, 4, 1, 'M', 'Christiane Rhely Joselle', 'Aguibitin', 'Bacani'),
+    ('22-00982', 2, 3, 1, 'F', 'Rica Mae', 'Gueco', 'Flores');
 
 ------------------------------------------------------- Data Selection -----------------------------------------------------
 
@@ -277,6 +277,37 @@ FROM
 NATURAL JOIN
     universities;
 
-SELECT *
+
+// Using 'LATERAL' for subqueries. It is similar to joins with subquery, the only difference is that it can access the left tables column and also the execution order
+SELECT
+    p.program,
+    lat_male.number_of_male_students,
+    lat_female.number_of_female_students
 FROM
-    students;
+    programs AS p,
+LATERAL (
+SELECT
+    COUNT(s.gender_id) AS number_of_male_students
+FROM
+    majors AS m
+INNER JOIN
+    students AS s
+ON
+    m.major_id = s.major_id
+WHERE
+    p.program_id = m.program_id AND
+    s.gender_id = 'M'
+) AS lat_male,
+LATERAL (
+SELECT
+    COUNT(s.gender_id) AS number_of_female_students
+FROM
+    majors AS m
+INNER JOIN
+    students AS s
+ON
+    m.major_id = s.major_id
+WHERE
+    p.program_id = m.program_id AND
+    s.gender_id = 'F'
+) AS lat_female;
