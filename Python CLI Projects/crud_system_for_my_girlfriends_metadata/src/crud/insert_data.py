@@ -100,7 +100,7 @@ def insert_data_to_chosen_table(table_name: str) -> None:
             print()
         
         input(f'\t\tPress any key to insert the given data: ')
-        
+
 def insert_data_main_page() -> None:
     '''
         CLI-Based Main Page for Inserting
