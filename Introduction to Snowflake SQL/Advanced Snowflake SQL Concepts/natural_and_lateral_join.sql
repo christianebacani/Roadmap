@@ -44,8 +44,10 @@ CREATE OR REPLACE TABLE
 CREATE OR REPLACE TABLE
     programs (
     program_id NUMBER(38, 0) PRIMARY KEY,
+    college_department_id NUMBER(38, 0),
     degree_id NUMBER(38, 0),
     program VARCHAR(255),
+    FOREIGN KEY(college_department_id) REFERENCES college_departments(college_department_id),
     FOREIGN KEY(degree_id) REFERENCES degrees(degree_id)
     );
 
@@ -56,6 +58,20 @@ CREATE OR REPLACE TABLE
     program_id NUMBER(38, 0),
     major VARCHAR(255),
     FOREIGN KEY(program_id) REFERENCES programs(program_id)
+    );
+
+// College Years Table
+CREATE OR REPLACE TABLE
+    college_years (
+    college_year_id NUMBER(38, 0) PRIMARY KEY,
+    college_year NUMBER(38, 0)
+    );
+
+// Sections Table
+CREATE OR REPLACE TABLE
+    sections (
+    section_id NUMBER(38, 0) PRIMARY KEY,
+    section CHAR(1)
     );
 
 // Genders Table
@@ -92,6 +108,23 @@ CREATE OR REPLACE TABLE
     gender_id CHAR(1),
     instructor VARCHAR(255),
     PRIMARY KEY(instructor_id, course_id),
+    FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
+    );
+
+// Students Table
+CREATE OR REPLACE TABLE
+    students (
+    student_id CHAR(8) PRIMARY KEY,
+    major_id NUMBER(38, 0),
+    college_year_id NUMBER(38, 0),
+    section_id NUMBER(38, 0),
+    gender_id CHAR(1),
+    first_name VARCHAR(255),
+    middle_name VARCHAR(255),
+    last_name VARCHAR(255),
+    FOREIGN KEY(major_id) REFERENCES majors(major_id),
+    FOREIGN KEY(college_year_id) REFERENCES college_years(college_year_id),
+    FOREIGN KEY(section_id) REFERENCES sections(section_id),
     FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
     );
 
@@ -137,12 +170,13 @@ INSERT INTO
 INSERT INTO
     programs (
     program_id,
+    college_department_id,
     degree_id,
     program
     )
     VALUES
-    (1, 1, 'Computer Sciece'),
-    (2, 1, 'Information Technology');
+    (1, 1, 1, 'Computer Science'),
+    (2, 1, 1, 'Information Technology');
 
 INSERT INTO
     majors (
@@ -153,6 +187,26 @@ INSERT INTO
     VALUES
     (1, 1, 'Software Development'),
     (2, 2, 'Network Administration');
+
+INSERT INTO
+    college_years (
+    college_year_id,
+    college_year
+    )
+    VALUES
+    (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5);
+
+INSERT INTO
+    sections (
+    section_id,
+    section
+    )
+    VALUES
+    (1, 'A');
 
 INSERT INTO
     genders (
@@ -195,6 +249,21 @@ INSERT INTO
     (1, 1, 'F', 'Consuelo Cruz'),
     (2, 2, 'M', 'Dennis Padilla');
 
+INSERT INTO
+    students (
+    student_id,
+    major_id,
+    college_year_id,
+    section_id,
+    gender_id,
+    first_name,
+    middle_name,
+    last_name
+    )
+    VALUES
+    ('22-00981', 1, 4, 1, 1, 'Christiane Rhely Joselle', 'Aguibitin', 'Bacani'),
+    ('22-00982', 2, 3, 1, 2, 'Rica Mae', 'Gueco', 'Flores');
+
 ------------------------------------------------------- Data Selection -----------------------------------------------------
 
 // Using 'NATURAL JOIN' to join two tables using the columns with the same name without specifying it using 'ON' clause
@@ -203,3 +272,7 @@ FROM
     campuses
 NATURAL JOIN
     universities;
+
+SELECT *
+FROM
+    students;
