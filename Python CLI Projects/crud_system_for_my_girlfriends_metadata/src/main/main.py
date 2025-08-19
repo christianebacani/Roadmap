@@ -2,54 +2,56 @@
     Main Module
 '''
 import os
-import warnings
-warnings.filterwarnings("ignore", category=RuntimeWarning)
-from src.crud.crud import crud_page
-from src.main.about import about_page
+from src.utils.utils import display_invalid_choice_message
 
 def main_page() -> None:
     '''
-        Implement a CLI-Based Main Page
+        Main Page Function to 
+        display the main page
     '''
+    # Display welcome message
+    print(f'\tWelcome to CLI-Based CRUD System for managing my girlfriend\'s metadata!')
+    input(f'\t\tPress any key to start: ')
+    os.system('cls')
+
     while True:
         # Display header
-        header = 'CRUD CLI-Based System for Managing Rica\'s Metadata'
-        print(f'\t\t{header}\n')
+        header = 'Main Page'
+        print(f'\t\t\t{header}\n')
 
-        # Display options
         options = [
             'Start',
-            'About',
+            'About the system',
             'Exit'
         ]
+        
+        # Display options
         for number, option in enumerate(options):
-            print(f'\t\t\t{number + 1}.) {option}')
-
+            number += 1
+            print(f'\t\t{number}.) {option}')
+        
         try:
-            choice = int(input('\n\t\tEnter your choice here: '))
+            # Enter user choice
+            print()
+            choice = int(input(f'\t\tEnter your choice here: '))
 
-            if choice == 1:
+            if choice == 2:
                 os.system('cls')
-                crud_page()
-                os.system('cls')
+                # TODO: Add a function from other modules here outside the 'main' package
                 continue
 
-            elif choice == 2:
-                os.system('cls')
-                about_page()
-                os.system('cls')
+            elif choice != 3:
+                display_invalid_choice_message()
                 continue
+            
+            else:
+                os.system('cls')
+                break
 
-            os.system('cls')
-            break
-
-        except:
-            os.system('cls')
-            print(f'\t\tInvalid choice! Please try again.')
-            input(f'\t\tPress any key to reload page: ')
-            os.system('cls')
+        except ValueError:
+            display_invalid_choice_message()
             continue
-
+            
 if __name__ == '__main__':
     os.system('cls')
     main_page()
