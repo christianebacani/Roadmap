@@ -186,6 +186,7 @@ INSERT INTO
     VALUES
     (1, 'Nathnath Maslam', 'Christiane Rhely Joselle A. Bacani', 'Sobrang sakit ng puwet', '2025-08-05', NULL);
 
+
 // Uncorrelated subquery in Snowflake
 SELECT
     hospital,
