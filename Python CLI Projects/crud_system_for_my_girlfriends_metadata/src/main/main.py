@@ -3,6 +3,7 @@
 '''
 import os
 from src.utils.utils import display_invalid_choice_message
+from src.crud.crud import crud_page
 from src.about_the_system.about_the_system import about_the_system_page
 
 def main_page() -> None:
@@ -38,7 +39,7 @@ def main_page() -> None:
 
             if choice == 1:
                 os.system('cls')
-                # TODO: Execute a function here from other module outsidee 'main' package
+                crud_page()
                 continue
                 
             elif choice == 2:
