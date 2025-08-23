@@ -2,6 +2,7 @@
     Utilities Module
 '''
 import os
+import psycopg2
 from glob import glob
 
 def display_invalid_choice_message() -> None:
@@ -29,3 +30,19 @@ def get_the_list_of_table_names() -> list[str]:
         result.append(table_name)
 
     return result
+
+def init_connection() -> object:
+    '''
+        Initialize Function to
+        initialize a Psycopg2
+        Connection for PostgreSQL
+        Database
+    '''
+    conn = psycopg2.connect(
+        user='<POSTGRESQL_USERNAME>',
+        password='<POSTGRESQL_PASSWORD>',
+        host='<HOSTNAME>',
+        port='<PORT_NUMBER>',
+        database='rica_metadatas'
+    )
+    return conn
