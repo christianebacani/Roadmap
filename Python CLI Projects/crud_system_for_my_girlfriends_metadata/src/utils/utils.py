@@ -14,7 +14,6 @@ def display_invalid_choice_message() -> None:
     input(f'\t\tPress any key to reload page: ')
     os.system('cls')
 
-
 def get_the_list_of_table_names() -> list[str]:
     '''
         Get function to get the
