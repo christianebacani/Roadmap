@@ -15,7 +15,7 @@ def read_data(table_name: str) -> None:
     conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
     dataframe = pd.read_sql(f'SELECT * FROM {table_name}', conn)
     print(dataframe)
-    
+
     input(f'\n\t\tPress any key to exit page: ')
     os.system('cls')
     
