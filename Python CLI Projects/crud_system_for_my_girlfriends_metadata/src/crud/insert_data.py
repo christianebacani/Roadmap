@@ -17,7 +17,7 @@ def insert_data(table_name: str) -> None:
             Initialize function to initialize
             SQL Command for Data Insertion
         '''
-        columns = ', '.join(list(insert_data.keys()))
+        columns = ', '.join(list(inserted_data.keys()))
         command = f'INSERT INTO {table_name} ({columns})'
         
         values = []
@@ -30,9 +30,9 @@ def insert_data(table_name: str) -> None:
                 values.append(value)
 
             # We need to make sure when inserting string/date/time/datetime datatype values we use open and close quotation marks
-            except ValueError:
+            except:
                 values.append(f'\'{value}\'')
-        
+
         values = ', '.join(values)
         command = command + ' ' + 'VALUES' + '(' + values + ')'
         
@@ -74,10 +74,7 @@ def insert_data(table_name: str) -> None:
                 invalid_confirmation = True
                 break
             
-            if data == '':
-                inserted_data[column] = None
-
-            else:
+            if data != '':
                 inserted_data[column] = data
 
         if inserted_data_not_confirm:
@@ -90,7 +87,7 @@ def insert_data(table_name: str) -> None:
             input(f'\t\tPress any key to reload the page: ')
             os.system('cls')
             continue
-        
+
         # Display header
         os.system('cls')
         print(f'\t\t', end='')
@@ -121,7 +118,14 @@ def insert_data(table_name: str) -> None:
             target_filepath = f'src/metadata/{table_name}.csv'
             dataframe.to_csv(target_filepath, index=False)
 
-            # TODO: Add more functionalities here...
+            os.system('cls')
+            print(f'\t\tSuccessfully inserted data to {table_name} table')
+            input(f'\t\tPress any key to exit page: ')
+            os.system('cls')
+            
+            cursor.close()
+            conn.close()
+            break
 
         except Exception as error_message:
             os.system('cls')
@@ -134,7 +138,7 @@ def insert_data_page() -> None:
     '''
         Insert Data Page function to
         insert new rows of data from
-        the existing tables of my girlfriend's
+        the chosen table of my girlfriend's
         metadata
     '''
     while True:
@@ -156,7 +160,7 @@ def insert_data_page() -> None:
             input(f'\t\tPress any key to exit the page: ')
             os.system('cls')
             break
-        
+
         # Display options
         for number, table_name in enumerate(table_names):
             number += 1
