@@ -5,21 +5,19 @@ import os
 import pandas as pd
 from src.utils.utils import display_invalid_choice_message
 from src.utils.utils import get_the_list_of_table_names
-from src.utils.utils import init_connection
+from src.utils.utils import init_engine
 
 def read_data(table_name: str) -> None:
     '''
         Read data function to display
         the data, based on the table_name parameter
     '''
-    conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
-    dataframe = pd.read_sql(f'SELECT * FROM {table_name}', conn)
-    print(dataframe)
+    engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
+    dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
 
+    print(dataframe)
     input(f'\n\t\tPress any key to exit page: ')
     os.system('cls')
-    
-    conn.close()
 
 def read_data_page() -> None:
     '''
@@ -63,7 +61,7 @@ def read_data_page() -> None:
                 os.system('cls')
                 break
 
-            elif (choice >= 1 and choice <= (len(table_names) + 1)):
+            elif (choice >= 1 and choice <= len(table_names)):
                 os.system('cls')
                 read_data(table_names[choice - 1])
                 continue
