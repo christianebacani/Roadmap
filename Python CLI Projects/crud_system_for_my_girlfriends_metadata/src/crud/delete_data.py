@@ -6,6 +6,7 @@ import pandas as pd
 from src.utils.utils import get_the_list_of_table_names
 from src.utils.utils import display_invalid_choice_message
 from src.utils.utils import init_connection
+from src.utils.utils import init_engine
 
 def delete_data(table_name: str) -> None:
     '''
@@ -13,36 +14,12 @@ def delete_data(table_name: str) -> None:
         a specific row based on the chosen
         table of my girlfriend's metadata
     '''
-    def is_data_available_from_table(table_name: str, deleted_data: dict[str, str]) -> bool:
-        '''
-           Search function to search the given 
-           data if it's available from the chosen 
-           table of my girlfriend's metadata 
-        '''
-        columns = list(deleted_data.keys())
-        where_clause = []
-
-        for column in columns:
-            # Check if the data can be typecasted to integer and float
-            try:
-                int(data)
-                float(data)
-                where_clause.append(f'{column} = {data}')
-                
-            # We need to make sure when using string/date/time/datetime datatype values at 'WHERE' clause, we use open and close quotation marks
-            except:
-                where_clause.append(f'{column} = \'{data}\'')
-        
-        # TODO: Implement more functionalities here...
-
     def init_sql_command_for_data_deletion(table_name: str, deleted_data: dict[str, str]) -> str:
         '''
             Initialize function to initialize
             SQL Command for Data Deletion
         '''
-        columns = ', '.join(list(deleted_data.keys()))
         command = f'DELETE FROM {table_name}'
-
         where_clause = []
 
         for column, data in deleted_data.items():
@@ -60,7 +37,7 @@ def delete_data(table_name: str) -> None:
         command = command + ' ' + 'WHERE' + ' ' + where_clause
 
         return command
-   
+
     conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
     dataframe = pd.read_sql(f'SELECT * FROM {table_name}', conn)    
     columns = list(dataframe.columns)
@@ -111,7 +88,46 @@ def delete_data(table_name: str) -> None:
             os.system('cls')
             continue
         
-        # TODO: Implement more functionalities here...
+        # Display Header
+        os.system('cls')
+        print(f'\t\t', end='')
+        print(f'=' * 28)
+        header = 'Deleted Data'
+        print(f'\t\t\t{header}')
+        print(f'\t\t', end='')
+        print(f'=' * 28)
+
+        # Display table name and the deleted data per column
+        print(f'\t\tTable Name: {table_name}')
+
+        for column, data in deleted_data.items():
+            print(f'\t\t{column}: {data}')
+        
+        input(f'\n\t\tPress any key to delete the given data from the table: ')
+
+        try:
+            conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
+            cursor = conn.cursor() # # Initialize a cursor from the established connection
+            command = init_sql_command_for_data_deletion(table_name, delete_data)
+
+            cursor.execute(command)
+            conn.commit()
+
+            cursor.close()
+            conn.close()
+
+            os.system('cls')
+            print(f'\t\tSuccessfully deleted data from {table_name} table')
+            input(f'\t\tPress any key to exit page: ')
+            os.sytem('cls')
+            break
+
+        except Exception as error_message:
+            os.system('cls')
+            print(f'\t\tError: {error_message}')
+            input(f'\t\tPress any key to reload page: ')
+            os.system('cls')
+            continue
 
 def delete_data_page() -> None:
     '''
@@ -155,9 +171,9 @@ def delete_data_page() -> None:
                 os.system('cls')
                 break
             
-            elif (choice >= 1 and choice <= (len(table_names) + 1)):
-                os.system('cls')
-                # TODO: Execute a function here...
+            elif (choice >= 1 and choice <= len(table_names)):
+                os.system('cls')    
+                delete_data(table_names[choice - 1])
                 continue
 
             else:
