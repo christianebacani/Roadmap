@@ -4,6 +4,7 @@
 import os
 import psycopg2
 from glob import glob
+from sqlalchemy import create_engine
 
 def display_invalid_choice_message() -> None:
     '''
@@ -46,3 +47,20 @@ def init_connection() -> object:
         database='rica_metadatas'
     )
     return conn
+
+def init_engine() -> object:
+    '''
+        Initialize Function to
+        initialize a SQL Alchemy
+        Engine for Quick Data
+        Retrieval from PostgreSQL
+        Database Server
+    '''
+    user = '<POSTGRESQL_USERNAME>'
+    password = '<POSTGRESQL_PASSWORD>'
+    host = '<HOSTNAME>'
+    port = '<PORT_NUMBER>'
+    database = 'rica_metadatas'
+
+    engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{database}')
+    return engine
