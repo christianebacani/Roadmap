@@ -6,6 +6,7 @@ import pandas as pd
 from src.utils.utils import display_invalid_choice_message
 from src.utils.utils import get_the_list_of_table_names
 from src.utils.utils import init_connection
+from src.utils.utils import init_engine
 
 def insert_data(table_name: str) -> None:
     '''
@@ -104,7 +105,7 @@ def insert_data(table_name: str) -> None:
         for column, data in inserted_data.items():
             print(f'\t\t{column}: {data}')
         
-        input(f'\n\t\tPress any key to insert the given data: ')
+        input(f'\n\t\tPress any key to insert the given data from the table: ')
         
         try:
             conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
@@ -113,18 +114,14 @@ def insert_data(table_name: str) -> None:
         
             cursor.execute(command)
             conn.commit()
-
-            dataframe = pd.read_sql(f'SELECT * FROM {table_name}', conn)
-            target_filepath = f'src/metadata/{table_name}.csv'
-            dataframe.to_csv(target_filepath, index=False)
+            
+            cursor.close()
+            conn.close()
 
             os.system('cls')
             print(f'\t\tSuccessfully inserted data to {table_name} table')
             input(f'\t\tPress any key to exit page: ')
             os.system('cls')
-            
-            cursor.close()
-            conn.close()
             break
 
         except Exception as error_message:
@@ -177,7 +174,7 @@ def insert_data_page() -> None:
                 os.system('cls')
                 break
             
-            elif (choice >= 1 and choice <= (len(table_names) + 1)):
+            elif (choice >= 1 and choice <= len(table_names)):
                 os.system('cls')
                 insert_data(table_names[choice - 1])
                 continue
