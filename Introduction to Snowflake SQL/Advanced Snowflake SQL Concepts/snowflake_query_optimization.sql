@@ -1,140 +1,162 @@
 /*
-    Lesson: Snowflake Query Optimization
+    Lesson: Snowflake Query Optimizations
 */
 
 
+// Create Database
 CREATE DATABASE IF NOT EXISTS
-    coffee_shop_db;
+    social_media_db;
 
+// Use Database
 USE DATABASE
-    coffee_shop_db;
+    social_media_db;
 
 
---------------------------------------------------------------------------------------- Table Creation --------------------------------------------------------------------------------
-
-// Coffee Shops Table
+// Genders Table
 CREATE OR REPLACE TABLE
-    coffee_shops (
-    coffee_shop_id NUMBER(38, 0) PRIMARY KEY,
-    coffee_shop VARCHAR(255),
-    address TEXT
+    genders (
+    gender_id CHAR(1) PRIMARY KEY,
+    gender VARCHAR(10)
     );
 
-// Branches Table
+// User Registrations Table
 CREATE OR REPLACE TABLE
-    branches (
-    branch_id NUMBER(38, 0) PRIMARY KEY,
-    coffee_shop_id NUMBER(38, 0),
-    branch VARCHAR(255),
-    address TEXT
+    user_registrations (
+    user_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1,
+    gender_id CHAR(1),
+    username VARCHAR(40),
+    password VARCHAR(40),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(user_id),
+    FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
     );
 
-// Positions Table
+// Users Table
 CREATE OR REPLACE TABLE
-    positions (
-    position_id NUMBER(38, 0) PRIMARY KEY,
-    position VARCHAR(255)
+    users (
+    user_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1,
+    gender_id CHAR(1),
+    username VARCHAR(40),
+    password VARCHAR(40),
+    PRIMARY KEY(user_id),
+    FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
     );
 
-// Employees Table
+// Post Owners Table
 CREATE OR REPLACE TABLE
-    employees (
-    employee_id NUMBER(38, 0) PRIMARY KEY,
-    position_id NUMBER(38, 0),
-    employee VARCHAR(255),
-    gender CHAR(1),
-    FOREIGN KEY(position_id) REFERENCES positions(position_id)
+    post_owners (
+    post_id NUMBER(38, 0) PRIMARY KEY,
+    owner_id NUMBER(38, 0),
+    FOREIGN KEY(owner_id) REFERENCES users(user_id)
     );
 
---------------------------------------------------------------------------------------- Data Insertionn -------------------------------------------------------------------------------
 
 INSERT INTO
-    coffee_shops (
-    coffee_shop_id,
-    coffee_shop,
-    address
-    )
-    VALUES
-    (1, 'Big Brew', '30 Romulo Boulevard, Terazza Building (in front of TSU Tarlac State University) 2300 Tarlac Central Luzon');
-
-INSERT INTO
-    branches (
-    branch_id,
-    coffee_shop_id,
-    branch,
-    address
-    )
-    VALUES
-    (1, 1, 'Big Brew - San Isidro', 'San Isidro 2300 Tarlac Central Luzon ');
-
-INSERT INTO
-    positions (
-    position_id,
-    position
-    )
-    VALUES
-    (1, 'Manager'),
-    (2, 'Cashier'),
-    (3, 'Brewer'),
-    (4, 'Delivery Rider');
-
-INSERT INTO
-    employees(
-    employee_id,
-    position_id,
-    employee,
+    genders (
+    gender_id,
     gender
     )
+    VALUES 
+    ('M', 'Male'),
+    ('F', 'Female');
+
+INSERT INTO
+    user_registrations (
+    gender_id,
+    username,
+    password
+    )
     VALUES
-    (1, 2, 'Gavjvorzki Mae Flores', 'F');
+    ('M', 'example_username(1)', 'example_password(1)'),
+    ('F', 'example_username(2)', 'example_password(2)');
 
---------------------------------------------------------------------------------------- Queries ---------------------------------------------------------------------------------------
+INSERT INTO
+    users (
+    gender_id,
+    username,
+    password
+    )
+    VALUES
+    ('M', 'example_username(1)', 'example_password(1)'),
+    ('F', 'example_username(2)', 'example_password(2)');
 
-// Avoid this type of joins (Exploding Joins) because it will result to cartesian result were every row will match to every rows of another table
+INSERT INTO
+    post_owners (
+    post_id,
+    owner_id
+    )
+    VALUES
+    (1, 1);
+
+/*
+    Common Query Problems
+*/
+
+
+// Not using 'ON' when joining table will yields cartesian product (every record from the first table will match to every record from the second table) which produce bigger results
 SELECT *
 FROM
-    coffee_shops
+    genders
 JOIN
-    branches;
+    user_registrations;
 
-// Use 'ON' condition as much as possible to avoid this mistakes
-SELECT
-    cs.coffee_shop,
-    b.branch
+// Use 'ON' condition when joining TABLE
+SELECT *
 FROM
-    coffee_shops AS cs
+    genders AS g
 JOIN
-    branches AS b
+    user_registrations AS ur
 ON
-    cs.coffee_shop_id = b.coffee_shop_id;
+    g.gender_id = ur.gender_id;
 
 
-// Avoid using 'UNION' if the tables does not have any duplicates
+// Using 'UNION' when removing duplicates which will affect query time and consumes more resources
 SELECT
-    employee
+    username,
+    password
 FROM
-    employees
+    user_registrations
 WHERE
-    gender = 'M'
+    gender_id = 'M'
 UNION
 SELECT
-    employee
+    username,
+    password
 FROM
-    employees
+    user_registrations
 WHERE
-    gender = 'F';
+    gender_id = 'F';
 
-// Use 'UNION ALL' if you're sure there's no duplicate
+// Use 'UNION ALL' when you're sure there's no duplicate
 SELECT
-    employee
+    username,
+    password
 FROM
-    employees
+    user_registrations
 WHERE
-    gender = 'M'
+    gender_id = 'M'
 UNION ALL
 SELECT
-    employee
+    username,
+    password
 FROM
-    employees
+    user_registrations
 WHERE
-    gender = 'F';
+    gender_id = 'F';
+
+
+// Using filters and and limits can yield for quicker results
+SELECT
+    username,
+    password
+FROM
+    users
+WHERE
+    gender_id = 'F'
+LIMIT
+    3;
+
+
+SELECT *
+FROM
+    post_owners;
