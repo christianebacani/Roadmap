@@ -5,6 +5,7 @@ import os
 import pandas as pd
 from src.utils.utils import display_invalid_choice_message
 from src.utils.utils import get_the_list_of_table_names
+from src.utils.utils import get_the_list_of_column_names
 from src.utils.utils import init_connection
 from src.utils.utils import init_engine
 
@@ -40,7 +41,7 @@ def insert_data(table_name: str) -> None:
         return command
 
     while True:
-        columns = list(pd.read_csv(f'src/metadata/{table_name}.csv').columns)
+        columns = get_the_list_of_column_names(table_name) # Get the column names
 
         # Display header
         print(f'\t\t', end='')
@@ -117,6 +118,10 @@ def insert_data(table_name: str) -> None:
             
             cursor.close()
             conn.close()
+            
+            engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
+            dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+            dataframe.to_csv(f'data/{table_name}.csv', index=False)
 
             os.system('cls')
             print(f'\t\tSuccessfully inserted data to {table_name} table')
@@ -174,7 +179,7 @@ def insert_data_page() -> None:
                 os.system('cls')
                 break
             
-            elif (choice >= 1 and choice <= len(table_names)):
+            elif (choice >= 1) and (choice <= len(table_names)):
                 os.system('cls')
                 insert_data(table_names[choice - 1])
                 continue
