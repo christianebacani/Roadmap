@@ -61,7 +61,7 @@ def read_data_page() -> None:
                 os.system('cls')
                 break
 
-            elif (choice >= 1 and choice <= len(table_names)):
+            elif (choice >= 1) and (choice <= len(table_names)):
                 os.system('cls')
                 read_data(table_names[choice - 1])
                 continue
