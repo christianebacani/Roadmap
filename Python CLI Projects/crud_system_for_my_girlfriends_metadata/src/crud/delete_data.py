@@ -5,6 +5,7 @@ import os
 import pandas as pd
 from src.utils.utils import get_the_list_of_table_names
 from src.utils.utils import display_invalid_choice_message
+from src.utils.utils import get_the_list_of_column_names
 from src.utils.utils import init_connection
 from src.utils.utils import init_engine
 
@@ -38,12 +39,9 @@ def delete_data(table_name: str) -> None:
 
         return command
 
-    conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
-    dataframe = pd.read_sql(f'SELECT * FROM {table_name}', conn)    
-    columns = list(dataframe.columns)
-    conn.close()
-
     while True:
+        columns = get_the_list_of_column_names(table_name) # Get the column names
+
         # Display Header
         print(f'\t\t', end='')
         print(f'=' * 27)
@@ -60,7 +58,7 @@ def delete_data(table_name: str) -> None:
 
         deleted_data_not_confirm = False
         invalid_confirmation = False
-        
+
         # Ask for the data to be deleted from the table
         for column in columns:
             data = input(f'\t\tEnter the data to be deleted from {column} column: ')
@@ -108,7 +106,7 @@ def delete_data(table_name: str) -> None:
         try:
             conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
             cursor = conn.cursor() # # Initialize a cursor from the established connection
-            command = init_sql_command_for_data_deletion(table_name, delete_data)
+            command = init_sql_command_for_data_deletion(table_name, deleted_data)
 
             cursor.execute(command)
             conn.commit()
@@ -116,10 +114,14 @@ def delete_data(table_name: str) -> None:
             cursor.close()
             conn.close()
 
+            engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
+            dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+            dataframe.to_csv(f'data/{table_name}.csv', index=False)
+
             os.system('cls')
             print(f'\t\tSuccessfully deleted data from {table_name} table')
             input(f'\t\tPress any key to exit page: ')
-            os.sytem('cls')
+            os.system('cls')
             break
 
         except Exception as error_message:
@@ -131,7 +133,7 @@ def delete_data(table_name: str) -> None:
 
 def delete_data_page() -> None:
     '''
-        Delete data function to
+        Delete data page function to
         delete a row of data from
         the chosen table of my
         girlfriend's metadata
@@ -146,8 +148,8 @@ def delete_data_page() -> None:
         print(f'=' * 27)
         
         table_names = get_the_list_of_table_names() # Get the table names
-        
-        # Display invalid message when there's no table available to be inserted
+
+        # Display invalid message when there's no table available to be deleted
         if table_names == []:
             os.system('cls')
             print(f'\t\tCurrently there\'s no table created!')
@@ -171,7 +173,7 @@ def delete_data_page() -> None:
                 os.system('cls')
                 break
             
-            elif (choice >= 1 and choice <= len(table_names)):
+            elif (choice >= 1) and (choice <= len(table_names)):
                 os.system('cls')    
                 delete_data(table_names[choice - 1])
                 continue
