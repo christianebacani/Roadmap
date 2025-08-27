@@ -5,6 +5,7 @@ import os
 from src.utils.utils import display_invalid_choice_message
 from src.crud.insert_data import insert_data_page
 from src.crud.read_data import read_data_page
+from src.crud.update_data import update_data_page
 from src.crud.delete_data import delete_data_page
 
 def crud_page() -> None:
@@ -51,6 +52,11 @@ def crud_page() -> None:
                 read_data_page()
                 continue
             
+            elif choice == 4:
+                os.system('cls')
+                update_data_page()
+                continue
+
             elif choice == 5:
                 os.system('cls')
                 delete_data_page()
