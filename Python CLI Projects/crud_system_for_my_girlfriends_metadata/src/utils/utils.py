@@ -3,6 +3,7 @@
 '''
 import os
 import psycopg2
+import pandas as pd
 from glob import glob
 from sqlalchemy import create_engine
 
@@ -21,17 +22,17 @@ def get_the_list_of_table_names() -> list[str]:
         Get function to get the
         list of table names by 
         reading the file names
-        from 'metadata' directory
+        from 'data' directory
     '''
     result = []
 
-    for csv_file in glob(f'src/metadata/*.csv'):
+    for csv_file in glob(f'data/*'):
         csv_file = str(csv_file).replace('\\', '/')
-        table_name = str(csv_file).replace('src/metadata/', '').replace('.csv', '')
+        table_name = str(csv_file).replace('data/', '').replace('.csv', '')
         result.append(table_name)
 
     return result
-
+    
 def init_connection() -> object:
     '''
         Initialize Function to
@@ -64,3 +65,16 @@ def init_engine() -> object:
 
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{database}')
     return engine
+
+def get_the_list_of_column_names(table_name: str) -> list[str]:
+    '''
+        Get function to get the
+        list of column names by 
+        reading the table using
+        pandas from the csv file
+        of 'data' directory
+    '''
+    engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
+    dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+    columns = list(dataframe.columns)
+    return columns
