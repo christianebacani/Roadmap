@@ -46,6 +46,36 @@ def update_data(table_name: str) -> None:
         
         return False
 
+    def init_sql_command_for_data_update(table_name: str, updated_data: dict[str, str]) -> str:
+        '''
+            Initialize function to initialize
+            SQL Command for Data Update
+        '''
+        columns = list(updated_data.keys())
+        command = f'UPDATE FROM {table_name}'
+        
+        set_clause = []
+        where_clause = []
+
+        for column, data in updated_data.items():
+            # Check if the data can be typecasted to integer and float
+            try:
+                int(data)
+                float(data)
+                set_clause.append(f'{column} = {data}')
+                where_clause.append(f'{column} = {data}')
+
+            # We need to make sure when using string/date/time/datetime datatype values at 'SET' and 'WHERE' clause, we use open and close quotation marks    
+            except:
+                set_clause.append(f'{column} = \'{data}\'')
+                where_clause.append(f'{column} = \'{data}\'')
+
+        set_clause = ', '.join(set_clause)
+        where_clause = ' AND '.join(where_clause)        
+        command = command = ' ' + 'SET' + ' ' + set_clause + ' ' + 'WHERE' + ' ' + where_clause
+
+        return command
+
     while True:
         columns = get_the_list_of_column_names(table_name) # Get the column names
 
@@ -162,7 +192,7 @@ def update_data(table_name: str) -> None:
         for column, data in updated_data.items():
             print(f'\t\tColumn: {column}')
             print(f'\t\tPrevious data: {searched_data[column]}')
-            print(f'\t\tUpdated data: {searched_data[column]}')
+            print(f'\t\tUpdated data: {updated_data[column]}')
             print()
 
         input(f'\t\tPress any key to update the given data from the table: ')
@@ -170,9 +200,24 @@ def update_data(table_name: str) -> None:
         try:
             conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
             cursor = conn.cursor() # # Initialize a cursor from the established connection
+            command = init_sql_command_for_data_update(table_name, updated_data)
+            
+            cursor.execute(command)
+            conn.commit()
 
-            # TODO: Add more functionalities here...
+            cursor.close()
+            conn.close()
 
+            engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
+            dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
+            dataframe.to_csv(f'data/{table_name}.csv', index=False)
+
+            os.system('cls')
+            print(f'\t\tSuccessfully updated data from {table_name} table')
+            input(f'\t\tPress any key to exit page: ')
+            os.system('cls')
+            break
+ 
         except Exception as error_message:
             os.system('cls')
             print(f'\t\tError: {error_message}')
