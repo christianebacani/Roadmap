@@ -3,6 +3,7 @@
 '''
 import os
 from src.utils.utils import display_invalid_choice_message
+from src.crud.create_table import create_table_page
 from src.crud.insert_data import insert_data_page
 from src.crud.read_data import read_data_page
 from src.crud.update_data import update_data_page
@@ -42,7 +43,12 @@ def crud_page() -> None:
         try:
             choice = int(input(f'\n\t\tEnter your choice here: '))
 
-            if choice == 2:
+            if choice == 1:
+                os.system('cls')
+                create_table_page()
+                continue
+
+            elif choice == 2:
                 os.system('cls')
                 insert_data_page()
                 continue
