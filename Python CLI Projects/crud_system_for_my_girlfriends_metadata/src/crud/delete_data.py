@@ -49,6 +49,7 @@ def delete_data(table_name: str) -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 27)
+        print()
 
         # Dictionary to store the data to be remove as a value and the column as a key
         deleted_data = {}
@@ -94,6 +95,7 @@ def delete_data(table_name: str) -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 28)
+        print()
 
         # Display table name and the deleted data per column
         print(f'\t\tTable Name: {table_name}')
@@ -116,7 +118,7 @@ def delete_data(table_name: str) -> None:
 
             engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
             dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
-            dataframe.to_csv(f'data/{table_name}.csv', index=False)
+            dataframe.to_csv(f'src/data/{table_name}.csv', index=False)
 
             os.system('cls')
             print(f'\t\tSuccessfully deleted data from {table_name} table')
@@ -146,7 +148,8 @@ def delete_data_page() -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 27)
-        
+        print()
+
         table_names = get_the_list_of_table_names() # Get the table names
 
         # Display invalid message when there's no table available to be deleted
