@@ -26,9 +26,9 @@ def get_the_list_of_table_names() -> list[str]:
     '''
     result = []
 
-    for csv_file in glob(f'data/*'):
+    for csv_file in glob(f'src/data/*'):
         csv_file = str(csv_file).replace('\\', '/')
-        table_name = str(csv_file).replace('data/', '').replace('.csv', '')
+        table_name = str(csv_file).replace('src/data/', '').replace('.csv', '')
         result.append(table_name)
 
     return result
@@ -41,8 +41,8 @@ def init_connection() -> object:
         Database
     '''
     conn = psycopg2.connect(
-        user='<POSTGRESQL_USERNAME>',
-        password='<POSTGRESQL_PASSWORD>',
+        user='<POSTGRESQL_ACCOUNT_USERNAME>',
+        password='<POSTGRESQL_ACCOUNT_PASSWORD>',
         host='<HOSTNAME>',
         port='<PORT_NUMBER>',
         database='rica_metadatas'
@@ -57,12 +57,12 @@ def init_engine() -> object:
         Retrieval from PostgreSQL
         Database Server
     '''
-    user = '<POSTGRESQL_USERNAME>'
-    password = '<POSTGRESQL_PASSWORD>'
-    host = '<HOSTNAME>'
-    port = '<PORT_NUMBER>'
+    user = '<POSTGRESQL_ACCOUNT_USERNAME>',
+    password = '<POSTGRESQL_ACCOUNT_PASSWORD>',
+    host = '<HOSTNAME>',
+    port = '<PORT_NUMBER>',
     database = 'rica_metadatas'
-
+    
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{database}')
     return engine
 
