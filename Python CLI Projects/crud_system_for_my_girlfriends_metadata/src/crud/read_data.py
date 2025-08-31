@@ -10,7 +10,8 @@ from src.utils.utils import init_engine
 def read_data(table_name: str) -> None:
     '''
         Read data function to display
-        the data, based on the table_name parameter
+        the data that was based on 
+        the table_name parameter
     '''
     engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
     dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
@@ -69,7 +70,7 @@ def read_data_page() -> None:
             else:
                 display_invalid_choice_message()
                 continue
-            
+
         except ValueError:
             display_invalid_choice_message()
             continue
