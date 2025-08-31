@@ -46,36 +46,42 @@ def update_data(table_name: str) -> None:
         
         return False
 
-    def init_sql_command_for_data_update(table_name: str, updated_data: dict[str, str]) -> str:
+    def init_sql_command_for_data_update(table_name: str, searched_data: dict[str, str], updated_data: dict[str, str]) -> str:
         '''
             Initialize function to initialize
             SQL Command for Data Update
         '''
-        columns = list(updated_data.keys())
-        command = f'UPDATE FROM {table_name}'
-        
-        set_clause = []
+        command = f'UPDATE {table_name}'
         where_clause = []
 
+        for column, data in searched_data.items():
+            try:
+                int(data)
+                float(data)
+                where_clause.append(f'{column} = {data}')
+
+            # We need to make sure when using string/date/time/datetime datatype values at 'WHERE' clause, we use open and close quotation marks
+            except:
+                where_clause.append(f'{column} = \'{data}\'')
+
+        set_clause = []
+
         for column, data in updated_data.items():
-            # Check if the data can be typecasted to integer and float
             try:
                 int(data)
                 float(data)
                 set_clause.append(f'{column} = {data}')
-                where_clause.append(f'{column} = {data}')
 
-            # We need to make sure when using string/date/time/datetime datatype values at 'SET' and 'WHERE' clause, we use open and close quotation marks    
+            # We need to make sure when using string/date/time/datetime datatype values at 'WHERE' clause, we use open and close quotation marks
             except:
                 set_clause.append(f'{column} = \'{data}\'')
-                where_clause.append(f'{column} = \'{data}\'')
 
         set_clause = ', '.join(set_clause)
-        where_clause = ' AND '.join(where_clause)        
-        command = command = ' ' + 'SET' + ' ' + set_clause + ' ' + 'WHERE' + ' ' + where_clause
+        where_clause = ' AND '.join(where_clause)
+        command = command + ' ' + 'SET' + ' ' + set_clause + ' ' + 'WHERE' + ' ' + where_clause
 
         return command
-
+    
     while True:
         columns = get_the_list_of_column_names(table_name) # Get the column names
 
@@ -86,6 +92,7 @@ def update_data(table_name: str) -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 27)
+        print()
 
         # Dictionary to store the data to check if it's available from the table for update as a value and the column as a key
         searched_data = {}
@@ -140,6 +147,7 @@ def update_data(table_name: str) -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 27)
+        print()
 
         # Dictionary to store the update data as a value and the column as a key
         updated_data = {}
@@ -184,6 +192,7 @@ def update_data(table_name: str) -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 28)
+        print()
 
         # Display table name with the previous and updated data per column
         print(f'\t\tTable Name: {table_name}')
@@ -200,8 +209,8 @@ def update_data(table_name: str) -> None:
         try:
             conn = init_connection() # Initialize a connection to the PostgreSQL Database using Pyscopg2
             cursor = conn.cursor() # # Initialize a cursor from the established connection
-            command = init_sql_command_for_data_update(table_name, updated_data)
-            
+            command = init_sql_command_for_data_update(table_name, searched_data, updated_data)
+
             cursor.execute(command)
             conn.commit()
 
@@ -210,7 +219,7 @@ def update_data(table_name: str) -> None:
 
             engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
             dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
-            dataframe.to_csv(f'data/{table_name}.csv', index=False)
+            dataframe.to_csv(f'src/data/{table_name}.csv', index=False)
 
             os.system('cls')
             print(f'\t\tSuccessfully updated data from {table_name} table')
@@ -240,6 +249,7 @@ def update_data_page() -> None:
         print(f'\t\t\t{header}')
         print(f'\t\t', end='')
         print(f'=' * 27)
+        print()
 
         table_names = get_the_list_of_table_names() # Get the table names
 
