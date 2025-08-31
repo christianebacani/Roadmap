@@ -121,7 +121,7 @@ def insert_data(table_name: str) -> None:
             
             engine = init_engine() # Initialize SQL Alchemy Engine for PostgreSQL Database
             dataframe = pd.read_sql(f'SELECT * FROM {table_name}', engine)
-            dataframe.to_csv(f'data/{table_name}.csv', index=False)
+            dataframe.to_csv(f'src/data/{table_name}.csv', index=False)
 
             os.system('cls')
             print(f'\t\tSuccessfully inserted data to {table_name} table')
