@@ -33,7 +33,7 @@ def create_table_name() -> str:
         os.system('cls')
         return table_name
 
-def get_the_total_number_of_columns(table_name: dict[str, str | int | list]) -> int:
+def get_the_total_number_of_columns(table_metadata: dict[str, str | int | list]) -> int:
     '''
         Get function to get the
         total number of columns
@@ -49,8 +49,8 @@ def get_the_total_number_of_columns(table_name: dict[str, str | int | list]) -> 
         print('=' * 30)
         print()
         
-        print(f'\t\tTable Name: {table_name['Table Name']}')
-        
+        print(f'\t\tTable Name: {table_metadata['Table Name']}')
+
         try:
             number_of_columns = int(input('\t\tHow many number of columns you want to create?: '))
             
@@ -75,6 +75,90 @@ def get_the_total_number_of_columns(table_name: dict[str, str | int | list]) -> 
             os.system('cls')
             return number_of_columns
 
+        except ValueError:
+            display_invalid_choice_message()
+            continue
+
+def create_primary_keys(table_metadata: dict[str, str | int | list]) -> list[str]:
+    '''
+        Create function to create
+        primary keys for the new table
+    '''
+    while True:
+        # Display header
+        print(f'\t\t', end='')
+        print('=' * 30)
+        header = 'Creating Table'
+        print(f'\t\t\t{header}')
+        print(f'\t\t', end='')
+        print('=' * 30)
+        print()
+        
+        print(f'\t\tTable Name: {table_metadata['Table Name']}')
+        print(f'\t\tNumber of Columns: {table_metadata['Number of Columns']}')
+
+        try:
+            number_of_primary_keys = int(input(f'\t\tHow many number of primary keys you want to create?: '))
+
+            if number_of_primary_keys < 0:
+                display_invalid_choice_message()
+                continue
+
+            if number_of_primary_keys == 0:
+                os.system('cls')
+                return 0
+
+            # Display header
+            os.system('cls')
+            print(f'\t\t', end='')
+            print('=' * 30)
+            header = 'Creating Table'
+            print(f'\t\t\t{header}')
+            print(f'\t\t', end='')
+            print('=' * 30)
+            print()
+
+            datatypes = [
+                'INTEGER',
+                'VARCHAR',
+                'CHAR',
+                'FLOAT'
+            ]
+            primary_keys_and_datatype = {}
+
+            primary_key_not_confirm = False
+            invalid_confirmation = False
+
+            for _ in range(number_of_primary_keys):
+                primary_key = input(f'\t\tEnter the primary key name: ')
+                confirm_primary_key = input(f'\t\tDid you enter the correct primary key (Y/N)?: ').strip().upper()
+
+                if confirm_primary_key == 'N':
+                    primary_key_not_confirm = True
+                    break
+                
+                if confirm_primary_key != 'Y':
+                    invalid_confirmation = True
+                    break
+
+                print()
+
+                for number, datatype in enumerate(datatypes):
+                    print(f'\t\t{number}.) {datatype}')
+                
+                print()
+                chosen_datatype = input(f'\t\tChoose the datatype of {primary_key} primary: ')
+
+                # TODO: Implement more functionalities here...
+            
+            if primary_key_not_confirm:
+                os.system('cls')
+                continue
+
+            if invalid_confirmation:
+                display_invalid_choice_message()
+                continue
+                        
         except ValueError:
             display_invalid_choice_message()
             continue
