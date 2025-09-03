@@ -149,8 +149,10 @@ def create_primary_keys(table_metadata: dict[str, str | int | list]) -> list[str
                 print()
                 chosen_datatype = input(f'\t\tChoose the datatype of {primary_key} primary: ')
 
-                # TODO: Implement more functionalities here...
-            
+                if chosen_datatype <= 0:
+                    display_invalid_choice_message()
+                    continue
+                    
             if primary_key_not_confirm:
                 os.system('cls')
                 continue
