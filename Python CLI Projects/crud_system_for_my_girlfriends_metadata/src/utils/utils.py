@@ -57,10 +57,10 @@ def init_engine() -> object:
         Retrieval from PostgreSQL
         Database Server
     '''
-    user = '<POSTGRESQL_ACCOUNT_USERNAME>',
-    password = '<POSTGRESQL_ACCOUNT_PASSWORD>',
-    host = '<HOSTNAME>',
-    port = '<PORT_NUMBER>',
+    user = '<POSTGRESQL_ACCOUNT_USERNAME>'
+    password = '<POSTGRESQL_ACCOUNT_PASSWORD>'
+    host = '<HOSTNAME>'
+    port = '<PORT_NUMBER>'
     database = 'rica_metadatas'
     
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{database}')
