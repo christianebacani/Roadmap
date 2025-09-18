@@ -1,162 +1,164 @@
 /*
-    Lesson: Snowflake Query Optimizations
+    Lesson: Snowflake Query Optimization
 */
 
 
-// Create Database
+-- Create database
 CREATE DATABASE IF NOT EXISTS
-    social_media_db;
+    library_db;
 
-// Use Database
+-- Use database
 USE DATABASE
-    social_media_db;
+    library_db;
 
 
-// Genders Table
+-- Libraries table
 CREATE OR REPLACE TABLE
-    genders (
-    gender_id CHAR(1) PRIMARY KEY,
-    gender VARCHAR(10)
+    libraries (
+    library_id NUMBER(38, 0) PRIMARY KEY,
+    library VARCHAR(255),
+    address TEXT
     );
 
-// User Registrations Table
+-- Bookshelves table
 CREATE OR REPLACE TABLE
-    user_registrations (
-    user_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1,
-    gender_id CHAR(1),
-    username VARCHAR(40),
-    password VARCHAR(40),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY(user_id),
-    FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
-    );
-
-// Users Table
-CREATE OR REPLACE TABLE
-    users (
-    user_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1,
-    gender_id CHAR(1),
-    username VARCHAR(40),
-    password VARCHAR(40),
-    PRIMARY KEY(user_id),
-    FOREIGN KEY(gender_id) REFERENCES genders(gender_id)
-    );
-
-// Post Owners Table
-CREATE OR REPLACE TABLE
-    post_owners (
-    post_id NUMBER(38, 0) PRIMARY KEY,
-    owner_id NUMBER(38, 0),
-    FOREIGN KEY(owner_id) REFERENCES users(user_id)
+    bookshelves (
+    bookshelf_id NUMBER(38, 0) PRIMARY KEY,
+    library_id NUMBER(38, 0),
+    bookshelf VARCHAR(255),
+    FOREIGN KEY(library_id) REFERENCES libraries(library_id)
     );
 
 
 INSERT INTO
-    genders (
-    gender_id,
-    gender
-    )
-    VALUES 
-    ('M', 'Male'),
-    ('F', 'Female');
-
-INSERT INTO
-    user_registrations (
-    gender_id,
-    username,
-    password
+    libraries (
+    library_id,
+    library,
+    address
     )
     VALUES
-    ('M', 'example_username(1)', 'example_password(1)'),
-    ('F', 'example_username(2)', 'example_password(2)');
+    (1, 'BPSU Library', 'Brgy. Tenejero, Balanga City, Bataan 2100');
 
 INSERT INTO
-    users (
-    gender_id,
-    username,
-    password
+    bookshelves (
+    bookshelf_id,
+    library_id,
+    bookshelf
     )
     VALUES
-    ('M', 'example_username(1)', 'example_password(1)'),
-    ('F', 'example_username(2)', 'example_password(2)');
+    (1, 1, 'Computer Science Bookshelf');
 
-INSERT INTO
-    post_owners (
-    post_id,
-    owner_id
-    )
-    VALUES
-    (1, 1);
 
 /*
     Common Query Problems
 */
 
-
-// Not using 'ON' when joining table will yields cartesian product (every record from the first table will match to every record from the second table) which produce bigger results
+-- Exploding Joins
 SELECT *
 FROM
-    genders
-JOIN
-    user_registrations;
+    libraries
+INNER JOIN
+    bookshelves;
 
-// Use 'ON' condition when joining TABLE
+-- Instead, Use 'ON' statement when joining two tables
 SELECT *
 FROM
-    genders AS g
-JOIN
-    user_registrations AS ur
+    libraries AS l
+INNER JOIN
+    bookshelves AS b
 ON
-    g.gender_id = ur.gender_id;
+    l.library_id = b.library_id;
 
 
-// Using 'UNION' when removing duplicates which will affect query time and consumes more resources
+-- Using 'UNION' statement
 SELECT
-    username,
-    password
+    library_id
 FROM
-    user_registrations
-WHERE
-    gender_id = 'M'
+    libraries
 UNION
 SELECT
-    username,
-    password
+    library_id
 FROM
-    user_registrations
-WHERE
-    gender_id = 'F';
+    bookshelves;
 
-// Use 'UNION ALL' when you're sure there's no duplicate
+-- Instead, Use 'UNION ALL' if were're sure that the data does not have any duplicates
 SELECT
-    username,
-    password
+    library_id
 FROM
-    user_registrations
-WHERE
-    gender_id = 'M'
+    libraries
 UNION ALL
 SELECT
-    username,
-    password
+    library_id
 FROM
-    user_registrations
-WHERE
-    gender_id = 'F';
+    bookshelves;
 
 
-// Using filters and and limits can yield for quicker results
+/*
+    Query Optimizations
+*/
+
+-- Using filters and limits to yield quicker and cost-effective results
 SELECT
-    username,
-    password
+    l.library,
+    b.bookshelf
 FROM
-    users
+    libraries  AS l
+INNER JOIN
+    bookshelves AS b
+ON
+    l.library_id = b.library_id
 WHERE
-    gender_id = 'F'
+    l.address LIKE '%Balanga City%'
 LIMIT
-    3;
+    5;
 
+
+-- Specify the column when using 'SELECT' statement and avoid 'SELECT *'
+SELECT
+    bookshelf_id,
+    library_id
+FROM
+    bookshelves;
+
+
+-- Use 'WHERE' clause before joining tables for faster processes of fewer rows before joining it
+WITH
+    balanga_libraries AS (
+SELECT
+    library_id,
+    library
+FROM
+    libraries
+WHERE
+    address LIKE '%Balanga City%'
+    )
+
+SELECT
+    bl.library,
+    b.bookshelf
+FROM
+    balanga_libraries AS bl
+INNER JOIN
+    bookshelves AS b
+ON
+    bl.library_id = b.library_id;
+
+
+-- Examine the query history to analyze what needs to be optimize in your query using 'query_history' view of 'account_usage' schema
+WITH
+    my_table_queries AS 
+(SELECT
+    query_text,
+    start_time,
+    end_time,
+    execution_time,
+    query_type
+FROM
+    snowflake.account_usage.query_history
+WHERE
+    query_text ILIKE '%libraries%' OR
+    query_text ILIKE '%bookshelves%')
 
 SELECT *
 FROM
-    post_owners;
+    my_table_queries;
