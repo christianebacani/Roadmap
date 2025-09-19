@@ -1,3 +1,8 @@
+/*
+    Lesson: Snowflake Query Optimization
+*/
+
+
 -- Create database
 CREATE DATABASE IF NOT EXISTS
     library_db;
@@ -15,6 +20,16 @@ CREATE OR REPLACE TABLE
     address TEXT
     );
 
+-- Librarians table
+CREATE OR REPLACE TABLE
+    librarians (
+    librarian_id NUMBER(38, 0) PRIMARY KEY,
+    librarian VARCHAR(255),
+    gender CHAR(1),
+    start_date DATE,
+    end_date DATE
+    );
+
 -- Bookshelves table
 CREATE OR REPLACE TABLE
     bookshelves (
@@ -24,11 +39,54 @@ CREATE OR REPLACE TABLE
     FOREIGN KEY(library_id) REFERENCES libraries(library_id)
     );
 
+-- Authors table
+CREATE OR REPLACE TABLE
+    authors (
+    author_id NUMBER(38, 0) PRIMARY KEY,    
+    author VARCHAR(255),
+    gender CHAR(1)
+    );
+
 -- Categories table
 CREATE OR REPLACE TABLE
     categories (
     category_id NUMBER(38, 0) PRIMARY KEY,
     category VARCHAR(255)
+    );
+
+-- Books table
+CREATE OR REPLACE TABLE
+    books (
+    book_id NUMBER(38, 0) PRIMARY KEY,
+    bookshelf_id NUMBER(38, 0),
+    author_id NUMBER(38, 0),
+    category_id NUMBER(38, 0),
+    book VARCHAR(255),
+    FOREIGN KEY(bookshelf_id) REFERENCES bookshelves(bookshelf_id),
+    FOREIGN KEY(author_id) REFERENCES authors(author_id),
+    FOREIGN KEY(category_id) REFERENCES categories(category_id)
+    );
+
+-- Borrowers table
+CREATE OR REPLACE TABLE
+    borrowers (
+    borrower_id NUMBER(38, 0) PRIMARY KEY,
+    borrowed_book_id NUMBER(38, 0),
+    borrower VARCHAR(255),
+    gender CHAR(1),
+    borrowed_timestamp TIMESTAMP,
+    FOREIGN KEY(borrowed_book_id) REFERENCES books(book_id)
+    );
+
+-- Returnees table
+CREATE OR REPLACE TABLE
+    returnees (
+    returnee_id NUMBER(38, 0) PRIMARY KEY,
+    returned_book_id NUMBER(38, 0),
+    returnee VARCHAR(255),
+    gender CHAR(1),
+    returned_timestamp TIMESTAMP,
+    FOREIGN KEY(returned_book_id) REFERENCES books(book_id)
     );
 
 
@@ -42,6 +100,17 @@ INSERT INTO
     (1, 'BPSU Library', 'Brgy. Tenejero, Balanga City, Bataan 2100');
 
 INSERT INTO
+    librarians (
+    librarian_id,
+    librarian,
+    gender,
+    start_date,
+    end_date
+    )
+    VALUES
+    (1, 'Chrae Flores-Bacani', 'F', CURRENT_DATE(), NULL);
+
+INSERT INTO
     bookshelves (
     bookshelf_id,
     library_id,
@@ -51,12 +120,54 @@ INSERT INTO
     (1, 1, 'Computer Science Bookshelf');
 
 INSERT INTO
+    authors (
+    author_id,
+    author,
+    gender
+    )
+    VALUES
+    (1, 'Joe Reis', 'M');
+
+INSERT INTO
     categories (
     category_id,
     category
     )
     VALUES
     (1, 'Computer Science');
+
+INSERT INTO
+    books (
+    book_id,
+    bookshelf_id,
+    author_id,
+    category_id,
+    book
+    )
+    VALUES
+    (1, 1, 1, 1, 'Fundamentals of Data Engineering');
+
+INSERT INTO
+    borrowers (
+    borrower_id,
+    borrowed_book_id,
+    borrower,
+    gender,
+    borrowed_timestamp
+    )
+    VALUES
+    (1, 1, 'Nathan Skeen', 'M', '2025-09-20 02:17:44.444');
+
+INSERT INTO
+    returnees (
+    returnee_id,
+    returned_book_id,
+    returnee,
+    gender,
+    returned_timestamp
+    )
+    VALUES
+    (1, 1, 'Nathan Skeen', 'M', '2025-09-20 03:39:44.444');
 
 
 /*
