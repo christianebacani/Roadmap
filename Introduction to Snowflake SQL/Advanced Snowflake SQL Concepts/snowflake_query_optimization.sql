@@ -1,8 +1,3 @@
-/*
-    Lesson: Snowflake Query Optimization
-*/
-
-
 -- Create database
 CREATE DATABASE IF NOT EXISTS
     library_db;
@@ -29,6 +24,13 @@ CREATE OR REPLACE TABLE
     FOREIGN KEY(library_id) REFERENCES libraries(library_id)
     );
 
+-- Categories table
+CREATE OR REPLACE TABLE
+    categories (
+    category_id NUMBER(38, 0) PRIMARY KEY,
+    category VARCHAR(255)
+    );
+
 
 INSERT INTO
     libraries (
@@ -47,6 +49,14 @@ INSERT INTO
     )
     VALUES
     (1, 1, 'Computer Science Bookshelf');
+
+INSERT INTO
+    categories (
+    category_id,
+    category
+    )
+    VALUES
+    (1, 'Computer Science');
 
 
 /*
@@ -161,4 +171,9 @@ WHERE
 
 SELECT *
 FROM
-    my_table_queries;
+    my_table_queries
+WHERE
+    query_text NOT ILIKE '%INSERT INTO%' AND
+    query_text ILIKE '%my_table_queries%'
+ORDER BY
+    start_time DESC;
