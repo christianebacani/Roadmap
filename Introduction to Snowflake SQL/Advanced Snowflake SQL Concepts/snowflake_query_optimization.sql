@@ -57,7 +57,9 @@ INSERT INTO
     address
     )
     VALUES
-    (1, 'Mang Inasal - Robinsons Tarlac', 'Robinsons Luisita McArthur Highway Barangay San Miguel 2nd District');
+    (1, 'Mang Inasal - Robinsons Tarlac', 'Robinsons Luisita McArthur Highway Barangay San Miguel 2nd District'),
+    (2, 'Jollibee - Luisita', 'Plaza Luisita Mall McArthur Highway Barangay San Miguel 1st District'),
+    (3, 'McDonald''s - Robinson''s Luisita', 'Mac Arthur Hiway San Miguel 1st District');
 
 INSERT INTO
     shop_types (
@@ -79,7 +81,9 @@ INSERT INTO
     address
     )
     VALUES
-    (1, 2, 'Jelexie (San Miguel)', '28 McArthur Highway Barangay San Miguel 53rd District');
+    (1, 2, 'Jelexie (San Miguel)', '28 McArthur Highway Barangay San Miguel 53rd District'),
+    (2, 5, 'Puregold - Tarlac City', 'Palm Plaza Building, MacArthur Highway, Brgy.Matatalaib, Tarlac City, 2300 Tarlac, Philippines'),
+    (3, 5, 'Robinson - Luisita', 'Luisita Access Road 2300 Tarlac City Tarlac');
 
 INSERT INTO
     product_categories (
@@ -87,7 +91,23 @@ INSERT INTO
     product_category
     )
     VALUES
-    (1, 'Food and Beverages');
+    (1, 'Food and Beverages'),
+    (2, 'Beauty Products'),
+    (3, 'Fashion & Accessories');
+
+INSERT INTO
+    products (
+    product_id,
+    restaurant_id,
+    shop_id,
+    product_category_id,
+    product,
+    price
+    )
+    VALUES
+    (1, 1, NULL, 1, '2 Pc Pork BBQ Solo Fiesta', 225),
+    (2, NULL, 3, 2, 'Oxecure Facial Cleanser', 219),
+    (3, 2, NULL, 1, '1 - pc. Chickenjoy w/ Jolly Spaghetti Solo', 152);
 
 
 SELECT *
