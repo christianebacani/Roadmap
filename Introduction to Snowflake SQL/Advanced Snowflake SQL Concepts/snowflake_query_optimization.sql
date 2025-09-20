@@ -7,43 +7,40 @@ USE DATABASE
     food_delivery_app_db;
 
 
--- Restaurant categories table
-CREATE OR REPLACE TABLE
-    restaurant_categories (
-    restaurant_category_id NUMBER(38, 0) PRIMARY KEY,
-    restaurant_category VARCHAR(255)
-    );
-
 -- Restaurants table
 CREATE OR REPLACE TABLE
     restaurants (
     restaurant_id NUMBER(38, 0) PRIMARY KEY,
-    restaurant_category_id NUMBER(38, 0),
     restaurant VARCHAR(255),
-    address TEXT,
-    FOREIGN KEY(restaurant_category_id) REFERENCES restaurant_categories(restaurant_category_id)
+    address TEXT
+    );
+
+-- Product categories table
+CREATE OR REPLACE TABLE
+    product_categories (
+    product_category_id NUMBER(38, 0) PRIMARY KEY,
+    product_category VARCHAR(255)
     );
 
 
 INSERT INTO
-    restaurant_categories (
-    restaurant_category_id,
-    restaurant_category
-    )
-    VALUES
-    (1, 'Fast-food');
-
-INSERT INTO
     restaurants (
     restaurant_id,
-    restaurant_category_id,
     restaurant,
     address
     )
     VALUES
-    (1, 1, 'Mcdonalds Luisita', 'Luisita Access Road 2300 Tarlac City Tarlac');
+    (1, 'Mcdonalds Luisita', 'Luisita Access Road 2300 Tarlac City Tarlac');
+
+INSERT INTO
+    product_categories (
+    product_category_id,
+    product_category
+    )
+    VALUES
+    (1, 'Food and Beverages');
 
 
 SELECT *
 FROM
-    restaurants;
+    product_categories;
