@@ -49,6 +49,30 @@ CREATE OR REPLACE TABLE
     price NUMBER(11, 2)
     );
 
+-- Delivery riders table
+CREATE OR REPLACE TABLE
+    delivery_riders (
+    delivery_rider_id NUMBER(38, 0) PRIMARY KEY,
+    first_name VARCHAR(255),
+    middle_name VARCHAR(255),
+    last_name VARCHAR(255),
+    gender CHAR(6),
+    contact_number CHAR(11),
+    delivery_rider_since TIMESTAMP
+    );
+
+-- Customers table
+CREATE OR REPLACE TABLE
+    customers (
+    customer_id NUMBER(38, 0) PRIMARY KEY,
+    first_name VARCHAR(255),
+    middle_name VARCHAR(255),
+    last_name VARCHAR(255),
+    gender CHAR(6),
+    contact_number CHAR(11),
+    customer_since TIMESTAMP
+    );
+
 
 INSERT INTO
     restaurants (
@@ -106,10 +130,36 @@ INSERT INTO
     )
     VALUES
     (1, 1, NULL, 1, '2 Pc Pork BBQ Solo Fiesta', 225),
-    (2, NULL, 3, 2, 'Oxecure Facial Cleanser', 219),
+    (2, NULL, 3, 2, 
+'Oxecure Facial Cleanser', 219),
     (3, 2, NULL, 1, '1 - pc. Chickenjoy w/ Jolly Spaghetti Solo', 152);
 
+INSERT INTO
+    delivery_riders (
+    delivery_rider_id,
+    first_name,
+    middle_name,
+    last_name,
+    gender,
+    contact_number,
+    delivery_rider_since
+    )
+    VALUES
+    (1, 'Saber', 'Smith', 'Sanford', 'Male', '09999999999', '2025-09-20 22:42:44.444'),
+    (2, 'Layla', 'Shem', 'Shimineth', 'Female', '09999999998', '2025-09-15 22:42:44.444'),
+    (3, 'Snoop', 'Lai', 'Dog', 'Male', '09999999997', '2025-09-20 22:42:44.444');
 
-SELECT *
-FROM
-    products;
+INSERT INTO
+    customers (
+    customer_id,
+    first_name,
+    middle_name,
+    last_name,
+    gender,
+    contact_number,
+    customer_since
+    )
+    VALUES
+    (1, 'Chris', 'Agi', 'Bacs', 'Male', '09444444444', '2025-09-20 22:57:44.444'),
+    (2, 'Yuki', 'Tilapia', 'Tilaps', 'Female', '09444444445', '2025-09-15 22:57:44.444'),
+    (3, 'Flabby', 'Tilapia', 'Tilaps', 'Female', '09444444446', '2025-09-10 22:57:44.444');
