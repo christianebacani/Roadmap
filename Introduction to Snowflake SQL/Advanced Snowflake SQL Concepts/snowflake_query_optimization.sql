@@ -84,11 +84,14 @@ CREATE OR REPLACE TABLE
 CREATE OR REPLACE TABLE
     orders (
     order_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1 PRIMARY KEY,
-    delivery_rider_id (38, 0),
+    delivery_rider_id NUMBER (38, 0),
     customer_id NUMBER(38, 0),
     payment_method_id NUMBER(38, 0),
     recipient_full_name VARCHAR(255),
-    order_datetime TIMESTAMP
+    order_datetime TIMESTAMP,
+    FOREIGN KEY(delivery_rider_id) REFERENCES delivery_riders(delivery_rider_id),
+    FOREIGN KEY(customer_id) REFERENCES customers(customer_id),
+    FOREIGN KEY(payment_method_id) REFERENCES payment_methods(payment_method_id)
     );
 
 
