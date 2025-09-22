@@ -58,7 +58,7 @@ CREATE OR REPLACE TABLE
     last_name VARCHAR(255),
     gender CHAR(6),
     contact_number CHAR(11),
-    delivery_rider_since TIMESTAMP
+    delivery_rider_since DATE
     );
 
 -- Customers table
@@ -70,7 +70,25 @@ CREATE OR REPLACE TABLE
     last_name VARCHAR(255),
     gender CHAR(6),
     contact_number CHAR(11),
-    customer_since TIMESTAMP
+    customer_since DATE
+    );
+
+-- Payment methods table
+CREATE OR REPLACE TABLE
+    payment_methods (
+    payment_method_id NUMBER(38, 0) PRIMARY KEY,
+    payment_method VARCHAR(255)
+    );
+
+-- Orders table
+CREATE OR REPLACE TABLE
+    orders (
+    order_id NUMBER(38, 0) AUTOINCREMENT START 1 INCREMENT 1 PRIMARY KEY,
+    delivery_rider_id (38, 0),
+    customer_id NUMBER(38, 0),
+    payment_method_id NUMBER(38, 0),
+    recipient_full_name VARCHAR(255),
+    order_datetime TIMESTAMP
     );
 
 
@@ -145,9 +163,9 @@ INSERT INTO
     delivery_rider_since
     )
     VALUES
-    (1, 'Saber', 'Smith', 'Sanford', 'Male', '09999999999', '2025-09-20 22:42:44.444'),
-    (2, 'Layla', 'Shem', 'Shimineth', 'Female', '09999999998', '2025-09-15 22:42:44.444'),
-    (3, 'Snoop', 'Lai', 'Dog', 'Male', '09999999997', '2025-09-20 22:42:44.444');
+    (1, 'Saber', 'Smith', 'Sanford', 'Male', '09999999999', '2025-09-20'),
+    (2, 'Layla', 'Shem', 'Shimineth', 'Female', '09999999998', '2025-09-15'),
+    (3, 'Snoop', 'Lai', 'Dog', 'Male', '09999999997', '2025-09-20');
 
 INSERT INTO
     customers (
@@ -160,6 +178,22 @@ INSERT INTO
     customer_since
     )
     VALUES
-    (1, 'Chris', 'Agi', 'Bacs', 'Male', '09444444444', '2025-09-20 22:57:44.444'),
-    (2, 'Yuki', 'Tilapia', 'Tilaps', 'Female', '09444444445', '2025-09-15 22:57:44.444'),
-    (3, 'Flabby', 'Tilapia', 'Tilaps', 'Female', '09444444446', '2025-09-10 22:57:44.444');
+    (1, 'Chris', 'Agi', 'Bacs', 'Male', '09444444444', '2025-09-20'),
+    (2, 'Yuki', 'Tilapia', 'Tilaps', 'Female', '09444444445', '2025-09-15'),
+    (3, 'Flabby', 'Tilapia', 'Tilaps', 'Female', '09444444446', '2025-09-10');
+
+INSERT INTO
+    payment_methods (
+    payment_method_id,
+    payment_method
+    )
+    VALUES
+    (1, 'Gcash'),
+    (2, 'Link Bank Account'),
+    (3, 'Cash on Delivery'),
+    (4, 'Credit or Debit Card');
+
+
+SELECT *
+FROM
+    orders;
