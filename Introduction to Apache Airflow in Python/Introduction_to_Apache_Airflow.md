@@ -41,3 +41,11 @@
         ```
         airflow tasks test <dag_id> <task_id> [execution_date]
         ```
+Using this command to get further information about the aiflow command:
+```
+airflow -h
+```
+or
+```
+airflow
+```
