@@ -15,7 +15,8 @@ Welcome to my Roadmap repository! This repository showcases a comprehensive coll
    - [Coding Challenges using Python and SQL](#coding-challenges-using-python-and-sql)
    - [Data Engineering Projects](#data-engineering-projects)
    - [Python CLI Projects](#python-cli-projects)
-     
+   - [Introduction to Apache Airlflow](#introduction-to-apache-airflow)
+
 3. [Contact](#contact)
 4. [Conclusion](#conclusion)
 
@@ -104,6 +105,10 @@ This directory contains all the projects that I created using difference skills 
 ### Python CLI Projects
 
 This directory contains Python CLI Scripts that I built during fun time and any ideas that I come up with. Featuring also what I have learned throughout my journey learning Python for Data Engineering
+
+### Introduction to Apache Airflow
+
+This directory contains markdown files of all the notes and lessons I learned when using Apache Airflow from Data Camp.
 
 ## Contact
 
