@@ -34,4 +34,10 @@
         )
         ```
         - **NOTE**: In *Python* the created DAG is referred as ***etl_dag*** but within *Airflow Shell Command* we must use the ***dag_id***.
-    - We call it task for the component of a workflow that is implemented using DAGs.
+
+- What is a task in Airflow?
+    - Component of a workflow that is created using DAGs.
+    - Example of running a simple task using Airflow Task Test Shell Command:
+        ```
+        airflow tasks test <dag_id> <task_id> [execution_date]
+        ```
