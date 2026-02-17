@@ -5,3 +5,4 @@
 
 - What is workflow?
     - Set of steps to accomplish to any given data engineering task such as downloading files, copying data, filtering information, writing to a database, etc.
+    - Worfklows varies on their complexities because some of them have only 2 or 3 steps but some of them consist of hundreds of components.
