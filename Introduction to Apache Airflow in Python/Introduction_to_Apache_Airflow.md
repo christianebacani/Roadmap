@@ -32,3 +32,4 @@
             }
         )
         ```
+        - **NOTE**: In *Python* the created DAG is referred as **etl_dag** but within *Airflow Shell Command* we must use the **dag_id**.
