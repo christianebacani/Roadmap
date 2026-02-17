@@ -18,3 +18,15 @@
     - Apache Airflow implement workflows as `Directed Acyclic Graphs (DAGS)`
     - Airflow can be accessed via code, command-line, via web interface, or even REST API.
     - There are different tools to run workflows besides Airflow such as Spotify's Luigi, Microsoft's SSIS, Bash Scripting.
+
+- What is Directed Acyclic Graphs?
+    - In Apache Airflow, this represents the set of task that make up your workflow
+    - Consist of task and dependencies between tasks.
+    - It is created with details about that specific DAGs including the name, start date, owner, email alerting options, etc.
+    - Example of creating a new DAG:
+        `
+        etl_dag = DAG(
+            dag_id='etl_pipeline',
+            default_args={"start_date": "2026-02-17"}
+        )
+        `
