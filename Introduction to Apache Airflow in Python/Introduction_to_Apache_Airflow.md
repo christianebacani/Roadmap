@@ -32,5 +32,5 @@
             }
         )
         ```
-        - **NOTE**: In *Python* the created DAG is referred as **etl_dag** but within *Airflow Shell Command* we must use the **dag_id**.
+        - **NOTE**: In *Python* the created DAG is referred as ***etl_dag*** but within *Airflow Shell Command* we must use the ***dag_id***.
     - We call it task for the component of a workflow that is implemented using DAGs.
