@@ -23,7 +23,7 @@
     - In Apache Airflow, this represents the set of task that make up your workflow
     - Consist of task and dependencies between tasks.
     - It is created with details about that specific DAGs including the name, start date, owner, email alerting options, etc.
-    - Example of creating a new DAG:
+    - Example of creating a new DAG:<br>
         `
         etl_dag = DAG(
             dag_id='etl_pipeline',
