@@ -16,3 +16,5 @@
         - Monitoring
     - Apache Airflow can implement any programs in any tools or languages but the actual workflow code is written in Python.
     - Apache Airflow implement workflows as `Directed Acyclic Graphs (DAGS)`
+    - Airflow can be accessed via code, command-line, via web interface, or even REST API.
+    - There are different tools to run workflows besides Airflow such as Spotify's Luigi, Microsoft's SSIS, Bash Scripting.
