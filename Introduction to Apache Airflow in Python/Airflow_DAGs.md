@@ -15,3 +15,4 @@
     - DAGs are written in *Python* but can use components written in other languages or tools (for example using Bash scripts, spark jobs, etc).
     - Consist of components (usually tasks) to be executed like operators, sensors, etc.
     - Dependencies of DAGs are defined explicitly or implicitly.
+        - Copy the data to a server before trying to import it to a database service.
