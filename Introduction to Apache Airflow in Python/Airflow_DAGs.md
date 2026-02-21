@@ -11,3 +11,4 @@
             - DAG can be re-run but the component only executed once per run.
         - **Graph**
             - The actual set/s of component.
+    - The term DAG is found often in data engineering such as Apache Spark, Airflow, dbt, etc.
